@@ -1,61 +1,326 @@
 {
-  "date": "2026-10-31",
-  "weekday": "Saturday",
-  "covers": "Fri 30 – Sat 31 Oct",
-  "glance": "Google, Microsoft, OpenAI and Anthropic agreed to support one robots.txt signal that lets websites opt out of generative AI training, a practical change for anyone who publishes content on the web. Amazon's quarterly numbers showed AWS growing at its fastest pace in almost five years, but also a very large AI spending bill that pushed free cash flow deeply negative. It was a quiet day for design tools, bearings and European automotive news.",
-  "stories": [
+ "date": "2026-10-31",
+ "weekday": "Saturday",
+ "covers": "Thu 29 – Sat 31 Oct",
+ "glance": "Google, Microsoft, OpenAI and Anthropic agreed to support one robots.txt signal for opting out of generative AI training, and a poisoned Claude Code extension reminded developers that their tools are an attack surface. Money is the other theme: Amazon's AWS grew 39% at the cost of deeply negative free cash flow, and OpenAI is reported to have cut its fundraising target as tech stocks slid. In automotive, tariffs and component costs keep squeezing margins, and Audi may win US tariff relief.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "30–31 Oct",
+   "headline": "Google, Microsoft, OpenAI and Anthropic back one robots.txt opt-out for AI training",
+   "why": "Site owners and product teams may soon be able to block AI training crawlers with one line instead of maintaining a list per vendor.",
+   "source": "SiliconANGLE · Engadget",
+   "body": [
+    "Four of the biggest AI companies said they will support a common way for websites to refuse use of their content for training generative AI models. Today a site owner has to add a separate robots.txt entry for every AI company and every crawler it runs. The new approach uses a single token, written as \"__usage_ai-training\", which would cover all crawlers that gather training data for generative models.",
+    "The signal comes from an Internet Engineering Task Force draft written by Anthropic's standards lead Kevin Kelley, and the companies plan to fold it into the Robots Exclusion Protocol. Timing differs by company. Anthropic already honours it, OpenAI says it will follow in the coming months, Microsoft has named 1 February 2027, and Google expects to follow in early 2027. Microsoft also plans a separate setting for \"AI grounding\", where a model fetches a page to answer a user's question rather than to train. Meta backs the idea but has not committed. The draft could still change before it is final.",
+    "The limits matter. The signal does not undo scraping that has already happened, does not stop all crawling, and does not remove pages from Google Search. For web and content teams, especially in Europe where text-and-data-mining opt-outs are part of copyright rules, it is a simpler place to record a preference. It is worth reviewing how your own sites, documentation and design systems should be treated once vendors begin to respect it."
+   ],
+   "links": [
     {
-      "cat": "gen",
-      "top": true,
-      "date": "30–31 Oct",
-      "headline": "Google, Microsoft, OpenAI and Anthropic back one robots.txt opt-out for AI training",
-      "why": "Site owners and product teams may soon be able to block AI training crawlers with one line instead of maintaining a list per vendor.",
-      "source": "SiliconANGLE · Engadget",
-      "body": [
-        "Four of the biggest AI companies said they will support a common way for websites to refuse use of their content for training generative AI models. Today a site owner has to add a separate robots.txt entry for every AI company and every crawler it runs. The new approach uses a single token, written as \"__usage_ai-training\", which would cover all crawlers that gather training data for generative models.",
-        "The signal comes from an Internet Engineering Task Force draft written by Anthropic's standards lead Kevin Kelley, and the companies plan to fold it into the Robots Exclusion Protocol. Timing differs by company. Anthropic already honours it, OpenAI says it will follow in the coming months, Microsoft has named 1 February 2027, and Google expects to follow in early 2027. Microsoft also plans a separate setting for \"AI grounding\", where a model fetches a page to answer a user's question rather than to train. Meta backs the idea but has not committed. The draft could still change before it is final.",
-        "The limits matter. The signal does not undo scraping that has already happened, does not stop all crawling, and does not remove pages from Google Search. For web and content teams, especially in Europe where text-and-data-mining opt-outs are part of copyright rules, it is a simpler place to record a preference. It is worth reviewing how your own sites, documentation and design systems should be treated once vendors begin to respect it."
-      ],
-      "links": [
-        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard"},
-        {"label": "Engadget", "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"}
-      ]
+     "label": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard"
     },
     {
-      "cat": "pm",
-      "top": false,
-      "date": "29–30 Oct",
-      "headline": "AWS grows 39% as Amazon's AI capex pushes trailing free cash flow to minus $42 billion",
-      "why": "Cloud demand for AI is still accelerating, but the cost of meeting it is now large enough to shape how vendors price AI features.",
-      "source": "Amazon investor relations",
-      "body": [
-        "Amazon reported third-quarter net sales of $201.9 billion, up 12%. AWS revenue rose 39% to $46.0 billion, its fastest growth in almost five years, with operating income of $17.8 billion. Group operating income was $28.1 billion, a record 13.9% margin. CEO Andy Jassy said he expects AWS growth above 40% in both 2027 and 2028. Net income was $20.7 billion, or $1.89 per share, below the prior year because that period included $9.5 billion in pre-tax gains on Amazon's Anthropic investments.",
-        "The spending is the other half of the story. Net property purchases over the last twelve months reached $210.7 billion, up 82%, and Amazon expects about $220 billion of cash capex in 2026. Trailing free cash flow swung to an outflow of $42.4 billion from an inflow of $14.8 billion a year earlier, which Amazon ties mainly to AI investment. Press reports say the shares fell several percent in after-hours trading, and third-party coverage of the size of the capex miss varies, so treat those figures as indicative.",
-        "Amazon also gave usage data for its AI platform. Fortune 500 spending on Bedrock is up nearly seven times year on year and token volume nearly 17 times, and AgentCore customers deployed twice as many agents in the quarter as in the previous three quarters combined. These are vendor-reported figures, but they point to agent workloads, not just chat, driving consumption. For product teams, that is a signal to plan for usage-based costs and for pricing models that pass some of the compute bill on."
-      ],
-      "links": [
-        {"label": "Amazon Q3 2026 results", "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"}
-      ]
+     "label": "Engadget",
+     "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"
     }
-  ],
-  "watch": [
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "29–30 Oct",
+   "headline": "Trojanized Claude Code extension sat in Cursor's marketplace for about 12 hours",
+   "why": "Developers' editors and extensions are a live supply-chain risk, and anyone who installed the tampered update needs to clean up, not just upgrade.",
+   "source": "The Hacker News",
+   "body": [
+    "Attackers published a tampered update of the Claude Code extension on Cursor's marketplace on 29 October. Cursor says it was live from roughly 02:27 to 13:35 Pacific time and affected at most 5,000 users. Anthropic says its own systems were not compromised; the attacker used access to Cursor's marketplace. The Open VSX, VS Code Marketplace and npm channels show no sign of the bad version.",
+    "The malicious code ran before the legitimate extension. It added an attacker's SSH key to the user's authorized keys, tried to enable SSH, opened a reverse tunnel, installed persistence through a scheduled task, crontab or LaunchAgent, and sent host details and the names of sensitive-looking environment variables to the attacker's server. Versions 2.1.312 and 2.1.313 are affected; 2.1.314 is clean.",
+    "Updating is not enough. Affected users should isolate the machine, remove the SSH key and persistence entries, preserve evidence, and rotate credentials. How the attacker published under Anthropic's name is still unexplained. Teams should review which extensions their developers can install and what secrets sit in their environments."
+   ],
+   "links": [
     {
-      "title": "Schaeffler interim statement, 3 Nov",
-      "text": "Schaeffler has said its validated nine-month figures follow on 3 November, after preliminary numbers showed about €240 million in one-off E-Mobility charges and roughly €400 million in humanoid robotics orders.",
-      "link": {"label": "Schaeffler press release", "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222017"}
+     "label": "The Hacker News",
+     "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "30 Oct",
+   "headline": "OpenAI reportedly trims its funding round as AI stocks sell off",
+   "why": "Funding for AI products is tightening, so vendors your teams depend on may change pricing and roadmaps.",
+   "source": "CoinDesk · Financial Times (reported)",
+   "body": [
+    "CoinDesk, citing the Financial Times, reports that OpenAI has lowered its fundraising target from $30 billion at a $1.4 trillion valuation to about $20 billion at $1.25 trillion. OpenAI had already pushed its IPO plans to 2027. This is a media report, not an OpenAI announcement.",
+    "The backdrop is a sharp market move. The Nasdaq 100 is down about 10 percent in roughly three weeks from its 6 October record, including a 4.5 percent fall on Friday. Rival Anthropic is reported to plan a November listing aiming to raise up to $100 billion at a $1.5 trillion valuation, which is also unconfirmed.",
+    "For companies building on these models, the risk is indirect but real: less cheap capital can mean fewer subsidised prices, tighter usage limits and a stronger push toward profitable enterprise tiers. It is a good moment to check how dependent a product is on one model vendor."
+   ],
+   "links": [
+    {
+     "label": "CoinDesk",
+     "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "29–30 Oct",
+   "headline": "AWS grows 39% as Amazon's AI capex pushes trailing free cash flow to minus $42 billion",
+   "why": "Cloud demand for AI is still accelerating, but the cost of meeting it is now large enough to shape how vendors price AI features.",
+   "source": "Amazon investor relations",
+   "body": [
+    "Amazon reported third-quarter net sales of $201.9 billion, up 12%. AWS revenue rose 39% to $46.0 billion, its fastest growth in almost five years, with operating income of $17.8 billion. Group operating income was $28.1 billion, a record 13.9% margin. CEO Andy Jassy said he expects AWS growth above 40% in both 2027 and 2028. Net income was $20.7 billion, or $1.89 per share, below the prior year because that period included $9.5 billion in pre-tax gains on Amazon's Anthropic investments.",
+    "The spending is the other half of the story. Net property purchases over the last twelve months reached $210.7 billion, up 82%, and Amazon expects about $220 billion of cash capex in 2026. Trailing free cash flow swung to an outflow of $42.4 billion from an inflow of $14.8 billion a year earlier, which Amazon ties mainly to AI investment. Press reports say the shares fell several percent in after-hours trading, and third-party coverage of the size of the capex miss varies, so treat those figures as indicative.",
+    "Amazon also gave usage data for its AI platform. Fortune 500 spending on Bedrock is up nearly seven times year on year and token volume nearly 17 times, and AgentCore customers deployed twice as many agents in the quarter as in the previous three quarters combined. These are vendor-reported figures, but they point to agent workloads, not just chat, driving consumption. For product teams, that is a signal to plan for usage-based costs and for pricing models that pass some of the compute bill on."
+   ],
+   "links": [
+    {
+     "label": "Amazon Q3 2026 results",
+     "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "29–30 Oct",
+   "headline": "Mistral releases the weights of its trillion-parameter Large 4",
+   "why": "A European lab now offers a frontier-scale model that companies can run on their own servers, which matters for data-sensitive engineering and product teams.",
+   "source": "TechCrunch · Mistral",
+   "body": [
+    "French lab Mistral has published the weights of Mistral Large 4, a multimodal model with about a trillion parameters. Organisations can download it from Hugging Face, call it through Mistral's API, or deploy it on their own infrastructure. Mistral aims it at software development and defensive cybersecurity, and pitches it as a sovereign option for enterprises and governments.",
+    "The performance claims come from Mistral, not independent tests. The company says Large 4 matches GLM-5.3, a Chinese open-weight model, while using 47 percent fewer tokens per task, and that it tops all other open models on the Artificial Analysis Coding Agent Index. The licence terms were not clear in the coverage we could read, so check them before planning commercial use.",
+    "For European product and engineering teams, the practical point is control. A self-hosted model of this class lets companies keep source code, test data and design files inside their own perimeter, which is often a precondition in automotive and supplier environments."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
     },
     {
-      "title": "Timken Q3 results, 4 Nov",
-      "text": "Timken is due to report third-quarter 2026 results on 4 November, the next large bearings maker to publish after SKF.",
-      "link": {"label": "Timken announcement", "url": "https://finviz.com/news/402228/timken-to-announce-third-quarter-2026-financial-results-on-november-4"}
+     "label": "Mistral",
+     "url": "https://mistral.ai/news/mistral-large-4-oss/"
     }
-  ],
-  "sources": [
-    {"label": "SiliconANGLE – Google, Anthropic and others to support new AI crawling opt-out standard (30 Oct 2026)", "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard"},
-    {"label": "Engadget – Google joins OpenAI and Anthropic in promising new scraping controls (31 Oct 2026)", "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"},
-    {"label": "Amazon – Third Quarter Results (29 Oct 2026)", "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"},
-    {"label": "Schaeffler – Preliminary numbers for first nine months of 2026 (13 Oct 2026)", "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222017"},
-    {"label": "Timken – Third quarter 2026 results date", "url": "https://finviz.com/news/402228/timken-to-announce-third-quarter-2026-financial-results-on-november-4"}
-  ],
-  "note": "All summaries are paraphrased. Company figures are vendor-reported."
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "29–30 Oct",
+   "headline": "Canada to take an equity stake of up to $1.1 billion in a Toronto AI company",
+   "why": "Governments allied with the US are buying into domestic AI capacity, a trend that also shapes European sovereignty debates.",
+   "source": "Semafor",
+   "body": [
+    "Semafor reports that Canada will take an equity stake of up to $1.1 billion in a Toronto-based AI startup. Other coverage of the same news names the company as Cohere and puts the commitment at up to C$1.6 billion; Semafor's text itself does not name the company, so treat the identity as reported rather than confirmed.",
+    "Semafor frames the move as part of a wider push by US allies to reduce reliance on American technology. It notes the UK is pursuing similar aims, including an $80 million sovereign AI fund and $160 million for a government lab that tests frontier models.",
+    "For readers in Europe, the move is a data point in the debate over public funding for homegrown AI, alongside Mistral's open-weight strategy. Details such as governance rights and timing were not available."
+   ],
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/10/29/2026/canada-to-take-equity-stake-in-ai-firm"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "30 Oct",
+   "headline": "OpenAI releases GPT-Rosalind-6 for life-science researchers, with restricted access",
+   "why": "It shows how labs now gate their most capable domain models behind vetting, a pattern that may spread to other regulated fields.",
+   "source": "OpenAI",
+   "body": [
+    "OpenAI has deployed GPT-Rosalind-6, a model for biology and drug discovery, available only to approved customers through a trusted-access programme. Non-government applicants go through business verification and compliance screening, and approved companies must limit access to authorised users and keep qualified humans reviewing outputs.",
+    "OpenAI's own benchmarks show large gains over the previous Rosalind-5.5: 49.6 percent on MedChemBench v7 (from 28.9), 37.7 percent on GeneBench Pro v13 (from 16.7) and 61.3 percent on LifeSciBench Gold (from 44.0). Under its Preparedness Framework, OpenAI rates the model High for biological and chemical risk and Critical for cybersecurity. These figures are vendor-reported.",
+    "Outside life sciences, the lesson is about access models. Capable specialist models may arrive with verification and audit duties attached, which procurement and compliance teams in any regulated industry should expect."
+   ],
+   "links": [
+    {
+     "label": "OpenAI deployment safety page",
+     "url": "https://deploymentsafety.openai.com/gpt-rosalind-6"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "30 Oct",
+   "headline": "UK competition regulator opens investigation into Meta's terms for publishers' content",
+   "why": "How platforms may reuse content for AI features is becoming a competition-law question, relevant to anyone building on third-party content.",
+   "source": "British Brief",
+   "body": [
+    "The UK Competition and Markets Authority has opened a formal investigation into Meta's commercial terms for news publishers and advertisers. It suspects the terms may be exploitative and could breach the Competition Act 1998.",
+    "The CMA is examining whether the terms let Meta use content from businesses' websites to build its own products, including AI features, without those businesses being able to decide how or whether their content is used. It also wants to establish whether Meta is dominant in a relevant UK market. Meta had planned to revise its terms in November and has paused that. It says there are no grounds for an investigation and has promised to consult before changing the terms.",
+    "The CMA says it wants a swift resolution. Product teams that rely on platform terms for AI features should watch whether regulators start to set expectations on consent for content reuse."
+   ],
+   "links": [
+    {
+     "label": "British Brief",
+     "url": "https://britbrief.co.uk/tech/regulation/cma-investigates-meta-terms-for-publishers-and-businesses.html"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "30 Oct",
+   "headline": "Humanoid moves its robots onto a single Nvidia Jetson Thor computer",
+   "why": "Simulation-trained robots with consolidated onboard compute show how virtual development and edge AI are converging in industrial robotics.",
+   "source": "Robotics & Automation News",
+   "body": [
+    "UK robotics company Humanoid is expanding its work with Nvidia to build an edge runtime so its next-generation robots can run AI on board. It will use Jetson Thor with Isaac OS and the Holoscan Sensor Bridge and SDK.",
+    "The move lets Humanoid merge two onboard computers into one while keeping its computing capacity, with room to grow. Multi-gigabit Ethernet links carry up to 100 Gb of bandwidth for sensor data and control. The company has used Nvidia's Isaac Lab and Isaac Sim since its early days to train and simulate models before deploying them on physical robots.",
+    "For industrial and automotive engineers, this is the same workflow as virtual validation: train and test in simulation, then deploy to a leaner hardware stack. Fewer boxes also means fewer failure points to validate."
+   ],
+   "links": [
+    {
+     "label": "Robotics & Automation News",
+     "url": "https://roboticsandautomationnews.com/2026/10/30/humanoid-expands-collaboration-with-nvidia-to-power-its-next-generation-of-humanoid-robots/106493/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "30 Oct",
+   "headline": "Audi may win US tariff relief tied to a $4 billion Georgia plant",
+   "why": "A European premium brand is trading US investment for lower tariffs, a template other OEMs and suppliers may follow.",
+   "source": "CBT News · Wall Street Journal (reported)",
+   "body": [
+    "The Trump administration may give Audi tariff relief, according to two sources cited by CBT News, following a Wall Street Journal report. Audi plans a $4 billion assembly plant in Georgia making up to 200,000 SUVs a year and about 4,500 jobs. Construction would start in 2027 and production in the early 2030s, and Volkswagen's supervisory board still has to approve the investment.",
+    "Audi has asked for the 15 percent US tariff on EU imports to be cut to 7.5 percent. The Commerce Department is reportedly expected to agree to about 10 percent. Tariffs on vehicles, steel, aluminium and parts cost Audi about €1.2 billion in 2025, and it imports every car it sells in the US from Europe or Mexico.",
+    "Officials are also reportedly considering a wider relief programme for automakers with large US investments, with details possible within weeks. European suppliers, including bearing and drivetrain makers, should watch for knock-on effects on sourcing and localisation."
+   ],
+   "links": [
+    {
+     "label": "CBT News",
+     "url": "https://www.cbtnews.com/audi-seeks-lower-u-s-tariffs"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "29 Oct",
+   "headline": "Detroit's carmakers face about $2 billion each in cost pressure from tariffs, chips and diesel",
+   "why": "Input costs, not demand, are now the main margin threat, and they feed straight into supplier negotiations.",
+   "source": "NPR",
+   "body": [
+    "NPR reports that GM, Ford and Stellantis grew third-quarter revenue by 2.9, 2 and 1 percent, but costs are climbing. Memory-chip prices are up on AI demand, copper is dearer, and diesel averages about $6.35 a gallon. GM expects materials costs of up to $2 billion this year and is paying about $2.5 billion in tariffs, partly offset by refunds. Ford's CEO puts commodities, memory and logistics at a headwind of about $2 billion.",
+    "Demand is mixed. EVs are about 6 percent of US new-car sales per Edmunds, while hybrid sales rose 27 percent in a year. Tesla holds almost 52 percent of US EV sales. Ford plans a sub-$30,000 electric truck, the Fathom, for pre-order in early 2027.",
+    "The mix of rising memory prices and slower EV uptake matters for software-defined vehicle programmes: chip cost spikes hit electronics-heavy designs first, and hybrid demand keeps combustion and hybrid drivetrain components in volume."
+   ],
+   "links": [
+    {
+     "label": "NPR via WFAE",
+     "url": "https://www.wfae.org/united-states-world/2026-10-29/tariffs-diesel-and-computer-chips-are-driving-up-costs-for-automakers"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Schaeffler interim statement, 3 Nov",
+   "text": "Schaeffler has said its validated nine-month figures follow on 3 November, after preliminary numbers showed about €240 million in one-off E-Mobility charges and roughly €400 million in humanoid robotics orders.",
+   "link": {
+    "label": "Schaeffler press release",
+    "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222017"
+   }
+  },
+  {
+   "title": "Timken Q3 results, 4 Nov",
+   "text": "Timken is due to report third-quarter 2026 results on 4 November, the next large bearings maker to publish after SKF.",
+   "link": {
+    "label": "Timken announcement",
+    "url": "https://finviz.com/news/402228/timken-to-announce-third-quarter-2026-financial-results-on-november-4"
+   }
+  },
+  {
+   "title": "Anthropic's reported November IPO",
+   "text": "Reports say Anthropic aims to list in November and raise up to $100 billion; none of this is confirmed by the company.",
+   "link": {
+    "label": "CoinDesk",
+    "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters"
+   }
+  },
+  {
+   "title": "US tariff relief programme for automakers",
+   "text": "Officials are reportedly weighing relief for carmakers with large US investments, with details possible within weeks.",
+   "link": {
+    "label": "CBT News",
+    "url": "https://www.cbtnews.com/audi-seeks-lower-u-s-tariffs"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "SiliconANGLE – Google, Anthropic and others to support new AI crawling opt-out standard (30 Oct 2026)",
+   "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard"
+  },
+  {
+   "label": "Engadget – Google joins OpenAI and Anthropic in promising new scraping controls (31 Oct 2026)",
+   "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"
+  },
+  {
+   "label": "Amazon – Third Quarter Results (29 Oct 2026)",
+   "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"
+  },
+  {
+   "label": "Schaeffler – Preliminary numbers for first nine months of 2026 (13 Oct 2026)",
+   "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222017"
+  },
+  {
+   "label": "Timken – Third quarter 2026 results date",
+   "url": "https://finviz.com/news/402228/timken-to-announce-third-quarter-2026-financial-results-on-november-4"
+  },
+  {
+   "label": "TechCrunch – Mistral releases weights for its trillion-parameter AI model (29 Oct)",
+   "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+  },
+  {
+   "label": "Mistral – Mistral Large 4",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/"
+  },
+  {
+   "label": "The Hacker News – Official Claude Code extension trojanized (30 Oct)",
+   "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html"
+  },
+  {
+   "label": "CoinDesk – OpenAI reportedly cuts fundraising target (30 Oct)",
+   "url": "https://www.coindesk.com/business/2026/10/30/openai-reportedly-cuts-fundraising-target-amid-ai-jitters"
+  },
+  {
+   "label": "Semafor – Canada to take equity stake in AI firm (29–30 Oct)",
+   "url": "https://www.semafor.com/article/10/29/2026/canada-to-take-equity-stake-in-ai-firm"
+  },
+  {
+   "label": "OpenAI – GPT-Rosalind-6 deployment safety (30 Oct)",
+   "url": "https://deploymentsafety.openai.com/gpt-rosalind-6"
+  },
+  {
+   "label": "British Brief – CMA investigates Meta terms (30 Oct)",
+   "url": "https://britbrief.co.uk/tech/regulation/cma-investigates-meta-terms-for-publishers-and-businesses.html"
+  },
+  {
+   "label": "Robotics & Automation News – Humanoid and Nvidia (30 Oct)",
+   "url": "https://roboticsandautomationnews.com/2026/10/30/humanoid-expands-collaboration-with-nvidia-to-power-its-next-generation-of-humanoid-robots/106493/"
+  },
+  {
+   "label": "CBT News – Audi seeks lower US tariffs (30 Oct)",
+   "url": "https://www.cbtnews.com/audi-seeks-lower-u-s-tariffs"
+  },
+  {
+   "label": "NPR – Tariffs, diesel and computer chips are driving up costs for automakers (29 Oct)",
+   "url": "https://www.wfae.org/united-states-world/2026-10-29/tariffs-diesel-and-computer-chips-are-driving-up-costs-for-automakers"
+  },
+  {
+   "label": "Schaeffler – preliminary numbers for first nine months of 2026 (13 Oct)",
+   "url": "https://www.webdisclosure.com/press-release/schaeffler-releases-preliminary-numbers-for-first-nine-months-of-2026-QH2c6LmgsYu"
+  }
+ ],
+ "note": "All summaries are paraphrased. Company and benchmark figures are vendor-reported. Items marked as reported come from media citing other outlets or unnamed sources."
 }
