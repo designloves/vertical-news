@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-31",
+  "weekday": "Saturday",
+  "covers": "Fri 30 – Sat 31 Oct",
+  "glance": "Google, Microsoft, OpenAI and Anthropic agreed to support one robots.txt signal that lets websites opt out of generative AI training, a practical change for anyone who publishes content on the web. Amazon's quarterly numbers showed AWS growing at its fastest pace in almost five years, but also a very large AI spending bill that pushed free cash flow deeply negative. It was a quiet day for design tools, bearings and European automotive news.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "30–31 Oct",
+      "headline": "Google, Microsoft, OpenAI and Anthropic back one robots.txt opt-out for AI training",
+      "why": "Site owners and product teams may soon be able to block AI training crawlers with one line instead of maintaining a list per vendor.",
+      "source": "SiliconANGLE · Engadget",
+      "body": [
+        "Four of the biggest AI companies said they will support a common way for websites to refuse use of their content for training generative AI models. Today a site owner has to add a separate robots.txt entry for every AI company and every crawler it runs. The new approach uses a single token, written as \"__usage_ai-training\", which would cover all crawlers that gather training data for generative models.",
+        "The signal comes from an Internet Engineering Task Force draft written by Anthropic's standards lead Kevin Kelley, and the companies plan to fold it into the Robots Exclusion Protocol. Timing differs by company. Anthropic already honours it, OpenAI says it will follow in the coming months, Microsoft has named 1 February 2027, and Google expects to follow in early 2027. Microsoft also plans a separate setting for \"AI grounding\", where a model fetches a page to answer a user's question rather than to train. Meta backs the idea but has not committed. The draft could still change before it is final.",
+        "The limits matter. The signal does not undo scraping that has already happened, does not stop all crawling, and does not remove pages from Google Search. For web and content teams, especially in Europe where text-and-data-mining opt-outs are part of copyright rules, it is a simpler place to record a preference. It is worth reviewing how your own sites, documentation and design systems should be treated once vendors begin to respect it."
+      ],
+      "links": [
+        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard"},
+        {"label": "Engadget", "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "29–30 Oct",
+      "headline": "AWS grows 39% as Amazon's AI capex pushes trailing free cash flow to minus $42 billion",
+      "why": "Cloud demand for AI is still accelerating, but the cost of meeting it is now large enough to shape how vendors price AI features.",
+      "source": "Amazon investor relations",
+      "body": [
+        "Amazon reported third-quarter net sales of $201.9 billion, up 12%. AWS revenue rose 39% to $46.0 billion, its fastest growth in almost five years, with operating income of $17.8 billion. Group operating income was $28.1 billion, a record 13.9% margin. CEO Andy Jassy said he expects AWS growth above 40% in both 2027 and 2028. Net income was $20.7 billion, or $1.89 per share, below the prior year because that period included $9.5 billion in pre-tax gains on Amazon's Anthropic investments.",
+        "The spending is the other half of the story. Net property purchases over the last twelve months reached $210.7 billion, up 82%, and Amazon expects about $220 billion of cash capex in 2026. Trailing free cash flow swung to an outflow of $42.4 billion from an inflow of $14.8 billion a year earlier, which Amazon ties mainly to AI investment. Press reports say the shares fell several percent in after-hours trading, and third-party coverage of the size of the capex miss varies, so treat those figures as indicative.",
+        "Amazon also gave usage data for its AI platform. Fortune 500 spending on Bedrock is up nearly seven times year on year and token volume nearly 17 times, and AgentCore customers deployed twice as many agents in the quarter as in the previous three quarters combined. These are vendor-reported figures, but they point to agent workloads, not just chat, driving consumption. For product teams, that is a signal to plan for usage-based costs and for pricing models that pass some of the compute bill on."
+      ],
+      "links": [
+        {"label": "Amazon Q3 2026 results", "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"}
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "Schaeffler interim statement, 3 Nov",
+      "text": "Schaeffler has said its validated nine-month figures follow on 3 November, after preliminary numbers showed about €240 million in one-off E-Mobility charges and roughly €400 million in humanoid robotics orders.",
+      "link": {"label": "Schaeffler press release", "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222017"}
+    },
+    {
+      "title": "Timken Q3 results, 4 Nov",
+      "text": "Timken is due to report third-quarter 2026 results on 4 November, the next large bearings maker to publish after SKF.",
+      "link": {"label": "Timken announcement", "url": "https://finviz.com/news/402228/timken-to-announce-third-quarter-2026-financial-results-on-november-4"}
+    }
+  ],
+  "sources": [
+    {"label": "SiliconANGLE – Google, Anthropic and others to support new AI crawling opt-out standard (30 Oct 2026)", "url": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard"},
+    {"label": "Engadget – Google joins OpenAI and Anthropic in promising new scraping controls (31 Oct 2026)", "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/"},
+    {"label": "Amazon – Third Quarter Results (29 Oct 2026)", "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/"},
+    {"label": "Schaeffler – Preliminary numbers for first nine months of 2026 (13 Oct 2026)", "url": "https://www.schaeffler.com/en/media/press-releases/press-releases-detail.jsp?id=88222017"},
+    {"label": "Timken – Third quarter 2026 results date", "url": "https://finviz.com/news/402228/timken-to-announce-third-quarter-2026-financial-results-on-november-4"}
+  ],
+  "note": "All summaries are paraphrased. Company figures are vendor-reported."
+}
