@@ -1,0 +1,175 @@
+{
+ "date": "2026-11-02",
+ "weekday": "Monday",
+ "covers": "Fri 30 Oct – Mon 2 Nov",
+ "glance": "Volkswagen has paused work on the electric ID.Golf to save money, while Rivian's results show how much its software venture with VW now carries the business. DeepSeek has open-sourced a coding agent that acts without being asked, and a German court is testing whether EV makers must refund buyers of cars with recalled batteries.",
+ "stories": [
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "30 Oct",
+   "headline": "Volkswagen pauses development of the electric ID.Golf to save cash",
+   "why": "A flagship EV for the early 2030s is on hold, a sign of how tight Europe's volume makers' budgets have become.",
+   "source": "electrive · Handelsblatt (as cited)",
+   "body": [
+    "Volkswagen has temporarily halted development of the electric ID.Golf because of cost pressure. Brand chief Thomas Schäfer first said so in an interview reported by Handelsblatt, and the company later confirmed it. Work is to restart once the money is secured, and no date has been given. The car was meant to use the upcoming Scalable Systems Platform and arrive in the early 2030s, and it is not yet clear whether the pause delays that.",
+    "The financial backdrop is weak. For the first nine months, the core brand group's operating profit fell from €4.72 billion to €4.33 billion on nearly flat revenue of €106.4 billion. Net cash flow dropped from €4.34 billion to €1.43 billion. The Volkswagen Passenger Cars brand earned €813 million, a 1.3% return on sales. VW says battery-electric models still earn less than comparable combustion cars, and they are a growing share of sales.",
+    "For suppliers and engineering teams, a paused model means delayed sourcing decisions, validation programmes and platform work tied to SSP. It also shows that even large OEMs are now trading product ambition against cash. The works council called the spending freeze another sign of financial strain."
+   ],
+   "links": [
+    {
+     "label": "electrive – Volkswagen pauses development of the ID.Golf",
+     "url": "https://www.electrive.com/2026/10/30/volkswagen-pauses-development-of-the-id-golf/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "1 Nov",
+   "headline": "DeepSeek releases Super-Agent, an open-source coding agent that doesn't wait to be asked",
+   "why": "Always-on coding agents change how developer teams work, and they come from a lab with a very different cost base.",
+   "source": "Digital Trends",
+   "body": [
+    "DeepSeek has released a prototype coding agent called Super-Agent as open-source code. Unlike chat-style assistants that answer when prompted, it watches developer group chats, spots coding problems and proposes fixes on its own. It is built on DeepSeek's agent harness, the scaffolding that gives a language model tools for longer tasks, and was made by the company's Harness team.",
+    "Digital Trends positions it against Anthropic's Claude Code and OpenAI's Codex. No benchmarks were published, and the article notes it is unclear how reliable the tool is on complex work or whether it is ready for large deployments. Digital Trends also cites a Bloomberg report that DeepSeek has raised about 100 billion yuan, roughly $15 billion, ahead of a planned IPO. That figure is a media report, not a company statement.",
+    "For product and frontend teams, the interesting shift is from agents you call to agents that listen and interrupt. That raises questions about permissions, noise and review that most teams have not yet settled. Because the code is open, it is also something to read and test before deciding whether to adopt it."
+   ],
+   "links": [
+    {
+     "label": "Digital Trends – DeepSeek's always-on coding agent",
+     "url": "https://www.digitaltrends.com/computing/deepseek-wants-to-steal-claude-code-and-codexs-lunch-with-an-ai-agent-that-does-not-wait-around/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "30 Oct",
+   "headline": "German court signals buyers of recalled VW Group EVs may be able to claim a refund",
+   "why": "If the view holds, EU product-safety law could make battery recalls much costlier for OEMs.",
+   "source": "electrive",
+   "body": [
+    "The Offenburg Regional Court has given a preliminary legal assessment, not a judgment, in a case brought by a Cupra Born owner who wants to rescind her purchase. The court points to Article 37 of the EU Product Safety Regulation (2023/988), in force since 13 December 2024. It says manufacturers must offer affected consumers a free, timely and effective remedy, with at least two choices out of repair, replacement or refund.",
+    "The case concerns recall campaign 93S4 from March 2026, covering 94,031 vehicles: 74,579 VW Group ID.3, ID.4, ID.5 and ID.Buzz cars worldwide plus 19,452 Cupra Born. The affected batteries can cut range, trigger a warning light and carry a fire risk. The seller and Seat have until 6 November to respond. Open questions include whether the article applies to older cars, and a refund looks most likely only where a repair cannot be made within a reasonable time.",
+    "For battery and validation engineers, this links field failures directly to commercial exposure. The plaintiff's lawyers also cite two earlier rulings in favour of buyers with battery problems in Mercedes EQA and EQB models. Stronger test coverage and traceability of cells and packs become easier to justify."
+   ],
+   "links": [
+    {
+     "label": "electrive – OEMs may have to take back EVs with faulty batteries",
+     "url": "https://www.electrive.com/2026/10/30/oems-may-have-to-take-back-evs-with-faulty-batteries/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "30 Oct",
+   "headline": "Rivian's revenue rises 38% as the Volkswagen software venture supplies most of its software income",
+   "why": "A clear example of an OEM turning software-defined-vehicle know-how into licensing revenue for another carmaker.",
+   "source": "electrive",
+   "body": [
+    "Rivian reported third-quarter revenue of about $2.16 billion, up 38% from a year earlier. It delivered 19,248 vehicles and produced 19,751, and the new R2 was its best-selling model. The net loss to common shareholders narrowed to $913 million from $1.173 billion, and the automotive gross loss shrank to $80 million from $130 million.",
+    "The software and services line brought in $605 million, up 45%, with a 42% gross margin. The joint venture with Volkswagen accounted for $354 million of that, or 59%. Rivian expects venture-related revenue to continue to about mid-2028 and is now licensing parts of its AI voice assistant to the venture. VW drew its full $1 billion ten-year credit facility on 7 October and plans a further $460 million equity investment by January 2028 at the latest, subject to conditions.",
+    "Rivian raised its delivery guidance to 67,000–70,000 vehicles and improved its adjusted EBITDA outlook by $100 million. For European OEMs and suppliers, the result shows how a shared electrical architecture and software stack can be paid for by a partner, and that this model is already producing real numbers."
+   ],
+   "links": [
+    {
+     "label": "electrive – Rivian boosts revenue thanks to R2 and VW partnership",
+     "url": "https://www.electrive.com/2026/10/30/rivian-boosts-revenue-thanks-to-r2-and-vw-partnership/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "30 Oct",
+   "headline": "Group14 picks Sagunt in Spain for a 10 GWh silicon-carbon anode plant",
+   "why": "Silicon anode material is moving into Europe, next to Volkswagen's PowerCo cell factory.",
+   "source": "electrive",
+   "body": [
+    "US battery-material developer Group14 has chosen Sagunt in Spain for its next industrial-scale module, with an initial capacity of 10 GWh. The company says this would lift its short-term total to 40 GWh. A new capital increase of €150 million from an unnamed investor comes with a commitment to produce its SCC55 silicon-carbon material in Europe. The Series D round now stands above $665 million.",
+    "No construction or production start date was given. Group14 already produces in Sangju, Korea (10 GWh) and plans two 10 GWh plants in Moses Lake, Washington, in 2027. Porsche is an investor, and the successor to its Cellforce unit is expected to use the material in a second-generation cell. BASF is a partner on a binder. Sagunt is also where PowerCo is building a large cell plant, although electrive says any link to VW is speculation.",
+    "Silicon-rich anodes raise energy density but swell during cycling, which affects pack design, thermal and mechanical simulation, and ageing tests. A European source shortens supply chains for cell makers and gives pack engineers a closer partner for validation data."
+   ],
+   "links": [
+    {
+     "label": "electrive – Group14 to build battery material factory in Sagunt",
+     "url": "https://www.electrive.com/2026/10/30/group14-to-build-battery-material-factory-in-sagunt/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "31 Oct",
+   "headline": "German project finds electric trucks can double as mobile power storage",
+   "why": "Useful evidence for fleet and drivetrain planning, with MAN's eTGX as the test vehicle.",
+   "source": "electrive · DLR (project lead, as cited)",
+   "body": [
+    "The SPIRIT-E project, led by the German Aerospace Center DLR, presented its results on 31 October after running from August 2023 to October 2026. A MAN eTGX with 480 kWh of usable battery fed power back at up to 350 kW through bidirectional DC charging built by Shell Business Recharge Solutions. Communication used ISO 15118-20. The trial took place at the logistics firm Schmid near Regensburg and was funded by the German federal government.",
+    "The researchers analysed 2.15 million km of real driving from six heavy-duty fleets. They found that reserving public charging points on long routes costs about 1–4% in time compared with diesel. Adding depot solar and battery storage saved 25–44% more than electrifying alone. Smart charging cut grid and market costs by an average of 1.7 ct/km, or 6.1 ct/km with bidirectional charging, which they put at roughly 10% in realistic energy savings.",
+    "Obstacles remain: grid connections at many depots are too small, there are no uniform standards for selling stored power, and roles and revenue sharing between fleets, OEMs and energy traders are unresolved. For drivetrain and battery engineers, the work adds real duty-cycle data for truck packs."
+   ],
+   "links": [
+    {
+     "label": "electrive – SPIRIT-E: e-trucks as mobile power banks",
+     "url": "https://www.electrive.com/2026/10/31/spirit-e-project-concludes-that-e-trucks-can-serve-as-mobile-power-banks/"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Polestar Q3 results",
+   "text": "Polestar has said it will publish select third-quarter financial results on 5 November, as its parent group decides how to fund it and moves Polestar 3 production to Charleston.",
+   "link": {
+    "label": "Polestar – SEC filings",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001884082/000110465926101809/tm2624141d1_ex99-1.htm"
+   }
+  },
+  {
+   "title": "Cupra Born recall case",
+   "text": "The defendants in the Offenburg case have until 6 November to respond, which will show how manufacturers plan to argue against refund rights.",
+   "link": {
+    "label": "electrive",
+    "url": "https://www.electrive.com/2026/10/30/oems-may-have-to-take-back-evs-with-faulty-batteries/"
+   }
+  },
+  {
+   "title": "VW ID.Golf restart",
+   "text": "No restart date has been set. Watch VW's next investment statements for any change to the SSP platform schedule.",
+   "link": {
+    "label": "electrive",
+    "url": "https://www.electrive.com/2026/10/30/volkswagen-pauses-development-of-the-id-golf/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "electrive – Volkswagen pauses development of the ID.Golf (30 Oct 2026)",
+   "url": "https://www.electrive.com/2026/10/30/volkswagen-pauses-development-of-the-id-golf/"
+  },
+  {
+   "label": "electrive – OEMs may have to take back EVs with faulty batteries (30 Oct 2026)",
+   "url": "https://www.electrive.com/2026/10/30/oems-may-have-to-take-back-evs-with-faulty-batteries/"
+  },
+  {
+   "label": "electrive – Rivian boosts revenue thanks to R2 and VW partnership (30 Oct 2026)",
+   "url": "https://www.electrive.com/2026/10/30/rivian-boosts-revenue-thanks-to-r2-and-vw-partnership/"
+  },
+  {
+   "label": "electrive – Group14 to build battery material factory in Sagunt (30 Oct 2026)",
+   "url": "https://www.electrive.com/2026/10/30/group14-to-build-battery-material-factory-in-sagunt/"
+  },
+  {
+   "label": "electrive – SPIRIT-E: e-trucks as mobile power banks (31 Oct 2026)",
+   "url": "https://www.electrive.com/2026/10/31/spirit-e-project-concludes-that-e-trucks-can-serve-as-mobile-power-banks/"
+  },
+  {
+   "label": "Digital Trends – DeepSeek's always-on coding agent (1 Nov 2026)",
+   "url": "https://www.digitaltrends.com/computing/deepseek-wants-to-steal-claude-code-and-codexs-lunch-with-an-ai-agent-that-does-not-wait-around/"
+  }
+ ],
+ "note": "All summaries are paraphrased. Figures are as reported by the cited outlets; the DeepSeek funding figure is a media report."
+}
