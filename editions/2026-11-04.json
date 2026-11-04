@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-04",
+  "weekday": "Wednesday",
+  "covers": "Tue 3 – Wed 4 Nov",
+  "glance": "Google's plan to switch off AI in school accounts, and the row over tying it to Search, dominated the AI news. Canva announced a deep restructuring that touches about a fifth of its staff as it rebuilds around AI. Apple is putting Apple Intelligence into a developer beta for China, and Nio passed 130 million battery swaps.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "3 Nov",
+      "headline": "Google turns AI off by default for schools, but says blocking it all means losing Search",
+      "why": "A large vendor is bundling AI into a core product, and the backlash shows how regulators and the public may judge that kind of design choice.",
+      "source": "CNBC · TechCrunch",
+      "body": [
+        "Google said on 3 November that Gemini, Gemini Notebook and Search will be turned off by default for school accounts, and that schools can switch each one back on separately. The announcement followed a New York Times report that schools rejecting AI entirely would also lose Search. Google's education VP, Chris Phillips, told the paper that Search and AI are deeply integrated.",
+        "Criticism came quickly. Senator Bernie Sanders called the approach extortion, New York mayor Zohran Mamdani said Google is using its monopoly power to push AI into public schools, and former FTC chair Lina Khan warned about an unregulated monopolist controlling an essential service. Google later said schools can enable Search alone, but the AI Overviews inside Search cannot be removed. It also said it will adjust AI Mode and Overviews in school accounts to give step-by-step guidance instead of quick answers. The reporting is not fully consistent on when the new defaults start.",
+        "For product teams, this is a live example of the risk in coupling an AI feature to an essential service. Opt-out controls that are partial, or that cost users something they need, draw scrutiny fast. That matters for anyone designing AI defaults, particularly for products used by minors or in regulated settings in Europe."
+      ],
+      "links": [
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html"},
+        {"label": "CBS News", "url": "https://www.cbsnews.com/news/google-search-access-schools-ai-tools/"}
+      ]
+    },
+    {
+      "cat": "ux",
+      "top": true,
+      "date": "3–4 Nov",
+      "headline": "Canva restructures around AI, affecting about 1,271 people or 22% of staff",
+      "why": "One of the biggest design platforms is merging its teams and betting on its own AI model, which affects the tools many designers use daily.",
+      "source": "Forbes Australia · Briefs",
+      "body": [
+        "Canva told staff it will cut, relocate or change roles for about 1,271 people, roughly 22% of its more than 5,000 employees. CEO Melanie Perkins called 2026 the company's hardest year and described the plan as refounding Canva. Product, growth and platform teams will merge into one product organisation, with Sydney as the main hub and most staff in the office two to three days a week from January.",
+        "The business context is difficult. Forbes Australia reports that growth has slowed for the first time in a decade and projected revenue growth was cut from 30% to 20%. Several investors have marked down the valuation from US$40 billion at the start of the year. Canva says its AI-focused reorganisation delayed product launches because serving AI to its many free users was expensive. Its answer is Craft, its first foundation model, which it says it can run more cheaply than relying on OpenAI, Anthropic or Google, and which outside developers will also be able to use.",
+        "For designers and product people, the point is the economics. Free-tier AI is costly to serve, and platforms are now building their own models to control that cost. Expect more changes to Canva's AI features and pricing as that plays out."
+      ],
+      "links": [
+        {"label": "Forbes Australia", "url": "https://www.forbes.com.au/news/innovation/mass-job-cuts-canva-unveils-major-restructure/"},
+        {"label": "Briefs", "url": "https://www.briefs.co/news/canva-cuts-22-of-staff-as-it-restructures-around-ai/"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "3–4 Nov",
+      "headline": "Apple's iOS 27.3 beta brings Apple Intelligence to China, with Alibaba models",
+      "why": "It shows how a global AI feature set has to be rebuilt around local partners and rules, a pattern that also applies to products sold in the EU.",
+      "source": "MacRumors · Bloomberg (via press reports)",
+      "body": [
+        "Apple said the first iOS 27.3 developer beta would arrive this week and switch on some Apple Intelligence features in mainland China, with a public release planned for December. Press reports say the China version relies on Alibaba's Qwen models after regulatory permits were granted.",
+        "The feature set is limited. Writing Tools, Genmoji, Clean Up, notification summaries, Visual Intelligence and Live Translation with AirPods are included. The Siri AI features announced at WWDC 2026 and Image Playground are not available in China on this release.",
+        "For product strategy, the lesson is that one global AI feature list often becomes several regional ones. Model partner, available features and compliance work can differ by market, and roadmaps should plan for that from the start."
+      ],
+      "links": [
+        {"label": "MacRumors", "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/"},
+        {"label": "Tech Jack Solutions", "url": "https://techjacksolutions.com/ai-brief/apple-intelligence-china-ios-273-alibaba-qwen-december/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "3 Nov",
+      "headline": "Nio passes 130 million battery swaps as its network reaches 4,236 stations",
+      "why": "Battery swapping is still a serious alternative to fast charging at scale, and it puts different demands on vehicle and pack design.",
+      "source": "CnEVPost",
+      "body": [
+        "Nio said it completed its 130 millionth battery swap on 3 November. The previous 10 million took 88 days, since 120 million was passed on 7 August, which works out to more than 110,000 swaps a day. The company's China swap network grew by 230 stations over that period to 4,236.",
+        "Nio also reports 1,077 highway swap stations linking 550 cities, and says 84.5% of users now have a swap station within 3 km of home or work. Its fifth-generation stations, launched on 7 August, can serve Nio, Onvo and Firefly vehicles from the same platform, as they support different wheelbases. All figures are the company's own.",
+        "For European engineers, swapping is a reminder that pack mounting, connectors and standardised dimensions are design choices with big operational effects. Real-world use at this scale also gives Nio a large body of durability data on repeated pack handling."
+      ],
+      "links": [
+        {"label": "CnEVPost", "url": "https://cnevpost.com/2026/11/03/nio-battery-swaps-130-million"}
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "Timken Q3 results due today",
+      "text": "Timken reports third-quarter results on 4 November, with the market watching Industrial Motion margins and any change to its 2026 EPS outlook of $6.05–6.35.",
+      "link": {"label": "Finviz preview", "url": "https://finviz.com/news/409142/timken-stock-slumps-despite-three-guidance-raises-q3-must-prove-the-slowdown-is-seasonal"}
+    },
+    {
+      "title": "SKF Vertevo listing on 1 December",
+      "text": "SKF's automotive unit is due to list on Nasdaq Stockholm on 1 December, with a capital markets day planned for 17 November. The date depends on regulatory approvals.",
+      "link": {"label": "Placera", "url": "https://www.placera.se/telegram/skf-skf-foreslar-notering-av-vertevo-1-december-20260907"}
+    },
+    {
+      "title": "NSK–NTN definitive agreement",
+      "text": "The two Japanese bearing makers said in May they aim to combine under a joint holding company in October 2027, with a definitive agreement expected this autumn.",
+      "link": {"label": "Adnkronos", "url": "https://english.adnkronos.com/2026/05/13/japanese-bearing-makers-nsk-ntn-to-integrate-biz-in-oct-2027/"}
+    }
+  ],
+  "sources": [
+    {"label": "CNBC – Google responds to outrage over removing search in schools that ban AI (3 Nov 2026)", "url": "https://www.cnbc.com/2026/11/03/google-responds-to-outrage-over-removing-search-in-schools-that-ban-ai.html"},
+    {"label": "CBS News – Google will block search access for schools that ban AI use (3 Nov 2026)", "url": "https://www.cbsnews.com/news/google-search-access-schools-ai-tools/"},
+    {"label": "Forbes Australia – Canva layoffs and restructure (4 Nov 2026)", "url": "https://www.forbes.com.au/news/innovation/mass-job-cuts-canva-unveils-major-restructure/"},
+    {"label": "Briefs – Canva cuts 22% of workforce (Nov 2026)", "url": "https://www.briefs.co/news/canva-cuts-22-of-staff-as-it-restructures-around-ai/"},
+    {"label": "MacRumors – Apple says iOS 27.3 beta coming next week (30 Oct 2026)", "url": "https://macrumors.com/2026/10/30/apple-says-ios-27-3-beta-coming-next-week/"},
+    {"label": "Tech Jack Solutions – Apple Intelligence in China, iOS 27.3 (Oct 2026)", "url": "https://techjacksolutions.com/ai-brief/apple-intelligence-china-ios-273-alibaba-qwen-december/"},
+    {"label": "CnEVPost – Nio battery swaps pass 130 million (3 Nov 2026)", "url": "https://cnevpost.com/2026/11/03/nio-battery-swaps-130-million"},
+    {"label": "Finviz – Timken Q3 preview (27 Oct 2026)", "url": "https://finviz.com/news/409142/timken-stock-slumps-despite-three-guidance-raises-q3-must-prove-the-slowdown-is-seasonal"},
+    {"label": "Placera – SKF expects Vertevo listing on 1 December (7 Sep 2026)", "url": "https://www.placera.se/telegram/skf-skf-foreslar-notering-av-vertevo-1-december-20260907"},
+    {"label": "Adnkronos – NSK, NTN to integrate business in Oct 2027 (13 May 2026)", "url": "https://english.adnkronos.com/2026/05/13/japanese-bearing-makers-nsk-ntn-to-integrate-biz-in-oct-2027/"}
+  ],
+  "note": "All summaries are paraphrased. Company figures (Nio, Canva) are self-reported. Coverage is shorter than usual because few stories could be verified against dated sources."
+}
