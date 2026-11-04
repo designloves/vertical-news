@@ -29,10 +29,33 @@ def synth(text, wav):
     sf.write(wav, np.concatenate(parts), RATE)
 
 
+def _sentence(t):
+    t = str(t or "").strip()
+    return t if not t or t[-1] in ".!?" else t + "."
+
+
+def fallback_brief(edition):
+    """When an edition has no written brief: the summary, then each story's headline and why-it-matters line,
+    top stories first. Plainer than a hand-written brief, but every edition still gets audio."""
+    stories = [s for s in edition.get("stories", []) if isinstance(s, dict)]
+    stories.sort(key=lambda s: not s.get("top"))
+    parts = [_sentence(edition.get("glance"))]
+    tops = [s for s in stories if s.get("top")]
+    rest = [s for s in stories if not s.get("top")]
+    if tops:
+        parts.append("First, the top stories.")
+        parts += [_sentence(s.get("headline")) + " " + _sentence(s.get("why")) for s in tops]
+    if rest:
+        parts.append("In other news.")
+        parts += [_sentence(s.get("headline")) + " " + _sentence(s.get("why")) for s in rest]
+    return " ".join(p for p in parts if p)
+
+
 def spoken_text(date, edition):
     d = datetime.date.fromisoformat(date)
     long_date = f"{d.strftime('%A')} {d.day} {d.strftime('%B')} {d.year}"
-    text = f"Vertical News. {long_date}. {edition['brief'].strip()} That's the brief. The full stories are on the page."
+    brief = str(edition.get("brief", "")).strip() or fallback_brief(edition)
+    text = f"Vertical News. {long_date}. {brief} That's the brief. The full stories are on the page."
     text = re.sub(r"(\d)\s*[–-]\s*(\d)", r"\1 to \2", text)   # 21–22 -> 21 to 22
     text = text.replace(" · ", ", ").replace("—", ", ").replace("–", ", ")
     return re.sub(r"\s+", " ", text).strip()
@@ -54,8 +77,8 @@ def main():
         date = os.path.basename(path)[:-5]
         with open(path) as f:
             edition = json.load(f)
-        if not str(edition.get("brief", "")).strip():
-            print(f"{date}: no brief, skipped")
+        if not edition.get("stories"):
+            print(f"{date}: no stories, skipped")
             continue
         text = spoken_text(date, edition)
         sha = hashlib.sha1(f"kokoro:{VOICE}:{SPEED}\n{text}".encode()).hexdigest()[:12]
