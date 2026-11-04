@@ -178,7 +178,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
   <main id="edition">
     <div class="empty"><div class="label">Fetching editions</div></div>
   </main>
-  <footer class="label">Vertical News · A new edition every morning<br><span class="build">Version 26 Oct, 18:55</span></footer>
+  <footer class="label">Vertical News · A new edition every morning<br><span class="build">Version 4 Nov, 22:00</span></footer>
 </div>
 
 <script>
@@ -427,7 +427,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
   function refreshFab(){
     if(!fab)return;var it=currentItems(),a=AUDIO[dates[idx]];
     fab.mins=a&&a.duration?Math.max(1,Math.round(a.duration/60)):(it.length?minutes(it):0);
-    fab.wrap.hidden=!(hasAudio()||(canSpeak&&it.length));if(fab.place)fab.place();updateUI();
+    fab.wrap.hidden=!hasAudio();   // only editions with a recording get a play buttonif(fab.place)fab.place();updateUI();
   }
   (function(){
     if(!canSpeak&&!window.Audio)return;
@@ -448,8 +448,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
     main.addEventListener("click",function(){
       if(dragged){dragged=false;return;}
       if(P.state==="playing"){stopReading();return;}
-      if(hasAudio()){playAudio();return;}
-      if(!canSpeak)return;P.items=currentItems();P.i=0;if(P.items.length)speakFrom(0,0);
+      if(hasAudio())playAudio();
     });
     // Press and hold (about a third of a second), then drag along the bottom edge; it snaps to the nearer side.
     var hold=0,drag=null;
