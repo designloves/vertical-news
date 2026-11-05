@@ -1,0 +1,311 @@
+{
+ "date": "2026-11-05",
+ "weekday": "Thursday",
+ "covers": "Tue 3 – Thu 5 Nov",
+ "glance": "Schaeffler announced 3,460 job cuts and five site closures, BMW slashed its 2026 profit outlook, and an EU Parliament committee voted to soften the 2035 car CO2 target. In AI, OpenAI described a model designing a hardware device with human fixes, Meta went to the bond market for up to $25 billion, and Timken raised its outlook on industrial demand.",
+ "stories": [
+  {
+   "cat": "bear",
+   "top": true,
+   "date": "3 Nov",
+   "headline": "Schaeffler to cut 3,460 jobs and close five European sites by 2028",
+   "why": "A top bearing maker is shrinking its European plant network as EV ramp-up lags and Chinese rivals press on price.",
+   "source": "AP via TechXplore · Schaeffler (EQS)",
+   "body": [
+    "Schaeffler said on 3 November that it will remove 3,460 jobs, about 3% of a workforce of close to 110,000, by 2028. Roughly three quarters of the cuts fall in Germany. Five European sites will close, including Berlin and Dortmund, one small site in Belgium and two other western German towns, with further job losses in France and Slovakia. The cuts focus on production and R&D.",
+    "The company points to competition from Chinese manufacturers, above-average German labour costs, weaker demand for combustion-engine parts and a slower-than-planned electric-mobility ramp-up. It expects annual savings of about €300 million from 2030, and the plan follows 4,700 cuts announced in 2024. Senior executives will take a temporary pay cut, and some new roles will be created in humanoid robotics and defence. Preliminary figures from 13 October showed a Q3 EBIT margin before special items of 4.2%, with the E-Mobility division still at -13.1%. The works council has asked for talks.",
+    "For engineers and suppliers, it is a sign that drivetrain and chassis-bearing capacity in Europe is being rebalanced toward robotics, industrial and defence applications. Expect more pressure on price and lead times for EV-specific bearing programmes."
+   ],
+   "links": [
+    {
+     "label": "TechXplore – German auto crisis deepens as supplier cuts over 3,000 jobs (3 Nov)",
+     "url": "https://techxplore.com/news/2026-11-german-auto-crisis-deepens-supplier.html"
+    },
+    {
+     "label": "Schaeffler – preliminary nine-month 2026 numbers (13 Oct)",
+     "url": "https://live.deutsche-boerse.com/news/EQS-News-Schaeffler-releases-preliminary-numbers-for-first-nine-months-of-2026-4806fd83-6073-401d-a877-7d1f176f9ff5"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "4 Nov",
+   "headline": "European Parliament committee backs a softer 2035 car CO2 target: 87.5% plus a steel top-up",
+   "why": "The 2035 rulebook that shapes powertrain and testing roadmaps is being loosened, and the final shape is still open.",
+   "source": "Reuters via Global Banking & Finance · EUbusiness",
+   "body": [
+    "On 4 November the European Parliament's environment committee voted on the car CO2 package. It backed an 87.5% cut in fleet emissions by 2035, plus a 7.5% credit for EU-made low-carbon steel, so 95% in total. The Commission had proposed a 90% cut with 10% from low-carbon steel and alternative fuels.",
+    "Small and highly efficient EVs made in the EU would earn extra credits in fleet averaging, and mandatory zero-emission targets for company fleets were downgraded to aspirational goals. The largest group, the EPP, called the vote a win for the car industry. Transport campaign group T&E said it is a step in the wrong direction and would divert investment from electrification. France and Germany agreed last month on a 90% cut with no compensation measures, so the Council position differs.",
+    "This is only Parliament's negotiating position. The full chamber votes in December, then talks with the Council begin. For OEMs and suppliers the practical point is that the mix of battery-electric, hybrid and efficient combustion programmes in the late 2020s is still unsettled, which affects validation and bearing and drivetrain planning."
+   ],
+   "links": [
+    {
+     "label": "Global Banking & Finance – European lawmakers push to weaken car CO2 targets",
+     "url": "https://www.globalbankingandfinance.com/european-lawmakers-push-weaken-car-co2-emissions-targets/"
+    },
+    {
+     "label": "EUbusiness – Euro-MPs want to ease CO2 emissions targets for cars",
+     "url": "https://www.eubusiness.com/environment/meps-want-to-ease-co2-emissions-targets-for-cars/"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": true,
+   "date": "3 Nov",
+   "headline": "OpenAI says its model designed a working hardware device in under a week, with human fixes",
+   "why": "A rare case study of AI doing mechanical and electronic design end to end, including where it still fails.",
+   "source": "The Decoder · OpenAI (vendor claim)",
+   "body": [
+    "OpenAI says its hardware team used GPT-6 Astra on a side project: a small device for talking to its Codex coding agent. According to the company, the model handled the enclosure, the circuit board layout and component choice, the firmware and the interface, with no direct human edits. A contract manufacturer then built prototypes in under a month.",
+    "OpenAI also admits the limits. Several revision rounds were needed because the model did not consistently account for manufacturing constraints, tolerances and assembly details. On BenchCAD 2.0, which tests reconstruction of 3D parts and assemblies and PCB connections, Astra at its highest reasoning level scored 0.594, while an unreleased internal model scored 0.875. OpenAI says its hardware teams use Codex and ChatGPT for CAD models, manufacturing drawings and simulations, and that token use is up 23 times since February.",
+    "All of this is vendor-reported and has not been independently tested. For automotive and bearing engineers, the useful signal is the failure mode: geometry generation is improving, but tolerances and manufacturability remain the gap, and that is exactly where validation and simulation expertise still decide the outcome."
+   ],
+   "links": [
+    {
+     "label": "The Decoder – OpenAI says GPT-6 Astra designed a hardware device in under a week",
+     "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/"
+    },
+    {
+     "label": "OpenAI – Accelerating engineering for the physical world",
+     "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "4 Nov",
+   "headline": "BMW cuts its 2026 profit outlook to near zero as it speeds up restructuring",
+   "why": "Even the strongest premium German brand is now guiding to a break-even auto margin, with China and tariffs the main drags.",
+   "source": "just-auto · BMW Group",
+   "body": [
+    "BMW lowered its 2026 automotive EBIT margin forecast to between -0.5% and +0.5%, from 1% to 3%. Third-quarter automotive EBIT fell 39.7% to €901 million on revenue down 6.5% to €26.67 billion. Group deliveries dropped 6.3% to 551,075 cars, with China down 25% while Europe rose 2.6% and the US 2.5%.",
+    "BMW names higher import tariffs, the retirement of older vehicle and battery generations earlier than planned because Neue Klasse demand is strong, and faster job cuts. It also mentions wider use of agentic AI in procurement planning and customer offers. Fully electric cars were 20% of quarterly sales, or 27.4% with plug-in hybrids. CFO Walter Mertl said speed is a key success factor in the realignment. Excluding restructuring, BMW still expects an operative margin above 2%.",
+    "For suppliers, an accelerated phase-out of older platforms can mean abrupt volume drops on legacy programmes while Gen6 platform parts ramp. It also reinforces the pressure on development cost across the German industry."
+   ],
+   "links": [
+    {
+     "label": "just-auto – BMW Group trims 2026 outlook",
+     "url": "https://just-auto.com/news/bmw-group-trims-2026-outlook"
+    },
+    {
+     "label": "CBT News – Automotive newscast 4 Nov 2026",
+     "url": "https://www.cbtnews.com/cbt-automotive-newscast-november-04-2026/"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": false,
+   "date": "4 Nov",
+   "headline": "Timken beats on Q3 and lifts its 2026 outlook, helped by industrial demand and tariff refunds",
+   "why": "A read on industrial bearing demand: growth is coming from industrial motion and pricing, not from the engineered bearings volume.",
+   "source": "Timken · PR Newswire",
+   "body": [
+    "Timken reported third-quarter sales of $1.21 billion, up 4.7% (organic +2.8%). Adjusted EPS was $1.65, up 20% from $1.37. Operating cash flow was $256 million. It raised its 2026 outlook to adjusted EPS of $6.35–$6.50 and GAAP EPS of $4.05–$4.20, with revenue up about 5.5%.",
+    "Engineered Bearings sales were $771 million, up only 0.7%, with an adjusted EBITDA margin of 20.2% helped by tariff refunds, pricing and currency. Industrial Motion grew 12.4% to $440 million, aided by the Bijur Delimon acquisition. Adjusted EBITDA included a net $12.4 million benefit from IEEPA tariff refunds. Timken closed the sale of its belts business to Gates on 28 September and is closing a belts plant in Springfield, Missouri.",
+    "Management expects organic sales to grow mid-single digits in 2027. Compared with Schaeffler's restructuring, Timken shows how a US-focused, industrial-weighted bearing maker is holding up better than automotive-heavy peers."
+   ],
+   "links": [
+    {
+     "label": "Timken – Third-quarter 2026 results (PR Newswire)",
+     "url": "https://www.prnewswire.com/news-releases/timken-reports-third-quarter-2026-results-302928547.html"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "3–4 Nov",
+   "headline": "Meta seeks $20–25 billion in bonds, with its first euro tranche, as AI spending turns cash flow negative",
+   "why": "Even the largest AI spenders are now leaning on debt and equity markets, which shapes how long frontier-scale spending can last.",
+   "source": "CNBC",
+   "body": [
+    "Meta is selling $20–25 billion of bonds, about two thirds in US dollars and one third in euros, its first euro offering. It follows a $25 billion sale in April. S&P kept Meta's AA- rating but moved the outlook to negative, citing uncertainty over heavy capital spending and negative free cash flow.",
+    "Meta now expects 2026 capital spending of $135–145 billion and reported free cash flow of negative $2.12 billion in the latest quarter. It has also said it plans to raise $95 billion in equity, $35 billion through public offerings and $60 billion through an at-the-market programme. Shares rose 2.7% on Tuesday after falling in 12 of the prior 14 sessions.",
+    "For product and engineering teams that depend on AI platforms, the financing pressure is a reminder to watch pricing and capacity commitments from the big providers."
+   ],
+   "links": [
+    {
+     "label": "CNBC – Meta bond sale to fund AI",
+     "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "3 Nov",
+   "headline": "Fal doubles its valuation to $16 billion on a $1.3 billion round",
+   "why": "Inference providers are becoming a major layer of the AI stack for teams building image, video and audio features.",
+   "source": "TechCrunch",
+   "body": [
+    "Fal, which hosts and runs AI image, video and audio models, raised $1.3 billion in a Series F led by Bessemer, with Nvidia, Sound Ventures and T. Rowe Price joining. The $16 billion valuation is twice its April level of $8 billion. Series E and F together total $1.65 billion.",
+    "Bloomberg reports annualised revenue passed $800 million earlier this year. Rivals Baseten, Fireworks AI and Modal are also growing quickly, although TechCrunch notes their gross margins are thin because compute is expensive.",
+    "For product teams, it shows where generative media features are being built: on shared inference platforms rather than in-house. Costs and rate limits at these providers will influence what is practical to ship."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch – Fal doubles its valuation to $16B",
+     "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "3 Nov",
+   "headline": "Stanford: 44% of widely cited claims about LLMs no longer hold on newer models",
+   "why": "A caution for anyone basing AI strategy or design decisions on last year's research findings.",
+   "source": "The Decoder · Stanford (Zou group)",
+   "body": [
+    "Researchers Owen Queen and James Zou retested 50 widely cited claims about large language models against 20 models released between July 2024 and September 2026. They found 44% have expired, 34% have weakened significantly, 16% still hold and 6% have strengthened.",
+    "Claims about what models cannot do expired fastest, with five of nine reasoning-related findings gone. Claims about tendencies such as sycophancy and political lean lasted longer. Among the 22 claims with an estimated expiry date, the average lifespan was about 15.7 months. Fabricated citations fell sharply from the 55% GPT-3.5 rate in a 2023 study, though current models range from 0% to 69% depending on the model.",
+    "The authors urge papers to record the model, version and date, and to publish prompts and code. For product and UX research, it is a prompt to re-test assumptions about what AI can and cannot do."
+   ],
+   "links": [
+    {
+     "label": "The Decoder – Rapid LLM development is outrunning the research meant to explain it",
+     "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "3 Nov",
+   "headline": "Netflix tests an AI 'Discover' tab that picks titles by mood",
+   "why": "A mainstream example of an AI-native browsing pattern: themed prompts and feedback controls instead of a static grid.",
+   "source": "TechCrunch",
+   "body": [
+    "Netflix is rolling out an AI Discover tab to US English-language users on supported TVs, with wider access planned in the coming weeks. The first feature suggests titles by mood, using curated themes such as 'something light', 'scare me' or 'quick watches', and shows clips from shows and films.",
+    "Users can narrow a theme or choose 'something different' to start over, and each title has a 'Tune Your Recommendations' button to save favourites or stop similar suggestions. Netflix says a new AI layer responds to what users tell it in real time. It calls the tab its 'test kitchen', where it will gather feedback before moving features into the main app.",
+    "The design lesson is the separation of an experimental space from the core experience, plus lightweight, always-available correction controls."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch – Netflix's new AI Discover tab",
+     "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "4 Nov",
+   "headline": "OpenAI agrees to buy Pierre, the code-storage and diff-review startup behind parts of Codex",
+   "why": "Another sign that AI labs are buying developer-tool infrastructure to own the whole coding workflow.",
+   "source": "OpenAI · Shattered",
+   "body": [
+    "OpenAI said on 4 November it will acquire Pierre Computer Company. Pierre makes Code Storage, a Git-based service for apps that store code and its history, plus the open-source libraries Trees (file navigation) and Diffs (reviewing large code changes). Trees and Diffs already run inside the Codex app.",
+    "The price was not disclosed and the deal is subject to customary closing conditions, including regulatory approvals. Until closing the companies stay separate. OpenAI says the open-source projects will remain open and that Code Storage customers can keep using it after closing while it brings those features into Codex, without giving an end date for the standalone service.",
+    "For teams building on Pierre's tools, the open question is the long-term future of the standalone product."
+   ],
+   "links": [
+    {
+     "label": "OpenAI – OpenAI to acquire Pierre",
+     "url": "https://openai.com/index/openai-to-acquire-pierre/"
+    },
+    {
+     "label": "Shattered – OpenAI acquires Pierre",
+     "url": "https://shattered.io/openai-acquires-pierre-code-storage-trees-diffs-codex-2026"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "EU car CO2 plenary vote",
+   "text": "The full Parliament votes on the car CO2 package in December, followed by talks with a Council that is leaning toward 90% with no compensation measures.",
+   "link": {
+    "label": "Global Banking & Finance",
+    "url": "https://www.globalbankingandfinance.com/european-lawmakers-push-weaken-car-co2-emissions-targets/"
+   }
+  },
+  {
+   "title": "SKF Vertevo starts 1 December",
+   "text": "SKF's automotive business, about SEK 24 billion in sales and 7,500 people, is due to start operating independently on 1 December after shareholders approved the split.",
+   "link": {
+    "label": "Bearing News",
+    "url": "https://www.bearing-news.com/skf-vertevo-the-younger-brother-leaves-home/"
+   }
+  },
+  {
+   "title": "Netflix Discover roll-out",
+   "text": "Netflix plans wider access to its AI Discover tab in the coming weeks, which will show whether mood-based browsing sticks.",
+   "link": {
+    "label": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "TechXplore – German auto crisis deepens as supplier cuts over 3,000 jobs (3 Nov)",
+   "url": "https://techxplore.com/news/2026-11-german-auto-crisis-deepens-supplier.html"
+  },
+  {
+   "label": "Schaeffler – preliminary nine-month 2026 numbers (13 Oct)",
+   "url": "https://live.deutsche-boerse.com/news/EQS-News-Schaeffler-releases-preliminary-numbers-for-first-nine-months-of-2026-4806fd83-6073-401d-a877-7d1f176f9ff5"
+  },
+  {
+   "label": "Global Banking & Finance – European lawmakers push to weaken car CO2 targets",
+   "url": "https://www.globalbankingandfinance.com/european-lawmakers-push-weaken-car-co2-emissions-targets/"
+  },
+  {
+   "label": "EUbusiness – Euro-MPs want to ease CO2 emissions targets for cars",
+   "url": "https://www.eubusiness.com/environment/meps-want-to-ease-co2-emissions-targets-for-cars/"
+  },
+  {
+   "label": "The Decoder – OpenAI says GPT-6 Astra designed a hardware device in under a week",
+   "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/"
+  },
+  {
+   "label": "OpenAI – Accelerating engineering for the physical world",
+   "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world"
+  },
+  {
+   "label": "just-auto – BMW Group trims 2026 outlook",
+   "url": "https://just-auto.com/news/bmw-group-trims-2026-outlook"
+  },
+  {
+   "label": "CBT News – Automotive newscast 4 Nov 2026",
+   "url": "https://www.cbtnews.com/cbt-automotive-newscast-november-04-2026/"
+  },
+  {
+   "label": "Timken – Third-quarter 2026 results (PR Newswire)",
+   "url": "https://www.prnewswire.com/news-releases/timken-reports-third-quarter-2026-results-302928547.html"
+  },
+  {
+   "label": "CNBC – Meta bond sale to fund AI",
+   "url": "https://www.cnbc.com/2026/11/03/meta-bond-sale-ai-funding.html"
+  },
+  {
+   "label": "TechCrunch – Fal doubles its valuation to $16B",
+   "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/"
+  },
+  {
+   "label": "The Decoder – Rapid LLM development is outrunning the research meant to explain it",
+   "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/"
+  },
+  {
+   "label": "TechCrunch – Netflix's new AI Discover tab",
+   "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/"
+  },
+  {
+   "label": "OpenAI – OpenAI to acquire Pierre",
+   "url": "https://openai.com/index/openai-to-acquire-pierre/"
+  },
+  {
+   "label": "Shattered – OpenAI acquires Pierre",
+   "url": "https://shattered.io/openai-acquires-pierre-code-storage-trees-diffs-codex-2026"
+  },
+  {
+   "label": "Bearing News",
+   "url": "https://www.bearing-news.com/skf-vertevo-the-younger-brother-leaves-home/"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+}
