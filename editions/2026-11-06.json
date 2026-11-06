@@ -1,0 +1,257 @@
+{
+ "date": "2026-11-06",
+ "weekday": "Friday",
+ "covers": "Thu 5 – Fri 6 Nov",
+ "glance": "Toyota raised its profit outlook on hybrid demand, while Schaeffler's full report showed bearings margins improving and E-Mobility still losing money. In AI, Anthropic's Claude Code product chief Cat Wu moved to OpenAI and Anthropic open-sourced a proof-of-model-identity prototype. In Sweden, Polestar delayed its quarterly report and will become a Dutch company.",
+ "stories": [
+  {
+   "cat": "pm",
+   "top": true,
+   "date": "5 Nov",
+   "headline": "OpenAI hires Anthropic's Claude Code product chief Cat Wu to run its Core Products",
+   "why": "The person who shaped the leading AI coding agent now moves to its main rival, a signal of where agent products are heading.",
+   "source": "WinBuzzer",
+   "body": [
+    "Cat Wu, who led product for Claude Code and Cowork at Anthropic, announced on 5 November that she is joining OpenAI to lead product management for its Core Products group. She reports to Tibo Sottiaux, and will work with Nick Turley on enterprise products and Ashley Alexander on consumer ones. Her last day at Anthropic was 30 October. OpenAI has not said what her exact portfolio or start date will be.",
+    "At Anthropic she oversaw Claude Code's expansion into the browser and, by March 2026, a multi-agent code-review feature. Cowork handled file and tool tasks for non-developers. Claude Code is the closest counterpart to OpenAI's Codex. In her own announcement she said she wants to build agents that help people and teams while keeping users in control.",
+    "For product and design teams, the move shows how much competition now centres on agent products rather than models alone. Product leadership, with questions about oversight, review and trust in autonomous tools, is becoming a key hire. Expect more of the interface patterns pioneered in coding agents to reach general office work."
+   ],
+   "links": [
+    {
+     "label": "WinBuzzer",
+     "url": "https://winbuzzer.com/2026/11/05/openai-hires-anthropics-ai-coding-product-leader-cat-wu-xcxwbn"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "5 Nov",
+   "headline": "Toyota lifts its profit outlook as hybrids and a weak yen offset tariffs",
+   "why": "The world's largest carmaker is winning on hybrids while China weakens, a reminder that powertrain mix still decides margins.",
+   "source": "AP · Investing.com",
+   "body": [
+    "Toyota raised its full-year profit projection on 5 November after a strong July–September quarter. AP reports quarterly net profit fell 19% to ¥759.4 billion (about $4.8 billion), while sales rose to ¥13.4 trillion from ¥12.4 trillion. AP puts the new full-year profit projection at ¥3.57 trillion, up from ¥3.25 trillion. Other outlets cite operating-profit guidance of ¥3.9 trillion, so the figures depend on which measure is used. Global sales are forecast at 9.7 million vehicles.",
+    "Camry and RAV4 hybrids sold well in the US, and the yen, at around 158 per dollar, boosted overseas earnings. US tariffs, supply disruption and higher raw-material costs remained headwinds, and China sales suffered, partly because of high petrol prices. Toyota's US-listed shares rose by roughly 17%, according to market reports.",
+    "For European suppliers, it is another sign that hybrid and combustion content will stay significant for years. Bearing, driveline and e-axle makers should plan for mixed powertrain volumes, not a clean switch to battery-electric platforms."
+   ],
+   "links": [
+    {
+     "label": "AP via ABC News",
+     "url": "https://abcnews.com/International/wireStory/toyota-raises-profit-projection-year-sales-hold-137868815"
+    },
+    {
+     "label": "Investing.com",
+     "url": "https://in.investing.com/news/earnings/toyota-q2-profit-beats-estimates-hikes-guidance-buyback-plans-5681679"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": false,
+   "date": "3 Nov",
+   "headline": "Schaeffler's full nine-month report: bearings division margin rises, E-Mobility still deep in the red",
+   "why": "The split by division shows industrial bearings improving while the EV business absorbs about €240 million of charges.",
+   "source": "Schaeffler (EQS) via TradingView",
+   "body": [
+    "Schaeffler published full nine-month results on 3 November, following preliminary figures in October. Revenue was €17.48 billion, down 1.1% (0.4% at constant currency). EBIT before special items rose 6.5% to €794 million, a 4.5% margin. Free cash flow before M&A was negative €40 million, though the third quarter alone produced €260 million. Full-year guidance was confirmed: revenue €22.5–24.5 billion and an EBIT margin of 3.5–5.5%.",
+    "The Bearings & Industrial Solutions division grew 1.1% at constant currency to €4.8 billion, with a margin of 8.9% against 7.8% a year earlier. E-Mobility revenue rose 4.6% to €3.87 billion, but the division posted an EBIT of minus €571 million (minus 14.8%). About €240 million of impairments and provisions, mainly on surplus production equipment and portfolio streamlining, were booked in the third quarter. Powertrain & Chassis revenue fell 4.6% at constant currency. Greater China fell 7.9%, while Asia/Pacific overall grew 7.3%.",
+    "The numbers suggest the industrial side is steady while EV component capacity is being trimmed to fit demand. Employee count is down 2.5% since the end of 2025, to 108,004."
+   ],
+   "links": [
+    {
+     "label": "Schaeffler nine-month results (via TradingView)",
+     "url": "https://www.tradingview.com/news/eqs:5e6707f78094b:0-schaeffler-with-solid-nine-months-results/"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": false,
+   "date": "3 Nov",
+   "headline": "SKF India launches the 'Vertevo' brand and adds bearing capacity at Haridwar and Pune",
+   "why": "New lines for deep-groove ball and tapered roller bearings point to continued automotive and industrial demand in India.",
+   "source": "InvestyWise",
+   "body": [
+    "SKF India's board met on 3 November, took the September-quarter results on record and approved two capacity projects. It also launched a new brand identity, SKF Vertevo, which the company says draws on racing heritage and links to the future of mobility. The report does not give financial figures for the quarter.",
+    "At Haridwar, two lines will be added to the four existing deep-groove ball bearing lines, in two phases: up to INR 247 million from December 2026, and up to INR 379 million from March 2027. At Pune, which has six tapered roller bearing channels, a channel upgrade with extra machines (up to INR 347 million) starts in May 2027, followed by one more production line (up to INR 431 million) from July 2027. All of it is funded from internal accruals.",
+    "This concerns the Indian subsidiary, not the SKF group. It still shows where bearing makers are placing new volume capacity, in regional production close to growing vehicle and industrial markets."
+   ],
+   "links": [
+    {
+     "label": "InvestyWise",
+     "url": "https://www.investywise.com/skf-india-limited-board-meeting-approves-financials-new-brand-launch/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "5 Nov",
+   "headline": "Polestar postpones its Q3 report and moves its legal home from Sweden to the Netherlands",
+   "why": "A delayed quarterly report and a legal restructuring at a Volvo Cars-linked brand will draw attention from investors and suppliers in Gothenburg.",
+   "source": "Privata Affärer · Polestar",
+   "body": [
+    "Polestar said it is postponing its third-quarter and nine-month 2026 report, which was due on 5 November, to allow more time for the quarter-end close. A new date will be given \"in due course\". No reason beyond the close process was reported.",
+    "The same day, Privata Affärer, citing Dagens industri, reported that Polestar will convert from a Swedish to a Dutch company. This concerns legal structure only. Headquarters in Torslanda outside Gothenburg and the group's functions are reported to stay where they are, and the article gives no reason for the change.",
+    "Polestar earlier this year ended production of the original Polestar 2 in China and announced that Polestar 3 production would move to Volvo Cars' US plant. For Swedish suppliers and engineering partners, the main questions now are how the delay and restructuring affect volume plans and development spending."
+   ],
+   "links": [
+    {
+     "label": "Privata Affärer",
+     "url": "https://www.privataaffarer.se/privatekonomi/bilar/polestar-blir-nederlandskt/"
+    },
+    {
+     "label": "Polestar investor relations",
+     "url": "https://investors.polestar.com/news-releases/news-release-details/polestar-provides-update-q3-2026-reporting-date"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "2 Nov",
+   "headline": "Anthropic open-sources FlashProve, a prototype for proving which model produced an answer",
+   "why": "Cryptographic proof of model identity could one day let buyers check they got the model they paid for.",
+   "source": "Crypto Briefing · AlphaSignal",
+   "body": [
+    "Anthropic released FlashProve on 2 November as an open-source research prototype under the Apache 2.0 licence. It uses a zero-knowledge proof so that a provider can show a response came from a specific committed set of model weights, without revealing the weights. The provider commits once to the weights, then attaches a proof to each answer that an outside party can check.",
+    "In tests on a 4-bit version of Llama 4 Maverick (about 400 billion parameters) on one H100 GPU, proofs ran at about 110 tokens per second and were around 19 MB per 1,024-token request. Checking took roughly 17–21 seconds on a CPU. Proving costs about 70–95 times the GPU time of ordinary inference. Anthropic calls it a research artefact and not a production service, and the proof attests to a commitment, not directly to a model name.",
+    "The overhead rules out routine use for now. But for regulated and safety-critical settings, where buyers may need evidence of which model ran, it points to a possible audit tool."
+   ],
+   "links": [
+    {
+     "label": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/anthropic-flashprove-zksnark-ai-inference/"
+    },
+    {
+     "label": "AlphaSignal",
+     "url": "https://alphasignal.ai/news/anthropic-s-flashprove-cryptographically-proves-which-ai-model-answered-you"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "31 Oct – 1 Nov",
+   "headline": "DeepSeek open-sources a prototype coding agent that acts on GitHub on its own",
+   "why": "It shows where open agent tooling is heading: bots that watch a repository and open pull requests when authorised.",
+   "source": "RuntimeWire · Pasquale Pillitteri",
+   "body": [
+    "DeepSeek's Harness team published \"dsh-superagent-prototype\" on GitHub on 31 October under the MIT licence, subtitled \"Towards a More Autonomous Agent System\". It is a plugin for DeepSeek Harness, its open-source agent program. It works on a single repository and acts when an authorised person asks, or when a rule written by the team allows it, often returning its work as a pull request.",
+    "Reports say it can also read signals from Feishu, ByteDance's messaging tool, and checks GitHub for events about once a minute by default. Setup needs a dedicated agent profile, a GitHub account for the agent and Node.js 22.19 or later. DeepSeek stresses that this is a research prototype. The public code differs from its private internal version, and some ideas in its design write-up are not implemented.",
+    "For product and engineering teams, the practical point is the permission model: the agent only acts within explicit rules. That is the pattern many organisations will want before letting agents touch shared code."
+   ],
+   "links": [
+    {
+     "label": "RuntimeWire",
+     "url": "https://runtimewire.com/article/deepseek-super-agent-coding-prototype-claude-code"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "4 Nov",
+   "headline": "Fourteen EU lawmakers ask for a security assessment of BYD's cars",
+   "why": "Connected-car data security is turning into a trade and procurement issue for any Chinese brand selling in Europe.",
+   "source": "Reuters (via OICA digest)",
+   "body": [
+    "Fourteen members of the European Parliament want the EU to assess BYD vehicles for cybersecurity and national-security risks, according to a Reuters report dated 4 November and summarised in OICA's daily digest. The assessment could lead to limits on public-procurement purchases, such as fleets for public bodies.",
+    "BYD rejects the concerns. The company says European vehicle and cloud data cannot be remotely accessed from China. We could not open the Reuters article, so these details come from the OICA summary of it.",
+    "The request follows other European calls to restrict Chinese-made connected cars at sensitive sites. For OEMs and suppliers it adds to the compliance picture around software, over-the-air updates and data location, alongside tariffs and type-approval rules."
+   ],
+   "links": [
+    {
+     "label": "OICA 5 News, 5 Nov",
+     "url": "https://oica.net/oica-5-news-thursday-november-5-2026/"
+    },
+    {
+     "label": "Reuters",
+     "url": "https://www.reuters.com/legal/litigation/eu-lawmakers-push-bloc-assess-security-threat-byd-cars-2026-11-04/"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Anthropic IPO roadshow",
+   "text": "Bloomberg reportedly expects Anthropic to start marketing its offering as soon as the week of 9 November; terms and price range are not yet set.",
+   "link": {
+    "label": "IPOScoop",
+    "url": "https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/"
+   }
+  },
+  {
+   "title": "Polestar's new reporting date",
+   "text": "Polestar has not yet said when it will publish its Q3 results after the postponement.",
+   "link": {
+    "label": "Polestar investor relations",
+    "url": "https://investors.polestar.com/news-releases/news-release-details/polestar-provides-update-q3-2026-reporting-date"
+   }
+  },
+  {
+   "title": "US Congress oversight of tariffs and EV policy",
+   "text": "Automotive News reports that Democratic control of Congress after the midterms will bring more scrutiny of tariffs and fuel-economy and EV rules, though a presidential veto limits big changes.",
+   "link": {
+    "label": "OICA 5 News, 5 Nov",
+    "url": "https://oica.net/oica-5-news-thursday-november-5-2026/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "WinBuzzer – OpenAI hires Anthropic's Cat Wu (5 Nov 2026)",
+   "url": "https://winbuzzer.com/2026/11/05/openai-hires-anthropics-ai-coding-product-leader-cat-wu-xcxwbn"
+  },
+  {
+   "label": "AP via ABC News – Toyota raises profit projection (5 Nov 2026)",
+   "url": "https://abcnews.com/International/wireStory/toyota-raises-profit-projection-year-sales-hold-137868815"
+  },
+  {
+   "label": "Investing.com – Toyota Q2 profit beats estimates (5 Nov 2026)",
+   "url": "https://in.investing.com/news/earnings/toyota-q2-profit-beats-estimates-hikes-guidance-buyback-plans-5681679"
+  },
+  {
+   "label": "Schaeffler – solid nine-months results (3 Nov 2026)",
+   "url": "https://www.tradingview.com/news/eqs:5e6707f78094b:0-schaeffler-with-solid-nine-months-results/"
+  },
+  {
+   "label": "InvestyWise – SKF India board approves brand launch and capacity (3 Nov 2026)",
+   "url": "https://www.investywise.com/skf-india-limited-board-meeting-approves-financials-new-brand-launch/"
+  },
+  {
+   "label": "Privata Affärer – Polestar blir nederländskt (5 Nov 2026)",
+   "url": "https://www.privataaffarer.se/privatekonomi/bilar/polestar-blir-nederlandskt/"
+  },
+  {
+   "label": "Polestar – update on Q3 2026 reporting date",
+   "url": "https://investors.polestar.com/news-releases/news-release-details/polestar-provides-update-q3-2026-reporting-date"
+  },
+  {
+   "label": "Crypto Briefing – Anthropic's FlashProve (Nov 2026)",
+   "url": "https://cryptobriefing.com/anthropic-flashprove-zksnark-ai-inference/"
+  },
+  {
+   "label": "AlphaSignal – FlashProve (Nov 2026)",
+   "url": "https://alphasignal.ai/news/anthropic-s-flashprove-cryptographically-proves-which-ai-model-answered-you"
+  },
+  {
+   "label": "RuntimeWire – DeepSeek super-agent prototype (1 Nov 2026)",
+   "url": "https://runtimewire.com/article/deepseek-super-agent-coding-prototype-claude-code"
+  },
+  {
+   "label": "OICA – 5 News, Thursday 5 November 2026",
+   "url": "https://oica.net/oica-5-news-thursday-november-5-2026/"
+  },
+  {
+   "label": "Reuters – EU lawmakers push to assess BYD security threat (4 Nov 2026)",
+   "url": "https://www.reuters.com/legal/litigation/eu-lawmakers-push-bloc-assess-security-threat-byd-cars-2026-11-04/"
+  },
+  {
+   "label": "IPOScoop – Anthropic files its S-1",
+   "url": "https://www.iposcoop.com/the-ipo-buzz-anthropic-ant-proposed-files-its-s-1/"
+  }
+ ],
+ "note": "All summaries are paraphrased. Toyota's profit-forecast figures differ between outlets. FlashProve and DeepSeek details come from secondary coverage."
+}
