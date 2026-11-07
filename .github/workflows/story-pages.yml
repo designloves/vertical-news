@@ -1,0 +1,64 @@
+name: Build story pages
+
+# Whenever an edition is added or changed, build a shareable page and preview image for every story
+# (s/<date>/<slug>/ and og/<date>/<slug>.png) so links to single stories unfurl with a thumbnail.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "editions/*.json"
+      - "tools/story_pages.py"
+      - ".github/workflows/story-pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: story-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install --quiet pillow
+
+      - name: Cache the fonts
+        uses: actions/cache@v4
+        with:
+          path: fonts
+          key: story-fonts-v1
+
+      - name: Fetch the site's fonts (TrueType) from Google Fonts
+        run: |
+          mkdir -p fonts
+          get() {  # get <file> <css2 family spec>
+            [ -s "fonts/$1" ] && return 0
+            url=$(curl -sSf "https://fonts.googleapis.com/css2?family=$2" | grep -o "https://[^)]*" | head -1) || true
+            [ -n "$url" ] && curl -sSfL -o "fonts/$1" "$url" || echo "could not fetch $1 (a fallback font will be used)"
+          }
+          get UnifrakturMaguntia.ttf "UnifrakturMaguntia"
+          get Newsreader-Bold.ttf "Newsreader:wght@700"
+          get Newsreader-Italic.ttf "Newsreader:ital,wght@1,400"
+          get ArchivoNarrow-SemiBold.ttf "Archivo+Narrow:wght@600"
+          ls -la fonts
+
+      - name: Build pages and images
+        run: python tools/story_pages.py
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A s og
+          if git diff --cached --quiet; then echo "Nothing new"; exit 0; fi
+          git commit -m "Story pages and previews"
+          for i in 1 2 3; do git pull --rebase --quiet origin main && git push && exit 0; sleep 5; done
+          exit 1

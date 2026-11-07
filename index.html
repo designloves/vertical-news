@@ -7,6 +7,12 @@
 <meta name="description" content="A daily brief of AI, bearing and automotive news for people who build digital products and vehicles.">
 <meta property="og:title" content="Vertical News">
 <meta property="og:description" content="A daily brief of AI, bearing and automotive news.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://designloves.github.io/vertical-news/">
+<meta property="og:image" content="https://designloves.github.io/vertical-news/og/site.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#eeeadf" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1f1e1b" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="icons/favicon-32.png?v=3" sizes="32x32" type="image/png">
@@ -161,6 +167,14 @@ details[open] .more .o, details:not([open]) .more .c{display:none}
 .sub-head{margin:0 0 14px;padding-bottom:8px;border-bottom:1px solid var(--rule);font-family:var(--f-serif);font-weight:700;font-size:1.125rem;color:var(--ink)}
 .allsrc summary{padding-block:4px}
 footer .build{opacity:.6;letter-spacing:.04em}
+.share{background:none;border:0;padding:4px 2px 4px 10px;margin:-4px 0;cursor:pointer;font:inherit;color:var(--ink-2);display:inline-flex;align-items:center;gap:4px}
+.share svg{width:15px;height:15px}
+.byline .acts{display:flex;align-items:center;gap:12px;white-space:nowrap}
+.toast{position:fixed;left:50%;bottom:calc(110px + env(safe-area-inset-bottom,0px));transform:translate(-50%,8px);opacity:0;z-index:60;
+  background:var(--ink);color:var(--paper);font:600 14px/1 var(--f-label);padding:11px 16px;border-radius:999px;pointer-events:none;transition:opacity .2s,transform .2s}
+.toast.on{opacity:1;transform:translate(-50%,0)}
+.story.flash summary{animation:flash 1.6s ease-out}
+@keyframes flash{0%,30%{background:var(--paper-2)}100%{background:transparent}}
 footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-align:center}
 </style>
 </head>
@@ -178,7 +192,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
   <main id="edition">
     <div class="empty"><div class="label">Fetching editions</div></div>
   </main>
-  <footer class="label">Vertical News · A new edition every morning<br><span class="build">Version 4 Nov, 22:00</span></footer>
+  <footer class="label">Vertical News · A new edition every morning<br><span class="build">Version 7 Nov, 09:10</span></footer>
 </div>
 
 <script>
@@ -208,8 +222,30 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
     return getJSON("editions/"+id+".json").then(function(x){cache[id]=x||{};return cache[id];});
   }
 
-  function storyEl(s,lead){
-    var li=el("li","story"+(lead?" lead":""));
+  /* ---------- Links to single stories ----------
+     Each story has a share link, s/<date>/<slug>/, a small page the "Build story pages" workflow makes with its
+     own preview image, which forwards to #<date>/<slug> here. slugify() must match tools/story_pages.py. */
+  function slugify(t){
+    t=String(t||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]+/g,"-").replace(/^-+|-+$/g,"");
+    return t.slice(0,60).replace(/-+$/,"")||"story";
+  }
+  function assignSlugs(stories){var seen={};stories.forEach(function(s){var b=slugify(s.headline),n=(seen[b]||0)+1;seen[b]=n;s._slug=n===1?b:b+"-"+n;});}
+  var SITE=new URL("./",location.href.split("#")[0]).href;
+  var toastEl=null,toastT=0;
+  function toast(msg){
+    if(!toastEl){toastEl=el("div","toast");toastEl.setAttribute("role","status");document.body.appendChild(toastEl);}
+    toastEl.textContent=msg;toastEl.classList.add("on");clearTimeout(toastT);toastT=setTimeout(function(){toastEl.classList.remove("on");},1800);
+  }
+  function shareStory(s,date){
+    var url=SITE+"s/"+date+"/"+s._slug+"/";
+    if(navigator.share){navigator.share({title:str(s.headline),text:str(s.why),url:url}).catch(function(){});return;}
+    var done=function(){toast("Link copied");},fail=function(){window.prompt("Copy this link",url);};
+    try{navigator.clipboard.writeText(url).then(done,fail);}catch(_){fail();}
+  }
+  var SHARE_ICON='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+
+  function storyEl(s,lead,date){
+    var li=el("li","story"+(lead?" lead":""));if(s._slug)li.setAttribute("data-slug",s._slug);
     var d=el("details"),sm=el("summary");
     var k=el("div","kick label");
     if(CAT[s.cat])k.appendChild(el("span",null,CAT[s.cat]));
@@ -218,7 +254,10 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
     sm.appendChild(el("h3","hl",str(s.headline)));
     if(str(s.why))sm.appendChild(el("p","why",s.why));
     var by=el("div","byline");by.appendChild(el("span",null,str(s.source)));
-    var more=el("span","more");more.appendChild(el("span","o","Read ▾"));more.appendChild(el("span","c","Close ▴"));by.appendChild(more);
+    var acts=el("span","acts");
+    if(s._slug&&date){var sh=el("button","share");sh.type="button";sh.innerHTML=SHARE_ICON+"<span>Share</span>";sh.setAttribute("aria-label","Share this story");
+      sh.addEventListener("click",function(e){e.preventDefault();e.stopPropagation();shareStory(s,date);});acts.appendChild(sh);}
+    var more=el("span","more");more.appendChild(el("span","o","Read ▾"));more.appendChild(el("span","c","Close ▴"));acts.appendChild(more);by.appendChild(acts);
     sm.appendChild(by);d.appendChild(sm);
     var b=el("div","body");
     arr(s.body).forEach(function(p){if(str(p))b.appendChild(el("p",null,p));});
@@ -230,6 +269,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
   function build(id,x,at){
     var wrap=el("div","edition");
     var stories=arr(x.stories).filter(function(s){return s&&typeof s==="object";});
+    assignSlugs(stories);
     stories.sort(function(a,b){return (b.top?1:0)-(a.top?1:0);});
     // The written summary is not shown; it is what the Listen button reads (see script()).
     var tops=stories.filter(function(s){return s.top;}),rest=stories.filter(function(s){return !s.top;});
@@ -248,7 +288,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
     }
     if(tops.length){
       var ts=el("section"),th=secHead("Top stories",tops.length+(tops.length===1?" story":" stories"));
-      var tol=el("ol","stories");tops.forEach(function(s){tol.appendChild(storyEl(s,true));});
+      var tol=el("ol","stories");tops.forEach(function(s){tol.appendChild(storyEl(s,true,id));});
       ts.appendChild(th);ts.appendChild(tol);wrap.appendChild(ts);foldable(th,tol,true);
     }
     // All news: the remaining stories plus Worth watching, folded away behind the section head.
@@ -258,7 +298,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
       var meta=rest.length?rest.length+(rest.length===1?" story":" stories"):"";
       var hd=secHead("All news",meta);as.appendChild(hd);
       var body=el("div","sec-body");
-      if(rest.length){var aol=el("ol","stories");rest.forEach(function(s){aol.appendChild(storyEl(s,false));});body.appendChild(aol);}
+      if(rest.length){var aol=el("ol","stories");rest.forEach(function(s){aol.appendChild(storyEl(s,false,id));});body.appendChild(aol);}
       if(w.length){var ws=el("div");ws.appendChild(el("h3","sub-head","Worth watching"));var ul=el("ul","watch");
         w.forEach(function(it){var li=el("li");if(str(it.title)){li.appendChild(el("strong",null,it.title+"."));li.appendChild(document.createTextNode(" "));}
           li.appendChild(document.createTextNode(str(it.text)+" "));var a=link(it.link);if(a)li.appendChild(a);ul.appendChild(li);});
@@ -496,9 +536,23 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
     if(dates[idx-1])loadEdition(dates[idx-1]).catch(function(){});
     if(dates[idx+1])loadEdition(dates[idx+1]).catch(function(){});
   }
-  function showNow(i){
+  // Open one story: unfold its section if needed, open it, and bring it just below the pinned masthead.
+  function focusStory(slug){
+    var li=main.querySelector('.story[data-slug="'+(window.CSS&&CSS.escape?CSS.escape(slug):slug)+'"]');if(!li)return;
+    var sec=li.closest("section");
+    if(li.closest("[hidden]")&&sec){var h=sec.querySelector(".sec-head");if(h)h.click();}
+    var d=li.querySelector("details");if(d)d.open=true;
+    requestAnimationFrame(function(){
+      var mh=document.querySelector(".masthead"),off=(mh?mh.getBoundingClientRect().height:0)+56;
+      window.scrollTo(0,Math.max(0,li.getBoundingClientRect().top+window.scrollY-off));
+      li.classList.remove("flash");void li.offsetWidth;li.classList.add("flash");
+    });
+  }
+  function parseHash(){var m=/^#?(\d{4}-\d{2}-\d{2})(?:\/([a-z0-9-]+))?$/.exec(location.hash||"");return m?{date:m[1],slug:m[2]||""}:null;}
+  function showNow(i,slug){
     var id=dates[i];busy=true;
-    loadEdition(id).then(function(x){releasePlayer();mount(i,build(id,x,i),x);window.scrollTo(0,0);busy=false;settled();})
+    loadEdition(id).then(function(x){releasePlayer();mount(i,build(id,x,i),x);window.scrollTo(0,0);busy=false;settled();
+      if(slug)setTimeout(function(){focusStory(slug);},60);})
     .catch(function(){busy=false;idx=i;when.textContent=longDate(id);
       olderBtn.disabled=i<=0;newerBtn.disabled=i>=dates.length-1;
       showState("Edition unavailable","This edition could not be loaded. Reload the page to try again.");});
@@ -772,7 +826,8 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
   olderBtn.addEventListener("click",function(){go(-1);});
   newerBtn.addEventListener("click",function(){go(1);});
   document.addEventListener("keydown",function(e){if(e.target&&/INPUT|TEXTAREA/.test(e.target.tagName))return;if(e.key==="ArrowLeft")go(-1);if(e.key==="ArrowRight")go(1);});
-  window.addEventListener("hashchange",function(){var h=dates.indexOf(location.hash.slice(1));if(h>=0&&h!==idx)goTo(h);});
+  window.addEventListener("hashchange",function(){var t=parseHash();if(!t)return;var h=dates.indexOf(t.date);if(h<0)return;
+    if(t.slug){if(h===idx)focusStory(t.slug);else showNow(h,t.slug);}else if(h!==idx)goTo(h);});
 
   /* Finger-driven turn: once a swipe is clearly sideways the sheet follows the finger;
      letting go past about a third of the screen (or with a quick flick) completes the turn, otherwise it falls back.
@@ -815,8 +870,8 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
     var seen={};
     dates=arr(ix&&ix.editions).filter(function(d){if(typeof d!=="string"||!DATE_RE.test(d)||seen[d])return false;seen[d]=1;return true;}).sort();
     if(!dates.length){showState("No editions yet","The first edition arrives with the next morning run.");return;}
-    var h=dates.indexOf((location.hash||"").slice(1));
-    showNow(h>=0?h:dates.length-1);
+    var t=parseHash(),h=t?dates.indexOf(t.date):-1;
+    showNow(h>=0?h:dates.length-1,h>=0&&t?t.slug:"");
   }).catch(function(){
     showState("Editions unavailable","The editions could not be loaded right now. Reload the page to try again.");
   });
