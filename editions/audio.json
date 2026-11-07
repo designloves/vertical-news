@@ -100,5 +100,11 @@
     "sha": "79e821591bdc",
     "duration": 151.1,
     "voice": "bf_emma"
+  },
+  "2026-11-07": {
+    "file": "2026-11-07.mp3",
+    "sha": "26b9eb1e9523",
+    "duration": 134.5,
+    "voice": "bf_emma"
   }
 }
