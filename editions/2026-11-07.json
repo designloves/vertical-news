@@ -1,0 +1,207 @@
+{
+ "date": "2026-11-07",
+ "weekday": "Saturday",
+ "covers": "Fri 6 – Sat 7 Nov",
+ "glance": "OpenAI released GPT-6 Cyber, a security-tuned model it rates at its highest cyber risk tier and offers only to vetted customers. In automotive, Stellantis plans a broad shift to cheaper LFP batteries in Europe from 2027, Continental raised its outlook, and EV registrations hit records in Germany and the UK. Bearings news was thin, with NRB Bearings reporting strong growth in India.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "5 Nov",
+   "headline": "OpenAI releases GPT-6 Cyber, rated 'Critical' and limited to vetted security teams",
+   "why": "A frontier lab is shipping a model it considers too risky for general release, a pattern that will shape how powerful AI is gated and regulated.",
+   "source": "The Register · CyberScoop",
+   "body": [
+    "OpenAI released GPT-6 Cyber on 5 November. It is a version of its GPT-6 Astra model tuned for authorised vulnerability research. Access is through the API and Codex, initially for a select group of approved customers in its Daybreak Red programme, with wider access to all members promised over the coming weeks. OpenAI rates the model 'Critical', the top cyber tier in its Preparedness Framework.",
+    "OpenAI reports that GPT-6 Cyber exploited 48.5% of vulnerabilities on its ExploitGym evaluation, against 32.1% for GPT-5.6 Cyber. Researchers used it to find 81 previously unknown high-severity flaws in Firefox, which Mozilla has begun fixing, and to help build working exploits for 948 Linux kernel bugs, 588 of them new. OpenAI says the model stayed within its authorised scope in over 99% of tests, but would not detail the cases where it did not. These are vendor figures.",
+    "For product and engineering teams, the practical point is that AI-found vulnerabilities will arrive faster, so patch processes and software supply-chain checks matter more. For automotive software, where over-the-air updates and regulated cybersecurity processes apply, expect more pressure to shorten the time from finding a flaw to shipping a fix."
+   ],
+   "links": [
+    {
+     "label": "The Register",
+     "url": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855"
+    },
+    {
+     "label": "CyberScoop",
+     "url": "https://cyberscoop.com/openai-gpt-6-cyber-security-model"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "Q3 results",
+   "headline": "Stellantis to move 'many' European EVs to cheaper LFP batteries from 2027",
+   "why": "A big volume maker choosing LFP chemistry changes cost, supply-chain and validation assumptions for battery and drivetrain suppliers.",
+   "source": "Automotive Logistics · Stellantis Q3 call",
+   "body": [
+    "Stellantis CEO Antonio Filosa said on the Q3 2026 results call that from 2027 many European nameplates will switch from nickel-manganese-cobalt (NMC) cells to lithium iron phosphate (LFP). He did not name the models or put a figure on the savings, calling them substantial. Both chemistries will continue for now, with more emphasis on LFP.",
+    "The switch lines up with the STLA One platform, due in 2027, which consolidates five platforms and targets 20% cost efficiency. Stellantis' joint venture with CATL in Zaragoza, Spain, is building a €4.1 billion LFP plant with planned capacity of up to 50 GWh, but local cell output is reported as likely to begin only in 2027 or later, so early cars will not use it. Stellantis also reported European battery-electric sales up 65% year on year in Q3 and an adjusted operating loss of €311 million in Enlarged Europe.",
+    "LFP cells have lower energy density but avoid cobalt, whose price rose sharply after Congolese export limits. For engineers, a larger LFP share means different pack designs, thermal behaviour and ageing models, and more simulation and test work on small and mid-size EVs."
+   ],
+   "links": [
+    {
+     "label": "Automotive Logistics",
+     "url": "https://www.automotivelogistics.media/ev-and-battery/stellantis-to-switch-many-nameplates-to-lfp-batteries-to-reduce-costs-in-europe/2761370"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "4 Nov",
+   "headline": "Continental raises 2026 outlook as margin climbs to 14.9% on lower sales",
+   "why": "A major European supplier is improving profit through mix and cost control even as volumes stay weak, a template other suppliers are measured against.",
+   "source": "Investing.com",
+   "body": [
+    "Continental reported third-quarter sales from continuing operations of €3,454 million, down from €3,898 million a year earlier. Organic sales fell 1.5% once the prior-year OESL business is excluded. Adjusted EBIT rose to €514 million from €482 million, lifting the margin to 14.9% from 13.9%.",
+    "By region, EMEA grew 2.2% organically with an 18.7% margin, while the Americas fell 7.4% organically with an 8.7% margin. The company narrowed its full-year sales range to €13.5–13.9 billion and raised its adjusted EBIT margin guidance to 13.4–14.0%, from 12.0–13.5%. Free cash flow guidance is now €1.0–1.3 billion. The ContiTech sale is expected to close around year-end, subject to approvals.",
+    "The result shows that suppliers with a premium mix can protect margin while volumes are flat. Contrast it with Schaeffler's restructuring announced this week: the supply base is splitting between companies adjusting from strength and those cutting capacity."
+   ],
+   "links": [
+    {
+     "label": "Investing.com",
+     "url": "https://investing.com/news/company-news/continental-q3-2026-slides-margins-expand-on-premium-mix-despite-weak-volumes-93CH-4999097"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "5–6 Nov",
+   "headline": "Electric cars set records in Germany and the UK in October",
+   "why": "Demand data shows how much EV growth still depends on incentives and discounts, which affects supplier volume planning.",
+   "source": "electrive · Automobilwoche (via OICA)",
+   "body": [
+    "In the UK, 48,858 new battery-electric cars were registered in October, up 32.7% and a 32% market share, the highest monthly share this year. Total registrations rose 5.4% to 152,730, the eleventh straight monthly rise. Plug-in hybrids grew 30.1% to a 15% share. Battery-electric vans rose 58% but have a year-to-date share of 11%, far below the 24% target.",
+    "In Germany, according to a summary of Automobilwoche's report, October registrations rose 1.7% while battery-electric sales jumped 79.5% to nearly 40% share. Chinese brands grew strongly, but incentives and high fuel prices drove much of the gain, and demand could weaken if subsidies end.",
+    "The UK industry body SMMT says demand is not keeping pace with the zero-emission vehicle mandate, which requires a 33% battery-electric share in 2026, and wants more flexibility. It forecasts 27.2% for 2026. For OEMs and suppliers, strong volumes are being bought with discounts, so margin pressure and mandate flexibility remain the main uncertainties."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/05/uk-bev-registrations-reach-annual-high-with-32-per-cent-market-share/"
+    },
+    {
+     "label": "Automobilwoche",
+     "url": "https://www.automobilwoche.de/automarktdaten/amw-elektro-autos-erreichen-den-naechsten-rekordanteil/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "5–6 Nov",
+   "headline": "Stellantis tells suppliers to map their supply chains down to the part",
+   "why": "Part-level traceability demands will cascade to tier-2 and tier-3 suppliers, including component makers such as bearing producers.",
+   "source": "Automotive News (via OICA)",
+   "body": [
+    "Stellantis will require suppliers to map their extended supply chains down to individual parts, according to Automotive News as summarised by OICA. It will start with semiconductors and other components judged high-risk. The aim is to spot weak points earlier, after years of shortages and disruptions.",
+    "Suppliers have raised concerns about the cost of building and maintaining such maps, the confidentiality of their own sub-suppliers, and legal exposure if the data is shared. The full article is behind a paywall, so details on deadlines and scope are not confirmed here.",
+    "If the policy spreads to other OEMs, expect more requests for sub-tier data from all component makers. Teams in sourcing and engineering may need tooling that links part numbers, materials and plants, and may face the same questions on steel, rare materials and electronics."
+   ],
+   "links": [
+    {
+     "label": "Automotive News",
+     "url": "https://www.autonews.com/stellantis/an-stellantis-supplier-resilience-policy-1105/"
+    },
+    {
+     "label": "OICA 5 News, 6 Nov",
+     "url": "https://oica.net/oica-5-news-friday-november-6-2026"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": false,
+   "date": "4 Nov",
+   "headline": "NRB Bearings posts about 19% revenue growth in Q2 of India's fiscal 2027",
+   "why": "A mid-sized Indian bearing maker growing fast signals strong industrial and automotive demand in the region, with margins improving.",
+   "source": "EquityBulls",
+   "body": [
+    "NRB Bearings reported results for the quarter ended 30 September 2026. Consolidated revenue from operations rose about 19% year on year to ₹756 crore, though the management quote in the report cites 18.8%. Normalised EBITDA grew 23.5%.",
+    "The report puts EBITDA at 18.6% of sales for the first half of the year. It gives no profit figure for the quarter. A separate headline says the company announced a joint venture with Italian industrial bearing maker Unitec, but the sources reviewed give no terms, so details are unconfirmed.",
+    "For bearing and drivetrain engineers, the figures are a regional demand signal rather than a technology story. Indian production of automotive and industrial components continues to expand, and suppliers there are adding partnerships with European specialists."
+   ],
+   "links": [
+    {
+     "label": "EquityBulls",
+     "url": "https://equitybulls.com/news/378553/nrb-bearings-powers-ahead-in-q2fy27"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "China's draft AI export controls",
+   "text": "China's draft rules on exporting frontier AI models, weights and training data are open for comment until 15 November; coverage is mostly secondary and the official text is unchecked.",
+   "link": {
+    "label": "ChinaTalk",
+    "url": "https://chinatalk.media/p/mofcoms-new-ai-rules"
+   }
+  },
+  {
+   "title": "JLR steering-knuckle scrutiny",
+   "text": "The FT reports that US regulators are examining whether recalls of Range Rover steering knuckles were adequate, with nearly one million vehicles possibly affected worldwide (via OICA summary).",
+   "link": {
+    "label": "OICA 5 News",
+    "url": "https://oica.net/oica-5-news-friday-november-6-2026"
+   }
+  },
+  {
+   "title": "Volkswagen wage talks",
+   "text": "VW and IG Metall start collective bargaining on labour costs on 24 November at Emden.",
+   "link": {
+    "label": "OICA 5 News, 5 Nov",
+    "url": "https://oica.net/oica-5-news-thursday-november-5-2026"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "The Register – OpenAI releases GPT-6 Cyber (5 Nov 2026)",
+   "url": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855"
+  },
+  {
+   "label": "CyberScoop – OpenAI debuts GPT-6 Cyber",
+   "url": "https://cyberscoop.com/openai-gpt-6-cyber-security-model"
+  },
+  {
+   "label": "Automotive Logistics – Stellantis to switch 'many' nameplates to LFP",
+   "url": "https://www.automotivelogistics.media/ev-and-battery/stellantis-to-switch-many-nameplates-to-lfp-batteries-to-reduce-costs-in-europe/2761370"
+  },
+  {
+   "label": "Investing.com – Continental Q3 2026 (4 Nov 2026)",
+   "url": "https://investing.com/news/company-news/continental-q3-2026-slides-margins-expand-on-premium-mix-despite-weak-volumes-93CH-4999097"
+  },
+  {
+   "label": "electrive – UK BEV registrations reach annual high (5 Nov 2026)",
+   "url": "https://www.electrive.com/2026/11/05/uk-bev-registrations-reach-annual-high-with-32-per-cent-market-share/"
+  },
+  {
+   "label": "Automobilwoche – Elektro-Autos erreichen den nächsten Rekordanteil",
+   "url": "https://www.automobilwoche.de/automarktdaten/amw-elektro-autos-erreichen-den-naechsten-rekordanteil/"
+  },
+  {
+   "label": "Automotive News – Stellantis supplier resilience policy",
+   "url": "https://www.autonews.com/stellantis/an-stellantis-supplier-resilience-policy-1105/"
+  },
+  {
+   "label": "OICA – 5 News, Friday 6 November 2026",
+   "url": "https://oica.net/oica-5-news-friday-november-6-2026"
+  },
+  {
+   "label": "OICA – 5 News, Thursday 5 November 2026",
+   "url": "https://oica.net/oica-5-news-thursday-november-5-2026"
+  },
+  {
+   "label": "EquityBulls – NRB Bearings Q2FY27 (4 Nov 2026)",
+   "url": "https://equitybulls.com/news/378553/nrb-bearings-powers-ahead-in-q2fy27"
+  },
+  {
+   "label": "ChinaTalk – MOFCOM's new AI rules",
+   "url": "https://chinatalk.media/p/mofcoms-new-ai-rules"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark figures are vendor-reported. Some items are summarised from secondary reports where the original is paywalled."
+}
