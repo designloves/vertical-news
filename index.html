@@ -192,7 +192,7 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
   <main id="edition">
     <div class="empty"><div class="label">Fetching editions</div></div>
   </main>
-  <footer class="label">Vertical News · A new edition every morning<br><span class="build">Version 7 Nov, 09:10</span></footer>
+  <footer class="label">Vertical News · A new edition every morning<br><span class="build">Version 7 Nov, 09:25</span></footer>
 </div>
 
 <script>
@@ -423,24 +423,36 @@ footer{margin-top:40px;padding-top:10px;border-top:1px solid var(--rule);text-al
   function ensureAudio(){
     if(aud)return aud;
     aud=new Audio();aud.preload="none";
-    aud.addEventListener("play",function(){P.mode="audio";P.state="playing";updateUI();msState("playing");});
+    // Play once: after the end, nothing may restart it except a press of play (the page's button, the lock
+    // screen or headphones). iOS can otherwise resume a just-ended track, so any other start is paused at once.
+    aud.loop=false;
+    aud.addEventListener("play",function(){
+      if(P.ended&&!P.wantPlay){aud.pause();return;}
+      P.ended=false;P.wantPlay=false;P.mode="audio";P.state="playing";updateUI();msState("playing");
+    });
     aud.addEventListener("pause",function(){if(P.mode!=="audio")return;P.state="idle";updateUI();msState("paused");});
-    aud.addEventListener("ended",function(){P.state="idle";try{aud.currentTime=0;}catch(_){}updateUI();msState("none");});
+    aud.addEventListener("ended",function(){P.ended=true;P.wantPlay=false;P.state="idle";updateUI();msState("paused");});
     aud.addEventListener("timeupdate",msPos);aud.addEventListener("loadedmetadata",msPos);
     if(MS){
-      var h={play:function(){aud.play().catch(function(){});},pause:function(){aud.pause();},stop:function(){stopAudio();},
+      var h={play:function(){userPlay();},pause:function(){aud.pause();},stop:function(){stopAudio();},
         seekbackward:function(d){skipAudio(-((d&&d.seekOffset)||5));},seekforward:function(d){skipAudio((d&&d.seekOffset)||5);},
         seekto:function(d){if(d&&typeof d.seekTime==="number"){aud.currentTime=d.seekTime;msPos();}}};
       Object.keys(h).forEach(function(k){try{MS.setActionHandler(k,h[k]);}catch(_){}});
     }
     return aud;
   }
+  // A deliberate play: start from the top if the recording had finished.
+  function userPlay(){
+    if(!aud)return;P.wantPlay=true;
+    if(P.ended||aud.ended){try{aud.currentTime=0;}catch(_){}}
+    aud.play().catch(function(){P.wantPlay=false;P.state="idle";updateUI();});
+  }
   function playAudio(){
     var d=dates[idx],a=AUDIO[d];if(!a)return;ensureAudio();
     if(aud.getAttribute("data-d")!==d){aud.src="editions/"+a.file+"?v="+encodeURIComponent(a.sha||"");aud.setAttribute("data-d",d);}
     if(MS&&window.MediaMetadata)try{MS.metadata=new MediaMetadata({title:"Vertical News, "+longDate(d),artist:"Vertical News",album:"Morning brief",
       artwork:[{src:"icons/icon-512.png?v=3",sizes:"512x512",type:"image/png"},{src:"icons/icon-192.png?v=3",sizes:"192x192",type:"image/png"}]});}catch(_){}
-    P.mode="audio";aud.play().catch(function(){P.state="idle";updateUI();});
+    P.mode="audio";userPlay();
   }
   function stopAudio(){if(!aud)return;aud.pause();try{aud.currentTime=0;}catch(_){}P.state="idle";updateUI();msState("none");}
   function skipAudio(sec){if(!aud)return;var end=isFinite(aud.duration)?aud.duration-0.2:1e9;aud.currentTime=Math.max(0,Math.min(end,aud.currentTime+sec));msPos();}
