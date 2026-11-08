@@ -1,0 +1,225 @@
+{
+ "date": "2026-11-08",
+ "weekday": "Sunday",
+ "covers": "Fri 6 – Sun 8 Nov",
+ "glance": "A quiet weekend, led by a security finding: Apiiro says Claude Code's 'don't ask again' setting has left thousands of secrets in public repositories. Microchip's warning that AI demand is stretching chip lead times to 32 weeks is one to watch for automotive and industrial electronics. Elsewhere, OpenAI and Meta both face growing pushback, from US communities and European regulators respectively.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "7 Nov",
+   "headline": "Claude Code's 'don't ask again' option is leaking passwords into public GitHub repos",
+   "why": "If your team uses AI coding agents, a settings file you never look at may be publishing your credentials.",
+   "source": "The Hacker News · Apiiro",
+   "body": [
+    "Security firm Apiiro reports that when a Claude Code user approves a shell command with 'Yes, and don't ask again', the tool saves an allow rule in .claude/settings.local.json. If the approved command contained a password or token, it is stored in plain text. The tool excludes the file from git globally on the user's machine, but not in the project's own .gitignore, so it often gets committed.",
+    "Apiiro found 1,122 of about 104,000 public copies of the file (roughly 1.1%) held at least one secret, 1,379 in all, including 379 database passwords and 23 AWS keys. Counting other agent files and chat logs, the total reaches 2,539 secrets in 1,994 repositories. Popular scanners missed many of them, because the passwords sit inside commands. The Hacker News says earlier reports to Anthropic were closed automatically and it reported no reply from the company.",
+    "For product and engineering teams the advice is practical: rotate any exposed credentials first, untrack the file, approve command patterns rather than exact commands, and treat agent folders like .env files in pre-commit and CI scanning."
+   ],
+   "links": [
+    {
+     "label": "The Hacker News",
+     "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": true,
+   "date": "5–7 Nov",
+   "headline": "Microchip says AI buyers 'took over the whole factory', stretching chip lead times to 32 weeks",
+   "why": "AI demand is squeezing mature-node chips and test capacity, which can hit anyone who builds electronics into vehicles and machines.",
+   "source": "247Wall St · Microchip",
+   "body": [
+    "Microchip reported September-quarter sales of $1.622 billion, up 42% on a year earlier, and guided December sales to $1.573–1.638 billion. Data-center revenue passed $250 million, up almost 56%. But CEO Steve Sanghi said AI customers had crowded out others: standard lead times have grown from four to eight weeks to six to 32 weeks, because data-center buyers have taken up packaging and test capacity at outside houses.",
+    "Microchip says moving that work in-house or to other suppliers takes about six months, and it expects foundries and assembly houses to raise prices around January. The shares fell 10% on 6 November. The report does not name automotive customers.",
+    "Our reading, not Microchip's: microcontrollers and analog parts of this kind are common in vehicles, test rigs and industrial equipment, so longer lead times and price rises could reach automotive and industrial buyers in 2027 planning."
+   ],
+   "links": [
+    {
+     "label": "247Wall St",
+     "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "5–6 Nov",
+   "headline": "OpenAI publishes a 'community compact' for its data-center builds as local pushback grows",
+   "why": "The politics of AI compute are shifting after the US midterms, and that can affect cost and availability of AI services.",
+   "source": "The National · OpenAI",
+   "body": [
+    "On 5 November OpenAI announced a National Community Compact for its AI infrastructure. It promises to pay for the energy its own sites use, protect local resources, warn communities about impacts, publish local job-creation reports and avoid non-disclosure agreements with public officials, with narrow exceptions for security and trade secrets. The document avoids the words 'data centers' and speaks of 'compute campuses'.",
+    "The timing follows US elections in which Democrats won control of Congress. The National reports at least 40 local laws passed to curb or scrutinise data-center construction, and tech and chip stocks fell sharply after the vote. Senator Bernie Sanders has called for a national moratorium.",
+    "For readers building on AI services, the point is indirect but real: if local limits slow capacity growth, prices and rate limits for AI tools could be affected, and similar debates over energy and water are already visible in Europe."
+   ],
+   "links": [
+    {
+     "label": "The National",
+     "url": "https://www.thenationalnews.com/future/technology/2026/11/06/moratorium-on-data-centers-openai-compact/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "6 Nov",
+   "headline": "Anthropic describes a four-layer memory design for AI agents, including offline 'dreaming'",
+   "why": "Product teams designing agent features get concrete evidence on what makes long-running AI memory work.",
+   "source": "Anthropic Engineering",
+   "body": [
+    "Anthropic's engineering team published a write-up on how agents keep memory between sessions. It describes four layers: searchable transcripts, memory notes, structured representations such as wikis, and a small block of context injected into every session. 'Dreaming' is an offline step that reviews transcripts and notes, fixes mistakes and promotes key facts upward.",
+    "The numbers are vendor-reported. On a database task, Opus 5.5's mean score rose from 0.655 to 0.838 with memory. In one test over about 350,000 files, a wiki built through repeated dreaming lifted wiki-only accuracy from 13% to 48%. Giving each contract its own page raised retained facts from 72% to 100%. A wiki that grew to 1.77 times the size of its source brought little benefit.",
+    "The practical lessons: keep the always-loaded layer small, let the model judge what is worth saving, and plan a maintenance pass so stale notes do not mislead the agent."
+   ],
+   "links": [
+    {
+     "label": "Anthropic Engineering",
+     "url": "https://www.anthropic.com/research/components-of-agent-memory"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "5–6 Nov",
+   "headline": "Meta pauses its plan to scrape sites of business-account holders after a European backlash",
+   "why": "A live test of how far AI companies can go in using web content, with UK and EU-adjacent regulators involved.",
+   "source": "Nieman Lab",
+   "body": [
+    "Meta has paused, with no new date, proposed commercial terms that would let it scrape websites of Meta Business account holders, including news publishers. The terms had already slipped from 30 October to 20 November. After criticism Meta removed the word 'train' and limited use to advertising and business products, but the pushback continued.",
+    "Nieman Lab reports that courts in Norway and Brazil issued preliminary injunctions after suits by media groups, and the UK Competition and Markets Authority opened a formal investigation into possible abuse of dominance. UK and German politicians and US senators from both parties also objected. Existing terms stay in force.",
+    "For anyone publishing content or running a site that uses Meta's business tools, it is worth checking what the current terms allow, since the pause is not a withdrawal."
+   ],
+   "links": [
+    {
+     "label": "Nieman Lab",
+     "url": "https://www.niemanlab.org/2026/11/meta-pulls-down-controversial-terms-of-service/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "6 Nov",
+   "headline": "Google DeepMind says AI agents found weaknesses in 1024-bit RSA signatures and batch factoring",
+   "why": "A reminder to retire legacy keys, and an example of AI speeding up security research.",
+   "source": "Crypto Briefing · Google DeepMind",
+   "body": [
+    "Google DeepMind reported that its models, working under human direction, found two weaknesses in legacy 1024-bit RSA: a flaw that makes digital signatures easier to forge, and a new algorithm that makes batch factoring of related keys cheaper. The work was led by DeepMind researchers with outside cryptographers Nadia Heninger and Emmanuel Thomé.",
+    "The coverage gives no precise figures, saying only that attacks may need far less computing effort than assumed. Keys of 2048 bits or more are not affected by this specific result.",
+    "The practical task for engineering teams, including automotive and industrial firms with long-lived embedded devices, is to find any remaining 1024-bit keys in certificates, firmware signing or older hardware and plan their replacement."
+   ],
+   "links": [
+    {
+     "label": "Crypto Briefing",
+     "url": "https://cryptobriefing.com/google-deepmind-ai-rsa-1024-bit-weaknesses/"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "5–6 Nov",
+   "headline": "Ai2 releases ToyBlocks, a free virtual robot lab, and warns that more simulated data is not enough",
+   "why": "Useful evidence on the limits of simulation-trained AI, a question that also matters for virtual validation.",
+   "source": "Seattle Times · Spokesman-Review",
+   "body": [
+    "The Allen Institute for AI released ToyBlocks on 5 November. It is a free, public simulation of the institute's own table, blocks and robot arm, where software generates thousands of practice runs before skills are tried on the real arm. Because anyone can use the same setup, it also works as a shared benchmark.",
+    "In a test, researchers trained a robot model from Physical Intelligence on 1,000 simulated examples of stacking one block on another. It nearly always succeeded on the same patch of table but mostly failed elsewhere. Ai2's Dieter Fox argues that the kind of variety in the data matters more than the amount. The article gives no figures for transfer to the real arm.",
+    "The lesson carries over to virtual testing in vehicle development: a simulated campaign is only as good as the spread of conditions it covers, so test diversity should be designed and measured rather than assumed."
+   ],
+   "links": [
+    {
+     "label": "Spokesman-Review",
+     "url": "https://www.spokesman.com/stories/2026/nov/06/why-a-seattle-ai-lab-is-making-robots-play-with-to/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "5–6 Nov",
+   "headline": "ZF shows a 30,000 rpm e-drive that uses half the magnet material",
+   "why": "Higher-speed motors cut rare-earth dependence but put new demands on gears, bearings and noise control.",
+   "source": "Automotive World · ZF",
+   "body": [
+    "ZF introduced the High Revolution Drive, a compact 3-in-1 electric drive (motor, power electronics, gearbox). The motor spins up to 30,000 rpm, against 18,000 rpm for a comparable ZF drive. ZF says that makes the unit almost 25% smaller and lighter and halves the magnet mass, lowering cost and reliance on scarce materials, while efficiency stays near 93%.",
+    "A two-stage spur gearbox of roughly 18:1 restores wheel torque. The version shown peaks at 200 kW and 3,500 Nm, the family covers about 150–200 kW on 400 V and 800 V systems, and it is aimed at high-volume passenger cars. ZF targets production by 2030 and says several carmakers are in talks. Figures come from ZF.",
+    "ZF says it designed motor, gears, bearings and tooth geometry together to control noise and vibration, though it gives no bearing specifications. For bearing and drivetrain engineers, speeds this high raise questions on lubrication, cage design, heat and NVH that suppliers will need to answer."
+   ],
+   "links": [
+    {
+     "label": "Automotive World",
+     "url": "https://www.automotiveworld.com/news/zf-high-revolution-drive-halves-electric-motor-magnet-use/"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "AI chip squeeze and 2027 pricing",
+   "text": "Microchip expects foundries and assembly houses to raise prices around January; watch for automotive suppliers commenting on lead times.",
+   "link": {
+    "label": "247Wall St",
+    "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/"
+   }
+  },
+  {
+   "title": "Meta scraping terms",
+   "text": "The terms are paused indefinitely while the UK CMA investigation and the Norwegian and Brazilian injunctions continue.",
+   "link": {
+    "label": "Nieman Lab",
+    "url": "https://www.niemanlab.org/2026/11/meta-pulls-down-controversial-terms-of-service/"
+   }
+  },
+  {
+   "title": "Data-center limits in the US",
+   "text": "Local construction curbs and a possible national moratorium could shape AI capacity and pricing.",
+   "link": {
+    "label": "The National",
+    "url": "https://www.thenationalnews.com/future/technology/2026/11/06/moratorium-on-data-centers-openai-compact/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "The Hacker News – Claude Code's 'Don't Ask Again' file leaks secrets (7 Nov 2026)",
+   "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html"
+  },
+  {
+   "label": "247Wall St – The chip shortage is back (7 Nov 2026)",
+   "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/"
+  },
+  {
+   "label": "The National – OpenAI data centre compact (6 Nov 2026)",
+   "url": "https://www.thenationalnews.com/future/technology/2026/11/06/moratorium-on-data-centers-openai-compact/"
+  },
+  {
+   "label": "Anthropic Engineering – Components of agent memory (6 Nov 2026)",
+   "url": "https://www.anthropic.com/research/components-of-agent-memory"
+  },
+  {
+   "label": "Nieman Lab – Meta pulls down controversial terms (5 Nov 2026)",
+   "url": "https://www.niemanlab.org/2026/11/meta-pulls-down-controversial-terms-of-service/"
+  },
+  {
+   "label": "Crypto Briefing – DeepMind RSA-1024 weaknesses (6 Nov 2026)",
+   "url": "https://cryptobriefing.com/google-deepmind-ai-rsa-1024-bit-weaknesses/"
+  },
+  {
+   "label": "Spokesman-Review – Ai2 ToyBlocks (6 Nov 2026)",
+   "url": "https://www.spokesman.com/stories/2026/nov/06/why-a-seattle-ai-lab-is-making-robots-play-with-to/"
+  },
+  {
+   "label": "Automotive World – ZF High Revolution Drive (5 Nov 2026)",
+   "url": "https://www.automotiveworld.com/news/zf-high-revolution-drive-halves-electric-motor-magnet-use/"
+  },
+  {
+   "label": "AI Weekly – daily digest used to find leads (8 Nov 2026)",
+   "url": "https://aiweekly.co/ai-news-today"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark and product figures are vendor-reported."
+}
