@@ -1,0 +1,276 @@
+{
+ "date": "2026-11-09",
+ "weekday": "Monday",
+ "covers": "Fri 6 – Mon 9 Nov",
+ "glance": "The EU Parliament's environment committee voted to soften the 2035 car CO2 target, and Schaeffler announced 3,460 job cuts and five European plant closures. In AI, OpenAI described a $1.2 million automated Linux exploit campaign and reportedly raised $11 billion at a $1.25 trillion valuation, while METR put a number on AI-accelerated AI research. A few items date from 4–5 November and had not been covered before.",
+ "stories": [
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "4–5 Nov",
+   "headline": "European Parliament's environment committee votes to soften the 2035 car CO2 target",
+   "why": "If the compromise survives, combustion and hybrid cars stay on sale in the EU after 2035, which reshapes powertrain and bearing demand planning.",
+   "source": "electrive · Eunews",
+   "body": [
+    "On 4 November the Parliament's Environment Committee backed a compromise between the centre-right, centre-left and liberal groups on the EU's car CO2 rules. The vote was 48 in favour, 30 against and 2 abstentions. It eases the Commission's plan to end new combustion-engine sales in 2035.",
+    "The required fleet cut in 2035 would be 95% against 2021, but makers could earn up to 7.5 points back by using low-carbon EU-made steel, so the effective figure could fall to 87.5% (the two outlets frame this slightly differently). Vans would face 35% in 2030 and 80% in 2035. Vehicles running only on eligible renewable fuels could count as zero-emission, and small EU-built electric cars would earn extra credits. The rapporteur said combustion cars could still be registered without offsetting.",
+    "The full Parliament is expected to vote in December, and member states must then agree, so the text can still change. For OEMs and suppliers, a longer tail for hybrids and combustion engines keeps demand for conventional drivetrain components alive, while the steel credit and small-EV bonuses could favour European supply chains."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"
+    },
+    {
+     "label": "Eunews",
+     "url": "https://www.eunews.it/en/2026/11/04/parliament-gives-initial-approval-to-the-backtracking-on-the-ban-on-internal-combustion-engines-from-2035/"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": true,
+   "date": "4 Nov",
+   "headline": "Schaeffler plans 3,460 job cuts and five European plant closures",
+   "why": "One of the biggest bearing and drivetrain suppliers is shrinking its European footprint, which matters for sourcing, capacity and customer contacts.",
+   "source": "Bearing News",
+   "body": [
+    "Schaeffler said it will cut 3,460 jobs and close five plants in Europe, four in Germany and one in Belgium. In total 16 locations are affected. The company blames weak automotive demand, higher production costs and competition from Chinese makers.",
+    "About 2,660 of the cuts fall in Germany by 2028, roughly 9% of its core German workforce. Schaeffler expects annual savings of about €300 million by 2030 against one-off costs of about €480 million, mostly booked in 2026. Board pay will be cut by 10% over two years. The CEO did not rule out further cuts after 2028 and pointed to German labour costs as a key problem. Dividends will continue.",
+    "For engineers at OEMs and bearing users, the plant list and timing will determine which product lines move. The report comes from a single trade outlet, so the company's own release is worth checking for the affected sites."
+   ],
+   "links": [
+    {
+     "label": "Bearing News",
+     "url": "https://www.bearing-news.com/schaeffler-to-cut-3460-jobs-and-close-five-european-plants/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "4–5 Nov",
+   "headline": "OpenAI's automated pipeline produced 948 working Linux kernel exploits for about $1.2 million",
+   "why": "AI-driven vulnerability finding is now cheap enough to change how any software or embedded vehicle team thinks about patch speed.",
+   "source": "CSO Online · OpenAI",
+   "body": [
+    "OpenAI described an autonomous pipeline that finds Linux kernel flaws, confirms them dynamically, writes exploits to prove impact, and drafts patches. Human researchers review each finding before it goes to maintainers.",
+    "In an October run it produced working local privilege-escalation exploits for 948 distinct flaws, at API costs of $1,213,430, or about $1,279 per exploit. OpenAI values the exploits at $18.9–66.3 million using public bounty prices, though that is an estimate and not payouts. At the time of the campaign, 61 flaws were already patched upstream and 43 had staging patches. OpenAI also admits that 20 of 200 early 'successes' had used a different bug than assigned, which led to extra checks, and that early AI patches sometimes included unneeded changes.",
+    "Analysts quoted by CSO say the real risk is the lag between an upstream fix and fixes reaching enterprise products. Linux sits inside many vehicle and industrial systems, so teams that ship it should ask suppliers for backport timelines."
+   ],
+   "links": [
+    {
+     "label": "CSO Online",
+     "url": "https://www.csoonline.com/article/4245265/openai-built-an-ai-pipeline-to-find-exploit-and-patch-linux-flaws.html"
+    },
+    {
+     "label": "OpenAI",
+     "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "6 Nov",
+   "headline": "OpenAI reportedly raises $11 billion at a $1.25 trillion valuation",
+   "why": "The size of the round shows how much capital is still flowing into frontier labs, and what that pressure may mean for product pricing.",
+   "source": "Reuters via GV Wire · Bloomberg",
+   "body": [
+    "Bloomberg reported on Friday, and Reuters repeated it, that OpenAI has closed $11 billion in new funding as the first part of a round valuing the company at $1.25 trillion. The investors were not named in the article we could read.",
+    "Other coverage says the full round could grow to around $20 billion, but that figure was not confirmed in the primary report and OpenAI had not issued its own statement in the sources we checked. The news is based on people familiar with the matter.",
+    "For product teams the practical point is that the biggest model vendors keep raising money at very high valuations, which supports continued price competition and rapid feature releases. For European buyers it also raises the usual questions about vendor dependence and where data is processed."
+   ],
+   "links": [
+    {
+     "label": "GV Wire (Reuters)",
+     "url": "https://gvwire.com/2026/11/06/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "5 Nov",
+   "headline": "METR estimates Anthropic's AI progress is running at about 1.9x its earlier pace",
+   "why": "An outside assessment of how much AI now speeds up AI research bears on how fast tools for designers and engineers may improve.",
+   "source": "METR",
+   "body": [
+    "METR published an independent assessment of AI-driven research speed-up at Anthropic as of October. On benchmark scores for well-defined tasks, it estimates progress is about 1.9 times the pre-October-2025 rate, with a 95% range of 1.5 to 2.8. It guesses that roughly 80% of the acceleration comes from AI assistance, and it is confident that faster growth in training compute is not the cause.",
+    "METR is open about limits. Anthropic redacted most of the evidence METR found most informative, so outsiders cannot check much of it. The benchmarks measure narrow, automatically graded tasks and some are near saturation. Using non-Anthropic models, the acceleration is about 1.4x. Informal staff polls showed a self-reported 12x uplift, which METR calls very loose evidence.",
+    "Treat the figure as a careful estimate, not a measurement. If it holds, expect release cycles to keep shortening, which affects how long any design or engineering workflow built on a specific model stays current."
+   ],
+   "links": [
+    {
+     "label": "METR",
+     "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "6 Nov",
+   "headline": "AI-assisted proof of a 2008 quantum-computing conjecture is posted, not yet peer reviewed",
+   "why": "A sign of AI systems contributing to real research problems, with an important caveat about review.",
+   "source": "The Quantum Insider · Physical Superintelligence",
+   "body": [
+    "Physical Superintelligence (PSI) says its research system, running a non-public Anthropic model, found a full proof of the Aaronson–Ambainis conjecture, open since 2008. The paper was posted on GitHub by PSI's David Turturean, who says he reviewed it and takes responsibility for its correctness.",
+    "The main theorem was checked in the Lean proof assistant, and some Stanford researchers reportedly read the proof, according to PSI's own account. No peer-reviewed publication has appeared. The result concerns how many input reads a quantum algorithm needs for most random inputs. It does not set a general limit on quantum speed, and the read count can still be large.",
+    "Humans chose the problem and operated the system, so it does not show how often such tools can solve open problems. It is worth following as an example of formal verification being used to check AI-generated mathematics."
+   ],
+   "links": [
+    {
+     "label": "The Quantum Insider",
+     "url": "https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "7 Nov",
+   "headline": "Microsoft open-sources APM, a package manager for AI agent setups",
+   "why": "Teams using several coding agents get a way to share and lock the same skills, prompts and tool servers across a project.",
+   "source": "GitHub (microsoft/apm) · DEV Community",
+   "body": [
+    "Microsoft has published APM, an MIT-licensed 'agent package manager'. A project lists the instructions, skills, prompts, agents, hooks and MCP servers it needs in a manifest file, and one command installs them. A lockfile pins the resolved versions, much like npm.",
+    "The repository says it works with Copilot, Claude Code, Cursor, Codex, Gemini and others, and can pull from several git hosts. Security features include scanning for hidden Unicode, integrity hashes, SBOM export and a consent step for transitive MCP servers. An organisation policy file can restrict allowed sources. The 7 November date comes from a daily digest, and we could not confirm a release date on the repository page.",
+    "For frontend and product teams this is a sign that agent configuration is being treated like any other dependency, with versioning and supply-chain checks. It is early, so expect the conventions to shift."
+   ],
+   "links": [
+    {
+     "label": "GitHub: microsoft/apm",
+     "url": "https://github.com/microsoft/apm"
+    },
+    {
+     "label": "DEV Community digest",
+     "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-8-2026-openai-taps-hacktron-for-bug-hunts-muse-wonder-for-everyone-gin"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "5 Nov",
+   "headline": "Challenger: only 1,265 US job cuts blamed on AI in October, the lowest of 2026",
+   "why": "Adoption data for how much AI is actually driving workforce decisions, as opposed to headlines.",
+   "source": "Challenger, Gray & Christmas",
+   "body": [
+    "Challenger, Gray & Christmas reported 43,994 announced US job cuts in October, up 2% from September and down 71% from October last year. Of these, 1,265 were attributed to AI, the lowest monthly figure this year.",
+    "Through October, announced cuts total 617,189, down 44% on the same period of 2025. AI-attributed cuts for the year stand at 121,401, about 20% of all cuts. These are announcements by US employers and depend on the reason each company gives.",
+    "For product strategists, the numbers suggest AI is a real but not dominant stated reason for layoffs, and the monthly figure is volatile. They are US data, so they say little directly about Swedish or European labour markets."
+   ],
+   "links": [
+    {
+     "label": "Challenger, Gray & Christmas",
+     "url": "https://www.challengergray.com/blog/october-layoffs-at-three-year-low-seasonal-hiring-plans-up-26/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "4 Nov",
+   "headline": "Volvo Cars sales fall 16% over August–October as the EX60 ramp-up limits deliveries",
+   "why": "A Swedish OEM's demand picture: electric sales are growing while China, the US and plug-in hybrids drag.",
+   "source": "Volvo Cars (via Inderes)",
+   "body": [
+    "Volvo Cars sold 141,656 cars globally in the three months to October, down 16% from 168,967 a year earlier. Fully electric sales rose 27% to 48,660 cars, or 34% of the total. Plug-in hybrids fell 30% to 28,857, and mild hybrids and combustion cars fell 28% to 64,139.",
+    "Volvo cited weak demand and local competition in China, and in the US record-low consumer sentiment and removed incentives for electric and plug-in cars. In Europe, the EX60 has more than 50,000 orders, but deliveries are held back by the production ramp-up. Its commercial chief said Volvo is prioritising stabilising the business over chasing volume in China. Volvo reports rolling three-month figures only, so single-month numbers are third-party estimates.",
+    "For suppliers, the mix shift toward battery-electric and the EX60 ramp are the numbers to watch for drivetrain and e-axle volumes."
+   ],
+   "links": [
+    {
+     "label": "Volvo Cars release (Inderes)",
+     "url": "https://www.inderes.se/en/releases/volvo-car-ab-publ-volvo-cars-reports-rolling-three-month-sales-for-the-period-ending-october-2026"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "EU car CO2 rules: December plenary",
+   "text": "The full Parliament is expected to vote in December, after which member states must agree; the steel credit and fuel provisions could still change.",
+   "link": {
+    "label": "electrive",
+    "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"
+   }
+  },
+  {
+   "title": "NSK–NTN bearing integration",
+   "text": "The two Japanese makers signed a basic agreement in May to combine under a holding company in October 2027. One third-party site expects a definitive agreement around November, but this is unconfirmed.",
+   "link": {
+    "label": "Adnkronos",
+    "url": "https://english.adnkronos.com/2026/05/13/japanese-bearing-makers-nsk-ntn-to-integrate-biz-in-oct-2027/"
+   }
+  },
+  {
+   "title": "SKF Vertevo Capital Markets Day, 17 Nov",
+   "text": "SKF's separated Automotive business, now branded Vertevo, holds its capital markets day on 17 November.",
+   "link": {
+    "label": "SKF newsroom",
+    "url": "https://www.skf.com/group/newsroom/press-releases"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "electrive – EU Parliament: Environment Committee votes to relax CO2 rules (5 Nov)",
+   "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"
+  },
+  {
+   "label": "Eunews – Parliament gives initial approval to backtracking on 2035 ICE ban (4 Nov)",
+   "url": "https://www.eunews.it/en/2026/11/04/parliament-gives-initial-approval-to-the-backtracking-on-the-ban-on-internal-combustion-engines-from-2035/"
+  },
+  {
+   "label": "Bearing News – Schaeffler to cut 3,460 jobs and close five European plants (4 Nov)",
+   "url": "https://www.bearing-news.com/schaeffler-to-cut-3460-jobs-and-close-five-european-plants/"
+  },
+  {
+   "label": "CSO Online – OpenAI built an AI pipeline to find, exploit and patch Linux flaws (5 Nov)",
+   "url": "https://www.csoonline.com/article/4245265/openai-built-an-ai-pipeline-to-find-exploit-and-patch-linux-flaws.html"
+  },
+  {
+   "label": "OpenAI – A thousand fewer paths to root (4 Nov)",
+   "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+  },
+  {
+   "label": "GV Wire / Reuters – OpenAI secures $11 billion at $1.25 trillion valuation (6 Nov)",
+   "url": "https://gvwire.com/2026/11/06/openai-secures-11-billion-funding-at-1-25-trillion-valuation-bloomberg-news-reports/"
+  },
+  {
+   "label": "METR – Independent assessment of AI R&D acceleration at Anthropic (5 Nov)",
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+  },
+  {
+   "label": "The Quantum Insider – AI-assisted proof settles question about quantum speedups (6 Nov)",
+   "url": "https://thequantuminsider.com/2026/11/06/ai-assisted-proof-settles-longstanding-question-about-quantum-speedups/"
+  },
+  {
+   "label": "GitHub – microsoft/apm",
+   "url": "https://github.com/microsoft/apm"
+  },
+  {
+   "label": "DEV Community – AI Daily Digest, 8 Nov 2026",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-8-2026-openai-taps-hacktron-for-bug-hunts-muse-wonder-for-everyone-gin"
+  },
+  {
+   "label": "Challenger, Gray & Christmas – October layoffs at three-year low (5 Nov)",
+   "url": "https://www.challengergray.com/blog/october-layoffs-at-three-year-low-seasonal-hiring-plans-up-26/"
+  },
+  {
+   "label": "Volvo Cars via Inderes – Rolling three-month sales to October 2026 (4 Nov)",
+   "url": "https://www.inderes.se/en/releases/volvo-car-ab-publ-volvo-cars-reports-rolling-three-month-sales-for-the-period-ending-october-2026"
+  },
+  {
+   "label": "Adnkronos – NSK, NTN to integrate business in Oct. 2027 (13 May)",
+   "url": "https://english.adnkronos.com/2026/05/13/japanese-bearing-makers-nsk-ntn-to-integrate-biz-in-oct-2027/"
+  },
+  {
+   "label": "SKF – Press releases",
+   "url": "https://www.skf.com/group/newsroom/press-releases"
+  }
+ ],
+ "note": "All summaries are paraphrased. Several items rely on a single outlet or on figures reported by the company or by anonymous sources; dates are as published."
+}
