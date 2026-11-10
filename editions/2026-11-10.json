@@ -1,0 +1,109 @@
+{
+ "date": "2026-11-10",
+ "weekday": "Tuesday",
+ "covers": "Mon 9 – Tue 10 Nov",
+ "glance": "Anthropic released Claude Fable 5.2 and Mythos 5.2 at lower prices, days before an IPO that could come as soon as next week. In Europe, carmakers warn that new battery rules of origin will put a 10% tariff on most EVs traded between the EU and UK from January. Google made its Gemini training system available to cloud customers, and Dassault and Volkswagen showed how physics-based and AI world-model simulation is moving into engineering and ADAS validation.",
+ "stories": [
+  {
+   "cat": "gen", "top": true, "date": "9 Nov",
+   "headline": "Anthropic releases Claude Fable 5.2 and a restricted Mythos 5.2 at lower prices",
+   "why": "A cheaper, faster top-tier model changes the cost calculus for AI-assisted coding, design prototyping and engineering workflows.",
+   "source": "CNBC · Yahoo Finance",
+   "body": [
+    "Anthropic launched two new models on Monday. Claude Fable 5.2 is generally available and is aimed at demanding work in engineering, mathematics, robotics, coding and agents. Mythos 5.2 stays limited to vetted organisations in the company's life-sciences and cyber verification programmes, as earlier Mythos versions were because of their security capabilities.",
+    "Anthropic says the models produce output about 30% faster than the previous generation and cost about 20% less. Fable 5.2 is priced at $8 per million input tokens and $40 per million output tokens, down from $10 and $50. CNBC reported no benchmark results, so the capability claims are not yet independently checked. Anthropic positions its Opus 5.5 model, released in September, as the better fit for everyday tasks.",
+    "The release is the first frontier launch since the company's chief executive called in September for slowing AI development; a product executive described that as pacing rather than pausing. Anthropic's amended IPO filing reportedly shows $33.2 billion of revenue for the first nine months of the year, and the listing could happen as soon as next week. For product teams, the practical points are the price cut and the speed gain for agent-style workloads, which are where long, token-heavy tasks cost the most."
+   ],
+   "links": [
+    {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"},
+    {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/article/anthropic-debuts-claude-fable-52-and-mythos-52-models-as-ipo-nears-190405087.html"}
+   ]
+  },
+  {
+   "cat": "auto", "top": true, "date": "9 Nov",
+   "headline": "ACEA: 82% of EU-built EVs bound for the UK would miss new battery rules and face 10% duty from 2027",
+   "why": "Battery sourcing now decides tariff exposure, which affects cell, pack and powertrain supply decisions for every European EV programme.",
+   "source": "Journal du Geek (reporting ACEA)",
+   "body": [
+    "Under the EU–UK trade agreement, electric vehicles move tariff-free only if enough of their value is European. From 1 January 2027 the thresholds rise to 55% of vehicle value and 70% of battery pack value. Cars that fail would face a 10% tariff in both directions across the Channel.",
+    "The European carmakers' association ACEA, in a letter dated 16 September, estimates that about 520,000 EVs and light commercial vehicles worth €17.9 billion will be exported from the EU to the UK in 2027. About 82% of them, roughly 426,000 vehicles, would not comply, implying around €1.47 billion in duties in a single year. Only about 2% of plug-in hybrids would qualify. ACEA also estimates that only around 20% of EV batteries will be made in Europe by the end of 2026.",
+    "ACEA wants the current battery rules kept until the end of 2029, European cells required from 2030 and European cathode materials from 2032. The press report says BMW sources warned that building the electric Mini in Oxford could become unprofitable. For engineers and suppliers, the issue is a push towards localised cell and materials supply, which will shape which drivetrain and bearing content is built where."
+   ],
+   "links": [
+    {"label": "Journal du Geek", "url": "https://www.journaldugeek.com/2026/11/09/82-des-voitures-electriques-europeennes-bientot-taxees-a-10-voici-la-taxe-a-147-milliard-deuros/"}
+   ]
+  },
+  {
+   "cat": "eng", "top": false, "date": "5 Nov",
+   "headline": "Dassault launches SIMULIA R2027x with physics-grounded AI and an agentic simulation assistant",
+   "why": "Shows how CAE vendors plan to put AI in early design without giving up solver-verified physics.",
+   "source": "ChampionXperience",
+   "body": [
+    "Dassault Systèmes has announced SIMULIA R2027x on its 3DEXPERIENCE platform. Its theme is AI anchored to validated solvers rather than to general language models. The company argues that text-only models are prone to what it calls physical hallucinations, so its models are trained on validated finite-element, fluid and multibody data.",
+    "Three pieces stand out. An assistant called LEO lets engineers set up studies, boundary conditions and solver runs through natural-language prompts. A Virtual Twin of Physics Behavior uses neural networks to give near real-time predictions of thermal, stress and airflow behaviour in concept work, with full solver runs reserved for the best candidates. A shared CAD and CAE data structure, MODSIM, is meant to update meshes and load cases automatically when geometry changes.",
+    "All of this is vendor-described and the source gives no independent benchmarks. Live demos and solver performance figures are promised at the SIMULIA keynote on 20 November, after the CATIA keynote on 19 November. For teams doing virtual validation of drivetrains or bearings, the question to ask is how well surrogate models are checked against full solver runs."
+   ],
+   "links": [
+    {"label": "ChampionXperience", "url": "https://blog.championxperience.com/physics-grounded-industrial-ai-simulia-r2027x"}
+   ]
+  },
+  {
+   "cat": "auto", "top": false, "date": "30 Oct – 4 Nov",
+   "headline": "Volkswagen China runs 5 million km of ADAS simulation a day and wins a Level 3 test permit; Stellantis teams with Wayve and Nvidia in France",
+   "why": "Large-scale simulation is becoming the main route to validating automated driving, ahead of road miles.",
+   "source": "The Driven",
+   "body": [
+    "Volkswagen Group China says its in-house AI world model, GAIA 2.0, runs ADAS safety simulations equal to 5 million km of driving each day, drawing on up to 30 million scenario clips. The company wants to reach 10 million km of daily training data for Level 3 so rare situations are learned before customers meet them. It also received a Level 3 road-test permit for Hefei, which it calls the strictest L3 framework so far, and targets L3 readiness in 2027.",
+    "Separately, Stellantis, Wayve, Nvidia and the French government announced a collaboration at an autonomous-vehicle conference in Paris. It combines Stellantis' L4-ready platforms with Wayve's AI Driver running on Nvidia's Hyperion compute and sensor architecture, with the goal of making France a hub for autonomous vehicles.",
+    "Both stories point the same way for validation teams: scenario generation, simulation and fleet data are central to the safety case. Details such as dates of deployment are not given beyond the targets above, and the first announcement is a company claim."
+   ],
+   "links": [
+    {"label": "The Driven", "url": "https://thedriven.io/2026/11/04/volkswagen-and-stellantis-advance-self-driving-car-plans-in-china-and-france/"}
+   ]
+  },
+  {
+   "cat": "gen", "top": false, "date": "5–6 Nov",
+   "headline": "OpenAI publishes a community compact for its data centres as US local opposition grows",
+   "why": "Energy cost and local consent are becoming conditions for AI infrastructure, which affects cloud pricing and capacity plans.",
+   "source": "The National",
+   "body": [
+    "OpenAI announced a National Community Compact on 5 November, days after US midterm elections. It promises that the company will pay for the energy its AI infrastructure uses, protect local resources, alert communities to local impacts, publish local job reports and avoid non-disclosure agreements with public officials, apart from narrow security and trade-secret exceptions.",
+    "The compact avoids the phrase data centres and says compute campuses instead. The political backdrop is that Democrats won control of Congress, AI and tech stocks fell sharply on the day, and at least 40 local laws to curb or scrutinise data-centre construction passed during the midterms. A national moratorium has been proposed by Senator Bernie Sanders and Representative Alexandria Ocasio-Cortez, but the report does not say it has been enacted.",
+    "For European readers, the story is a signal that power and permitting are now the limiting factors for AI capacity, a theme also present in EU debates on grid access."
+   ],
+   "links": [
+    {"label": "The National", "url": "https://www.thenationalnews.com/future/technology/2026/11/06/moratorium-on-data-centers-openai-compact/"}
+   ]
+  },
+  {
+   "cat": "gen", "top": false, "date": "9 Nov",
+   "headline": "Google makes Pathways, the system behind Gemini training, generally available on Google Cloud",
+   "why": "Gives outside teams access to the fault-tolerant training approach Google uses itself, though only on TPUs with JAX.",
+   "source": "PPC Land",
+   "body": [
+    "Google announced general availability of Pathways on Google Cloud, in a developer blog post that starts a series. Pathways is the distributed runtime Google uses to train its own large models. A developer writes one Python program for the whole job, and the runtime decides where each part runs on TPUs, moves data and recovers from failed machines.",
+    "Google had said in April 2025 that customers would get access. The post gives no pricing, region list or named customers, and no new performance figures. It cites Google's earlier Gemini 2.5 report, which credited the design with recovery at about 97% throughput after hardware failures, and a July test that recovered 48 TPU chips in under two minutes.",
+    "Pathways runs JAX on TPUs only, and the post does not say whether PyTorch or GPUs are supported. Teams training their own models should treat it as an option mainly if they are already on TPUs."
+   ],
+   "links": [
+    {"label": "PPC Land", "url": "https://ppc.land/google-opens-pathways-the-system-that-trains-gemini-to-cloud-customers"}
+   ]
+  }
+ ],
+ "watch": [
+  {"title": "Anthropic IPO", "text": "Reports say the listing could come as soon as next week, with a targeted valuation of $1–1.5 trillion.", "link": {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"}},
+  {"title": "SKF Vertevo Capital Markets Day", "text": "SKF's automotive spin-off holds its Capital Markets Day in Stockholm on 17 November, ahead of the planned 1 December Nasdaq Stockholm listing, subject to approvals.", "link": {"label": "SKF", "url": "https://www.skf.com/group/news-and-events/news/2026/2026-Sept-07-skfs-board-takes-next-step-in-the-listing-of-skf-vertevo-and-convenes-extraordinary-general-meeting"}},
+  {"title": "Dassault release keynotes", "text": "CATIA R2027x on 19 November and SIMULIA R2027x on 20 November should bring demos and performance figures for the AI features.", "link": {"label": "ChampionXperience", "url": "https://blog.championxperience.com/physics-grounded-industrial-ai-simulia-r2027x"}}
+ ],
+ "sources": [
+  {"label": "CNBC – Anthropic releases Claude Fable 5.2 and Mythos 5.2 (9 Nov 2026)", "url": "https://www.cnbc.com/2026/11/09/anthropic-claude-fable-5-2-mythos-5-2.html"},
+  {"label": "Yahoo Finance – Anthropic debuts Claude Fable 5.2 and Mythos 5.2 as IPO nears (9 Nov 2026)", "url": "https://finance.yahoo.com/technology/article/anthropic-debuts-claude-fable-52-and-mythos-52-models-as-ipo-nears-190405087.html"},
+  {"label": "Journal du Geek – 82 % des voitures électriques européennes bientôt taxées à 10 % (9 Nov 2026)", "url": "https://www.journaldugeek.com/2026/11/09/82-des-voitures-electriques-europeennes-bientot-taxees-a-10-voici-la-taxe-a-147-milliard-deuros/"},
+  {"label": "ChampionXperience – Physics-grounded industrial AI: SIMULIA R2027x (5 Nov 2026)", "url": "https://blog.championxperience.com/physics-grounded-industrial-ai-simulia-r2027x"},
+  {"label": "The Driven – Volkswagen and Stellantis advance self-driving car plans (4 Nov 2026)", "url": "https://thedriven.io/2026/11/04/volkswagen-and-stellantis-advance-self-driving-car-plans-in-china-and-france/"},
+  {"label": "The National – OpenAI announces data centre community compact (6 Nov 2026)", "url": "https://www.thenationalnews.com/future/technology/2026/11/06/moratorium-on-data-centers-openai-compact/"},
+  {"label": "PPC Land – Google opens Pathways to Cloud customers (9 Nov 2026)", "url": "https://ppc.land/google-opens-pathways-the-system-that-trains-gemini-to-cloud-customers"},
+  {"label": "SKF – Board takes next step in the listing of SKF Vertevo (7 Sep 2026)", "url": "https://www.skf.com/group/news-and-events/news/2026/2026-Sept-07-skfs-board-takes-next-step-in-the-listing-of-skf-vertevo-and-convenes-extraordinary-general-meeting"}
+ ],
+ "note": "All summaries are paraphrased. Several items rely on a single outlet or on vendor-reported claims; dates are as published."
+}
