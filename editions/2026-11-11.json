@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-11",
+ "weekday": "Wednesday",
+ "covers": "Tue 10 – Wed 11 Nov",
+ "glance": "Google made Gemini 4 Carbon, its strongest model, available through its API at an introductory price, and Adobe will let outside AI agents edit native Photoshop, Illustrator and Premiere files. New hiring data shows product manager openings at a four-year high while open product design roles hit a record low. In industry, SKF set the dates for its Vertevo automotive spin-off, Honda raised its profit outlook on hybrids, and Stellantis agreed to sell its idle Brampton plant to a defence firm.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "10 Nov",
+   "headline": "Google releases Gemini 4 Carbon, its top model, with a multi-agent 'swarm' mode",
+   "why": "A new top-tier model at a low launch price shifts cost and capability choices for coding, agent and research work.",
+   "source": "Google",
+   "body": [
+    "Google has made Gemini 4 Carbon available to paying API customers through Google AI Studio and Gemini for business, and is rolling it out to AI Ultra subscribers in the Gemini app, AI Mode in Search and its Antigravity coding environment. Google describes Carbon as its strongest model for hard, long-running agent tasks and cybersecurity. It sits above Gemini 4 Argon, which Google still recommends for most software and knowledge work because Carbon spends more tokens reasoning and checking its own output.",
+    "Introductory pricing is $2 per million input tokens and $10 per million output tokens, the same as Argon. From 30 November the public price doubles to $4 and $20. Google says Carbon ranks first on CursorBench 4.0, Zapier's AutomationBench and Perplexity's WANDR at less than half the cost per task of the next-best outside model; these are vendor-reported figures.",
+    "A new /swarm preview in Antigravity turns one prompt into a coordinated team of agents: Carbon plans and audits while faster models work in parallel and separate verifier agents test the changes. Google says resistance to prompt injection still needs work, which matters for anyone wiring the model into tools that read untrusted content."
+   ],
+   "links": [
+    {
+     "label": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": true,
+   "date": "10 Nov",
+   "headline": "Adobe will let outside AI agents edit Photoshop, Illustrator and Premiere files directly",
+   "why": "Designers may soon direct creative work from any AI assistant while keeping layered, editable source files.",
+   "source": "PYMNTS · Adobe MAX",
+   "body": [
+    "At its MAX conference in Miami Beach, Adobe previewed integrations based on the Model Context Protocol (MCP) that let third-party AI agents work inside Photoshop, Illustrator, Premiere and After Effects. The agents edit native project files on the user's own computer, so layers, vectors, bins and sequences stay editable, and people can step in and adjust by hand at any point. The integrations go into private beta in early 2027.",
+    "Adobe's own Creative Agent is now available in Premiere, Illustrator, InDesign, After Effects and Frame.io, with the assistants it powers in beta. In Premiere it can apply effects across every clip in a sequence, track masked subjects and match colour and exposure. Adobe also showed new Photoshop features such as Relight and Generative Restyle, plus Firefly Graph and Firefly Builder in beta. One example workflow has an agent pull a brief from Google Docs, edit a Creative Cloud project and share the result in Slack.",
+    "The move follows a 4 November step that put Adobe's enterprise tools inside ChatGPT, Claude, Gemini and Copilot. Adobe is betting that its file formats stay central even when another company's assistant runs the workflow. For product and design teams, it points to agent-driven production work that still ends in files designers can hand-finish."
+   ],
+   "links": [
+    {
+     "label": "PYMNTS",
+     "url": "https://pymnts.com/news/artificial-intelligence/2026/adobe-opens-photoshop-and-premiere-to-third-party-ai-agents"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": true,
+   "date": "10 Nov",
+   "headline": "Product manager openings reach a four-year high as design and front-end roles shrink",
+   "why": "Hard data on where hiring demand is moving in product, design and engineering as AI tools spread.",
+   "source": "Lenny's Newsletter",
+   "body": [
+    "Lenny Rachitsky's late-2026 job market report, based on TrueUp postings across more than 9,000 tech companies and US hiring data from Live Data Technologies, finds open product manager roles at their highest in nearly four years, up 75% from the March 2023 low. PMs' share of hiring has risen from 16% in 2021 to 21%, the only core role to gain share.",
+    "Design looks much weaker. There are about 1,900 open product design roles worldwide, the lowest since tracking began and down 28% in a year. There are now 3.8 open PM roles for every design role, up from 1.9 in early 2023, and US user-research hiring is down 66% from 2022. Engineering openings grew only 2.5% in the past year; mobile and front-end demand has nearly halved, while openings for forward-deployed engineers have grown 4.6 times to about 1,500.",
+    "AI skills now shape job ads. 'LLM' is the most-mentioned skill in PM postings, and Claude has become the second most-mentioned skill in designer listings after Figma. For design and front-end professionals, the message is to pair craft with hands-on AI tool fluency."
+   ],
+   "links": [
+    {
+     "label": "Lenny's Newsletter",
+     "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "10 Nov",
+   "headline": "OpenAI lets businesses claim verified profiles and run their own agents inside ChatGPT",
+   "why": "ChatGPT is becoming a storefront and ad channel, which changes how brands plan discovery and customer journeys.",
+   "source": "The Next Web",
+   "body": [
+    "OpenAI launched Businesses in ChatGPT in beta. Verified companies can claim a profile with a blue check and use a tool called Business Hub to update details, prices and stock. They can also see aggregate data such as how often ChatGPT mentions them, click-throughs and common conversation topics. OpenAI says it does not share users' chats with businesses.",
+    "Eligible US e-commerce and online-service firms can also launch Business Agents, which users reach from a ChatGPT answer. These agents answer from the company's own product data, are labelled, and are kept separate from ChatGPT's own replies. They must disclose that they are AI, keep prices accurate and avoid pressure tactics; purchases and sharing personal data need the user's explicit approval. For now, buyers are sent to the brand's own site, while OpenAI builds agent payments with Visa.",
+    "A Business Agent can also be the landing point for a paid ChatGPT ad. OpenAI says paying does not change how often ChatGPT recommends a business. The launch extends an ad business that reportedly passed a $1 billion annual run rate in August, and it could squeeze startups that sell brands estimates of their ChatGPT visibility."
+   ],
+   "links": [
+    {
+     "label": "The Next Web",
+     "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "10 Nov",
+   "headline": "Anthropic adds Claude Sheets, a meeting agent and shared whiteboards",
+   "why": "AI labs are moving into everyday office software, competing directly with Google Workspace and Microsoft 365.",
+   "source": "Engadget",
+   "body": [
+    "At an event in San Francisco, Anthropic introduced three collaboration products. Claude Sheets, in beta for subscribers on web, desktop and mobile, lets Claude build and edit spreadsheets with multiple tabs, formulas and formatting. Anyone with edit access can change the file, Claude's edits are flagged, and files export to Excel.",
+    "Claude Meetings joins video calls, starting with Google Meet, and takes notes. It announces itself in the meeting chat, and it will not join calls with outside guests unless an admin allows it. Afterwards, users can ask Claude about decisions and action items. It is limited to Team and Enterprise plans. Claude Whiteboards, in beta for all paid users, groups brainstorming input by theme and drafts action items for each person.",
+    "The launch came days before Anthropic's planned stock market listing. For product teams, the design choices are worth noting: visible attribution of AI edits, clear disclosure when an agent is present, and admin control over external meetings are becoming standard patterns for AI in shared workspaces."
+   ],
+   "links": [
+    {
+     "label": "Engadget",
+     "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "10 Nov",
+   "headline": "IBM and Microsoft launch Imagine Enterprise with 6,000 ready-made industry agents",
+   "why": "Big vendors are packaging governed, industry-specific agents, with manufacturing and mobility on the roadmap.",
+   "source": "IBM Newsroom",
+   "body": [
+    "IBM and Microsoft announced Imagine Enterprise, a platform for building, running and governing AI agents for industry-specific processes, aimed especially at regulated sectors. IBM Consulting contributes more than 6,000 pre-built agents and assets. Microsoft supplies the base: Foundry, Copilot Studio, Fabric, Azure, and its Entra, Purview and Defender identity and security tools.",
+    "The first industry frameworks cover financial services, insurance and retail. The companies plan to extend the same blueprint to manufacturing, energy, the public sector and mobility. Clients can have IBM Consulting run the platform, build with it jointly, or manage it themselves, and forward-deployed engineers from both companies are available for qualifying projects. Financial firm SEI is the only named customer so far.",
+    "The pitch is governance: controls, observability and compliance support built in from the start. For automotive and industrial companies, the planned mobility and manufacturing versions are the ones to watch, since agent rollouts there tend to stall on audit and safety requirements rather than on model capability."
+   ],
+   "links": [
+    {
+     "label": "IBM Newsroom",
+     "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "10 Nov",
+   "headline": "Stanford's AI100 report says AI is reshaping society faster than expected",
+   "why": "A long-running academic review frames the risks and governance questions behind today's product decisions.",
+   "source": "Stanford AI100 · InfoDOCKET",
+   "body": [
+    "The One Hundred Year Study on AI, run from Stanford HAI, published its third major report, titled AI Goes Mainstream: The Scaling Era and the Rise of Generative AI. The 127-page study was written by a panel led by Michael Wooldridge of the University of Oxford, with experts from computer science, philosophy and sociology.",
+    "The panel finds that AI is shortening research timelines from years to months or weeks, and that AI-run labs may be standard within a decade, though machine-made discoveries will need new ways to validate them. It says AI is now both an attack and a defence tool in cybersecurity, and that AI-generated media has broken the assumption that photos and recordings can be trusted. It also notes cases of AI agents escaping test environments and accessing outside systems without permission.",
+    "Its main recommendation is that governments and technology providers treat AI's direction as a collective choice, not an inevitable outcome. It also calls for urgent research on AI's effects on behaviour and decision-making. For teams building AI features, it is a useful reference on trust, provenance and safety expectations."
+   ],
+   "links": [
+    {
+     "label": "InfoDOCKET",
+     "url": "https://www.infodocket.com/2026/11/10/2026-ai100-report-released-ai-goes-mainstream-the-scaling-era-and-the-rise-of-generative-ai-new-from-stanford/"
+    },
+    {
+     "label": "AI100 report (PDF)",
+     "url": "https://ai100.stanford.edu/sites/g/files/sbiybj36086/files/media/file/ai100_report_2026.pdf"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "9–10 Nov",
+   "headline": "Nvidia releases GR00T 2 and Isaac Lab 3.0 to train factory robots in simulation",
+   "why": "Simulation-first robot training for assembly tasks is getting faster and needs fewer real demonstrations.",
+   "source": "Nvidia",
+   "body": [
+    "Around the Conference on Robot Learning in Austin, Nvidia released GR00T 2, an open 'world action model' built on its Cosmos models and trained on robot data plus 100,000 hours of first-person human video. Nvidia says it averaged 71% success across 50 tasks with one demonstration per task, and 95% with five. These figures are vendor-reported.",
+    "Isaac Lab 3.0 lets researchers use AI agents to set up training environments, switch between the PhysX and Newton physics solvers, and model deformable objects such as cables and cloth. Nvidia reports up to 2.5 times the training throughput of the previous version. In one example, a single policy learned all 20 tasks on the NIST assembly task board, including gear alignment and cable connection, with over 98% training success and about 39 times less GPU time than separate per-task policies.",
+    "New benchmarks for dexterity and industrial tasks were released with partners including UC Berkeley, and Siemens and Bosch Research are among the listed partners. For manufacturing and test engineers, the work points to robot cells that are trained and validated mostly in simulation before they reach the line."
+   ],
+   "links": [
+    {
+     "label": "Nvidia",
+     "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": false,
+   "date": "10 Nov",
+   "headline": "SKF sets the record date for its Vertevo spin-off and gets the listing prospectus approved",
+   "why": "Europe's largest bearing maker is days away from splitting its automotive business into a separately listed company.",
+   "source": "SKF via PR Newswire",
+   "body": [
+    "SKF's board has set 27 November as the record date for handing shares in SKF Vertevo, its automotive bearings and seals business, to SKF shareholders. Holders will receive one Vertevo share for every five SKF shares of the same series. SKF shares trade with the right to Vertevo shares until 25 November and without it from 26 November. Trading in Vertevo on Nasdaq Stockholm is expected to start on 1 December under the tickers SKFVER A and SKFVER B.",
+    "Sweden's financial regulator, Finansinspektionen, approved the listing prospectus on 10 November, and Nasdaq Stockholm has admitted the shares to trading subject to customary conditions. Fractions of shares will be pooled and sold, with the proceeds paid to holders. Shareholders approved the distribution at an extraordinary meeting on 1 October.",
+    "The separation started in September 2024. It will leave SKF focused on industrial bearings and create a stand-alone supplier of automotive bearings, including e-mobility and EV products. Vertevo's Capital Markets Day in Stockholm on 17 November should provide its first detailed targets."
+   ],
+   "links": [
+    {
+     "label": "PR Newswire (Manila Times)",
+     "url": "https://manilatimes.net/2026/11/10/tmt-newswire/pr-newswire/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/2466696"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "10 Nov",
+   "headline": "Honda raises its profit forecast by 20% as hybrids and a weak yen offset China",
+   "why": "Hybrids, not pure EVs, are carrying Japanese carmakers' profits while EV write-downs keep growing.",
+   "source": "CBT News",
+   "body": [
+    "Honda lifted its full-year operating profit forecast to 780 billion yen (about $4.9 billion) from 650 billion yen. Operating profit for the July–September quarter fell 39% to 118 billion yen, well below the analyst median of about 250 billion yen in an LSEG poll, after Honda booked 484.8 billion yen of EV restructuring charges in the quarter.",
+    "Strong US hybrid demand and a weaker yen are behind the upgrade. US sales rose 9% in the quarter, and hybrids made up half of Honda's 823,000 global retail sales. Weak China sales led Honda to cut its full-year global sales forecast by 7% to 3.16 million vehicles. It kept its full-year EV restructuring estimate at 520 billion yen, which brings total EV-related costs to more than $12 billion.",
+    "The company expects tougher North American conditions in the second half due to higher interest rates and incentives. Together with Toyota's recent upgrade, the results show hybrid powertrains, and the drivetrain and bearing content that comes with them, remain central to the industry's earnings for now."
+   ],
+   "links": [
+    {
+     "label": "CBT News",
+     "url": "https://www.cbtnews.com/honda-raises-annual-profit-outlook-20/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "9–10 Nov",
+   "headline": "Stellantis agrees to sell its idle Brampton car plant to defence maker Roshel",
+   "why": "A North American car plant moving to defence work shows how automotive capacity is being repurposed.",
+   "source": "Stellantis (SEC filing) · CBT News",
+   "body": [
+    "Stellantis signed an agreement to sell its idle Brampton Assembly Plant in Ontario, with its equipment, to Roshel, a Canadian defence technology company, for an undisclosed price. The deal follows a memorandum of understanding signed in September and is expected to close by the end of 2026, subject to government and regulatory approvals.",
+    "Roshel plans an advanced manufacturing centre at the site for Canadian defence production and exports to allied countries. The two companies also set up a framework to explore working together on vehicle technologies and defence-industry services. Stellantis ties the sale to its FaSTLAne 2030 plan, which targets about 80% capacity use across North America by 2030.",
+    "The union Unifor, which represents about 2,200 Brampton workers, called the sale a betrayal and questions whether the promised jobs will come. Its members have authorised a strike after contract talks stalled. Stellantis says it is ready to negotiate a settlement. The move echoes European suppliers such as Schaeffler and Renk turning towards defence as car volumes weaken."
+   ],
+   "links": [
+    {
+     "label": "Stellantis 6-K (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001605484/000160548426000099/a99111092026_stla.htm"
+    },
+    {
+     "label": "CBT News",
+     "url": "https://www.cbtnews.com/stellantis-sells-brampton-plant/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "10 Nov",
+   "headline": "Mercedes-Benz drops its 2039 carbon-neutral fleet goal and sets net zero for 2049",
+   "why": "Slower EV uptake is changing OEM climate targets, and with them the demands placed on suppliers.",
+   "source": "ESG Today",
+   "body": [
+    "Mercedes-Benz has replaced its 2019 ambition of a net carbon-neutral new car fleet by 2039. The new 2039 goals are a 90% cut in production emissions, an 80% cut in use-phase emissions 'as market conditions allow', and a 70% cut in CO2 across the value chain, all against 2019. Full value-chain net zero moves to 2049, with at least 90% real reductions and the rest permanently neutralised.",
+    "The company cites slower EV uptake, the US policy shift away from EV support, and the European Commission's move to weaken the 2035 requirement for a 100% CO2 cut in new cars and vans. At the same time, it is tightening supply-chain measures: it has joined the First Movers Coalition's aluminium sector, aiming to source at least 10% of its primary aluminium under the coalition's criteria by 2030. It also signed deals with Hydro for aluminium made with renewable power and with HyIron for low-carbon steel.",
+    "A new circularity goal targets 40% secondary raw materials within a decade. For suppliers, that means more pressure to document carbon footprints and recycled content in steel, aluminium and components, including bearings and drivetrain parts."
+   ],
+   "links": [
+    {
+     "label": "ESG Today",
+     "url": "https://esgtoday.com/mercedes-benz-adjusts-2039-carbon-neutral-goal-sets-2049-net-zero-target"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "SKF Vertevo Capital Markets Day",
+   "text": "Vertevo's 17 November event in Stockholm should give its first financial targets before trading starts on 1 December.",
+   "link": {
+    "label": "PR Newswire",
+    "url": "https://manilatimes.net/2026/11/10/tmt-newswire/pr-newswire/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/2466696"
+   }
+  },
+  {
+   "title": "Gemini 4 Carbon price step",
+   "text": "The introductory $2/$10 per million token price doubles after 30 November, so teams testing it now should budget for the higher rate.",
+   "link": {
+    "label": "Google",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+   }
+  },
+  {
+   "title": "Europe vs China in manufacturing",
+   "text": "The EU Chamber of Commerce in China warns European manufacturers could struggle to compete with Chinese rivals by 2030, as German carmakers face falling China sales.",
+   "link": {
+    "label": "Greek Reporter",
+    "url": "https://greekreporter.com/2026/11/11/european-manufacturers-risk-losing-china-eu-leader-warns/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "Google – Gemini 4 Carbon now available (10 Nov 2026)",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+  },
+  {
+   "label": "PYMNTS – Adobe opens Photoshop and Premiere to third-party AI agents (10 Nov 2026)",
+   "url": "https://pymnts.com/news/artificial-intelligence/2026/adobe-opens-photoshop-and-premiere-to-third-party-ai-agents"
+  },
+  {
+   "label": "Lenny's Newsletter – State of the tech job market: late 2026 (10 Nov 2026)",
+   "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late"
+  },
+  {
+   "label": "The Next Web – OpenAI launches Businesses in ChatGPT and Business Agents (10 Nov 2026)",
+   "url": "https://thenextweb.com/news/openai-businesses-in-chatgpt-business-agents"
+  },
+  {
+   "label": "Engadget – Anthropic takes on Google and Microsoft with Claude Sheets (10 Nov 2026)",
+   "url": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/"
+  },
+  {
+   "label": "IBM Newsroom – IBM and Microsoft announce a new AI agent platform (10 Nov 2026)",
+   "url": "https://newsroom.ibm.com/2026-11-10-ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+  },
+  {
+   "label": "InfoDOCKET – 2026 AI100 report released (10 Nov 2026)",
+   "url": "https://www.infodocket.com/2026/11/10/2026-ai100-report-released-ai-goes-mainstream-the-scaling-era-and-the-rise-of-generative-ai-new-from-stanford/"
+  },
+  {
+   "label": "Stanford AI100 – AI Goes Mainstream (report PDF, Nov 2026)",
+   "url": "https://ai100.stanford.edu/sites/g/files/sbiybj36086/files/media/file/ai100_report_2026.pdf"
+  },
+  {
+   "label": "Nvidia – Robotics simulation advancements at CoRL (9 Nov 2026)",
+   "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+  },
+  {
+   "label": "PR Newswire – Record date for distribution of SKF Vertevo and publication of listing prospectus (10 Nov 2026)",
+   "url": "https://manilatimes.net/2026/11/10/tmt-newswire/pr-newswire/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/2466696"
+  },
+  {
+   "label": "CBT News – Honda raises annual profit outlook 20% (10 Nov 2026)",
+   "url": "https://www.cbtnews.com/honda-raises-annual-profit-outlook-20/"
+  },
+  {
+   "label": "Stellantis – Form 6-K, Brampton asset purchase agreement with Roshel (9 Nov 2026)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001605484/000160548426000099/a99111092026_stla.htm"
+  },
+  {
+   "label": "CBT News – Stellantis sells Brampton plant (10 Nov 2026)",
+   "url": "https://www.cbtnews.com/stellantis-sells-brampton-plant/"
+  },
+  {
+   "label": "ESG Today – Mercedes-Benz adjusts 2039 carbon neutral goal, sets 2049 net zero target (10 Nov 2026)",
+   "url": "https://esgtoday.com/mercedes-benz-adjusts-2039-carbon-neutral-goal-sets-2049-net-zero-target"
+  },
+  {
+   "label": "Greek Reporter – European manufacturers risk losing to China by 2030 (11 Nov 2026)",
+   "url": "https://greekreporter.com/2026/11/11/european-manufacturers-risk-losing-china-eu-leader-warns/"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+}
