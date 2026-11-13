@@ -18,7 +18,8 @@ FONTS = os.environ.get("FONT_DIR", "fonts")
 PAPER, INK, INK2, RULE = (238, 234, 223), (47, 45, 40), (98, 94, 85), (205, 198, 182)
 W, H, M = 1200, 630, 72
 CAT = {"gen": "AI", "ux": "Product & UX", "pm": "Strategy & PM", "eng": "Engineering AI",
-       "vv": "Virtual validation", "bear": "Bearings", "auto": "Automotive"}
+       "vv": "Virtual validation", "res": "Research", "ndt": "Testing & NDT",
+       "bear": "Bearings", "auto": "Automotive"}
 
 
 def slugify(text):
