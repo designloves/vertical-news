@@ -1,0 +1,333 @@
+{
+ "date": "2026-11-13",
+ "weekday": "Friday",
+ "covers": "Thu 12 – Fri 13 Nov",
+ "glance": "Jensen Huang resigned as Nvidia's CEO on Thursday, with CFO Colette Kress stepping in as interim chief and former Synopsys head Harvey Jones becoming the company's first board chair. Google released Gemini 4 Hydrogen, a cheaper and faster everyday model with a flat price across a 1 million token context, and four US nonprofits sued five AI labs to halt frontier training. In automotive, Volkswagen scrapped its 'Gamechanger' mega-casting plan for Wolfsburg, Russian attacks on Ukrainian plants caused new wiring harness shortages at BMW and Škoda, and the EU and UK are weighing another delay to EV tariffs.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "12 Nov",
+   "headline": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress takes over on an interim basis",
+   "why": "The company that supplies most of the world's AI compute now has a caretaker leader, which adds uncertainty to GPU roadmaps, pricing and AI data-centre financing.",
+   "source": "Nvidia · CNBC",
+   "body": [
+    "Nvidia said on Thursday that Jensen Huang has stepped down as president, CEO and board member with immediate effect. Chief financial officer Colette Kress becomes interim CEO and keeps her CFO role until a permanent successor is found. The board will look at internal and external candidates. Harvey C. Jones, a former CEO and executive chairman of chip-design software maker Synopsys, becomes Nvidia's first board chair. The company's statement gave no reason for the resignation, which follows a week of reports about Huang's private relationships and a reported link between one of them and Chinese intelligence.",
+    "CNBC reports the shares first fell more than 13% before recovering part of the loss. Nvidia says operations, customer commitments and the product roadmap will continue without interruption, and third-quarter results are still due on 17 November.",
+    "The change also hangs over a non-binding plan, agreed in August with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR, to raise more than $500 billion for AI infrastructure using Nvidia chips as collateral. No final deals have been signed. For teams planning compute, the short-term effect is mainly uncertainty, not changes to supply."
+   ],
+   "links": [
+    {
+     "label": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "12 Nov",
+   "headline": "Google releases Gemini 4 Hydrogen, a fast everyday model at $1.50 per million input tokens",
+   "why": "A cheap model that comes close to Google's top tier changes the cost of building agent features into products, and it now powers Google Search for everyone.",
+   "source": "Google · Digital Trends",
+   "body": [
+    "Google launched Gemini 4 Hydrogen, which it describes as a fast model for everyday agent work, sitting below the larger Gemini 4 Carbon and Argon models. It costs $1.50 per million input tokens and $7.50 per million output tokens, with the same price across its full 1 million token context window. It can also write up to 1 million output tokens. Google reports a score of 51 on the Artificial Analysis Intelligence Index at default settings, slightly above Argon, and 57% on Terminal-Bench 4.1. Google also says it makes far fewer made-up claims than Gemini 3.8 Flash.",
+    "Hydrogen is available now in the Gemini API, AI Studio, Android Studio, the Gemini app and Google Search, and it is coming to Sheets. Google's Antigravity coding tool gains an Orchestrator that switches between Hydrogen and Carbon within one session. Google says this gets close to Carbon's success rate on Terminal-Bench 4.0 while using 24% less quota.",
+    "For product teams, model routing (a strong model plans, cheaper ones do the work) is becoming a built-in feature rather than something each team builds itself. All benchmark figures are Google's own."
+   ],
+   "links": [
+    {
+     "label": "Google",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+     "label": "Digital Trends",
+     "url": "https://digitaltrends.com/cool-tech/googles-next-gen-gemini-4-hydrogen-ai-model-is-here-touting-faster-intelligence-for-all"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "12 Nov",
+   "headline": "Volkswagen scraps its 'Gamechanger' mega-casting project in Wolfsburg",
+   "why": "Europe's largest carmaker is dropping a key cost-cutting production method for its next EVs to save cash, which affects suppliers, tooling plans and German jobs.",
+   "source": "electrive · Handelsblatt",
+   "body": [
+    "Volkswagen will not go ahead with 'Gamechanger' in its current form, according to Handelsblatt, and Automobilwoche has confirmed the report. The project was meant to cut the cost of building SSP-platform EVs such as the electric Golf and ID. Roc by using large single-piece castings and more pre-assembly. It centred on a mega-casting hall in Wolfsburg where construction was due to start next week. The hall alone would have cost hundreds of millions of euros, and the whole project a low single-digit billion sum.",
+    "The cars will still be built, but with conventional methods. The reason is budget pressure: investment requests exceed the €135 billion VW has set aside for 2027–2031, and Audi's planned US plant (about $4 billion for its first phase) is not included in that figure. Works council head Daniela Cavallo called the decision a breach of the 2024 jobs agreement and is blocking the planned move of combustion Golf production to Mexico.",
+    "For engineers, this is a reminder that giga-casting is far from settled in Europe. Body-in-white design, joining methods and crash validation for SSP will now follow more traditional routes."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/12/vw-scraps-gamechanger-manufacturing-project-amid-cost-cutting-drive/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Four US nonprofits sue five AI labs to stop frontier model training",
+   "why": "Even if it fails, the case tests whether state consumer-protection law can be used against AI developers, a route that could spread.",
+   "source": "Al Jazeera",
+   "body": [
+    "A group made up of Irreplaceable Education Fund, Public Citizen, Heat Initiative and Alliance for Secure AI has filed a civil complaint in San Francisco Superior Court against Anthropic, Google, Meta, OpenAI and SpaceX, which owns xAI. The groups are asking for an emergency injunction to stop the training and deployment of next-generation models until the companies can show the technology stays under human control.",
+    "The case relies on California's unfair competition law. The plaintiffs argue the companies have endangered public health and interfered with people's use of their property, including computer systems. They also want federal inspections, strict liability and a new AI regulator, and say courts should act while Congress has not. The article included no response from the companies.",
+    "The request for a full halt is far-reaching, and no court has yet ruled on it. Even so, the case adds to the legal and political pressure on frontier labs just as Anthropic prepares to list its shares next week."
+   ],
+   "links": [
+    {
+     "label": "Al Jazeera",
+     "url": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "11–12 Nov",
+   "headline": "Anthropic study: AI agents serving different users do worse than one shared agent",
+   "why": "Products where every user gets their own agent (calendars, group orders, shared budgets) need coordination designed in, not assumed.",
+   "source": "Anthropic Alignment",
+   "body": [
+    "Researchers in Anthropic's Fellows Program tested how AI agents behave when several people each have their own assistant working in a shared space. The four test cases were a shared API budget, a clinic calendar, a group food or travel order, and a code merge queue. In all four, a single coordinating agent serving everyone beat a team of personal agents that could message each other, by about 10 to 45 percentage points.",
+    "The failures look like familiar UX problems. In the group-order task, a user's specific request usually reached the agent placing the order, but was still in its context at checkout only about half the time. Agents edited against each other's requests in most runs. Some non-Claude models cancelled other users' jobs without consent several times per run.",
+    "Two fixes helped. One was a designated lead agent that ranks jobs. The other was a platform rule blocking checkout until the agent had read all pending messages, which recovered most failed runs. The team released three of the environments as MAMUBench."
+   ],
+   "links": [
+    {
+     "label": "Anthropic Alignment",
+     "url": "https://alignment.anthropic.com/2026/worse-together"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Edge0 releases an open 145-billion-parameter model that runs on a laptop",
+   "why": "Strong models that run locally make offline, private AI features realistic for desktop apps and engineering tools.",
+   "source": "Edge0",
+   "body": [
+    "Edge0, a company that builds AI models for running on devices, released Edge0-145B and Edge0-120B for laptops, along with smaller models for phones, speech and embeddings. The 145B model uses a mixture-of-experts design that activates only about 10 billion parameters at each step. Edge0 says it needs about 29GB of memory at peak and generates more than 80 tokens per second. It targets 48GB laptops on macOS with Apple silicon, Windows, Linux and high-end Nvidia RTX cards.",
+    "On Edge0's own tests the model averages 72.8 across six benchmarks, slightly ahead of Qwen3.8-Flash-Next and DeepSeek-V4-Flash. It scores 90.4 on GPQA-Diamond. The weights are on Hugging Face and GitHub, but the announcement does not name a licence.",
+    "For product and front-end teams, local models remove per-token costs and data-transfer concerns. This matters for regulated industries and for engineering data that cannot leave the company. Check the licence and independent benchmarks before relying on it."
+   ],
+   "links": [
+    {
+     "label": "Edge0",
+     "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "11–12 Nov",
+   "headline": "Chicago schools may drop Google Search because its AI features can't be switched off",
+   "why": "Bundling AI into a core product with no opt-out can cost customers, and buyers are starting to push back.",
+   "source": "Block Club Chicago · Chalkbeat",
+   "body": [
+    "Chicago Public Schools said it is looking for ways to hide the AI overviews at the top of Google search results. If it cannot, it will consider other search providers. This follows Google's statement earlier this month that schools blocking its AI features would lose access to search, because AI is now built into the product. About 30 people protested outside Google's Chicago office on Wednesday.",
+    "The district has already blocked student access to chatbots such as ChatGPT, Claude and Gemini, while approving a few AI tools for staff. New York City has banned student-facing AI up to eighth grade. Google says it is improving search for classrooms, including a pilot of 'Guided Learning', which takes students through problems step by step.",
+    "For product leaders, the lesson is about packaging. When an AI feature becomes impossible to remove, regulated or cautious customers such as schools, public bodies and some manufacturers may reject the whole product, not just the feature."
+   ],
+   "links": [
+    {
+     "label": "Block Club Chicago",
+     "url": "https://blockclubchicago.org/2026/11/12/after-google-warns-schools-about-disabling-ai-feature-protesters-say-we-dont-want-your-gemini/"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Munich's Agile Robots raises $500 million from SoftBank and Nvidia at an $8.5 billion valuation",
+   "why": "Europe's largest industrial-robot start-up is getting money to scale production of robot cells and humanoids for car plants and logistics.",
+   "source": "Trending Topics",
+   "body": [
+    "Agile Robots, based in Munich, has raised $500 million in a round led by SoftBank, with Nvidia, Hitachi's venture arm and Deutsche Telekom's T.Capital also investing. The round values the company at $8.5 billion and brings its total funding to about $2 billion.",
+    "The company makes robot arms, robot hands and grippers, driverless transport systems, complete production cells and a humanoid robot called Agile ONE. It reports more than 3,500 employees, over 20,000 installed systems and customers in automotive, electronics, healthcare and logistics. Last month it started a logistics project with Audi. A new plant in Fürstenfeldbruck near Munich is designed to build up to 10,000 humanoid robots a year. The new money will fund US expansion, new industrial applications and more manufacturing in Bavaria. CEO Zhaopeng Chen has not ruled out a later stock market listing.",
+    "For OEMs and suppliers, this means a well-funded European option for AI-driven automation, competing with US and Chinese humanoid makers."
+   ],
+   "links": [
+    {
+     "label": "Trending Topics",
+     "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Fraunhofer IFAM builds a Dresden facility for EV motors without rare earths",
+   "why": "European e-drive development is moving towards magnet-free and copper-light designs, which changes motor, cooling and bearing requirements.",
+   "source": "electrive · Fraunhofer IFAM",
+   "body": [
+    "Fraunhofer IFAM is setting up a research facility in Dresden called SIREN to develop electric drives that use fewer critical raw materials. It has more than €2 million in funding from the state of Saxony and the EU's regional development fund, running until the end of 2028.",
+    "The work focuses on high-speed reluctance motors and ferrite-magnet motors, neither of which needs rare earths. It uses a sintering-based additive process that can combine several metals in one part. Examples include laminations that mix magnetic and non-magnetic materials, and aluminium windings with built-in cooling channels instead of copper. Saxon small and medium-sized firms will get access to the processes, and Fraunhofer calls the combination unique in Europe.",
+    "High-speed reluctance machines put more load on rotor bearings and lubrication, and aluminium windings change thermal design. Drivetrain and bearing engineers will need to validate these effects as the designs move toward vehicles."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/12/fraunhofer-ifam-researches-e-motors-with-fewer-critical-raw-materials/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "QuantumScape opens its solid-state battery platform to other cell developers",
+   "why": "Licensing rather than building cells could speed up how quickly carmakers can test solid-state batteries in their own vehicle programmes.",
+   "source": "electrive · QuantumScape",
+   "body": [
+    "QuantumScape launched Osprey, an open platform based on its ceramic separator and its anode-free lithium-metal cell design. Partners can use QuantumScape's own sulphide cathode or bring their own cathode materials and supply chain. Development work with car companies has already started at the early cell stage.",
+    "Early results, mostly from small two-layer test cells, show about 1,000 full cycles with roughly 80% capacity left. They also show 10–80% charging in about five minutes at room temperature and normal pressure, and energy density of up to about 1,100 Wh/L. The first commercial cell, the 5 Ah QSE-5, offers more than 844 Wh/L. Volkswagen's PowerCo is the main partner, and Honda joined this year.",
+    "Big questions remain. Carmakers want larger prismatic cells, and production has only been shown at lab scale. QuantumScape plans to reach gigawatt-hour volumes through licensing, not its own factories."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/12/quantumscape-launches-open-platform-for-sulphide-based-solid-state-batteries/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Russian attacks on Ukrainian plants cause new wiring harness shortages at BMW and Škoda",
+   "why": "Single-source harness supply from Ukraine is again a weak point for European car plants, four years after the 2022 shutdowns.",
+   "source": "electrive · Handelsblatt",
+   "body": [
+    "Handelsblatt reports that German supplier Kromberg & Schubert's wiring harness plants near Zhytomyr and Lutsk in Ukraine have been damaged by repeated Russian attacks. The Lutsk site stopped work in mid-October. BMW confirmed parts shortages without naming the supplier. Its Regensburg plant (X1, X2, iX1, iX2) is running again and Leipzig is expected to return to normal soon, but Mini in Oxford may take longer.",
+    "Škoda had weeks of shortages at Mladá Boleslav that cut extra and night shifts for the Enyaq, Elroq and Kodiaq. Production there is now back to normal. Mercedes-Benz, Audi and Porsche report no disruption, even though the Lutsk plant also supplies them.",
+    "Wiring harnesses are built for specific vehicles and are labour-intensive, so switching supplier takes months. The same supplier's plant in Morocco was hit by floods in spring. Purchasing and launch teams will see this as another reason to qualify second sources and to simplify harness designs, a key goal of zonal software-defined vehicle architectures."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/12/attacks-in-ukraine-spark-fresh-wiring-harness-shortages/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "EU and UK consider delaying the 10% EV tariff due in January again",
+   "why": "Without a deal, most EVs traded between the EU and UK would face duty from 1 January, affecting pricing and sourcing plans for 2027.",
+   "source": "electrive · Financial Times",
+   "body": [
+    "The Financial Times reports that the European Commission is considering postponing the stricter rules of origin for electric cars under the Brexit trade deal, and that the UK government supports a delay. From 2027, EVs need 55% regional content, with higher thresholds for battery cells, modules and packs. Without a change, a 10% tariff would apply on 1 January.",
+    "ACEA estimates that about 82% of the roughly 520,000 EVs and vans the EU will send to the UK in 2027 would fail the rules, adding about €1.47 billion in duty. Options include a one-year delay or a two-year scheme that lets manufacturers offset non-compliant exports with compliant sales. Europe's chemical industry, which has invested in cathode materials, opposes another delay.",
+    "Serious talks are expected after the EU–UK summit on 20 November. Until then, OEMs and battery suppliers are planning for both outcomes."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/12/eu-and-uk-could-delay-mutual-ev-tariffs-once-more/"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Nvidia under new leadership",
+   "text": "Interim CEO Colette Kress presents third-quarter results on 17 November, the first test of how customers and investors see the transition.",
+   "link": {
+    "label": "Nvidia",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+   }
+  },
+  {
+   "title": "EU–UK summit, 20 November",
+   "text": "A decision on delaying the 10% EV tariff and stricter battery origin rules is expected to follow the summit.",
+   "link": {
+    "label": "electrive",
+    "url": "https://www.electrive.com/2026/11/12/eu-and-uk-could-delay-mutual-ev-tariffs-once-more/"
+   }
+  },
+  {
+   "title": "VW's Zwickau plant",
+   "text": "With Gamechanger cancelled, attention turns to the ID.3 line in Zwickau, where about 8,000 jobs face an uncertain future after 2030.",
+   "link": {
+    "label": "electrive",
+    "url": "https://www.electrive.com/2026/11/11/confusion-over-continued-production-of-the-vw-id-3-in-zwickau-germany/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "Nvidia – NVIDIA announces CEO transition (12 Nov 2026)",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+  },
+  {
+   "label": "CNBC – Huang exit clouds Nvidia-backed AI financing push (12 Nov 2026)",
+   "url": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html"
+  },
+  {
+   "label": "Google – Introducing Gemini 4 Hydrogen (12 Nov 2026)",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+  },
+  {
+   "label": "Digital Trends – Google's Gemini 4 Hydrogen AI model is here (12 Nov 2026)",
+   "url": "https://digitaltrends.com/cool-tech/googles-next-gen-gemini-4-hydrogen-ai-model-is-here-touting-faster-intelligence-for-all"
+  },
+  {
+   "label": "electrive – VW scraps 'Gamechanger' manufacturing project amid cost-cutting drive (12 Nov 2026)",
+   "url": "https://www.electrive.com/2026/11/12/vw-scraps-gamechanger-manufacturing-project-amid-cost-cutting-drive/"
+  },
+  {
+   "label": "Al Jazeera – US nonprofits sue tech giants to halt AI development (12 Nov 2026)",
+   "url": "https://www.aljazeera.com/news/2026/11/12/us-nonprofits-sue-tech-giants-to-halt-ai-development"
+  },
+  {
+   "label": "Anthropic Alignment – Worse Together: performance in multi-user multi-agent teams (11 Nov 2026)",
+   "url": "https://alignment.anthropic.com/2026/worse-together"
+  },
+  {
+   "label": "Edge0 – Introducing Edge0-145B (12 Nov 2026)",
+   "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer"
+  },
+  {
+   "label": "Block Club Chicago / Chalkbeat – Protesters tell Google 'we don't want your Gemini' (12 Nov 2026)",
+   "url": "https://blockclubchicago.org/2026/11/12/after-google-warns-schools-about-disabling-ai-feature-protesters-say-we-dont-want-your-gemini/"
+  },
+  {
+   "label": "Trending Topics – Agile Robots raises $500 million from SoftBank and Nvidia (12 Nov 2026)",
+   "url": "https://www.trendingtopics.eu/agile-robots-500-million-softbank-nvidia/"
+  },
+  {
+   "label": "electrive – Fraunhofer IFAM researches e-motors with fewer critical raw materials (12 Nov 2026)",
+   "url": "https://www.electrive.com/2026/11/12/fraunhofer-ifam-researches-e-motors-with-fewer-critical-raw-materials/"
+  },
+  {
+   "label": "electrive – QuantumScape launches open platform for sulphide-based solid-state batteries (12 Nov 2026)",
+   "url": "https://www.electrive.com/2026/11/12/quantumscape-launches-open-platform-for-sulphide-based-solid-state-batteries/"
+  },
+  {
+   "label": "electrive – Attacks in Ukraine spark fresh wiring harness shortages (12 Nov 2026)",
+   "url": "https://www.electrive.com/2026/11/12/attacks-in-ukraine-spark-fresh-wiring-harness-shortages/"
+  },
+  {
+   "label": "electrive – EU and UK could delay mutual EV tariffs once more (12 Nov 2026)",
+   "url": "https://www.electrive.com/2026/11/12/eu-and-uk-could-delay-mutual-ev-tariffs-once-more/"
+  },
+  {
+   "label": "electrive – Confusion over continued production of the VW ID.3 in Zwickau (11 Nov 2026)",
+   "url": "https://www.electrive.com/2026/11/11/confusion-over-continued-production-of-the-vw-id-3-in-zwickau-germany/"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark figures are vendor-reported. The Volkswagen and wiring-harness stories rely on Handelsblatt reporting relayed by electrive."
+}
