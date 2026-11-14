@@ -1,174 +1,444 @@
 {
-  "date": "2026-11-14",
-  "weekday": "Saturday",
-  "covers": "Thu 12 – Sat 14 Nov",
-  "glance": "Mercedes-Benz has stopped all investment in its German plants and says it may close sites if unions do not accept lower labour costs. In Dublin, EU leaders held their first full summit on AI and agreed to push on with seven AI gigafactories, while autonomous driving took a step towards scale with a 10,000-van robotaxi plan built on the VW ID. Buzz. Also in this edition: a supply-chain breach that exposed Notion AI chats, IBM's new way to block prompt injection, and fresh product and plant news from Polestar, Kia, Scout and Timken.",
-  "stories": [
+ "date": "2026-11-14",
+ "weekday": "Saturday",
+ "covers": "Thu 12 – Fri 13 Nov",
+ "glance": "Mercedes-Benz has stopped new investment in its German plants and says two sites could close unless labour costs fall, while EU leaders held their first AI summit in Dublin and backed seven AI gigafactories. Anthropic's IPO is reported to be heavily oversubscribed, LangChain raised 300 million dollars for agent governance, and Siemens posted a record year built on industrial AI. Also: a BMW park-outside warning, a robotaxi plan on the VW ID. Buzz, and two new papers on ultrasonic inspection and bearing vibration.",
+ "brief": "This is Vertical News for Saturday, the fourteenth of November.\n\nOur top story: Mercedes-Benz has stopped new investment in its German plants after labour cost talks stalled, and says two German sites could close. It says production labour in Germany can cost up to five times as much as in Eastern Europe. Unions reject any closures.\n\nIn Dublin, EU leaders held their first summit on artificial intelligence. Ursula von der Leyen said Europe plans seven AI gigafactories, with about thirty billion euros for compute, and that wider tech sovereignty needs at least five hundred billion.\n\nAnthropic's share offering is reported to be about six times oversubscribed, with pricing expected on Wednesday. LangChain raised three hundred million dollars to sell tools that govern AI agents. Notion confirmed that some AI chat transcripts were exposed through a breach at its vendor Fireworks AI. IBM previewed models that keep instructions and data apart to resist prompt injection, and Figma added native 3D transforms.\n\nSiemens posted a record year and raised its targets on industrial AI. Applied Intuition is reportedly in talks to raise money at a thirty billion dollar valuation, and Tristar AI raised twelve point four million dollars for AI visual inspection.\n\nMay Mobility plans more than ten thousand robotaxis based on the VW ID. Buzz, and US regulators told owners of over seven hundred thousand BMWs to park outside after an earlier fix failed.\n\nIn research, Bristol engineers built a non-contact ultrasonic array that turns troublesome echoes into defect signals, and a Chinese team linked raceway waviness directly to bearing vibration.",
+ "stories": [
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "12–13 Nov",
+   "headline": "Mercedes-Benz halts new investment in its German plants and says two sites could close",
+   "why": "Germany's premium car base is now openly up for negotiation, which affects supplier volumes, engineering jobs and where future models are developed and built.",
+   "source": "ZDFheute · dpa · Just Auto",
+   "body": [
+    "Mercedes-Benz has stopped all further investment in its German sites after talks with the works council and IG Metall on cutting labour costs stalled, according to an internal memo reported by Reuters and dpa. Management wants to end the 35-hour week without full wage compensation. Production chief Michael Schiebe has warned that two German plants could close if costs do not come down far enough, though the company says its aim is still to keep every site.",
+    "Mercedes says an hour of production labour in Germany can cost up to five times as much as at its Eastern European plants. CEO Ola Källenius has said cheaper sites with longer working hours will shape where future products and investment go. The group employs about 164,000 people, roughly 108,000 of them in Germany, where job security runs to 2034 but does not guarantee products or capacity use. Third-quarter car sales fell 8% and China sales fell 31%.",
+    "Works council chief Ergun Lümali and IG Metall reject closures. For suppliers to German powertrain and assembly plants, the risk is that the next model generation, and its tooling and validation work, moves east."
+   ],
+   "links": [
     {
-      "cat": "auto",
-      "top": true,
-      "date": "12–13 Nov",
-      "headline": "Mercedes-Benz freezes all investment in its German plants and puts closures on the table",
-      "why": "Germany's premium car base is now openly in play, which affects supplier volumes, engineering jobs and where the next vehicle generation is developed and built.",
-      "source": "electrive · Reuters via Sowetan",
-      "body": [
-        "Mercedes-Benz management has decided to stop all further investment in its German sites, production board member Michael Schiebe said in an interview posted on the company intranet on Thursday and first quoted by Handelsblatt. The move follows months of stalled talks with the works council and IG Metall over labour costs. Management wants to drop the 35-hour week, cut holiday and profit-sharing bonuses and save about €800 million a year. Board member Britta Seeger wrote that closures should be avoided but must now be examined more closely.",
-        "Mercedes says an hour of production labour in Germany can cost up to five times as much as in Eastern Europe. Because of long lead times, it must soon decide where successor models are built, and Schiebe warned these could be made only abroad. German vehicle plants include Sindelfingen, Bremen and Rastatt, plus component sites such as Untertürkheim, Berlin, Hamburg and Kamenz.",
-        "The warning lands in a crowded week: Volkswagen starts talks with IG Metall on 24 November over its biggest restructuring, and Schaeffler recently announced 3,460 job cuts in Europe. Roland Berger estimates at least 200,000 German automotive jobs could go by 2030."
-      ],
-      "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/mercedes-board-threatens-to-close-german-plants-and-stop-investments-in-germany/"},
-        {"label": "Reuters via Sowetan", "url": "https://sowetan.co.za/motoring/2026-11-13-german-car-jobs-at-risk-as-mercedes-ponders-plant-closures"}
-      ]
+     "label": "ZDFheute",
+     "url": "https://www.zdfheute.de/wirtschaft/unternehmen/investitionen-deutschland-kostensenkungen-werksschliessungen-stopp-100.html"
     },
     {
-      "cat": "gen",
-      "top": true,
-      "date": "13 Nov",
-      "headline": "EU leaders hold their first AI summit and back seven AI gigafactories worth about €30 billion",
-      "why": "Europe's compute and funding plans decide how much AI capacity European product teams and engineering firms can use without relying on US clouds.",
-      "source": "Xinhua",
-      "body": [
-        "EU heads of government met informally in Dublin on Friday for what was described as their first in-depth discussion of artificial intelligence, covering competitiveness, technology and risks. European Council President António Costa said Europe must adopt AI faster, reduce critical dependencies and mobilise more public and private money, and called the proposed European Competitiveness Fund in the next long-term budget decisive.",
-        "Commission President Ursula von der Leyen said Europe plans seven AI gigafactories, with around €30 billion expected for computing infrastructure. She estimated that technological sovereignty more broadly needs at least €500 billion and said she would bring a financing proposal to the next meeting. She also said the EU wants talks with the US Congress on global AI governance. France and the Netherlands will host a meeting of European tech leaders in Paris on 2 December.",
-        "Leaders will return to AI in February 2027, and its social impact will be a central theme of the 2027 Social Summit. For companies, the practical signal is that more EU money for compute and AI adoption is coming, but the financing still has to be agreed."
-      ],
-      "links": [
-        {"label": "Xinhua", "url": "https://english.news.cn/europe/20261114/4f98cc195f0340849de3cf7abee9cb84/c.html"}
-      ]
+     "label": "dpa via AD HOC NEWS",
+     "url": "https://www.ad-hoc-news.de/wirtschaft/mercedes-stoppt-investitionen-und-prueft-zwei-werksschliessungen/70504330"
     },
     {
-      "cat": "auto",
-      "top": false,
-      "date": "13 Nov",
-      "headline": "May Mobility plans more than 10,000 robotaxis based on the VW ID. Buzz by 2031",
-      "why": "A volume plan for driverless vans on a production vehicle shows how autonomy suppliers are moving from pilots to OEM platforms and fleet-scale validation.",
-      "source": "electrive · May Mobility",
-      "body": [
-        "US autonomous driving company May Mobility plans to put more than 10,000 self-driving VW ID. Buzz vans into robotaxi service worldwide by the end of 2031. Volkswagen will adapt the vehicle, and May Mobility's autonomous driving kit will be supplied by ECARX. German firm Charlton Intelligence will support delivery and deployment. May Mobility aims to cut the total cost per vehicle by more than half.",
-        "Public road tests in the US are planned for early 2027, with the first production-ready vehicles going to outside fleet operators in 2028. The company does not run fleets itself; it sells its driving software to operators and ride-hail platforms, including an existing deal with Lyft in Atlanta. Its software runs entirely on the vehicle without needing a mobile connection, and a predictive world model simulates traffic up to ten seconds ahead. May Mobility says it has completed more than 600,000 autonomous trips covering 1.1 million miles in the US and Japan.",
-        "For engineers, the plan puts the focus on vehicle-level integration, redundancy and the cost of sensors and compute at scale."
-      ],
-      "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/may-mobility-to-convert-10000-vw-id-buzz-vehicles-into-robotaxis/"}
-      ]
-    },
-    {
-      "cat": "pm",
-      "top": false,
-      "date": "12–13 Nov",
-      "headline": "Breach at AI inference provider Fireworks exposed some Notion AI chat transcripts",
-      "why": "Every AI feature that sends user data to a model vendor adds that vendor's security to your own risk, and this is a clear example of it going wrong.",
-      "source": "Notion · TechCrunch",
-      "body": [
-        "Notion has confirmed that hackers who breached Fireworks AI, a platform that hosts open-weight models, took chat transcripts from Notion AI users. The data came from Notion's Insights feature, which used Fireworks to classify conversations, and includes what users and the model wrote in the chat. Notion says fewer than 1% of workspaces are affected and most transcripts cannot be tied to a user or workspace.",
-        "According to Notion's timeline, Fireworks first reported the incident on 2 November. Notion cut its connection the next day, deleted its data, and later learned the stolen dataset contained real customer chats. It has disabled Insights, stopped serving open-weight models through Fireworks, revoked exposed Notion API keys and reported third-party keys found in messages to their issuers. Fireworks, which TechCrunch says has tens of thousands of customers, believes the attackers want to resell stolen model access. It is the company's second incident in about two months.",
-        "For product teams, the lesson is to map which vendors see prompts and outputs, limit retention, and warn users not to paste credentials into AI chats."
-      ],
-      "links": [
-        {"label": "Notion", "url": "https://www.notion.com/security/advisories/security-incident-involving-a-third-party-ai-vendor"},
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"}
-      ]
-    },
-    {
-      "cat": "gen",
-      "top": false,
-      "date": "12 Nov",
-      "headline": "IBM previews Granite models that keep instructions and data apart to resist prompt injection",
-      "why": "Teams building agents and AI features into products need ways to stop documents, web pages and tool results from hijacking the model.",
-      "source": "IBM Granite (Hugging Face)",
-      "body": [
-        "IBM's Granite team has released experimental 3B and 8B versions of Granite 4.1 that use LLMON, a new markup format for model input. Instead of ordinary characters such as JSON brackets, LLMON uses reserved special tokens to mark each part of the context as an instruction, data or a requirement, and an explicit block says which instruction to run on which data. Text inside documents or tool results is meant to be read as material, not followed as a command.",
-        "IBM reports that on the OPI benchmark the models nearly eliminate successful indirect prompt injections, avoiding 47% more attacks than the best frontier model it tested, with similar trends on two other benchmarks. General performance is said to match the standard Granite 4.1 Instruct models. The tests cover static attacks only; defence against adaptive, multi-turn attacks is still in progress, and IBM notes the behaviour is learned, not guaranteed.",
-        "The models, a toolkit and converters to and from JSON are on Hugging Face and GitHub. IBM calls this a preview for evaluation, not production. Results are vendor-reported."
-      ],
-      "links": [
-        {"label": "IBM Granite (Hugging Face)", "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"}
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "13 Nov",
-      "headline": "Polestar shows the Formula 2030 concept, previewing its next design language and a return to physical controls",
-      "why": "The Gothenburg brand's next cars will mix screens with programmable hardware controls, a sign of where in-car UX is heading.",
-      "source": "Dezeen",
-      "body": [
-        "Polestar has unveiled the Formula 2030, a low sports-car concept and the first created under design chief Philipp Römers, who joined from Audi in 2025. It will not be built, but its front previews the next-generation Polestar 2 saloon due in 2027 and its rear reflects the upcoming Polestar 7 SUV. The car is 4.68 m long, 2.02 m wide and 1.35 m tall, and has a conventional rear window, unlike the Polestar 4 and 5.",
-        "Inside, a curved screen band sits above the wheel and a second screen is built into the centre console. A sliding selector switches between Performance, Normal and Autonomous modes, each changing the screen layout, seating and wheel position. Eight large mechanical controls on the console can be configured with different buttons and switches, in line with the industry's move back to physical controls. Seat backs use a flax and bio-based polypropylene composite, and door panels use a single material to ease recycling.",
-        "Polestar remains loss-making and has pushed its goal of a truly climate-neutral car from 2030 to 2035."
-      ],
-      "links": [
-        {"label": "Dezeen", "url": "https://www.dezeen.com/2026/11/13/polestar-formula-2030-concept-car/"}
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "13 Nov",
-      "headline": "VW's Scout brand starts building validation vehicles at its new South Carolina plant",
-      "why": "Pre-series builds are where production feasibility and component quality get tested, and Scout is using AI to monitor weld seams from the start.",
-      "source": "electrive",
-      "body": [
-        "Scout Motors, Volkswagen's US brand, has begun assembling its first validation vehicles at its Blythewood, South Carolina plant, which is in the final phase of construction. Most equipment in the body shop, paint shop and assembly hall is installed and being commissioned, and the body shop uses AI-assisted weld seam monitoring. The validation builds check technology, manufacturability and part quality and will continue into 2027.",
-        "The plant represents more than $2 billion of investment and over 4,000 expected jobs. Series production is set to start in 2027, with deliveries from 2028. Scout has 210,000 refundable $100 reservations, and because 87% chose a range-extender version, it will launch the Traveler SUV and Terra pickup with range extenders first and fully electric versions later. Audi also plans to build around 25,000 vehicles a year at the site.",
-        "The shift to range extenders shows how customer demand is reshaping EV programmes and their drivetrain and validation plans."
-      ],
-      "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"}
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "13 Nov",
-      "headline": "Kia and suppliers to invest about €1.8 billion in a second Indian plant",
-      "why": "India keeps gaining weight as a production and export base for both electric and combustion cars, which matters for global supplier footprints.",
-      "source": "electrive",
-      "body": [
-        "Kia, together with its suppliers, plans to invest around €1.8 billion in a second plant in Anantapur, Andhra Pradesh, next to its existing factory. The new site covers 188 hectares and will build up to 200,000 vehicles a year, both electric and combustion models. That lifts Kia's total capacity in Anantapur from 400,000 to 600,000 vehicles a year. Operations are due to start in 2030.",
-        "The plant will have stamping, welding, painting and assembly, like the first factory, and is expected to create about 12,000 jobs at Kia, its service providers and suppliers. It will serve both the domestic market and exports. Kia began production in India in 2019 and has added local assembly of the Carens Clavis EV in 2025 and the Syros EV in 2026.",
-        "For suppliers, including drivetrain and bearing makers, the plan adds to a growing list of new capacity in India while European plants face cost cuts."
-      ],
-      "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"}
-      ]
-    },
-    {
-      "cat": "bear",
-      "top": false,
-      "date": "12 Nov",
-      "headline": "Timken wins two more Indian BIS licences, including a first for double-row cylindrical roller bearings",
-      "why": "Indian certification is becoming a gate for bearing suppliers into one of the fastest-growing vehicle and industrial markets.",
-      "source": "Gear Technology India",
-      "body": [
-        "Timken has received two new licences from the Bureau of Indian Standards for its bearing plants in Bharuch, Gujarat. One, under IS 6454, covers double-row cylindrical roller bearings at its new Bharuch facility; Timken says it is the first licence for this bearing type granted to any bearing company in India. The other, under IS 6457, covers cylindrical roller bearings at its existing plant.",
-        "The approvals bring Timken's total to eight BIS licences in 2026, which the company says is the most awarded to any bearing maker in India this year. India has been tightening quality-control rules that require many bearings sold in the country to carry BIS certification.",
-        "For OEMs and suppliers sourcing in India, locally certified production of more bearing types makes it easier to qualify Indian-made parts for vehicles, rail and industrial machinery, and raises the bar for importers that lack certification."
-      ],
-      "links": [
-        {"label": "Gear Technology India", "url": "https://geartechnologyindia.com/timken-secures-two-new-bis-licences-for-bearing-manufacturing-facilities-in-bharuch"}
-      ]
+     "label": "Just Auto",
+     "url": "https://just-auto.com/news/mercedes-benz-freezes-german-investment"
     }
-  ],
-  "watch": [
-    {"title": "German labour talks", "text": "Mercedes and IG Metall are still negotiating, and Volkswagen's restructuring talks with the union begin on 24 November, with strikes possible around the turn of the year.", "link": {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/mercedes-board-threatens-to-close-german-plants-and-stop-investments-in-germany/"}},
-    {"title": "Busy 17 November", "text": "SKF holds its Vertevo Capital Markets Day ahead of the 1 December listing, Nvidia reports quarterly results under its interim CEO, and the Commission hosts its Apply AI Summit in Brussels.", "link": {"label": "AD HOC NEWS", "url": "https://ad-hoc-news.de/boerse/news/corporate-news/skf-stock-takes-efficiency-portfolio-to-cop31/70493705"}},
-    {"title": "EU AI financing", "text": "Von der Leyen will bring a financing proposal for at least €500 billion of tech-sovereignty investment to the next leaders' meeting; Paris hosts European tech leaders on 2 December.", "link": {"label": "Xinhua", "url": "https://english.news.cn/europe/20261114/4f98cc195f0340849de3cf7abee9cb84/c.html"}}
-  ],
-  "sources": [
-    {"label": "electrive – Mercedes board threatens to close German plants and stop investments in Germany (13 Nov)", "url": "https://www.electrive.com/2026/11/13/mercedes-board-threatens-to-close-german-plants-and-stop-investments-in-germany/"},
-    {"label": "Sowetan (Reuters) – German car jobs at risk as Mercedes ponders plant closures (13 Nov)", "url": "https://sowetan.co.za/motoring/2026-11-13-german-car-jobs-at-risk-as-mercedes-ponders-plant-closures"},
-    {"label": "Xinhua – EU leaders discuss AI competitiveness, agree on Ukraine peace talks team (14 Nov)", "url": "https://english.news.cn/europe/20261114/4f98cc195f0340849de3cf7abee9cb84/c.html"},
-    {"label": "electrive – May Mobility to convert 10,000 VW ID. Buzz vehicles into robotaxis (13 Nov)", "url": "https://www.electrive.com/2026/11/13/may-mobility-to-convert-10000-vw-id-buzz-vehicles-into-robotaxis/"},
-    {"label": "Notion – Security incident involving a third-party AI vendor (updated 13 Nov)", "url": "https://www.notion.com/security/advisories/security-incident-involving-a-third-party-ai-vendor"},
-    {"label": "TechCrunch – Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts (12 Nov)", "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"},
-    {"label": "Hugging Face / IBM Granite – LLMON, an LLM-native markup language, now in Granite (12 Nov)", "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"},
-    {"label": "Dezeen – Polestar Formula 2030 concept car (13 Nov)", "url": "https://www.dezeen.com/2026/11/13/polestar-formula-2030-concept-car/"},
-    {"label": "electrive – VW's Scout brand begins production of first test vehicles at new US plant (13 Nov)", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"},
-    {"label": "electrive – Kia to invest around €1.8 billion in new plant in India (13 Nov)", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"},
-    {"label": "Gear Technology India – Timken secures two new BIS licences for bearing facilities in Bharuch (12 Nov)", "url": "https://geartechnologyindia.com/timken-secures-two-new-bis-licences-for-bearing-manufacturing-facilities-in-bharuch"},
-    {"label": "AD HOC NEWS – SKF takes efficiency portfolio to COP31 (11 Nov)", "url": "https://ad-hoc-news.de/boerse/news/corporate-news/skf-stock-takes-efficiency-portfolio-to-cop31/70493705"}
-  ],
-  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "13 Nov",
+   "headline": "EU leaders hold their first AI summit and back seven AI gigafactories",
+   "why": "EU money for compute and a lean towards European suppliers in public AI contracts will shape which AI services European product and engineering teams can use.",
+   "source": "Xinhua · Euronews",
+   "body": [
+    "EU heads of government met informally in Dublin on Friday, hosted by Taoiseach Micheál Martin, for their first in-depth discussion of artificial intelligence. Mistral CEO Arthur Mensch joined a session on competitiveness and sovereignty, and Geoffrey Hinton a session on AI's impact on society. Because the meeting was informal, no conclusions were adopted, and a dispute over a Ukraine envoy took up much of the attention.",
+    "Council President António Costa called for faster AI adoption, fewer critical dependencies and more public and private investment, and said the proposed European Competitiveness Fund in the next long-term budget will be decisive. Commission President Ursula von der Leyen said Europe plans seven AI gigafactories, with about €30 billion expected for AI compute, and estimated that wider tech sovereignty needs at least €500 billion. She will bring a financing proposal to the next meeting. Euronews reports the EU is moving towards reserving public contracts for sensitive AI uses for European firms.",
+    "France and the Netherlands host European tech leaders in Paris on 2 December, and leaders return to AI governance in February 2027."
+   ],
+   "links": [
+    {
+     "label": "Xinhua",
+     "url": "https://english.news.cn/20261114/28e9a81021724234ad09d5f86aaea9a6/c.html"
+    },
+    {
+     "label": "Euronews",
+     "url": "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "Anthropic's IPO is reported to be about six times oversubscribed ahead of pricing",
+   "why": "Investor demand for the largest AI listing so far will set the tone for how markets value the labs whose pricing and roadmaps shape AI products.",
+   "source": "Unite.ai (citing Reuters) · Pomegra",
+   "body": [
+    "Orders for Anthropic's share offering reached roughly twice the shares available after the first day of the roadshow and about six times by the third day, Unite.ai reports, citing Reuters. The roadshow opened on 10 November. Anthropic is offering 825 million Class A shares at 70 to 78 dollars each, which would raise about 64 billion dollars at the top of the range, and underwriters may get an option on up to 123.75 million more shares.",
+    "Banks are reportedly valuing the company against projected 2028 revenue of about 270 to 280 billion dollars. Pricing is expected on 18 November and trading on Nasdaq under the ticker ANT from 19 November. Some commentators expect pricing above the range, but no decision has been announced and the SEC registration was not yet effective at the time of reporting.",
+    "For teams building on Claude, a listed Anthropic will report quarterly, giving clearer signals on capacity, pricing and product focus. The demand figures come from sources cited by Reuters, not from the company."
+   ],
+   "links": [
+    {
+     "label": "Unite.ai",
+     "url": "https://www.unite.ai/anthropic-ipo-could-raise-64-billion-as-orders-reach-six-times/"
+    },
+    {
+     "label": "Pomegra",
+     "url": "https://pomegra.io/news/anthropic-ipo-ant-6x-oversubscribed-pricing-above-range"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "LangChain raises 300 million dollars at a 3 billion dollar valuation to sell agent governance",
+   "why": "Money is flowing to the layer that controls, budgets and audits AI agents, which teams need before agents go into production.",
+   "source": "TechCrunch · Unite.ai",
+   "body": [
+    "LangChain has raised a 300 million dollar Series C led by CapitalG, with GIC, DFJ Growth, IVP and Sapphire Ventures taking part. The 3 billion dollar valuation is more than double the 1.25 billion dollars of its previous round about a year ago.",
+    "The company started in 2022 as an open-source framework for connecting language models to search, APIs and databases. Its business now centres on LangSmith, a platform for building, running and governing agents that is not tied to any model or cloud. LangChain claims more than 7,000 LangSmith customer organisations, including Harvey, Rippling, NVIDIA, Toyota and Salesforce. New agent governance features centralise control over which models, tools and data agents can use, with gateways that set model budgets and fallbacks, protect sensitive data and manage tool access. No revenue figures were disclosed.",
+    "For product managers, the round confirms that observability, cost control and permissions are becoming separate products. Teams planning agent features should budget for this layer instead of treating it as an afterthought."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+    },
+    {
+     "label": "Unite.ai",
+     "url": "https://www.unite.ai/langchain-secures-300m-series-c-at-3b-valuation-for-agent-governance/"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Notion AI chat transcripts exposed through a breach at inference provider Fireworks AI",
+   "why": "Every AI feature that sends user data to a model vendor inherits that vendor's security, and a zero-retention promise is not a guarantee.",
+   "source": "Notion · eSecurity Planet",
+   "body": [
+    "Notion has confirmed that attackers who breached Fireworks AI, a platform that hosts open-weight models, obtained chat transcripts from Notion AI users. Notion used Fireworks for open-weight inference and for classifying conversations behind its admin feature Insights. It found that Fireworks had kept data from those endpoints despite a contractual zero-data-retention commitment. Fewer than 1% of workspaces are affected, and most transcripts cannot be tied to a user or workspace.",
+    "Notion cut its connection to Fireworks on 3 November, disabled Insights, stopped serving open-weight models through the vendor, added an incident review export in affected workspaces and told users to rotate any credentials pasted into AI chats. Its latest update, on 12 November, says third-party API keys found in messages were reported to their issuers. According to eSecurity Planet, this is Fireworks' second breach since early October.",
+    "The lesson for product teams is practical: map every subprocessor that sees prompts and outputs, check retention claims rather than trusting contracts alone, and warn users not to paste secrets into AI chats."
+   ],
+   "links": [
+    {
+     "label": "Notion",
+     "url": "https://notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+    },
+    {
+     "label": "eSecurity Planet",
+     "url": "https://www.esecurityplanet.com/threats/news-fireworks-ai-second-breach-notion-chat-transcripts/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "IBM previews Granite models that separate instructions from data to resist prompt injection",
+   "why": "Teams building agents that read emails, documents or web pages get a structural defence against hijacking, not just careful prompt wording.",
+   "source": "IBM Granite (Hugging Face)",
+   "body": [
+    "IBM's Granite team has released two experimental Granite 4.1 models that use LLMON, a new markup for model input. Instead of ordinary characters, LLMON uses reserved special tokens to mark which parts of a prompt are instructions, which are data and which are requirements. The idea is that text inside a document or tool result is treated as material to work on, not as a command to follow. It adds to existing chat templates rather than replacing them.",
+    "IBM reports that on the OPI benchmark for indirect prompt injection, the models avoid 47% more attacks than the best frontier model it tested and 95% more than the best open model, with similar trends on two other benchmarks. General performance is said to match the standard Granite 4.1 Instruct models. The weights and a toolkit are public.",
+    "IBM is clear about the limits: these are previews, not for production, the separation is learned behaviour rather than a guarantee, and adaptive multi-turn attacks are not yet handled. All results are vendor-reported."
+   ],
+   "links": [
+    {
+     "label": "IBM Granite (Hugging Face)",
+     "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "12–13 Nov",
+   "headline": "Figma adds native 3D transforms that work with its agent, Motion and code handoff",
+   "why": "One of designers' longest-standing Figma requests now flows through to animation and production code in a single workflow.",
+   "source": "AI UX Design Guide · Creators Toolbox",
+   "body": [
+    "Figma has shipped native 3D transforms. Designers can rotate layers on the x, y and z axes using handles on the canvas with live previews, and adjust perspective and depth to build simple 3D scenes. Scenes can be built by hand or assembled by the Figma agent, which became generally available in October and runs on AI credits.",
+    "The feature works with Figma Motion, now in open beta with Lottie export, so designers can animate flips, turns and perspective shifts. For handoff, developers can copy the CSS from Dev Mode or send the design to a coding agent through Figma's MCP server. Figma has also published a community playground file for trying the feature. Plan and pricing details were not given in the coverage.",
+    "For product and frontend teams, the notable part is the chain from canvas to motion to code. Since browsers already support CSS 3D transforms, designs made this way should translate more directly into production than mock-ups made in separate 3D tools. This summary relies on secondary coverage of Figma's release note."
+   ],
+   "links": [
+    {
+     "label": "AI UX Design Guide",
+     "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-nov-13-user-rage-ai-audits-and-3d-in-figma"
+    },
+    {
+     "label": "Creators Toolbox",
+     "url": "https://creatorstoolbox.com/@scout/post/n_2dvp6i359rlpn"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Siemens posts record year and raises growth targets on industrial AI",
+   "why": "The owner of Simcenter, Altair and Teamcenter is betting its growth on AI-driven engineering software, which will shape the CAE and PLM tools OEMs rely on.",
+   "source": "Siemens · Investing.com",
+   "body": [
+    "Siemens reported record results for fiscal 2026. Comparable revenue rose 8% to 83.4 billion euros, orders rose 25% to 108.2 billion euros and the order backlog reached a record 143 billion euros. Digital business revenue grew 16% to 10.9 billion euros, and Digital Industries software revenue reached 7.2 billion euros, up 13% on a comparable basis. CEO Roland Busch described industrial AI as an exceptional growth opportunity.",
+    "In the fourth quarter, the Digital Industries margin rose to 20.9%. Siemens raised its mid-term revenue growth target to 7–11% from 6–9% and still aims to double digital revenue by fiscal 2030. Its investor slides cite an industrial customer reporting engineering twice as fast with Siemens' engineering agent and say revenue synergies from the Altair and Dotmatics acquisitions are starting, without giving figures.",
+    "For simulation and test engineers, the signal is that Siemens will keep pushing AI agents and Altair's solvers deeper into Simcenter and Teamcenter. Expect AI features to become a bigger part of licence negotiations."
+   ],
+   "links": [
+    {
+     "label": "Siemens",
+     "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth"
+    },
+    {
+     "label": "Investing.com",
+     "url": "https://www.investing.com/news/company-news/siemens-fy26-slides-industrial-ai-drives-record-orders-raised-targets-93CH-5020795"
+    }
+   ]
+  },
+  {
+   "cat": "vv",
+   "top": false,
+   "date": "11–12 Nov",
+   "headline": "Applied Intuition reportedly in talks to raise 1.5 billion dollars at a 30 billion dollar valuation",
+   "why": "Investors are valuing a simulation-first ADAS and vehicle software toolchain far above traditional test-tool makers, which raises the stakes for virtual validation.",
+   "source": "Bloomberg (reported) · Tech Times",
+   "body": [
+    "Applied Intuition, which makes simulation and testing tools for driver assistance and automated driving as well as vehicle software, is in talks to raise at least 1.5 billion dollars, Bloomberg reports. General Catalyst would lead with about 250 million dollars. The valuation would be about 30 billion dollars, double the 15 billion dollars of its June 2025 round. No deal has been announced.",
+    "According to Tech Times, the company's revenue target for 2026 is above 560 million dollars, about 19% higher than the previous year, with forecasts of more than 1 billion dollars in 2027. That puts the reported valuation at about 54 times this year's revenue target. Applied Intuition says it works with 18 of the top 20 carmakers, and its recent deals include a vehicle operating system for trucks from TRATON, the group that owns Scania.",
+    "For validation teams, the round would fund more simulation-based sign-off tools competing with dSPACE, IPG, AVL and others. It also shows that investors see virtual testing as core vehicle software, not a niche."
+   ],
+   "links": [
+    {
+     "label": "Tech Times",
+     "url": "https://techtimes.com/articles/330520/20261112/applied-intuition-valuation-could-double-30-billion-though-2026-revenue-target-rises-just-19.htm"
+    },
+    {
+     "label": "Bloomberg",
+     "url": "https://www.bloomberg.com/news/articles/2026-11-11/applied-intuition-in-talks-to-raise-1-5-billion-at-30-billion-value"
+    }
+   ]
+  },
+  {
+   "cat": "ndt",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Tristar AI raises 12.4 million dollars for AI visual inspection on existing production lines",
+   "why": "AI defect detection that sits on top of a plant's current cameras and control systems is reaching automotive suppliers with concrete payback claims.",
+   "source": "Tristar AI (PR Newswire) · SiliconANGLE",
+   "body": [
+    "Tristar AI, based in Cambridge, Massachusetts, has raised a 12.4 million dollar Series A led by Isogon Ventures, with investors including Capgemini's venture fund. The company sells AI-based visual quality inspection for production lines.",
+    "Tristar says its system runs on more than 500 lines in North America and Europe and connects to existing cameras, PLCs and manufacturing systems instead of replacing them. It reports defect detection accuracy of 95 to 99% in live use and a typical payback of about four months, and says it grew more than fourfold last year. Customers include suppliers to Toyota, Honda and Mercedes, as well as packaging and film makers such as Amcor and DuPont. The money will expand its vision and edge platform into new sectors.",
+    "This is optical surface inspection, not volumetric NDT, but it is where many component plants start with AI. The accuracy and payback figures are company claims; quality teams should ask for false-call rates and results on their own parts."
+   ],
+   "links": [
+    {
+     "label": "PR Newswire",
+     "url": "https://www.prnewswire.com/news-releases/tristar-ai-raises-12-4m-series-a-to-give-manufacturers-a-quality-inspector-that-never-blinks-302937353.html"
+    },
+    {
+     "label": "SiliconANGLE",
+     "url": "https://siliconangle.com/2026/11/12/computer-vision-startup-tristar-ai-pulls-in-12-4m-to-automate-quality-control-for-manufacturers/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "12–13 Nov",
+   "headline": "May Mobility plans more than 10,000 robotaxis based on the VW ID. Buzz by 2031",
+   "why": "A volume plan for driverless vans on a European production vehicle shows autonomy moving from pilots to OEM platforms and fleet-scale validation.",
+   "source": "electrive",
+   "body": [
+    "US autonomous driving company May Mobility plans to put more than 10,000 self-driving Volkswagen ID. Buzz vans into robotaxi service worldwide by the end of 2031. Volkswagen will adapt the vehicle, ECARX will supply May Mobility's autonomous driving kit, and German firm Charlton Intelligence will support delivery and deployment. The partners aim to cut the total cost per vehicle by more than half.",
+    "Public road tests in the US are planned for early 2027, with production-ready vehicles going to outside fleet operators from 2028. May Mobility does not run fleets itself; it sells its driving system to operators and ride-hail platforms, including Lyft in Atlanta. Its software runs entirely on the vehicle without needing a mobile connection and uses a world model that predicts traffic up to ten seconds ahead. The company reports more than 600,000 driverless trips and 1.1 million miles in the US and Japan.",
+    "For engineers, the plan shifts attention to vehicle-level integration, redundancy and the cost of sensors and compute at scale."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/13/may-mobility-to-convert-10000-vw-id-buzz-vehicles-into-robotaxis/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "NHTSA tells owners of 720,796 BMWs to park outside after an earlier water-pump fix failed",
+   "why": "A field remedy that did not work is a clear lesson in validating connector sealing on thermal-management parts.",
+   "source": "NHTSA",
+   "body": [
+    "The US road safety regulator NHTSA has issued a park-outside warning for 720,796 BMW vehicles from model years 2012 to 2018, including 3, 4 and 5 Series cars, the X1, X3, X4, Z4 and 2 Series. An improperly sealed electrical connector on the electric water pump can let in water and short-circuit, which can start a fire even when the car is parked and switched off.",
+    "These vehicles were already repaired under a 2024 recall, and all of the roughly ten known US incidents happened in cars that had received that earlier fix. No crashes or injuries have been reported. A new remedy is not yet available, and owner letters go out from 25 December.",
+    "For engineers, the case shows how a first remedy can pass internal checks and still fail in the field. Environmental sealing of connectors on pumps, fans and other thermal-management components deserves the same test rigour as the parts themselves, especially as electric drivetrains add more of them."
+   ],
+   "links": [
+    {
+     "label": "NHTSA",
+     "url": "https://www.nhtsa.gov/press-releases/bmw-water-pump-recall-fire-risk"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Bristol researchers turn troublesome echoes into a non-contact ultrasonic array for finding defects",
+   "why": "A non-contact receiver that uses geometry echoes instead of fighting them could help inspect curved drivetrain parts such as rings, shafts and gear roots.",
+   "source": "Applied Physics Letters (University of Bristol)",
+   "body": [
+    "In conventional ultrasonic array testing, sound bouncing between a defect and a part's surfaces creates noise and false indications. A team from the University of Bristol's School of Electrical, Electronic and Mechanical Engineering uses that scattering instead. A piezoelectric probe on an angled wedge sends sound in, and a laser interferometer records the surface response at chosen points without touching the part. Those points act as a virtual phased array, and the recordings are converted into a standard full-matrix dataset and imaged in the usual way.",
+    "Tested on an aluminium block with side-drilled holes, the wedge angle controlled which directions were covered, and a large-angle wedge improved image signal-to-noise by more than 5 dB. The paper is peer-reviewed and was published online on 12 November.",
+    "This is a lab demonstration on aluminium and drilled holes, not yet on steel bearing parts or real cracks. But a flexible, non-contact array could ease inspection of curved or hard-to-couple components where standard probes struggle."
+   ],
+   "links": [
+    {
+     "label": "Applied Physics Letters",
+     "url": "https://pubs.aip.org/aip/apl/article/129/19/194103/3408606/Defect-detection-using-a-laser-diffuse-ultrasonic"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "12 Nov",
+   "headline": "Study links raceway waviness directly to ball bearing vibration, validated on a production bearing",
+   "why": "A validated way to turn a noise target into a waviness tolerance and finishing choice is useful for low-noise e-axle bearings as well as aerospace ones.",
+   "source": "Lubricants (Tianjin University · Luoyang Bearing Science and Technology)",
+   "body": [
+    "Researchers from Tianjin University, Luoyang Bearing Science and Technology and partner institutions built a model that links raceway waviness to the contact between balls and raceway and to the resulting vibration of angular contact ball bearings. They ranked four factors and found waviness amplitude matters most, far more than ball diameter, followed by waviness order, with every effect growing with speed. Raising amplitude from 1 to 6 micrometres lifted peak vibration from about 54 to 76 dB.",
+    "They checked the model on a production 7008 precision bearing at 1,800 rpm through four finishing stages, from coarse grinding to polishing. Measured waviness fell from 0.284 to 0.011 micrometres and vibration from 55.9 to 25.0 dB, with predictions within 1 to 4% of measurements at each stage. The paper is peer-reviewed and open access in Lubricants.",
+    "In practice, the method gives bearing engineers a way to set waviness tolerances from an NVH target. It does not report grinding settings, so translating it to a specific process still needs work."
+   ],
+   "links": [
+    {
+     "label": "Lubricants (MDPI)",
+     "url": "https://www.mdpi.com/2075-4442/14/11/431"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Anthropic pricing and debut",
+   "text": "The IPO is expected to price on 18 November, with Nasdaq trading under ANT from 19 November.",
+   "link": {
+    "label": "Unite.ai",
+    "url": "https://www.unite.ai/anthropic-ipo-could-raise-64-billion-as-orders-reach-six-times/"
+   }
+  },
+  {
+   "title": "German labour talks",
+   "text": "Mercedes and IG Metall are still negotiating, and Volkswagen's restructuring talks with the union start on 24 November.",
+   "link": {
+    "label": "Just Auto",
+    "url": "https://just-auto.com/news/mercedes-benz-freezes-german-investment"
+   }
+  },
+  {
+   "title": "SKF Vertevo Capital Markets Day",
+   "text": "SKF's automotive spin-off presents its first targets in Stockholm on 17 November, ahead of its 1 December listing.",
+   "link": {
+    "label": "PR Newswire",
+    "url": "https://manilatimes.net/2026/11/10/tmt-newswire/pr-newswire/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/2466696"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "ZDFheute – Mercedes stoppt Investitionen in Deutschland (13 Nov)",
+   "url": "https://www.zdfheute.de/wirtschaft/unternehmen/investitionen-deutschland-kostensenkungen-werksschliessungen-stopp-100.html"
+  },
+  {
+   "label": "AD HOC NEWS (dpa) – Mercedes stoppt Investitionen und prüft zwei Werksschließungen (13 Nov)",
+   "url": "https://www.ad-hoc-news.de/wirtschaft/mercedes-stoppt-investitionen-und-prueft-zwei-werksschliessungen/70504330"
+  },
+  {
+   "label": "Just Auto – Mercedes-Benz freezes German investment (13 Nov)",
+   "url": "https://just-auto.com/news/mercedes-benz-freezes-german-investment"
+  },
+  {
+   "label": "Xinhua – EU leaders discuss AI in Dublin (14 Nov)",
+   "url": "https://english.news.cn/20261114/28e9a81021724234ad09d5f86aaea9a6/c.html"
+  },
+  {
+   "label": "Euronews – Ukraine envoy row hijacks EU leaders' first AI summit (13 Nov)",
+   "url": "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit"
+  },
+  {
+   "label": "Unite.ai – Anthropic IPO could raise $64 billion as orders reach six times (13 Nov)",
+   "url": "https://www.unite.ai/anthropic-ipo-could-raise-64-billion-as-orders-reach-six-times/"
+  },
+  {
+   "label": "Pomegra – Anthropic IPO 6x oversubscribed (13 Nov)",
+   "url": "https://pomegra.io/news/anthropic-ipo-ant-6x-oversubscribed-pricing-above-range"
+  },
+  {
+   "label": "TechCrunch – AI agent startup LangChain hits $3B valuation (13 Nov)",
+   "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+  },
+  {
+   "label": "Unite.ai – LangChain secures $300M Series C (13 Nov)",
+   "url": "https://www.unite.ai/langchain-secures-300m-series-c-at-3b-valuation-for-agent-governance/"
+  },
+  {
+   "label": "Notion – Security incident involving a third-party AI vendor (updated 12 Nov)",
+   "url": "https://notion.com/help/security-incident-involving-a-third-party-ai-vendor"
+  },
+  {
+   "label": "eSecurity Planet – Fireworks AI second breach exposes Notion chat transcripts (Nov)",
+   "url": "https://www.esecurityplanet.com/threats/news-fireworks-ai-second-breach-notion-chat-transcripts/"
+  },
+  {
+   "label": "Hugging Face / IBM Granite – LLMON now in Granite (12 Nov)",
+   "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
+  },
+  {
+   "label": "AI UX Design Guide – AI UX daily, 13 Nov: 3D in Figma (13 Nov)",
+   "url": "https://www.aiuxdesign.guide/news/ai-ux-daily-nov-13-user-rage-ai-audits-and-3d-in-figma"
+  },
+  {
+   "label": "Creators Toolbox – Figma 3D transforms (12 Nov)",
+   "url": "https://creatorstoolbox.com/@scout/post/n_2dvp6i359rlpn"
+  },
+  {
+   "label": "Siemens – Outstanding fiscal 2026 performance (12 Nov)",
+   "url": "https://press.siemens.com/global/en/pressrelease/outstanding-fiscal-2026-performance-industrial-ai-drive-future-growth"
+  },
+  {
+   "label": "Investing.com – Siemens FY26 slides (12 Nov)",
+   "url": "https://www.investing.com/news/company-news/siemens-fy26-slides-industrial-ai-drives-record-orders-raised-targets-93CH-5020795"
+  },
+  {
+   "label": "Tech Times – Applied Intuition valuation could double to $30 billion (12 Nov)",
+   "url": "https://techtimes.com/articles/330520/20261112/applied-intuition-valuation-could-double-30-billion-though-2026-revenue-target-rises-just-19.htm"
+  },
+  {
+   "label": "Bloomberg – Applied Intuition in talks to raise $1.5 billion (11 Nov)",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-11/applied-intuition-in-talks-to-raise-1-5-billion-at-30-billion-value"
+  },
+  {
+   "label": "PR Newswire – Tristar AI raises $12.4M Series A (12 Nov)",
+   "url": "https://www.prnewswire.com/news-releases/tristar-ai-raises-12-4m-series-a-to-give-manufacturers-a-quality-inspector-that-never-blinks-302937353.html"
+  },
+  {
+   "label": "SiliconANGLE – Tristar AI pulls in $12.4M (12 Nov)",
+   "url": "https://siliconangle.com/2026/11/12/computer-vision-startup-tristar-ai-pulls-in-12-4m-to-automate-quality-control-for-manufacturers/"
+  },
+  {
+   "label": "electrive – May Mobility to convert 10,000 VW ID. Buzz vehicles into robotaxis (13 Nov)",
+   "url": "https://www.electrive.com/2026/11/13/may-mobility-to-convert-10000-vw-id-buzz-vehicles-into-robotaxis/"
+  },
+  {
+   "label": "NHTSA – BMW water pump recall fire risk (13 Nov)",
+   "url": "https://www.nhtsa.gov/press-releases/bmw-water-pump-recall-fire-risk"
+  },
+  {
+   "label": "Applied Physics Letters – Defect detection using a laser diffuse ultrasonic phased array (12 Nov)",
+   "url": "https://pubs.aip.org/aip/apl/article/129/19/194103/3408606/Defect-detection-using-a-laser-diffuse-ultrasonic"
+  },
+  {
+   "label": "Lubricants – Vibration prediction of angular contact ball bearings considering surface waviness (12 Nov)",
+   "url": "https://www.mdpi.com/2075-4442/14/11/431"
+  },
+  {
+   "label": "PR Newswire – Record date for distribution of SKF Vertevo (10 Nov)",
+   "url": "https://manilatimes.net/2026/11/10/tmt-newswire/pr-newswire/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/2466696"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark and performance figures are vendor-reported. Anthropic IPO demand and Applied Intuition funding talks are based on reports citing unnamed sources."
 }
