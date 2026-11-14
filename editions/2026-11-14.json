@@ -1,0 +1,174 @@
+{
+  "date": "2026-11-14",
+  "weekday": "Saturday",
+  "covers": "Thu 12 – Sat 14 Nov",
+  "glance": "Mercedes-Benz has stopped all investment in its German plants and says it may close sites if unions do not accept lower labour costs. In Dublin, EU leaders held their first full summit on AI and agreed to push on with seven AI gigafactories, while autonomous driving took a step towards scale with a 10,000-van robotaxi plan built on the VW ID. Buzz. Also in this edition: a supply-chain breach that exposed Notion AI chats, IBM's new way to block prompt injection, and fresh product and plant news from Polestar, Kia, Scout and Timken.",
+  "stories": [
+    {
+      "cat": "auto",
+      "top": true,
+      "date": "12–13 Nov",
+      "headline": "Mercedes-Benz freezes all investment in its German plants and puts closures on the table",
+      "why": "Germany's premium car base is now openly in play, which affects supplier volumes, engineering jobs and where the next vehicle generation is developed and built.",
+      "source": "electrive · Reuters via Sowetan",
+      "body": [
+        "Mercedes-Benz management has decided to stop all further investment in its German sites, production board member Michael Schiebe said in an interview posted on the company intranet on Thursday and first quoted by Handelsblatt. The move follows months of stalled talks with the works council and IG Metall over labour costs. Management wants to drop the 35-hour week, cut holiday and profit-sharing bonuses and save about €800 million a year. Board member Britta Seeger wrote that closures should be avoided but must now be examined more closely.",
+        "Mercedes says an hour of production labour in Germany can cost up to five times as much as in Eastern Europe. Because of long lead times, it must soon decide where successor models are built, and Schiebe warned these could be made only abroad. German vehicle plants include Sindelfingen, Bremen and Rastatt, plus component sites such as Untertürkheim, Berlin, Hamburg and Kamenz.",
+        "The warning lands in a crowded week: Volkswagen starts talks with IG Metall on 24 November over its biggest restructuring, and Schaeffler recently announced 3,460 job cuts in Europe. Roland Berger estimates at least 200,000 German automotive jobs could go by 2030."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/mercedes-board-threatens-to-close-german-plants-and-stop-investments-in-germany/"},
+        {"label": "Reuters via Sowetan", "url": "https://sowetan.co.za/motoring/2026-11-13-german-car-jobs-at-risk-as-mercedes-ponders-plant-closures"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "13 Nov",
+      "headline": "EU leaders hold their first AI summit and back seven AI gigafactories worth about €30 billion",
+      "why": "Europe's compute and funding plans decide how much AI capacity European product teams and engineering firms can use without relying on US clouds.",
+      "source": "Xinhua",
+      "body": [
+        "EU heads of government met informally in Dublin on Friday for what was described as their first in-depth discussion of artificial intelligence, covering competitiveness, technology and risks. European Council President António Costa said Europe must adopt AI faster, reduce critical dependencies and mobilise more public and private money, and called the proposed European Competitiveness Fund in the next long-term budget decisive.",
+        "Commission President Ursula von der Leyen said Europe plans seven AI gigafactories, with around €30 billion expected for computing infrastructure. She estimated that technological sovereignty more broadly needs at least €500 billion and said she would bring a financing proposal to the next meeting. She also said the EU wants talks with the US Congress on global AI governance. France and the Netherlands will host a meeting of European tech leaders in Paris on 2 December.",
+        "Leaders will return to AI in February 2027, and its social impact will be a central theme of the 2027 Social Summit. For companies, the practical signal is that more EU money for compute and AI adoption is coming, but the financing still has to be agreed."
+      ],
+      "links": [
+        {"label": "Xinhua", "url": "https://english.news.cn/europe/20261114/4f98cc195f0340849de3cf7abee9cb84/c.html"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "May Mobility plans more than 10,000 robotaxis based on the VW ID. Buzz by 2031",
+      "why": "A volume plan for driverless vans on a production vehicle shows how autonomy suppliers are moving from pilots to OEM platforms and fleet-scale validation.",
+      "source": "electrive · May Mobility",
+      "body": [
+        "US autonomous driving company May Mobility plans to put more than 10,000 self-driving VW ID. Buzz vans into robotaxi service worldwide by the end of 2031. Volkswagen will adapt the vehicle, and May Mobility's autonomous driving kit will be supplied by ECARX. German firm Charlton Intelligence will support delivery and deployment. May Mobility aims to cut the total cost per vehicle by more than half.",
+        "Public road tests in the US are planned for early 2027, with the first production-ready vehicles going to outside fleet operators in 2028. The company does not run fleets itself; it sells its driving software to operators and ride-hail platforms, including an existing deal with Lyft in Atlanta. Its software runs entirely on the vehicle without needing a mobile connection, and a predictive world model simulates traffic up to ten seconds ahead. May Mobility says it has completed more than 600,000 autonomous trips covering 1.1 million miles in the US and Japan.",
+        "For engineers, the plan puts the focus on vehicle-level integration, redundancy and the cost of sensors and compute at scale."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/may-mobility-to-convert-10000-vw-id-buzz-vehicles-into-robotaxis/"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "12–13 Nov",
+      "headline": "Breach at AI inference provider Fireworks exposed some Notion AI chat transcripts",
+      "why": "Every AI feature that sends user data to a model vendor adds that vendor's security to your own risk, and this is a clear example of it going wrong.",
+      "source": "Notion · TechCrunch",
+      "body": [
+        "Notion has confirmed that hackers who breached Fireworks AI, a platform that hosts open-weight models, took chat transcripts from Notion AI users. The data came from Notion's Insights feature, which used Fireworks to classify conversations, and includes what users and the model wrote in the chat. Notion says fewer than 1% of workspaces are affected and most transcripts cannot be tied to a user or workspace.",
+        "According to Notion's timeline, Fireworks first reported the incident on 2 November. Notion cut its connection the next day, deleted its data, and later learned the stolen dataset contained real customer chats. It has disabled Insights, stopped serving open-weight models through Fireworks, revoked exposed Notion API keys and reported third-party keys found in messages to their issuers. Fireworks, which TechCrunch says has tens of thousands of customers, believes the attackers want to resell stolen model access. It is the company's second incident in about two months.",
+        "For product teams, the lesson is to map which vendors see prompts and outputs, limit retention, and warn users not to paste credentials into AI chats."
+      ],
+      "links": [
+        {"label": "Notion", "url": "https://www.notion.com/security/advisories/security-incident-involving-a-third-party-ai-vendor"},
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "12 Nov",
+      "headline": "IBM previews Granite models that keep instructions and data apart to resist prompt injection",
+      "why": "Teams building agents and AI features into products need ways to stop documents, web pages and tool results from hijacking the model.",
+      "source": "IBM Granite (Hugging Face)",
+      "body": [
+        "IBM's Granite team has released experimental 3B and 8B versions of Granite 4.1 that use LLMON, a new markup format for model input. Instead of ordinary characters such as JSON brackets, LLMON uses reserved special tokens to mark each part of the context as an instruction, data or a requirement, and an explicit block says which instruction to run on which data. Text inside documents or tool results is meant to be read as material, not followed as a command.",
+        "IBM reports that on the OPI benchmark the models nearly eliminate successful indirect prompt injections, avoiding 47% more attacks than the best frontier model it tested, with similar trends on two other benchmarks. General performance is said to match the standard Granite 4.1 Instruct models. The tests cover static attacks only; defence against adaptive, multi-turn attacks is still in progress, and IBM notes the behaviour is learned, not guaranteed.",
+        "The models, a toolkit and converters to and from JSON are on Hugging Face and GitHub. IBM calls this a preview for evaluation, not production. Results are vendor-reported."
+      ],
+      "links": [
+        {"label": "IBM Granite (Hugging Face)", "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "Polestar shows the Formula 2030 concept, previewing its next design language and a return to physical controls",
+      "why": "The Gothenburg brand's next cars will mix screens with programmable hardware controls, a sign of where in-car UX is heading.",
+      "source": "Dezeen",
+      "body": [
+        "Polestar has unveiled the Formula 2030, a low sports-car concept and the first created under design chief Philipp Römers, who joined from Audi in 2025. It will not be built, but its front previews the next-generation Polestar 2 saloon due in 2027 and its rear reflects the upcoming Polestar 7 SUV. The car is 4.68 m long, 2.02 m wide and 1.35 m tall, and has a conventional rear window, unlike the Polestar 4 and 5.",
+        "Inside, a curved screen band sits above the wheel and a second screen is built into the centre console. A sliding selector switches between Performance, Normal and Autonomous modes, each changing the screen layout, seating and wheel position. Eight large mechanical controls on the console can be configured with different buttons and switches, in line with the industry's move back to physical controls. Seat backs use a flax and bio-based polypropylene composite, and door panels use a single material to ease recycling.",
+        "Polestar remains loss-making and has pushed its goal of a truly climate-neutral car from 2030 to 2035."
+      ],
+      "links": [
+        {"label": "Dezeen", "url": "https://www.dezeen.com/2026/11/13/polestar-formula-2030-concept-car/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "VW's Scout brand starts building validation vehicles at its new South Carolina plant",
+      "why": "Pre-series builds are where production feasibility and component quality get tested, and Scout is using AI to monitor weld seams from the start.",
+      "source": "electrive",
+      "body": [
+        "Scout Motors, Volkswagen's US brand, has begun assembling its first validation vehicles at its Blythewood, South Carolina plant, which is in the final phase of construction. Most equipment in the body shop, paint shop and assembly hall is installed and being commissioned, and the body shop uses AI-assisted weld seam monitoring. The validation builds check technology, manufacturability and part quality and will continue into 2027.",
+        "The plant represents more than $2 billion of investment and over 4,000 expected jobs. Series production is set to start in 2027, with deliveries from 2028. Scout has 210,000 refundable $100 reservations, and because 87% chose a range-extender version, it will launch the Traveler SUV and Terra pickup with range extenders first and fully electric versions later. Audi also plans to build around 25,000 vehicles a year at the site.",
+        "The shift to range extenders shows how customer demand is reshaping EV programmes and their drivetrain and validation plans."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "Kia and suppliers to invest about €1.8 billion in a second Indian plant",
+      "why": "India keeps gaining weight as a production and export base for both electric and combustion cars, which matters for global supplier footprints.",
+      "source": "electrive",
+      "body": [
+        "Kia, together with its suppliers, plans to invest around €1.8 billion in a second plant in Anantapur, Andhra Pradesh, next to its existing factory. The new site covers 188 hectares and will build up to 200,000 vehicles a year, both electric and combustion models. That lifts Kia's total capacity in Anantapur from 400,000 to 600,000 vehicles a year. Operations are due to start in 2030.",
+        "The plant will have stamping, welding, painting and assembly, like the first factory, and is expected to create about 12,000 jobs at Kia, its service providers and suppliers. It will serve both the domestic market and exports. Kia began production in India in 2019 and has added local assembly of the Carens Clavis EV in 2025 and the Syros EV in 2026.",
+        "For suppliers, including drivetrain and bearing makers, the plan adds to a growing list of new capacity in India while European plants face cost cuts."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"}
+      ]
+    },
+    {
+      "cat": "bear",
+      "top": false,
+      "date": "12 Nov",
+      "headline": "Timken wins two more Indian BIS licences, including a first for double-row cylindrical roller bearings",
+      "why": "Indian certification is becoming a gate for bearing suppliers into one of the fastest-growing vehicle and industrial markets.",
+      "source": "Gear Technology India",
+      "body": [
+        "Timken has received two new licences from the Bureau of Indian Standards for its bearing plants in Bharuch, Gujarat. One, under IS 6454, covers double-row cylindrical roller bearings at its new Bharuch facility; Timken says it is the first licence for this bearing type granted to any bearing company in India. The other, under IS 6457, covers cylindrical roller bearings at its existing plant.",
+        "The approvals bring Timken's total to eight BIS licences in 2026, which the company says is the most awarded to any bearing maker in India this year. India has been tightening quality-control rules that require many bearings sold in the country to carry BIS certification.",
+        "For OEMs and suppliers sourcing in India, locally certified production of more bearing types makes it easier to qualify Indian-made parts for vehicles, rail and industrial machinery, and raises the bar for importers that lack certification."
+      ],
+      "links": [
+        {"label": "Gear Technology India", "url": "https://geartechnologyindia.com/timken-secures-two-new-bis-licences-for-bearing-manufacturing-facilities-in-bharuch"}
+      ]
+    }
+  ],
+  "watch": [
+    {"title": "German labour talks", "text": "Mercedes and IG Metall are still negotiating, and Volkswagen's restructuring talks with the union begin on 24 November, with strikes possible around the turn of the year.", "link": {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/mercedes-board-threatens-to-close-german-plants-and-stop-investments-in-germany/"}},
+    {"title": "Busy 17 November", "text": "SKF holds its Vertevo Capital Markets Day ahead of the 1 December listing, Nvidia reports quarterly results under its interim CEO, and the Commission hosts its Apply AI Summit in Brussels.", "link": {"label": "AD HOC NEWS", "url": "https://ad-hoc-news.de/boerse/news/corporate-news/skf-stock-takes-efficiency-portfolio-to-cop31/70493705"}},
+    {"title": "EU AI financing", "text": "Von der Leyen will bring a financing proposal for at least €500 billion of tech-sovereignty investment to the next leaders' meeting; Paris hosts European tech leaders on 2 December.", "link": {"label": "Xinhua", "url": "https://english.news.cn/europe/20261114/4f98cc195f0340849de3cf7abee9cb84/c.html"}}
+  ],
+  "sources": [
+    {"label": "electrive – Mercedes board threatens to close German plants and stop investments in Germany (13 Nov)", "url": "https://www.electrive.com/2026/11/13/mercedes-board-threatens-to-close-german-plants-and-stop-investments-in-germany/"},
+    {"label": "Sowetan (Reuters) – German car jobs at risk as Mercedes ponders plant closures (13 Nov)", "url": "https://sowetan.co.za/motoring/2026-11-13-german-car-jobs-at-risk-as-mercedes-ponders-plant-closures"},
+    {"label": "Xinhua – EU leaders discuss AI competitiveness, agree on Ukraine peace talks team (14 Nov)", "url": "https://english.news.cn/europe/20261114/4f98cc195f0340849de3cf7abee9cb84/c.html"},
+    {"label": "electrive – May Mobility to convert 10,000 VW ID. Buzz vehicles into robotaxis (13 Nov)", "url": "https://www.electrive.com/2026/11/13/may-mobility-to-convert-10000-vw-id-buzz-vehicles-into-robotaxis/"},
+    {"label": "Notion – Security incident involving a third-party AI vendor (updated 13 Nov)", "url": "https://www.notion.com/security/advisories/security-incident-involving-a-third-party-ai-vendor"},
+    {"label": "TechCrunch – Cyberattack on Fireworks AI allowed hackers to access Notion customers' chat transcripts (12 Nov)", "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"},
+    {"label": "Hugging Face / IBM Granite – LLMON, an LLM-native markup language, now in Granite (12 Nov)", "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"},
+    {"label": "Dezeen – Polestar Formula 2030 concept car (13 Nov)", "url": "https://www.dezeen.com/2026/11/13/polestar-formula-2030-concept-car/"},
+    {"label": "electrive – VW's Scout brand begins production of first test vehicles at new US plant (13 Nov)", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"},
+    {"label": "electrive – Kia to invest around €1.8 billion in new plant in India (13 Nov)", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"},
+    {"label": "Gear Technology India – Timken secures two new BIS licences for bearing facilities in Bharuch (12 Nov)", "url": "https://geartechnologyindia.com/timken-secures-two-new-bis-licences-for-bearing-manufacturing-facilities-in-bharuch"},
+    {"label": "AD HOC NEWS – SKF takes efficiency portfolio to COP31 (11 Nov)", "url": "https://ad-hoc-news.de/boerse/news/corporate-news/skf-stock-takes-efficiency-portfolio-to-cop31/70493705"}
+  ],
+  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+}
