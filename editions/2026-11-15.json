@@ -1,196 +1,421 @@
 {
   "date": "2026-11-15",
   "weekday": "Sunday",
-  "covers": "Fri 13 – Sun 15 Nov",
-  "glance": "Two large Nvidia investors and a petition backed by Elon Musk are pushing Nvidia's board to consider bringing back Jensen Huang, two days after he resigned. Italy's privacy regulator fined Meta €805 million over Facebook's default access to Android photo galleries, and OpenAI started letting its agents pay for purchases through a new ChatGPT Wallet. In cars, Volkswagen delayed two more EVs on its SSP platform and Tesla published strict ownership terms for the Cybercab.",
+  "covers": "Fri 13 – Sat 14 Nov",
+  "glance": "OpenAI has broken up its dedicated robotics team, betting that its general model can control robots directly, and Cursor has traced its poisoned Claude Code extension to a leaked key at inference provider Fireworks AI. Also: a four-hour US flight stop puts an AI routing tool under scrutiny, llama.cpp reaches version 1.0, Hexagon completes its Waygate deal, and recalls at Toyota and Honda. Two new papers cover physics-informed ultrasonic inspection and cavitation in engine main bearings.",
+  "brief": "OpenAI has disbanded its standalone robotics team. OpenAI now believes its general model, GPT-6 Astra, can control robots directly. In one simulated test it beat the best specialised robot models, seventy-five percent to fifty-one, though it still fails most hard real-world tasks. Cursor has explained how tampered versions of the Claude Code extension reached its marketplace last month. A key held by its inference provider, Fireworks AI, exposed agent logs that contained credentials, which the attacker used to get in. Up to five thousand users may have received the backdoored versions. In the United States, the aviation regulator halted all flights for more than four hours. The maker of its new AI routing tool says the tool was not the cause, and officials see no sign of a cyberattack. The local AI engine llama.cpp reached version one point zero, with a stable interface for apps. Replit's agent can now make purchases and run Google ad campaigns, with a person approving any spending. Corsair joined the Ansys partner programme with GPU machines for simulation, and Hexagon completed its takeover of the inspection company Waygate. Toyota is recalling about sixty-two thousand Tundras over faulty camshafts, and Honda more than six hundred thousand cars over steering software. MAN signed an electric truck rental deal, Strabag bought into German motorway truck charging, Audi set up a parts reuse company, and Xpeng plans a big push into the UK. In research, a physics-informed network speeds up ultrasonic defect scans, and a simulation study shows how groove geometry cuts cavitation in engine bearings.",
   "stories": [
     {
       "cat": "gen",
       "top": true,
       "date": "13–14 Nov",
-      "headline": "Investors and a 115,000-signature petition push Nvidia's board to consider Jensen Huang's return",
-      "why": "Pressure on the board makes Nvidia's leadership, and its spending on open models and AI start-ups, even less certain for the coming weeks.",
-      "source": "CNBC · TechCrunch · Interconnects",
+      "headline": "OpenAI disbands its standalone robotics team, betting general models can run robots",
+      "why": "If one general model can drive both software agents and physical machines, robotics and factory automation stop being a separate AI stack.",
+      "source": "Fortune · The Decoder",
       "body": [
-        "Altimeter Capital and Atreides Management, which together disclosed about $2.13 billion in Nvidia shares at the end of June, published a letter on Friday asking Nvidia's board to weigh every leadership option, including Huang's return. They did not demand that he be reinstated straight away. Instead they asked for a careful CEO search that waits for the facts, and said interim CEO Colette Kress can run the company in the meantime.",
-        "A separate 'Stand with Jensen' petition had passed 115,000 signatures by Saturday afternoon. TechCrunch reports that signers include nearly 6,000 people who say they are current Nvidia employees, along with Elon Musk, Tim Sweeney and Garry Tan. These affiliations are self-reported. The petition asks for an independent investigation and more public information. Huang resigned on 12 November during a board inquiry into his personal relationships, and he has agreed to testify before Congress. The board has not responded publicly.",
-        "AI researcher Nathan Lambert argues that Huang's exit is a setback for US open-weight models, because Nvidia's Nemotron work depended on his personal backing. Teams that build on Nvidia's open models and tools should watch whether that funding holds."
+        "OpenAI has broken up its dedicated robotics team, according to a Fortune exclusive published on Friday and followed up by The Decoder on Saturday. Robotics researchers move into the main research group under chief research officer Mark Chen, while the applied robotics and hardware staff join Greg Brockman's Applied organisation. The change was abrupt enough that OpenAI's booth at the CoRL robotics conference in Austin was left empty.",
+        "The reasoning is that OpenAI now thinks its general model, GPT-6 Astra, can control robots directly. In an Nvidia study cited by Fortune, an Astra-powered agent scored 74.8% on a simulated manipulation benchmark, against 51.0% for the best specialised robot models. On a harder benchmark it fully completed only 7 of 100 tasks, so the gap to reliable real-world use is still large. It is the second time OpenAI has shut robotics: it closed the team in 2020 and rebuilt it in 2024. The company says robotics remains core to its long-term plans and still aims for a humanoid demo in 2027.",
+        "For manufacturing and test engineers, the bet matters because it suggests robot programming may move towards prompting large general models rather than training task-specific controllers."
       ],
       "links": [
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"},
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"},
-        {"label": "Interconnects", "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"}
-      ]
-    },
-    {
-      "cat": "gen",
-      "top": true,
-      "date": "14 Nov",
-      "headline": "Italy fines Meta €805 million over Facebook's default access to Android photo galleries",
-      "why": "This is one of Europe's largest privacy fines, and it targets bundled, default-on permissions, a pattern many product teams use for AI-powered suggestion features.",
-      "source": "AP via ABC News · Bloomberg",
-      "body": [
-        "Italy's data protection authority fined Meta Platforms Ireland €805 million (about $887 million) on Saturday. The fine covers a Facebook feature called 'Get suggestions from gallery when browsing Facebook'. The regulator found that the feature was switched on by default and that the app asked for gallery access through a single permission that covered several functions with different purposes. Under the EU's ePrivacy rules as written into Italian law, access to a phone's contents needs free and informed consent.",
-        "About 20 million Android users in Italy are thought to be affected. The regulator said Meta's lack of cooperation made the penalty larger. The fine is about 0.47% of Meta's global turnover. Meta has 60 days to turn off the feature and ask for separate consent. It has challenged Italy's jurisdiction and did not comment immediately.",
-        "For designers and product managers, the message is direct: European regulators expect a separate, clearly explained consent step for each purpose. A single permission prompt that also feeds AI recommendations, ranking or training is a legal risk."
-      ],
-      "links": [
-        {"label": "ABC News (AP)", "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"},
-        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-14/italy-fines-meta-805-million-over-access-to-users-photos"}
+        {
+          "label": "Fortune",
+          "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+        },
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/"
+        }
       ]
     },
     {
       "cat": "ux",
       "top": true,
-      "date": "13 Nov",
-      "headline": "OpenAI launches ChatGPT Wallet so its agents can complete purchases for users",
-      "why": "Checkout is becoming something an agent does for the user, which changes how product teams design commerce flows, approvals and merchant sites.",
-      "source": "TechCrunch · CNBC",
+      "date": "13–14 Nov",
+      "headline": "Cursor traces its poisoned Claude Code extension to a leaked key at Fireworks AI",
+      "why": "A second AI product has now been hit through the same inference vendor, so teams need to audit what their model providers can reach.",
+      "source": "Cursor · Cyber Security News",
       "body": [
-        "OpenAI has released ChatGPT Wallet, which lets its 'dots' agents choose products and then pay for them. Users add a Visa, Mastercard or American Express card once. Each purchase is paid with a payment token made for that transaction, so neither the agent nor the merchant sees the real card number. Before checkout, the user checks the items, the total and the card, then approves with Face ID or a fingerprint.",
-        "The first rollout is limited to a small group of US ChatGPT Pro subscribers. Checkout works only at a limited set of retailers. OpenAI is not taking a cut of transactions at launch, and it plans to add spending limits and rules that pre-approve purchases by category or time period. Some merchants are pushing back. Amazon blocks outside agents, and United Airlines plans to stop them from booking tickets.",
-        "OpenAI also published a playbook for merchants who want their sites to work with agent shoppers. For e-commerce and product teams, it is a sign that a site may soon need to work for software agents as well as for people."
+        "Cursor has published the root cause of the incident in late October, when tampered versions of the Claude Code extension appeared in its marketplace. A key that Cursor had issued to Fireworks AI, the company that hosted some of its open-weight inference, was exposed. It gave read-only access to a shared storage bucket of coding-agent traces, mostly from 2025 sessions run outside Privacy Mode. Some of those traces contained credentials, which the attacker then used to get into Cursor's own services.",
+        "On 29 October a stolen credential let the attacker plant versions 2.1.312 and 2.1.313 of the extension in Cursor's marketplace cache for about 11 hours, reaching up to 5,000 users. The backdoor tried to add an SSH key, open a reverse tunnel and send out secrets from environment variables. Cursor says fewer than 0.05% of users had traces exposed, Privacy Mode prompts and customer code were not affected, and the last attacker activity was on 1 November.",
+        "Cursor has moved inference off Fireworks, revoked vendor access and rebuilt its marketplace. Notion reported a breach through the same provider earlier this week. The lesson for product teams is to keep secrets out of agent sessions and treat logged traces as sensitive data."
       ],
       "links": [
-        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"},
-        {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"}
+        {
+          "label": "Cyber Security News",
+          "url": "https://cybersecuritynews.com/cursor-data-breach/"
+        },
+        {
+          "label": "GovInfoSecurity (background)",
+          "url": "https://www.govinfosecurity.com/cursor-confirms-anthropic-claude-code-extension-compromised-a-33263"
+        }
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "13–14 Nov",
+      "headline": "FAA halts all US flights for four hours; maker of its new AI routing tool says it was not to blame",
+      "why": "It shows how quickly suspicion falls on new AI systems when old infrastructure fails, a pattern any team rolling out AI in operations will face.",
+      "source": "ABC7 · Tech Pulse Daily",
+      "body": [
+        "The US Federal Aviation Administration ordered a rare nationwide ground stop on Friday that lasted more than four hours, citing an equipment outage. Thousands of flights were cancelled, Chicago O'Hare alone logged 208 cancellations by early evening, and Mexico put temporary restrictions on flights to the US. Recovery continued through Saturday.",
+        "Attention quickly turned to SMART, an AI tool for rerouting air traffic that the FAA extended to all 22 US air traffic centres on 10 November. AirSpace Intel, the contractor behind it, said neither SMART nor its integrations caused the stop. Homeland security officials and the FAA said there was no sign of a cyberattack, though the investigation continues. Transportation Secretary Sean Duffy blamed old, overloaded technology and asked Congress for billions more in funding. One outlet reports that contractors cut legacy copper lines during a fibre installation, but this has not been confirmed officially.",
+        "The episode is a reminder that AI added on top of ageing systems gets judged by the reliability of the whole chain, not just the model."
+      ],
+      "links": [
+        {
+          "label": "ABC7 San Francisco",
+          "url": "https://abc7news.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039118"
+        },
+        {
+          "label": "Tech Pulse Daily",
+          "url": "https://techbytes.app/tech-pulse-daily/2026/november/15/"
+        }
+      ]
+    },
+    {
+      "cat": "ux",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "llama.cpp and ggml reach version 1.0 with a stable programming interface",
+      "why": "The most widely used engine for running models locally now promises not to break apps between minor releases, which makes on-device AI easier to ship.",
+      "source": "AI Weekly · Hugging Face",
+      "body": [
+        "The open-source projects llama.cpp and ggml, which power much of the local and on-device AI ecosystem, released version 1.0.0 on Friday, about three and a half years after launch. Both now follow semantic versioning: any breaking change to the C programming interface or binary interface will require a new major version.",
+        "The 1.0 release removes deprecated functions, so apps that embed the library need to check for those when they upgrade. The engine supports more than 150 model architecture variants and the common speculative-decoding methods, and it builds for Linux, macOS, Windows, Android and iOS. It is packaged for Docker, Homebrew, Debian, conda-forge and Winget, and Nvidia, AMD, Qualcomm, Arm, IBM and Intel contribute hardware test machines.",
+        "For product teams, a stable interface lowers the maintenance cost of features that run models on laptops, phones or edge devices instead of in the cloud. That helps with privacy-sensitive features and offline use, and it makes local inference a more realistic option for desktop and mobile apps."
+      ],
+      "links": [
+        {
+          "label": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/llamacpp-ships-v100-with-semver-for-libllama-and-ggml"
+        },
+        {
+          "label": "Hugging Face blog",
+          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+        }
       ]
     },
     {
       "cat": "pm",
       "top": false,
-      "date": "13 Nov",
-      "headline": "OpenAI and Databricks connect ChatGPT and Codex to companies' governed data",
-      "why": "Enterprise AI is being sold through the data platform a company already uses, with its permissions and budgets, not as a separate tool.",
-      "source": "Databricks",
+      "date": "12–13 Nov",
+      "headline": "Replit's agent can now buy things and run Google Ads campaigns, with a human approving spend",
+      "why": "App-building tools are moving from making software to operating the business around it, and the approval step is the design pattern to copy.",
+      "source": "Replit",
       "body": [
-        "Databricks has widened its partnership with OpenAI. Business users can now query governed Databricks data from ChatGPT through a Genie plugin. The plugin applies each user's existing permissions and shared metric definitions. Engineers can run OpenAI's Codex through Databricks' Unity Gateway, which manages credentials, budgets and audit logs. Teams can also build custom agents on GPT models, including the GPT-6 family and the open-weight gpt-oss models, inside Databricks.",
-        "Databricks did not publish pricing. It says OpenAI is one of its largest customers and that every Databricks engineer is getting Codex. It also claims OpenAI models lead its OfficeQA benchmark for document work, but it gave no scores.",
-        "For product strategy, this follows a familiar pattern. Model vendors are going after enterprise customers through the platforms that already hold their data and access controls. Getting a first AI agent approved can then be a configuration change rather than a new procurement."
+        "Replit has given its coding agent two new powers. With agentic commerce, built on Stripe's Link and Visa, the agent can make one-time purchases for US users on Core and Pro plans. It prepares checkout in an isolated browser and stops for the owner to approve the final total, and shell access and general browsing are switched off during payment.",
+        "With Agentic Ads, available to Pro users worldwide, the agent drafts ad copy and images, suggests daily budgets and sets up conversion tracking across Google Search, YouTube, Display and Discover. Nothing is spent until a person approves. Users can connect an existing Google Ads account or fund a Replit-managed one from their Replit credits. Replit says the number of builders connecting Stripe has grown ninefold since May. It has not published pricing or spending caps.",
+        "For product managers, the release shows how agent features are being packaged: narrow, high-value actions, a sandboxed execution environment and an explicit confirmation step at the moment money moves."
       ],
       "links": [
-        {"label": "Databricks", "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"}
+        {
+          "label": "Replit blog",
+          "url": "https://replit.com/blog/replit-agent-ads-commerce"
+        },
+        {
+          "label": "Replit changelog",
+          "url": "https://docs.replit.com/updates/2026/11/13/changelog"
+        }
       ]
     },
     {
-      "cat": "auto",
-      "top": false,
-      "date": "13–14 Nov",
-      "headline": "Tesla's Cybercab will not move without a $299 monthly subscription and works only inside Tesla's geofences",
-      "why": "This is an early, concrete example of owning a software-defined car where the maker controls where, when and how the car can be used.",
-      "source": "Electrek",
-      "body": [
-        "Tesla has started inviting selected US customers to order the two-seat Cybercab for personal use at $29,990. The agreement Tesla posted on Friday makes a $299 monthly 'Autonomy Subscription' mandatory and says the car will not operate without one. Tesla can change that price with one month's notice. The car runs only inside Tesla's Robotaxi zones, which Tesla may change or shrink after purchase. Over five years the car and subscription add up to about $47,600, before insurance and charging.",
-        "Under the terms, Tesla can remotely locate, restrict or control the car. Repeated misuse leads to week-long suspensions. Cabin camera images are kept for 30 days by default. Owners may not put the car on Uber, delivery apps or Tesla's own network without written permission.",
-        "Tesla is also narrowing its Cybertruck range. Only the $109,990 Cyberbeast can now be ordered in the US, as production winds down through summer 2027."
-      ],
-      "links": [
-        {"label": "Electrek – Cybercab terms", "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/"},
-        {"label": "Electrek – Cybertruck trims", "url": "https://electrek.co/2026/11/13/tesla-only-sells-cybertruck-cyberbeast-109990/"}
-      ]
-    },
-    {
-      "cat": "auto",
+      "cat": "vv",
       "top": false,
       "date": "13 Nov",
-      "headline": "Volkswagen pushes the electric Audi A4 to 2029 and pauses Golf EV work as its SSP platform slips",
-      "why": "Delays to VW's next software-defined platform affect supplier schedules, validation programmes and electrical-architecture choices across the group.",
-      "source": "Electrek · Autocar · Reuters",
+      "headline": "Corsair joins the Ansys partner programme with GPU workstations and servers sized for simulation",
+      "why": "More vendors are tuning hardware for GPU-based CFD and FEA, which changes how test and simulation departments budget compute.",
+      "source": "Corsair · Synopsys",
       "body": [
-        "Volkswagen is delaying another model on its 800-volt Scalable Systems Platform (SSP). According to Autocar, production of the electric Audi A4 e-tron has moved to 2029 at the earliest, a year later than planned. Audi asked for changes to make the car closer to the petrol A4, including separate footwells for front and rear passengers, which means moving the battery, and a 48-volt electrical system in place of the planned 12-volt one.",
-        "Reuters separately reported an internal memo pausing Golf EV development work in Wolfsburg. In the memo, VW brand chief Thomas Schäfer says the company cannot afford the work right now. VW Group posted a €5.9 billion operating loss in the third quarter. The works council says the Golf EV is still expected in 2030. Software for SSP is being developed with Rivian through the RV Tech joint venture.",
-        "For suppliers and test engineers, a 48-volt change this late reworks component specifications and validation plans, and it shows how much platform timing now depends on software readiness."
+        "Corsair has joined the Ansys Technology Partner Program, now run by Synopsys, with its CORSAIR PRO line of workstations, servers and clusters. The company says it will build configurations matched to the Ansys application, model size, licensing and budget of each customer.",
+        "The FlexPrime workstations are aimed at pre- and post-processing and single-node studies, with the top model claimed at over 400 teraflops in single precision. FlexGrid GPU servers target multi-GPU Fluent runs and on-premises use of SimAI, Ansys's AI surrogate tool, with nearly 500 teraflops in double precision claimed. Clusters cover distributed CPU solves. These are vendor figures.",
+        "At the SC26 supercomputing conference in Chicago from 15 to 20 November, Corsair will show Fluent results streamed into Nvidia Omniverse, and Synopsys will present GPU-accelerated Fluent benchmarks on Nvidia Blackwell. For automotive CAE teams, the practical question is whether on-premises GPU machines now beat cloud or CPU clusters on cost per simulation for CFD and AI surrogates."
       ],
       "links": [
-        {"label": "Electrek", "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/"}
+        {
+          "label": "Investing News Network (press release)",
+          "url": "https://investingnews.com/corsair-pro-to-optimize-engineering-workstations-servers-and-clusters-for-ansys-simulation/"
+        },
+        {
+          "label": "Synopsys at SC26",
+          "url": "https://ansys.synopsys.com/events/ansys-at-supercomputing"
+        }
       ]
     },
     {
-      "cat": "auto",
+      "cat": "ndt",
       "top": false,
-      "date": "11–14 Nov",
-      "headline": "Dutch court lifts JLR's evidence seizure at BYD in the Defender look-alike dispute",
-      "why": "The case tests how far European design and patent law can be used against Chinese models that closely resemble established vehicles.",
-      "source": "electrive",
+      "date": "3–12 Nov",
+      "headline": "Hexagon completes its takeover of Waygate Technologies, joining metrology and NDT",
+      "why": "One supplier can now cover CT, ultrasonic testing and coordinate measurement, which may simplify inspection set-ups in bearing and drivetrain plants.",
+      "source": "Metrology News · Instrumentation Monthly",
       "body": [
-        "A court in The Hague ruled on 11 November that the evidence seizure JLR obtained in August at BYD's Dutch offices in Schiedam and Hoofddorp was unnecessary. JLR must have the seized digital documents destroyed or face penalties of €50,000 per hour, up to €500,000. It must also pay BYD about €25,400 in legal costs. The court noted that the BYD Ti7, which JLR says copies the Land Rover Defender, is not yet on sale in the EU, and that BYD had cooperated. BYD had argued that many unrelated confidential documents were taken.",
-        "The ruling does not decide the main claims. JLR's EU design-rights case continues in The Hague, and its copyright and unfair-imitation case continues in Rotterdam. Both companies declined to comment.",
-        "The Ti7 is a plug-in hybrid with 300 kW of system power and a 35.6 kWh battery. It is due in the UK from £47,995."
+        "Hexagon has closed its acquisition of Waygate Technologies from Baker Hughes, about seven months after the deal was announced in April. Closing was reported on 3 November and wider trade coverage followed this week. Waygate becomes part of Hexagon's Manufacturing Intelligence division.",
+        "Waygate brings industrial computed tomography, field radiography, ultrasonic testing and remote visual inspection. Hexagon adds coordinate measuring machines, portable measuring arms, scanners and metrology software. Michael Bellamy stays on as Waygate's chief executive, and Hexagon says existing projects, service agreements and orders continue without interruption. Neither company has given a deal value or headcount in the coverage.",
+        "For manufacturers of bearing rings, gears and shafts, the combination points towards inspection lines where CT and ultrasonic defect data sit in the same software as dimensional measurement. That could make it easier to link internal defects to geometry and to feed both into quality analytics and AI-based defect detection."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/"}
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "13 Nov",
-      "headline": "VW's Scout brand starts building validation vehicles at its new South Carolina plant",
-      "why": "Most Scout reservations are for range-extender versions, a sign that buyers still want a fuel-based backup even in a brand planned as all-electric.",
-      "source": "electrive",
-      "body": [
-        "Scout Motors has begun building its first test vehicles at its plant in Blythewood, South Carolina. The plant cost more than $2 billion and is expected to create over 4,000 jobs. The body shop, paint shop and assembly hall are running, and the body shop uses AI-assisted monitoring of weld seams. The validation builds check technology, whether the cars can be produced reliably, and component quality, and they will continue into 2027.",
-        "Scout first planned only battery-electric models. However, 87% of its 210,000 refundable reservations are for range-extender versions. The likely order is now a range-extender Traveler SUV first, then a range-extender Terra pickup, then the fully electric versions. Series production is planned for 2027, with deliveries in 2028. Audi plans to build about 25,000 vehicles a year at the same plant.",
-        "For drivetrain and testing teams, a range-extender-first plan means validating two powertrains on one architecture."
-      ],
-      "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"}
+        {
+          "label": "Metrology News",
+          "url": "https://metrology.news/hexagon-strengthens-industrial-inspection-portfolio-with-waygate-acquisition/"
+        },
+        {
+          "label": "Instrumentation Monthly",
+          "url": "https://instrumentation.co.uk/waygate-technologies-joins-hexagon/"
+        }
       ]
     },
     {
       "cat": "auto",
       "top": false,
       "date": "13 Nov",
-      "headline": "Kia will invest about €1.8 billion in a second Indian plant that can build petrol and electric cars",
-      "why": "India is becoming a major production base for global carmakers, with plants built to switch between combustion and electric models as demand changes.",
-      "source": "electrive · Kia",
+      "headline": "Toyota recalls 62,000 Tundras over camshafts from one bad supplier lot; Honda recalls 635,808 cars over steering software",
+      "why": "Two recalls in one week show that both supplier lot traceability and software fail-safe behaviour are now central quality risks.",
+      "source": "Automotive World · Vehicle Service Pros",
       "body": [
-        "Kia and its suppliers will invest about €1.8 billion in a second plant at Anantapur in Andhra Pradesh, on the site of Kia's existing Indian factory. The new plant will be able to build up to 200,000 vehicles a year. That raises Kia's total capacity at the site from 400,000 to 600,000. It will have stamping, welding, paint and assembly, and it is due to start operations in 2030.",
-        "The plant will build both combustion-engine and electric models, which Kia says gives it flexibility to follow demand. About 12,000 jobs are expected across Kia, its service providers and suppliers. The existing Anantapur plant has assembled the Carens Clavis EV since June 2025 and added the Syros EV in July 2026.",
-        "For suppliers, including makers of bearings and drivetrain parts, the plan points to more local sourcing in India for plants that build several powertrain types."
+        "Toyota is recalling about 62,000 non-hybrid Tundra pickups in the US from model years 2022–23 and 2025–26. Around 300 camshafts from a single supplier production lot are suspect, and a broken camshaft can cause loss of power at higher speed. Every truck in the recall will be inspected and affected camshafts replaced free of charge, with owners notified by mid-January 2027. It follows a 2024 recall of the same twin-turbo V6 over machining debris.",
+        "In the same week's NHTSA listings, Honda and Acura are recalling 635,808 vehicles because the electric power steering software can enter a fail-safe mode that removes steering assist.",
+        "Together they illustrate two sides of modern vehicle quality. On the hardware side, recall size is driven by how precisely a supplier lot can be traced to individual vehicles. On the software side, a fail-safe that works as designed can still create a hazard for the driver, which puts more weight on testing how degraded modes feel in real driving."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"}
+        {
+          "label": "Automotive World",
+          "url": "https://www.automotiveworld.com/news/toyota-recalls-62000-tundras-over-faulty-camshafts/"
+        },
+        {
+          "label": "Vehicle Service Pros",
+          "url": "https://www.vehicleservicepros.com/industry-news/service-repair/article/55418716/national-highway-traffic-safety-administration-nhtsa-nhtsa-recalls-nov-913-bmw-honda-ford-hyundai"
+        }
       ]
     },
     {
       "cat": "auto",
       "top": false,
       "date": "14 Nov",
-      "headline": "Canada sets aside $587 million to renew its EV charger programme and about $4 billion for the grid",
-      "why": "Public money for charging and grid capacity shapes how quickly EV demand grows outside Europe and the US, and how carmakers plan volumes for those markets.",
-      "source": "electrive",
+      "headline": "MAN signs a rental deal for electric trucks with Hylane as Strabag buys into Autobahn truck charging",
+      "why": "Electric heavy trucks are moving into pay-per-use fleets, and the charging network they need is being built and financed now.",
+      "source": "electrive.net · MAN · Strabag",
       "body": [
-        "Canada's federal budget includes $587 million (Canadian dollars) over five years from 2027 to renew the Zero-Emission Vehicle Infrastructure Program. The programme pays up to half of a charging project's cost, capped at $2 million per project. The government expects it to support more than 55,000 more chargers, roughly doubling the number backed by existing programmes. A further $45 million goes to charging research. The renewal still needs approval from Parliament.",
-        "The budget also includes nearly $4 billion over ten years for grid expansion and renewable energy, and $1.6 billion to modernise power systems in northern and remote communities. Industry group Electric Mobility Canada noted that there is still no new support for medium- and heavy-duty electric vehicles after the previous incentive ended in March 2026.",
-        "For truck makers such as Volvo Group and Scania, the missing heavy-duty incentive is the more important gap."
+        "Truck rental firm Hylane of Cologne has signed a long-term framework agreement with MAN, starting with 20 eTGX electric tractors. Customers rent them pay-per-use, billed monthly per kilometre, on contracts from 24 to 108 months. The trucks carry up to 480 kWh of usable battery, are rated for up to 570 km and charge at up to 375 kW, with optional megawatt charging up to 750 kW. Using the EU's extra two-tonne allowance for zero-emission trucks, the partners say payload matches a diesel at about 25 tonnes. Hylane began with hydrogen trucks in 2021 and added battery-electric ones in 2025.",
+        "Separately, construction group Strabag has bought 50% of charging operator R:loaded. Its consortium won one lot of Germany's national Autobahn truck fast-charging network: 140 charging points at 25 unstaffed rest areas in southern and western Germany, which R:loaded will run until mid-2034. The price was not disclosed.",
+        "For drivetrain and bearing engineers, rental duty cycles with high mileage and frequent fast charging are a useful stress case for e-axle durability."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/14/canada-invests-billions-in-charging-infrastructure-and-grid-upgrades/"}
+        {
+          "label": "electrive.net – Hylane/MAN",
+          "url": "https://www.electrive.net/2026/11/14/hylane-nimmt-man-20-weitere-elektro-lkw-ab/"
+        },
+        {
+          "label": "electrive.net – Strabag/R:loaded",
+          "url": "https://www.electrive.net/2026/11/14/strabag-beteiligt-sich-an-ladespezialist-rloaded/"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "Audi sets up a company to sell used genuine parts and recover materials from end-of-life cars",
+      "why": "The EU's planned end-of-life vehicle rules are turning recycled content and parts reuse into an engineering requirement, not just a sustainability goal.",
+      "source": "Automotive World",
+      "body": [
+        "Audi is launching Audi Circular Solutions, a wholly owned subsidiary that starts work in early 2027. Its first job is a central sales channel for used genuine Audi parts in Germany and other European markets, with other brands to follow later.",
+        "Later phases will add buying used vehicles and components, managing dismantling partners and securing secondary raw materials, with recycled plastics the first priority. It will begin by dismantling cars Audi already owns, such as its internal fleet, and builds on Audi's MaterialLoop pilots and the Volkswagen Group's dismantling line in Zwickau. Michael Gick is managing director. No volume or revenue targets were given.",
+        "The trigger is the EU's planned End-of-Life Vehicles Regulation, which would require a minimum share of recycled plastic in new cars. For development teams, that means material specifications, validation of recycled grades and design for disassembly will need to be considered earlier. For suppliers, reused parts raise new questions about remaining life and requalification testing."
+      ],
+      "links": [
+        {
+          "label": "Automotive World",
+          "url": "https://www.automotiveworld.com/news/audi-sets-up-audi-circular-solutions-to-sell-used-parts/"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "Xpeng plans five right-hand-drive models and about 100 UK sites to lead the premium EV market by 2028",
+      "why": "Chinese brands are now targeting the premium segment in Europe with driver assistance as a selling point, not just low prices.",
+      "source": "Automotive World",
+      "body": [
+        "Chinese carmaker Xpeng says it wants to lead the UK premium electric car market by 2028. It plans five right-hand-drive models within 12 months, starting with the L03 and G9L, each offered as a battery-electric car and as a Kunpeng extended-range version with a small combustion engine acting as a generator.",
+        "The company plans about 100 retail and service sites during 2027, three flagship stores in London and Manchester within six months and around 20 dealer and leasing partners. A national parts hub is meant to supply stores within 24 hours. Its NGP driver assistance system, built on its VLA 2.0 model, is planned for the UK in 2027, and Google Play integration is due early that year.",
+        "Reaching the goal would mean overtaking BMW and Tesla in UK premium within two years. For European OEMs and suppliers, the plan shows extended-range drivetrains and AI-based driver assistance becoming key competitive features in a market with no EU tariffs on Chinese cars."
+      ],
+      "links": [
+        {
+          "label": "Automotive World",
+          "url": "https://www.automotiveworld.com/news/xpeng-targets-uk-premium-ev-lead-with-five-new-models/"
+        }
+      ]
+    },
+    {
+      "cat": "res",
+      "top": false,
+      "date": "9 Nov",
+      "headline": "Physics-informed neural network separates defect echoes from ultrasonic guided waves and cuts scan points by seven times",
+      "why": "Physics-based models of the healthy part could make ultrasonic inspection faster and easier to trust than purely data-driven defect detectors.",
+      "source": "arXiv · DLR · RWTH Aachen",
+      "body": [
+        "Researchers at the German Aerospace Center's Institute of Maintenance, Repair and Overhaul and RWTH Aachen University have posted a preprint, now under peer review, on finding damage with ultrasonic guided waves. They train a neural network with sine-based activations to obey the wave equations of a thin plate, so it acts as a model of the undamaged part. Subtracting that model from the measured wavefield leaves the waves scattered by a defect. A coarse scan then finds the defect and an adaptive scan refines it.",
+        "In tests on 3 mm aluminium plates, the full method reconstructed the wavefield with about 79% lower error than a data-only network and located simulated defects with a median error of 0.45 mm. On real measurements it found a milled notch within 2.63 mm. The adaptive scan needed about one seventh of the points of a dense scan, and inference takes under a millisecond.",
+        "The work covers flat plates only, but the idea of subtracting a physics model of the healthy part could carry over to inspecting rings, shafts and gears, where scan time and explainability matter."
+      ],
+      "links": [
+        {
+          "label": "arXiv:2611.12299",
+          "url": "https://arxiv.org/abs/2611.12299"
+        }
+      ]
+    },
+    {
+      "cat": "res",
+      "top": false,
+      "date": "12 Nov",
+      "headline": "Simulation shows a larger fillet radius cuts cavitation by two thirds where oil groove meets oil hole in a diesel main bearing",
+      "why": "Small changes to drilling and groove geometry are a cheap way to reduce cavitation erosion in engine and driveline plain bearings.",
+      "source": "Lubricants (MDPI)",
+      "body": [
+        "A peer-reviewed paper in Lubricants from China's National Key Laboratory of Marine Engine Science and Technology in Shanghai and the Naval University of Engineering in Wuhan looks at cavitation where the oil groove meets the oil hole in a diesel engine main bearing. The team used large eddy simulation with a multiphase cavitation model and varied four geometry features: fillet radius, chamfer angle, groove depth and the shape of the groove end. Cavitation was tracked separately on the bearing shell and on the journal side.",
+        "Raising the fillet radius from 3 to 5 mm cut time-integrated cavitation by about 66% on the shell side and 23% on the journal side. A 30-degree chamfer also helped, while a deeper groove made cavitation worse on both sides. Smooth curved groove ends lowered peak velocity but produced jets that clung to the wall, so cavitation lasted longer overall.",
+        "The study is simulation only, with no experimental validation reported, so it is best read as a guide for which geometry changes to test on a rig first."
+      ],
+      "links": [
+        {
+          "label": "Lubricants 14(11), 430",
+          "url": "https://www.mdpi.com/2075-4442/14/11/430"
+        }
       ]
     }
   ],
   "watch": [
-    {"title": "Nvidia's board and Huang", "text": "Watch for any board response to the investor letter and petition, and for the timing of Huang's testimony to Congress.", "link": {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"}},
-    {"title": "Meta's response in Italy", "text": "Meta has 60 days to turn off the gallery feature and ask for separate consent. An appeal on jurisdiction looks likely.", "link": {"label": "ABC News (AP)", "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"}},
-    {"title": "Agents at the checkout", "text": "See whether more retailers block or welcome agent shoppers once ChatGPT Wallet reaches more users, and whether OpenAI starts charging fees.", "link": {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"}}
+    {
+      "title": "Nvidia results and leadership",
+      "text": "Nvidia reports quarterly results on 17 November, its first under interim CEO Colette Kress, with new board chair Harvey Jones in place.",
+      "link": {
+        "label": "SEC filing",
+        "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+      }
+    },
+    {
+      "title": "Tesla driver assistance in the EU",
+      "text": "Eleven countries now accept the Dutch approval of Tesla's supervised system, but an EU-wide vote in the technical committee on motor vehicles has no date yet.",
+      "link": {
+        "label": "Tesla Mag",
+        "url": "https://www.tesla-mag.com/en/?p=89173"
+      }
+    },
+    {
+      "title": "EU rules for AI shopping agents",
+      "text": "The Commission's proposed Digital Fairness Act would require users to set how much an AI purchasing agent can buy without approval. It now goes to Parliament and Council.",
+      "link": {
+        "label": "CASRAI",
+        "url": "https://casrai.org/news/eu-digital-fairness-act-ai-consumer-proposal-2026"
+      }
+    }
   ],
   "sources": [
-    {"label": "CNBC – Nvidia investors urge board to consider Huang's return (14 Nov 2026)", "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"},
-    {"label": "TechCrunch – Musk and other tech executives sign petition to reinstate Huang (14 Nov 2026)", "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"},
-    {"label": "Interconnects – Open-source AI without Jensen (14 Nov 2026)", "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"},
-    {"label": "ABC News (AP) – Meta fined $887M in Italy over Android gallery photos (14 Nov 2026)", "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"},
-    {"label": "Bloomberg – Italy fines Meta €805 million over access to users' photos (14 Nov 2026)", "url": "https://www.bloomberg.com/news/articles/2026-11-14/italy-fines-meta-805-million-over-access-to-users-photos"},
-    {"label": "TechCrunch – ChatGPT's new Wallet lets AI agents shop and check out (13 Nov 2026)", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"},
-    {"label": "CNBC – OpenAI launches ChatGPT Wallet for dots purchases (13 Nov 2026)", "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"},
-    {"label": "Databricks – OpenAI and Databricks: enterprise AI on your governed data (13 Nov 2026)", "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"},
-    {"label": "Electrek – Tesla Cybercab autonomy agreement terms (14 Nov 2026)", "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/"},
-    {"label": "Electrek – Tesla stops selling every Cybertruck except the Cyberbeast (13 Nov 2026)", "url": "https://electrek.co/2026/11/13/tesla-only-sells-cybertruck-cyberbeast-109990/"},
-    {"label": "Electrek – Volkswagen is delaying another EV based on the SSP (13 Nov 2026)", "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/"},
-    {"label": "electrive – Legal proceedings on whether the BYD Ti7 copies JLR's Defender (14 Nov 2026)", "url": "https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/"},
-    {"label": "electrive – Scout begins production of first test vehicles at new US plant (13 Nov 2026)", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"},
-    {"label": "electrive – Kia to invest around €1.8 billion in new plant in India (13 Nov 2026)", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"},
-    {"label": "electrive – Canada invests billions in charging infrastructure and grid upgrades (14 Nov 2026)", "url": "https://www.electrive.com/2026/11/14/canada-invests-billions-in-charging-infrastructure-and-grid-upgrades/"}
+    {
+      "label": "Fortune – OpenAI disbands its robotics team (13 Nov)",
+      "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/"
+    },
+    {
+      "label": "The Decoder – OpenAI reassigns robotics researchers (14 Nov)",
+      "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/"
+    },
+    {
+      "label": "Cyber Security News – Cursor data breach (14 Nov)",
+      "url": "https://cybersecuritynews.com/cursor-data-breach/"
+    },
+    {
+      "label": "GovInfoSecurity – Cursor confirms Claude Code extension compromised (30 Oct)",
+      "url": "https://www.govinfosecurity.com/cursor-confirms-anthropic-claude-code-extension-compromised-a-33263"
+    },
+    {
+      "label": "ABC7 – FAA ground stop live updates (13 Nov)",
+      "url": "https://abc7news.com/live-updates/faa-ground-stop-live-updates-what-know-nationwide-flights-are-grounded/20038887/entry/20039118"
+    },
+    {
+      "label": "Tech Pulse Daily – 15 November roundup (15 Nov)",
+      "url": "https://techbytes.app/tech-pulse-daily/2026/november/15/"
+    },
+    {
+      "label": "AI Weekly – llama.cpp ships v1.0.0 (13 Nov)",
+      "url": "https://aiweekly.co/alerts/llamacpp-ships-v100-with-semver-for-libllama-and-ggml"
+    },
+    {
+      "label": "Hugging Face – llama.cpp v1 (13 Nov)",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+    },
+    {
+      "label": "Replit – Agent ads and commerce (12 Nov)",
+      "url": "https://replit.com/blog/replit-agent-ads-commerce"
+    },
+    {
+      "label": "Replit – Changelog (13 Nov)",
+      "url": "https://docs.replit.com/updates/2026/11/13/changelog"
+    },
+    {
+      "label": "Investing News Network – Corsair PRO for Ansys simulation (13 Nov)",
+      "url": "https://investingnews.com/corsair-pro-to-optimize-engineering-workstations-servers-and-clusters-for-ansys-simulation/"
+    },
+    {
+      "label": "Synopsys – Ansys at Supercomputing",
+      "url": "https://ansys.synopsys.com/events/ansys-at-supercomputing"
+    },
+    {
+      "label": "Metrology News – Hexagon strengthens inspection with Waygate (3 Nov)",
+      "url": "https://metrology.news/hexagon-strengthens-industrial-inspection-portfolio-with-waygate-acquisition/"
+    },
+    {
+      "label": "Instrumentation Monthly – Waygate joins Hexagon (12 Nov)",
+      "url": "https://instrumentation.co.uk/waygate-technologies-joins-hexagon/"
+    },
+    {
+      "label": "Automotive World – Toyota recalls 62,000 Tundras (13 Nov)",
+      "url": "https://www.automotiveworld.com/news/toyota-recalls-62000-tundras-over-faulty-camshafts/"
+    },
+    {
+      "label": "Vehicle Service Pros – NHTSA recalls 9–13 Nov (13 Nov)",
+      "url": "https://www.vehicleservicepros.com/industry-news/service-repair/article/55418716/national-highway-traffic-safety-administration-nhtsa-nhtsa-recalls-nov-913-bmw-honda-ford-hyundai"
+    },
+    {
+      "label": "electrive.net – Hylane takes 20 MAN e-trucks (14 Nov)",
+      "url": "https://www.electrive.net/2026/11/14/hylane-nimmt-man-20-weitere-elektro-lkw-ab/"
+    },
+    {
+      "label": "electrive.net – Strabag buys into R:loaded (14 Nov)",
+      "url": "https://www.electrive.net/2026/11/14/strabag-beteiligt-sich-an-ladespezialist-rloaded/"
+    },
+    {
+      "label": "Automotive World – Audi Circular Solutions (13 Nov)",
+      "url": "https://www.automotiveworld.com/news/audi-sets-up-audi-circular-solutions-to-sell-used-parts/"
+    },
+    {
+      "label": "Automotive World – Xpeng targets UK premium EV lead (13 Nov)",
+      "url": "https://www.automotiveworld.com/news/xpeng-targets-uk-premium-ev-lead-with-five-new-models/"
+    },
+    {
+      "label": "arXiv – Physics-informed SIREN for guided-wave damage identification (9 Nov)",
+      "url": "https://arxiv.org/abs/2611.12299"
+    },
+    {
+      "label": "Lubricants – Cavitation at oil-groove–oil-hole intersection (12 Nov)",
+      "url": "https://www.mdpi.com/2075-4442/14/11/430"
+    },
+    {
+      "label": "SEC – Nvidia announces CEO transition (12 Nov)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+    },
+    {
+      "label": "Tesla Mag – Tesla Assisted Driving approvals in Europe",
+      "url": "https://www.tesla-mag.com/en/?p=89173"
+    },
+    {
+      "label": "CASRAI – EU Digital Fairness Act proposal (14 Nov)",
+      "url": "https://casrai.org/news/eu-digital-fairness-act-ai-consumer-proposal-2026"
+    }
   ],
-  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+  "note": "All summaries are paraphrased. Benchmark and hardware performance figures are vendor- or author-reported. The cause of the FAA outage is still under investigation; reports about cut copper lines are unconfirmed."
 }
