@@ -1,0 +1,196 @@
+{
+  "date": "2026-11-15",
+  "weekday": "Sunday",
+  "covers": "Fri 13 – Sun 15 Nov",
+  "glance": "Two large Nvidia investors and a petition backed by Elon Musk are pushing Nvidia's board to consider bringing back Jensen Huang, two days after he resigned. Italy's privacy regulator fined Meta €805 million over Facebook's default access to Android photo galleries, and OpenAI started letting its agents pay for purchases through a new ChatGPT Wallet. In cars, Volkswagen delayed two more EVs on its SSP platform and Tesla published strict ownership terms for the Cybercab.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "13–14 Nov",
+      "headline": "Investors and a 115,000-signature petition push Nvidia's board to consider Jensen Huang's return",
+      "why": "Pressure on the board makes Nvidia's leadership, and its spending on open models and AI start-ups, even less certain for the coming weeks.",
+      "source": "CNBC · TechCrunch · Interconnects",
+      "body": [
+        "Altimeter Capital and Atreides Management, which together disclosed about $2.13 billion in Nvidia shares at the end of June, published a letter on Friday asking Nvidia's board to weigh every leadership option, including Huang's return. They did not demand that he be reinstated straight away. Instead they asked for a careful CEO search that waits for the facts, and said interim CEO Colette Kress can run the company in the meantime.",
+        "A separate 'Stand with Jensen' petition had passed 115,000 signatures by Saturday afternoon. TechCrunch reports that signers include nearly 6,000 people who say they are current Nvidia employees, along with Elon Musk, Tim Sweeney and Garry Tan. These affiliations are self-reported. The petition asks for an independent investigation and more public information. Huang resigned on 12 November during a board inquiry into his personal relationships, and he has agreed to testify before Congress. The board has not responded publicly.",
+        "AI researcher Nathan Lambert argues that Huang's exit is a setback for US open-weight models, because Nvidia's Nemotron work depended on his personal backing. Teams that build on Nvidia's open models and tools should watch whether that funding holds."
+      ],
+      "links": [
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"},
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"},
+        {"label": "Interconnects", "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "14 Nov",
+      "headline": "Italy fines Meta €805 million over Facebook's default access to Android photo galleries",
+      "why": "This is one of Europe's largest privacy fines, and it targets bundled, default-on permissions, a pattern many product teams use for AI-powered suggestion features.",
+      "source": "AP via ABC News · Bloomberg",
+      "body": [
+        "Italy's data protection authority fined Meta Platforms Ireland €805 million (about $887 million) on Saturday. The fine covers a Facebook feature called 'Get suggestions from gallery when browsing Facebook'. The regulator found that the feature was switched on by default and that the app asked for gallery access through a single permission that covered several functions with different purposes. Under the EU's ePrivacy rules as written into Italian law, access to a phone's contents needs free and informed consent.",
+        "About 20 million Android users in Italy are thought to be affected. The regulator said Meta's lack of cooperation made the penalty larger. The fine is about 0.47% of Meta's global turnover. Meta has 60 days to turn off the feature and ask for separate consent. It has challenged Italy's jurisdiction and did not comment immediately.",
+        "For designers and product managers, the message is direct: European regulators expect a separate, clearly explained consent step for each purpose. A single permission prompt that also feeds AI recommendations, ranking or training is a legal risk."
+      ],
+      "links": [
+        {"label": "ABC News (AP)", "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"},
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-14/italy-fines-meta-805-million-over-access-to-users-photos"}
+      ]
+    },
+    {
+      "cat": "ux",
+      "top": true,
+      "date": "13 Nov",
+      "headline": "OpenAI launches ChatGPT Wallet so its agents can complete purchases for users",
+      "why": "Checkout is becoming something an agent does for the user, which changes how product teams design commerce flows, approvals and merchant sites.",
+      "source": "TechCrunch · CNBC",
+      "body": [
+        "OpenAI has released ChatGPT Wallet, which lets its 'dots' agents choose products and then pay for them. Users add a Visa, Mastercard or American Express card once. Each purchase is paid with a payment token made for that transaction, so neither the agent nor the merchant sees the real card number. Before checkout, the user checks the items, the total and the card, then approves with Face ID or a fingerprint.",
+        "The first rollout is limited to a small group of US ChatGPT Pro subscribers. Checkout works only at a limited set of retailers. OpenAI is not taking a cut of transactions at launch, and it plans to add spending limits and rules that pre-approve purchases by category or time period. Some merchants are pushing back. Amazon blocks outside agents, and United Airlines plans to stop them from booking tickets.",
+        "OpenAI also published a playbook for merchants who want their sites to work with agent shoppers. For e-commerce and product teams, it is a sign that a site may soon need to work for software agents as well as for people."
+      ],
+      "links": [
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"},
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "OpenAI and Databricks connect ChatGPT and Codex to companies' governed data",
+      "why": "Enterprise AI is being sold through the data platform a company already uses, with its permissions and budgets, not as a separate tool.",
+      "source": "Databricks",
+      "body": [
+        "Databricks has widened its partnership with OpenAI. Business users can now query governed Databricks data from ChatGPT through a Genie plugin. The plugin applies each user's existing permissions and shared metric definitions. Engineers can run OpenAI's Codex through Databricks' Unity Gateway, which manages credentials, budgets and audit logs. Teams can also build custom agents on GPT models, including the GPT-6 family and the open-weight gpt-oss models, inside Databricks.",
+        "Databricks did not publish pricing. It says OpenAI is one of its largest customers and that every Databricks engineer is getting Codex. It also claims OpenAI models lead its OfficeQA benchmark for document work, but it gave no scores.",
+        "For product strategy, this follows a familiar pattern. Model vendors are going after enterprise customers through the platforms that already hold their data and access controls. Getting a first AI agent approved can then be a configuration change rather than a new procurement."
+      ],
+      "links": [
+        {"label": "Databricks", "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13–14 Nov",
+      "headline": "Tesla's Cybercab will not move without a $299 monthly subscription and works only inside Tesla's geofences",
+      "why": "This is an early, concrete example of owning a software-defined car where the maker controls where, when and how the car can be used.",
+      "source": "Electrek",
+      "body": [
+        "Tesla has started inviting selected US customers to order the two-seat Cybercab for personal use at $29,990. The agreement Tesla posted on Friday makes a $299 monthly 'Autonomy Subscription' mandatory and says the car will not operate without one. Tesla can change that price with one month's notice. The car runs only inside Tesla's Robotaxi zones, which Tesla may change or shrink after purchase. Over five years the car and subscription add up to about $47,600, before insurance and charging.",
+        "Under the terms, Tesla can remotely locate, restrict or control the car. Repeated misuse leads to week-long suspensions. Cabin camera images are kept for 30 days by default. Owners may not put the car on Uber, delivery apps or Tesla's own network without written permission.",
+        "Tesla is also narrowing its Cybertruck range. Only the $109,990 Cyberbeast can now be ordered in the US, as production winds down through summer 2027."
+      ],
+      "links": [
+        {"label": "Electrek – Cybercab terms", "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/"},
+        {"label": "Electrek – Cybertruck trims", "url": "https://electrek.co/2026/11/13/tesla-only-sells-cybertruck-cyberbeast-109990/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "Volkswagen pushes the electric Audi A4 to 2029 and pauses Golf EV work as its SSP platform slips",
+      "why": "Delays to VW's next software-defined platform affect supplier schedules, validation programmes and electrical-architecture choices across the group.",
+      "source": "Electrek · Autocar · Reuters",
+      "body": [
+        "Volkswagen is delaying another model on its 800-volt Scalable Systems Platform (SSP). According to Autocar, production of the electric Audi A4 e-tron has moved to 2029 at the earliest, a year later than planned. Audi asked for changes to make the car closer to the petrol A4, including separate footwells for front and rear passengers, which means moving the battery, and a 48-volt electrical system in place of the planned 12-volt one.",
+        "Reuters separately reported an internal memo pausing Golf EV development work in Wolfsburg. In the memo, VW brand chief Thomas Schäfer says the company cannot afford the work right now. VW Group posted a €5.9 billion operating loss in the third quarter. The works council says the Golf EV is still expected in 2030. Software for SSP is being developed with Rivian through the RV Tech joint venture.",
+        "For suppliers and test engineers, a 48-volt change this late reworks component specifications and validation plans, and it shows how much platform timing now depends on software readiness."
+      ],
+      "links": [
+        {"label": "Electrek", "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "11–14 Nov",
+      "headline": "Dutch court lifts JLR's evidence seizure at BYD in the Defender look-alike dispute",
+      "why": "The case tests how far European design and patent law can be used against Chinese models that closely resemble established vehicles.",
+      "source": "electrive",
+      "body": [
+        "A court in The Hague ruled on 11 November that the evidence seizure JLR obtained in August at BYD's Dutch offices in Schiedam and Hoofddorp was unnecessary. JLR must have the seized digital documents destroyed or face penalties of €50,000 per hour, up to €500,000. It must also pay BYD about €25,400 in legal costs. The court noted that the BYD Ti7, which JLR says copies the Land Rover Defender, is not yet on sale in the EU, and that BYD had cooperated. BYD had argued that many unrelated confidential documents were taken.",
+        "The ruling does not decide the main claims. JLR's EU design-rights case continues in The Hague, and its copyright and unfair-imitation case continues in Rotterdam. Both companies declined to comment.",
+        "The Ti7 is a plug-in hybrid with 300 kW of system power and a 35.6 kWh battery. It is due in the UK from £47,995."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "VW's Scout brand starts building validation vehicles at its new South Carolina plant",
+      "why": "Most Scout reservations are for range-extender versions, a sign that buyers still want a fuel-based backup even in a brand planned as all-electric.",
+      "source": "electrive",
+      "body": [
+        "Scout Motors has begun building its first test vehicles at its plant in Blythewood, South Carolina. The plant cost more than $2 billion and is expected to create over 4,000 jobs. The body shop, paint shop and assembly hall are running, and the body shop uses AI-assisted monitoring of weld seams. The validation builds check technology, whether the cars can be produced reliably, and component quality, and they will continue into 2027.",
+        "Scout first planned only battery-electric models. However, 87% of its 210,000 refundable reservations are for range-extender versions. The likely order is now a range-extender Traveler SUV first, then a range-extender Terra pickup, then the fully electric versions. Series production is planned for 2027, with deliveries in 2028. Audi plans to build about 25,000 vehicles a year at the same plant.",
+        "For drivetrain and testing teams, a range-extender-first plan means validating two powertrains on one architecture."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "13 Nov",
+      "headline": "Kia will invest about €1.8 billion in a second Indian plant that can build petrol and electric cars",
+      "why": "India is becoming a major production base for global carmakers, with plants built to switch between combustion and electric models as demand changes.",
+      "source": "electrive · Kia",
+      "body": [
+        "Kia and its suppliers will invest about €1.8 billion in a second plant at Anantapur in Andhra Pradesh, on the site of Kia's existing Indian factory. The new plant will be able to build up to 200,000 vehicles a year. That raises Kia's total capacity at the site from 400,000 to 600,000. It will have stamping, welding, paint and assembly, and it is due to start operations in 2030.",
+        "The plant will build both combustion-engine and electric models, which Kia says gives it flexibility to follow demand. About 12,000 jobs are expected across Kia, its service providers and suppliers. The existing Anantapur plant has assembled the Carens Clavis EV since June 2025 and added the Syros EV in July 2026.",
+        "For suppliers, including makers of bearings and drivetrain parts, the plan points to more local sourcing in India for plants that build several powertrain types."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "14 Nov",
+      "headline": "Canada sets aside $587 million to renew its EV charger programme and about $4 billion for the grid",
+      "why": "Public money for charging and grid capacity shapes how quickly EV demand grows outside Europe and the US, and how carmakers plan volumes for those markets.",
+      "source": "electrive",
+      "body": [
+        "Canada's federal budget includes $587 million (Canadian dollars) over five years from 2027 to renew the Zero-Emission Vehicle Infrastructure Program. The programme pays up to half of a charging project's cost, capped at $2 million per project. The government expects it to support more than 55,000 more chargers, roughly doubling the number backed by existing programmes. A further $45 million goes to charging research. The renewal still needs approval from Parliament.",
+        "The budget also includes nearly $4 billion over ten years for grid expansion and renewable energy, and $1.6 billion to modernise power systems in northern and remote communities. Industry group Electric Mobility Canada noted that there is still no new support for medium- and heavy-duty electric vehicles after the previous incentive ended in March 2026.",
+        "For truck makers such as Volvo Group and Scania, the missing heavy-duty incentive is the more important gap."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/14/canada-invests-billions-in-charging-infrastructure-and-grid-upgrades/"}
+      ]
+    }
+  ],
+  "watch": [
+    {"title": "Nvidia's board and Huang", "text": "Watch for any board response to the investor letter and petition, and for the timing of Huang's testimony to Congress.", "link": {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"}},
+    {"title": "Meta's response in Italy", "text": "Meta has 60 days to turn off the gallery feature and ask for separate consent. An appeal on jurisdiction looks likely.", "link": {"label": "ABC News (AP)", "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"}},
+    {"title": "Agents at the checkout", "text": "See whether more retailers block or welcome agent shoppers once ChatGPT Wallet reaches more users, and whether OpenAI starts charging fees.", "link": {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"}}
+  ],
+  "sources": [
+    {"label": "CNBC – Nvidia investors urge board to consider Huang's return (14 Nov 2026)", "url": "https://www.cnbc.com/2026/11/14/nvidia-investors-jensen-huang-return-board-letter.html"},
+    {"label": "TechCrunch – Musk and other tech executives sign petition to reinstate Huang (14 Nov 2026)", "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/"},
+    {"label": "Interconnects – Open-source AI without Jensen (14 Nov 2026)", "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen"},
+    {"label": "ABC News (AP) – Meta fined $887M in Italy over Android gallery photos (14 Nov 2026)", "url": "https://abcnews.com/Technology/wireStory/meta-fined-887-million-italy-android-gallery-photos-138145127"},
+    {"label": "Bloomberg – Italy fines Meta €805 million over access to users' photos (14 Nov 2026)", "url": "https://www.bloomberg.com/news/articles/2026-11-14/italy-fines-meta-805-million-over-access-to-users-photos"},
+    {"label": "TechCrunch – ChatGPT's new Wallet lets AI agents shop and check out (13 Nov 2026)", "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"},
+    {"label": "CNBC – OpenAI launches ChatGPT Wallet for dots purchases (13 Nov 2026)", "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"},
+    {"label": "Databricks – OpenAI and Databricks: enterprise AI on your governed data (13 Nov 2026)", "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"},
+    {"label": "Electrek – Tesla Cybercab autonomy agreement terms (14 Nov 2026)", "url": "https://electrek.co/2026/11/14/tesla-cybercab-autonomy-subscription-agreement-terms/"},
+    {"label": "Electrek – Tesla stops selling every Cybertruck except the Cyberbeast (13 Nov 2026)", "url": "https://electrek.co/2026/11/13/tesla-only-sells-cybertruck-cyberbeast-109990/"},
+    {"label": "Electrek – Volkswagen is delaying another EV based on the SSP (13 Nov 2026)", "url": "https://electrek.co/2026/11/13/volkswagen-delaying-another-ev-ssp/"},
+    {"label": "electrive – Legal proceedings on whether the BYD Ti7 copies JLR's Defender (14 Nov 2026)", "url": "https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/"},
+    {"label": "electrive – Scout begins production of first test vehicles at new US plant (13 Nov 2026)", "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"},
+    {"label": "electrive – Kia to invest around €1.8 billion in new plant in India (13 Nov 2026)", "url": "https://www.electrive.com/2026/11/13/kia-to-invest-around-e1-8-billion-in-new-plant-in-india/"},
+    {"label": "electrive – Canada invests billions in charging infrastructure and grid upgrades (14 Nov 2026)", "url": "https://www.electrive.com/2026/11/14/canada-invests-billions-in-charging-infrastructure-and-grid-upgrades/"}
+  ],
+  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+}
