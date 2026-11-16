@@ -1,0 +1,307 @@
+{
+ "date": "2026-11-16",
+ "weekday": "Monday",
+ "covers": "Fri 13 – Mon 16 Nov",
+ "glance": "Agents that act for people are getting real plumbing: OpenAI's ChatGPT Wallet lets its agents pay with tokenised cards, and Sierra and Meta's Poppy standard is now live on every Shopify store. A study of Lovable-built apps shows the cost of skipping security review, and Tesla has opened Cybercab orders at $29,990. Also: Google's agent teams formalise famous proofs, Nvidia's turmoil reaches US chip-export politics, and VW's Scout finds buyers want range extenders.",
+ "brief": "OpenAI has launched ChatGPT Wallet, which lets its personal agents buy things for users. Each purchase uses a one-time card token from American Express, Mastercard or Visa, and the user must approve it. A security study of more than one hundred and fifty thousand apps built with Lovable found that over seven thousand sites exposed email addresses, and some leaked chat messages and passport details, because of weak database rules. Tesla has opened orders for the Cybercab at twenty-nine thousand nine hundred and ninety dollars, plus a monthly autonomy subscription, while US regulators question its safety compliance. Sierra and Meta released version one of Poppy, a standard for how AI agents deal with businesses, now switched on for every Shopify store. Google says its agent teams formalised the Weil conjectures and other proofs in Lean. Nvidia's leadership crisis has spread to Washington, where the commerce secretary faces questions over chip exports to China. Stanford released Memorilla, which compresses document collections into sixteen memory tokens. Apple opened a two hundred thousand person study of health AI with OpenEvidence. Humanoid start-up Foundation missed payroll after General Motors called its claimed order fabricated. SK hynix is building an open test fab for chip suppliers, and Volkswagen's Scout started building test vehicles, with most reservations for range extenders. This week, watch Nvidia's results, Anthropic's stock market debut and SKF Vertevo's capital markets day.",
+ "stories": [
+  {
+   "cat": "pm",
+   "top": true,
+   "date": "13 Nov",
+   "headline": "OpenAI launches ChatGPT Wallet so its 'dots' agents can buy things for users",
+   "why": "Agent checkout is moving from demos to real card networks, so product teams need to decide how their sites treat buying agents.",
+   "source": "CNBC",
+   "body": [
+    "OpenAI has launched ChatGPT Wallet, a payment feature that lets its personal agents, called dots, make purchases on a user's behalf. Users store a card once, ask a dot to find an item, and approve every purchase with a security check. American Express, Mastercard and Visa are the launch partners, and cardholders keep their normal rewards and protections.",
+    "The agent never sees the real card. Instead the card network issues a payment token, with its own number, code and expiry date, that only works for one transaction. The feature is limited at first to US Pro subscribers aged 18 or over, and OpenAI is not taking a cut of sales for now. It has published guidance so merchants can avoid blocking its agents. Some large companies are going the other way: United Airlines plans to block agents from booking, and Amazon stops them buying on its site.",
+    "For product and UX teams, this raises practical questions: whether to let agents through checkout, how to show approval steps, and how to handle returns and fraud when the 'customer' is software acting for a person."
+   ],
+   "links": [
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": true,
+   "date": "15–16 Nov",
+   "headline": "Researchers find thousands of Lovable-built apps exposing personal data without a login",
+   "why": "Vibe-coded prototypes are reaching production with weak database rules, and design and product teams share the responsibility for checking them.",
+   "source": "Crissy Field research · Handelsblatt",
+   "body": [
+    "Berlin security firm Crissy Field has published an English version of its study of 159,041 projects built with the AI app builder Lovable between December 2025 and September 2026. Of the 34,545 projects that used the Supabase database service, 24,664 sent database records to the browser as soon as the page loaded, with no login. Follow-up read-only checks found email addresses in 10,560 tables across 7,403 of those sites, about 30%. The authors stress this is not a confirmed leak rate.",
+    "Examples include a German lifestyle forum with more than 80,000 profiles and over 200,000 chat messages, ticket and food sales records with addresses and payment details, and more than 1,000 records containing passport numbers. The report blames access-control mistakes in the database setup, made easier to find because many generated apps follow the same patterns. Handelsblatt first reported the findings earlier in November.",
+    "The lesson for teams using AI builders for prototypes or internal tools is simple: treat generated apps as untrusted until someone has reviewed database permissions, especially before real customer data goes in."
+   ],
+   "links": [
+    {
+     "label": "Crissy Field",
+     "url": "https://www.crissyfield.de/research/lovable-en/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "13 Nov",
+   "headline": "Tesla opens Cybercab orders at $29,990 plus a $299 monthly autonomy subscription",
+   "why": "A steering-wheel-free car sold to private buyers tests how far US rules on non-standard vehicles will stretch.",
+   "source": "InsideEVs",
+   "body": [
+    "Tesla has started taking orders for the Cybercab, its two-seat robotaxi without steering wheel, pedals or side mirrors. The price is $29,990, about $7,000 below a Model 3, which makes it Tesla's cheapest car yet. Buyers must also pay $299 a month for the autonomous driving subscription, with the first month free. That adds roughly $3,600 a year before insurance and servicing.",
+    "Sales are open only to selected customers at first, and the car will only work inside supported service areas, which Tesla has not listed. A screenshot of the order page suggests deliveries could start as early as December. The US safety regulator NHTSA is asking how Tesla concluded that the vehicle meets federal safety standards. Federal rules allow only 2,500 non-compliant vehicles per maker per year unless an exemption is granted; Zoox received one for 5,000 pods over two years.",
+    "For engineers in development and type approval, the Cybercab is a live test of how regulators handle vehicles designed around software rather than traditional controls. A similar question will reach Europe once UNECE rules for driverless vehicles mature."
+   ],
+   "links": [
+    {
+     "label": "InsideEVs",
+     "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "Sierra and Meta release version 1.0 of Poppy, a standard for how personal agents deal with businesses",
+   "why": "With Shopify switching it on for every store, Poppy could become the default way AI agents identify themselves and get permissions on websites.",
+   "source": "Sierra",
+   "body": [
+    "Sierra has released version 1.0 of the Personal Agent Protocol, known as Poppy, an open standard it is developing with Meta. It defines how a person's AI agent connects to a company's website, APIs or own customer-service agent. It covers identity, so the agent says who it is, and permissions, through OAuth, so customers decide what their agent may do and can change that later. It builds on existing standards such as MCP, OpenAPI and the Universal Commerce Protocol.",
+    "Poppy is on for all users of Meta's Muse agent, which looks for it first on every site it visits. Shopify has enabled it for every merchant, and stores now publish a Poppy file automatically. Sierra says more than 100 companies are design partners, including Stripe, Walmart, Delta Air Lines, Salesforce and Wayfair. Mercury, Synchrony and Turkish Airlines are live now.",
+    "For designers and frontend developers, this adds a new kind of 'user' to plan for: agents that need clear, machine-readable descriptions of what a service offers, and permission screens that people can understand."
+   ],
+   "links": [
+    {
+     "label": "Sierra",
+     "url": "https://sierra.ai/blog/releasing-poppy"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "Google's agent teams formalise the Weil conjectures and other famous proofs in Lean",
+   "why": "Machine-checked proofs and large verified code rewrites show agent teams moving into work where every step must be correct.",
+   "source": "Google Research",
+   "body": [
+    "Google Research has launched /teamwork in its Antigravity environment, a multi-agent system that pairs researchers with teams of Gemini 4 agents. Google reports a list of results: a full machine-checked formalisation of the Weil conjectures in about 1.8 million lines of the proof language Lean, built over 28,800 sub-agent runs; a proof of the 2013 Courtade–Kumar conjecture; first formalisations of the 1927 Birkhoff conjecture and the 3D Bochner–Riesz conjecture, where the agents also found and fixed a gap in a recent proof.",
+    "On the engineering side, Google says the agents rewrote about 800,000 lines of the Zircon microkernel in safe Rust and ported an AV1 video decoder to Rust that runs 20–30% faster than the C++ original. /teamwork is available to external Antigravity users, and Google is offering 10,000 academic researchers six months of free top-tier access.",
+    "The results are vendor-reported and not yet peer-reviewed. Still, they point to a use of AI that matters to simulation and safety engineering: work where the output can be checked mechanically, so reliability does not depend on trusting the model."
+   ],
+   "links": [
+    {
+     "label": "Google Research",
+     "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "15 Nov",
+   "headline": "Nvidia scandal spills into US chip-export politics as Trump heads to China",
+   "why": "Export rules on AI chips shape where compute is available and at what price, including for European buyers.",
+   "source": "Semafor · CNBC",
+   "body": [
+    "The fallout from Jensen Huang's resignation as Nvidia CEO is now reaching Washington. Semafor reports that Commerce Secretary Howard Lutnick is under pressure over claims he slowed restrictions on AI chip exports to China and left loopholes that let Nvidia sell more advanced chips indirectly. Critics also point to his close ties with Huang. Treasury Secretary Scott Bessent says his department has pushed for months to blacklist Megaspeed, a Singapore cloud firm the US is investigating for alleged chip smuggling, but the decision sits with Commerce.",
+    "Lutnick is still due to fly with President Trump to China on Wednesday for meetings with Xi Jinping on the edge of the APEC summit. The White House says it has full confidence in him. Megaspeed told CNBC that Alice Huang, the executive at the centre of the reports, left the company in August 2025, and that it has hired outside counsel for an internal review.",
+    "Any tightening of chip export policy after the trip would affect supply and pricing for AI hardware worldwide. Nvidia reports quarterly results on Tuesday, its first under interim CEO Colette Kress."
+   ],
+   "links": [
+    {
+     "label": "Semafor",
+     "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "14 Nov",
+   "headline": "Stanford releases Memorilla, which squeezes a document collection into 16 memory tokens",
+   "why": "Cheaper ways to give a model access to company documents could change how retrieval features in products are built.",
+   "source": "Emergent",
+   "body": [
+    "Stanford researchers have open-sourced Memorilla, a memory module for large language models that are used unchanged, without fine-tuning. Instead of pasting long documents into the prompt or retrieving chunks, Memorilla compresses a whole document collection into 16 special memory tokens that the model reads alongside the question.",
+    "In tests with the frozen Qwen3-8B model, the team reports 84.33% accuracy on the FactKG fact-checking benchmark while using 108 times fewer document tokens than methods that load the full context. The code, training setup and evaluation benchmarks are released under an open-source licence.",
+    "The figures come from the authors and cover one benchmark and one model, so they need independent testing. If the approach holds up, it could cut the cost and delay of assistants that answer questions over manuals, specifications or test reports, which today often rely on large context windows or retrieval pipelines that are fragile to tune."
+   ],
+   "links": [
+    {
+     "label": "Emergent",
+     "url": "https://emergent.sh/news/stanford-open-sources-memorilla-memory-module"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "15 Nov",
+   "headline": "Apple and OpenEvidence open a 200,000-person study of how people use AI for health questions",
+   "why": "Apple is collecting real-world evidence on trust and comprehension before putting health AI into its core products.",
+   "source": "TechCrunch",
+   "body": [
+    "Apple has released a research app, built with the medical AI company OpenEvidence, to study how people use AI for health questions. Up to 200,000 US participants over 21 can join for a study planned to last more than a year. They need an iPhone 15 or later with iOS 26 and Apple Intelligence switched on.",
+    "Participants ask health questions and get answers grounded in clinical sources such as The New England Journal of Medicine, JAMA and Nature. They rate answers, take monthly surveys and can choose to share HealthKit data such as resting heart rate, sleep or lab results. The app can also help people prepare for doctor visits. Apple says data is anonymised before it goes to a third-party cloud and is not used to train models, and OpenEvidence deletes queries after 24 hours.",
+    "For product teams, the study is a reminder that in sensitive areas, the big question is not whether the model can answer but whether users understand and trust the answer. Apple is measuring that directly, at scale, before launch."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "14 Nov",
+   "headline": "Humanoid start-up Foundation misses payroll after GM calls its claimed $300 million order 'fabricated'",
+   "why": "Factory buyers evaluating humanoid robots need to check customer claims and supplier finances carefully.",
+   "source": "San Francisco Standard · CNBC",
+   "body": [
+    "Foundation, a San Francisco humanoid robot start-up founded in 2024, has not paid staff since missing payroll on 30 October, according to CNBC reporting cited by the San Francisco Standard. The Standard also reports that the company's fundraising material implied a relationship with General Motors worth a possible $300 million order. GM described this as fabricated, and Foundation admitted it had overstated the link.",
+    "Foundation's main product is the Phantom MK-2, a roughly 1.8-metre, 90-kilogram humanoid in a dust- and waterproof aluminium body, aimed at factories and later at military use. It has not yet been shown publicly.",
+    "The case comes as money pours into robotics: Agile Robots in Munich and Path Robotics in Ohio both closed large rounds this month. For manufacturing engineers and purchasing teams, it shows why pilot results, named reference customers and the supplier's balance sheet matter as much as the demo when deciding whether to put humanoids on a line."
+   ],
+   "links": [
+    {
+     "label": "San Francisco Standard",
+     "url": "https://sfstandard.com/2026/11/14/humanoid-war-robots-soma-startup"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "16 Nov",
+   "headline": "SK hynix builds a $655 million open test fab so suppliers can validate tools on a real memory line",
+   "why": "A shared, production-grade test bed is a model for shortening validation of new equipment and materials in any high-volume industry.",
+   "source": "Korea JoongAng Daily",
+   "body": [
+    "SK hynix and Korean national and local governments are funding Trinity Fab, an 874.6 billion won (about $655 million) test bed inside the company's new Y1 memory fab in Yongin. It offers 3,305 square metres of cleanroom where smaller suppliers of materials, parts and equipment can test products in conditions close to mass production. Fifteen rooms will be rented to suppliers for their own tools, and the site will have 51 tools of its own, including metrology and inspection systems.",
+    "It will be run by an independent non-profit, with SK hynix providing the space and engineers free of charge. The operator expects it to cut time to market by at least 30%, though it has not explained the basis for that figure. Full operation is planned for the fourth quarter of 2027.",
+    "For automotive suppliers, the idea is familiar from shared test centres for batteries and drivetrains: validating parts under realistic production conditions before qualification can remove repeated test loops between supplier and customer."
+   ],
+   "links": [
+    {
+     "label": "Korea JoongAng Daily",
+     "url": "https://www.koreajoongangdaily.com/business/inside-sk-hynixs-655-million-chip-test-bed/12971453"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "VW's Scout starts building test vehicles in South Carolina as buyers pick range extenders",
+   "why": "Reservation data showing 87% demand for range extenders is a strong signal for drivetrain and powertrain planning in the US.",
+   "source": "electrive",
+   "body": [
+    "Scout Motors, Volkswagen's US brand, has started building its first validation vehicles at its new plant in Blythewood, South Carolina. The body shop, paint shop and assembly hall are running, and the plant uses AI-assisted weld seam monitoring. Volkswagen puts the investment at more than $2 billion, with more than 4,000 jobs expected.",
+    "Scout was first planned as fully electric, but 87% of its roughly 210,000 refundable $100 reservations are for range-extender versions. Three quarters of reservations are for the Traveler SUV. The likely order is the Traveler with range extender first, then the Terra pickup, with fully electric versions last. Validation builds continue into 2027, followed by pre-series production; customer deliveries are not expected until 2028. Audi also plans to build about 25,000 vehicles a year at the plant.",
+    "For drivetrain, bearing and thermal engineers, it confirms a trend across US-bound programmes: range extenders, where a small combustion engine only charges the battery, are filling the gap while demand for full EVs stays weak."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Nvidia results, Tuesday",
+   "text": "Nvidia reports on 17 November, its first results since Jensen Huang resigned. Analysts expect about $109 billion in quarterly revenue.",
+   "link": {
+    "label": "The National",
+    "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+   }
+  },
+  {
+   "title": "Anthropic's Nasdaq debut",
+   "text": "Anthropic is expected to price its 825 million shares in the $70–78 range this week and start trading on Thursday under the ticker ANT.",
+   "link": {
+    "label": "The National",
+    "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+   }
+  },
+  {
+   "title": "SKF Vertevo Capital Markets Day",
+   "text": "SKF's automotive spin-off presents its plans to investors in Stockholm on 17 November, ahead of its listing on 1 December.",
+   "link": {
+    "label": "SKF Vertevo",
+    "url": "https://capital.com/en-gb/news/skf-vertevo-capital-markets-day-to-be-held-on-17"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "CNBC – OpenAI launches ChatGPT Wallet for dots purchases (13 Nov)",
+   "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
+  },
+  {
+   "label": "Crissy Field – Lovable: many apps expose sensitive data (Nov)",
+   "url": "https://www.crissyfield.de/research/lovable-en/"
+  },
+  {
+   "label": "InsideEVs – Tesla Cybercab pricing and sales announced (13 Nov)",
+   "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/"
+  },
+  {
+   "label": "Sierra – Releasing Personal Agent Protocol 1.0 (13 Nov)",
+   "url": "https://sierra.ai/blog/releasing-poppy"
+  },
+  {
+   "label": "Google Research – Advancing science and engineering with Antigravity's teamwork feature (13 Nov)",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+  },
+  {
+   "label": "Semafor – Under pressure, Lutnick joins Trump in China (15 Nov)",
+   "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china"
+  },
+  {
+   "label": "CNBC – Megaspeed says Alice Huang left in 2025, hires counsel (15 Nov)",
+   "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
+  },
+  {
+   "label": "Emergent – Stanford open-sources Memorilla memory module (14 Nov)",
+   "url": "https://emergent.sh/news/stanford-open-sources-memorilla-memory-module"
+  },
+  {
+   "label": "TechCrunch – Apple launches app to study how people use AI for health (15 Nov)",
+   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+  },
+  {
+   "label": "San Francisco Standard – Inside the humanoid war-robot start-up (14 Nov)",
+   "url": "https://sfstandard.com/2026/11/14/humanoid-war-robots-soma-startup"
+  },
+  {
+   "label": "Korea JoongAng Daily – Inside SK hynix's $655 million chip test bed (16 Nov)",
+   "url": "https://www.koreajoongangdaily.com/business/inside-sk-hynixs-655-million-chip-test-bed/12971453"
+  },
+  {
+   "label": "electrive – VW's Scout begins production of first test vehicles (13 Nov)",
+   "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"
+  },
+  {
+   "label": "The National – Nvidia earnings and Anthropic IPO lead crucial week (16 Nov)",
+   "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+  },
+  {
+   "label": "SKF Vertevo – Capital Markets Day on 17 November 2026",
+   "url": "https://capital.com/en-gb/news/skf-vertevo-capital-markets-day-to-be-held-on-17"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark and performance figures are vendor- or author-reported. The Lovable figures describe exposed data found by researchers, not a confirmed leak rate."
+}
