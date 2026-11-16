@@ -1,21 +1,44 @@
 {
  "date": "2026-11-16",
  "weekday": "Monday",
- "covers": "Fri 13 – Mon 16 Nov",
- "glance": "Agents that act for people are getting real plumbing: OpenAI's ChatGPT Wallet lets its agents pay with tokenised cards, and Sierra and Meta's Poppy standard is now live on every Shopify store. A study of Lovable-built apps shows the cost of skipping security review, and Tesla has opened Cybercab orders at $29,990. Also: Google's agent teams formalise famous proofs, Nvidia's turmoil reaches US chip-export politics, and VW's Scout finds buyers want range extenders.",
- "brief": "OpenAI has launched ChatGPT Wallet, which lets its personal agents buy things for users. Each purchase uses a one-time card token from American Express, Mastercard or Visa, and the user must approve it. A security study of more than one hundred and fifty thousand apps built with Lovable found that over seven thousand sites exposed email addresses, and some leaked chat messages and passport details, because of weak database rules. Tesla has opened orders for the Cybercab at twenty-nine thousand nine hundred and ninety dollars, plus a monthly autonomy subscription, while US regulators question its safety compliance. Sierra and Meta released version one of Poppy, a standard for how AI agents deal with businesses, now switched on for every Shopify store. Google says its agent teams formalised the Weil conjectures and other proofs in Lean. Nvidia's leadership crisis has spread to Washington, where the commerce secretary faces questions over chip exports to China. Stanford released Memorilla, which compresses document collections into sixteen memory tokens. Apple opened a two hundred thousand person study of health AI with OpenEvidence. Humanoid start-up Foundation missed payroll after General Motors called its claimed order fabricated. SK hynix is building an open test fab for chip suppliers, and Volkswagen's Scout started building test vehicles, with most reservations for range extenders. This week, watch Nvidia's results, Anthropic's stock market debut and SKF Vertevo's capital markets day.",
+ "covers": "Fri 13 – Sun 15 Nov",
+ "glance": "The US and nine partners signed a declaration on protecting AI supply chains, and Sweden and the EU are expected to join next week. OpenAI let its agents pay at checkout, and analysts set expectations for SKF's spin-off Vertevo ahead of Tuesday's Capital Markets Day. Also in this edition: new open tools for building and browsing with agents, Tesla's Cybercab pricing, a court setback for JLR against BYD, in-line CT from ZEISS, and two studies on coatings and plain bearings.",
+ "brief": "This is Vertical News. The United States and nine partners, including Japan, India and the UK, signed the San Francisco Declaration on Sunday. It commits them to protect the technology, materials and infrastructure behind advanced AI, and reports say Sweden, Germany, the Netherlands and the European Commission are expected to sign next week. OpenAI launched ChatGPT Wallet, which lets its agents buy things for users with single-use card tokens from Visa, Mastercard and American Express. And ahead of SKF Vertevo's Capital Markets Day on Tuesday, J.P. Morgan upgraded SKF to neutral, and Ålandsbanken valued the automotive spin-off at about ten billion kronor. The Nvidia scandal has spread to Washington, with questions about chip exports to China before results on Tuesday. Vercel released UI SDK, a set of accessible building blocks for coding agents, and Cloudflare open-sourced Kitesurf, a lightweight browser engine for agents. Researchers found more than twenty-four thousand apps built with Lovable exposing database records without a login. OpenAI and Databricks widened their partnership around governed company data. Tesla opened Cybercab orders at about thirty thousand dollars, plus two hundred and ninety-nine dollars a month for autonomy. A Dutch court lifted JLR's evidence seizure at BYD in the Defender lookalike case. ZEISS launched an in-line CT system that inspects up to ten battery cells a minute, and Marposs showed sensors that spot ten-micrometre chips on electrode cutting blades. In research, Hannover engineers used induction thermography to find one-micrometre cracks in hard coatings, and a Chinese study measured how load and oil temperature speed up seizure in sliding bearings.",
  "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "15 Nov",
+   "headline": "US and nine partners sign the 'San Francisco Declaration' on AI supply chains; Sweden and the EU are expected to follow",
+   "why": "A US-led bloc on chips and AI technology is forming, and Swedish and EU membership would shape export controls and investment screening for European tech and automotive firms.",
+   "source": "US State Department · Poland Insight (citing FT)",
+   "body": [
+    "The US State Department has published the San Francisco Declaration, signed at a retreat of its Pax Silica initiative on 15 November. The signatories are the US, Australia, India, Israel, Japan, South Korea, Qatar, Singapore, the UAE and the UK. The text states that \"economic security is fundamental to national security\" and commits members to protect sensitive technologies, materials and know-how in the supply chain for advanced AI from theft, illicit transfer and hostile takeovers, along with ports, energy and telecoms infrastructure.",
+    "The declaration proposes five working groups, covering innovation policy, adoption in key sectors, supply-chain cooperation, security hubs and resilience, plus coordinated responses to economic coercion. It is not legally binding and sets no deadlines. Citing the Financial Times, Poland Insight reports that Germany, Sweden, the Netherlands and the European Commission are expected to sign the following week. EU member states gave the Commission a negotiating mandate on 11 November, but Brussels has reservations about the AI provisions and wants to keep control of its own digital rules.",
+    "For European companies that buy chips or license AI technology, this could bring tighter screening of partners and investors, and new rules about where sensitive work is allowed to happen."
+   ],
+   "links": [
+    {
+     "label": "US State Department",
+     "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity"
+    },
+    {
+     "label": "Poland Insight",
+     "url": "https://polandinsight.com/us-partners-ai-supply-chain-declaration-38006/"
+    }
+   ]
+  },
   {
    "cat": "pm",
    "top": true,
    "date": "13 Nov",
-   "headline": "OpenAI launches ChatGPT Wallet so its 'dots' agents can buy things for users",
-   "why": "Agent checkout is moving from demos to real card networks, so product teams need to decide how their sites treat buying agents.",
+   "headline": "OpenAI launches ChatGPT Wallet so its agents can pay for things on users' behalf",
+   "why": "Agent checkout has moved from demos onto real card networks, so product teams need a policy for how their sites treat buying agents.",
    "source": "CNBC",
    "body": [
-    "OpenAI has launched ChatGPT Wallet, a payment feature that lets its personal agents, called dots, make purchases on a user's behalf. Users store a card once, ask a dot to find an item, and approve every purchase with a security check. American Express, Mastercard and Visa are the launch partners, and cardholders keep their normal rewards and protections.",
-    "The agent never sees the real card. Instead the card network issues a payment token, with its own number, code and expiry date, that only works for one transaction. The feature is limited at first to US Pro subscribers aged 18 or over, and OpenAI is not taking a cut of sales for now. It has published guidance so merchants can avoid blocking its agents. Some large companies are going the other way: United Airlines plans to block agents from booking, and Amazon stops them buying on its site.",
-    "For product and UX teams, this raises practical questions: whether to let agents through checkout, how to show approval steps, and how to handle returns and fraud when the 'customer' is software acting for a person."
+    "OpenAI has introduced ChatGPT Wallet, which lets its personal agents, called dots, complete purchases for a user. The user saves a card once, asks a dot to find something, and approves each purchase with a security check. American Express, Mastercard and Visa are launch partners, and cardholders keep their usual rewards and protections.",
+    "The agent never handles the real card number. The card network issues a single-use payment token with its own number, code and expiry date. At launch the feature is limited to US Pro subscribers aged 18 or over, and OpenAI is not taking a commission on sales for now. It has published guidance to help merchants avoid blocking its agents. Not everyone is opening up: United Airlines plans to block agents from booking, and Amazon prevents them from buying on its site.",
+    "For product and UX teams this turns into concrete design work: whether to allow agents through checkout, how to show approval steps, and how to handle returns and fraud when the shopper is software acting for a person."
    ],
    "links": [
     {
@@ -25,92 +48,43 @@
    ]
   },
   {
-   "cat": "ux",
-   "top": true,
-   "date": "15–16 Nov",
-   "headline": "Researchers find thousands of Lovable-built apps exposing personal data without a login",
-   "why": "Vibe-coded prototypes are reaching production with weak database rules, and design and product teams share the responsibility for checking them.",
-   "source": "Crissy Field research · Handelsblatt",
-   "body": [
-    "Berlin security firm Crissy Field has published an English version of its study of 159,041 projects built with the AI app builder Lovable between December 2025 and September 2026. Of the 34,545 projects that used the Supabase database service, 24,664 sent database records to the browser as soon as the page loaded, with no login. Follow-up read-only checks found email addresses in 10,560 tables across 7,403 of those sites, about 30%. The authors stress this is not a confirmed leak rate.",
-    "Examples include a German lifestyle forum with more than 80,000 profiles and over 200,000 chat messages, ticket and food sales records with addresses and payment details, and more than 1,000 records containing passport numbers. The report blames access-control mistakes in the database setup, made easier to find because many generated apps follow the same patterns. Handelsblatt first reported the findings earlier in November.",
-    "The lesson for teams using AI builders for prototypes or internal tools is simple: treat generated apps as untrusted until someone has reviewed database permissions, especially before real customer data goes in."
-   ],
-   "links": [
-    {
-     "label": "Crissy Field",
-     "url": "https://www.crissyfield.de/research/lovable-en/"
-    }
-   ]
-  },
-  {
-   "cat": "auto",
+   "cat": "bear",
    "top": true,
    "date": "13 Nov",
-   "headline": "Tesla opens Cybercab orders at $29,990 plus a $299 monthly autonomy subscription",
-   "why": "A steering-wheel-free car sold to private buyers tests how far US rules on non-standard vehicles will stretch.",
-   "source": "InsideEVs",
+   "headline": "J.P. Morgan upgrades SKF and analysts put a value on Vertevo ahead of Tuesday's Capital Markets Day",
+   "why": "These estimates set the bar that SKF's automotive spin-off will be judged against when it presents its plans in Stockholm on 17 November.",
+   "source": "EFN · Investing.com · MarketScreener/Finwire · Börsvärlden",
    "body": [
-    "Tesla has started taking orders for the Cybercab, its two-seat robotaxi without steering wheel, pedals or side mirrors. The price is $29,990, about $7,000 below a Model 3, which makes it Tesla's cheapest car yet. Buyers must also pay $299 a month for the autonomous driving subscription, with the first month free. That adds roughly $3,600 a year before insurance and servicing.",
-    "Sales are open only to selected customers at first, and the car will only work inside supported service areas, which Tesla has not listed. A screenshot of the order page suggests deliveries could start as early as December. The US safety regulator NHTSA is asking how Tesla concluded that the vehicle meets federal safety standards. Federal rules allow only 2,500 non-compliant vehicles per maker per year unless an exemption is granted; Zoox received one for 5,000 pods over two years.",
-    "For engineers in development and type approval, the Cybercab is a live test of how regulators handle vehicles designed around software rather than traditional controls. A similar question will reach Europe once UNECE rules for driverless vehicles mature."
+    "J.P. Morgan raised SKF from underweight to neutral on Friday 13 November and lifted its price target from 250 to 300 Swedish kronor. The share closed around 281 kronor the day before, up almost 15% this year. The bank's base case values the remaining industrial SKF at 11.5 times 2027 operating profit and the automotive spin-off Vertevo at 7 times. It also expects 3.7% organic growth in 2027, below the 5.1% consensus. Separately, Ålandsbanken values Vertevo at about 10 billion kronor debt-free, or roughly 20 kronor per SKF share. It calls the targets reasonable but hard to reach given how the industry is structured.",
+    "Vertevo's stated targets are organic growth above the market, an adjusted operating margin above 6% in the medium term and at least 8% in the long term, ROCE of 10–15%, and net debt below one times EBITDA. SKF shareholders get one Vertevo share for every five SKF shares. The record date is 27 November, and trading on Nasdaq Stockholm starts on 1 December.",
+    "For OEM and supplier engineers, the Capital Markets Day should show how a stand-alone automotive bearing maker plans to fund EV and driveline products on margins this thin."
    ],
    "links": [
     {
-     "label": "InsideEVs",
-     "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/"
-    }
-   ]
-  },
-  {
-   "cat": "ux",
-   "top": false,
-   "date": "13 Nov",
-   "headline": "Sierra and Meta release version 1.0 of Poppy, a standard for how personal agents deal with businesses",
-   "why": "With Shopify switching it on for every store, Poppy could become the default way AI agents identify themselves and get permissions on websites.",
-   "source": "Sierra",
-   "body": [
-    "Sierra has released version 1.0 of the Personal Agent Protocol, known as Poppy, an open standard it is developing with Meta. It defines how a person's AI agent connects to a company's website, APIs or own customer-service agent. It covers identity, so the agent says who it is, and permissions, through OAuth, so customers decide what their agent may do and can change that later. It builds on existing standards such as MCP, OpenAPI and the Universal Commerce Protocol.",
-    "Poppy is on for all users of Meta's Muse agent, which looks for it first on every site it visits. Shopify has enabled it for every merchant, and stores now publish a Poppy file automatically. Sierra says more than 100 companies are design partners, including Stripe, Walmart, Delta Air Lines, Salesforce and Wayfair. Mercury, Synchrony and Turkish Airlines are live now.",
-    "For designers and frontend developers, this adds a new kind of 'user' to plan for: agents that need clear, machine-readable descriptions of what a service offers, and permission screens that people can understand."
-   ],
-   "links": [
+     "label": "EFN",
+     "url": "https://efn.se/dagens-rekar-kullagerjatten-hojs-och-skistar-forlorar-kopstampel"
+    },
     {
-     "label": "Sierra",
-     "url": "https://sierra.ai/blog/releasing-poppy"
+     "label": "MarketScreener / Finwire",
+     "url": "https://www.marketscreener.com/news/landsbanken-values-skf-spin-off-vertevo-at-sek-10bn-ce785edbda8df225"
+    },
+    {
+     "label": "Börsvärlden",
+     "url": "https://borsvarlden.com/artiklar/skf-vertevo-satter-upp-finansiella-mal-infor-borsnoteringen"
     }
    ]
   },
   {
    "cat": "gen",
    "top": false,
-   "date": "13 Nov",
-   "headline": "Google's agent teams formalise the Weil conjectures and other famous proofs in Lean",
-   "why": "Machine-checked proofs and large verified code rewrites show agent teams moving into work where every step must be correct.",
-   "source": "Google Research",
-   "body": [
-    "Google Research has launched /teamwork in its Antigravity environment, a multi-agent system that pairs researchers with teams of Gemini 4 agents. Google reports a list of results: a full machine-checked formalisation of the Weil conjectures in about 1.8 million lines of the proof language Lean, built over 28,800 sub-agent runs; a proof of the 2013 Courtade–Kumar conjecture; first formalisations of the 1927 Birkhoff conjecture and the 3D Bochner–Riesz conjecture, where the agents also found and fixed a gap in a recent proof.",
-    "On the engineering side, Google says the agents rewrote about 800,000 lines of the Zircon microkernel in safe Rust and ported an AV1 video decoder to Rust that runs 20–30% faster than the C++ original. /teamwork is available to external Antigravity users, and Google is offering 10,000 academic researchers six months of free top-tier access.",
-    "The results are vendor-reported and not yet peer-reviewed. Still, they point to a use of AI that matters to simulation and safety engineering: work where the output can be checked mechanically, so reliability does not depend on trusting the model."
-   ],
-   "links": [
-    {
-     "label": "Google Research",
-     "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
-    }
-   ]
-  },
-  {
-   "cat": "gen",
-   "top": false,
-   "date": "15 Nov",
-   "headline": "Nvidia scandal spills into US chip-export politics as Trump heads to China",
-   "why": "Export rules on AI chips shape where compute is available and at what price, including for European buyers.",
+   "date": "14–15 Nov",
+   "headline": "Nvidia scandal spreads into US chip-export politics as Trump heads to China",
+   "why": "Any tightening of US export policy after this week would affect the supply and price of AI hardware worldwide.",
    "source": "Semafor · CNBC",
    "body": [
-    "The fallout from Jensen Huang's resignation as Nvidia CEO is now reaching Washington. Semafor reports that Commerce Secretary Howard Lutnick is under pressure over claims he slowed restrictions on AI chip exports to China and left loopholes that let Nvidia sell more advanced chips indirectly. Critics also point to his close ties with Huang. Treasury Secretary Scott Bessent says his department has pushed for months to blacklist Megaspeed, a Singapore cloud firm the US is investigating for alleged chip smuggling, but the decision sits with Commerce.",
-    "Lutnick is still due to fly with President Trump to China on Wednesday for meetings with Xi Jinping on the edge of the APEC summit. The White House says it has full confidence in him. Megaspeed told CNBC that Alice Huang, the executive at the centre of the reports, left the company in August 2025, and that it has hired outside counsel for an internal review.",
-    "Any tightening of chip export policy after the trip would affect supply and pricing for AI hardware worldwide. Nvidia reports quarterly results on Tuesday, its first under interim CEO Colette Kress."
+    "The fallout from Jensen Huang's resignation as Nvidia chief executive has reached Washington. Semafor reports that Commerce Secretary Howard Lutnick is under pressure over claims that he slowed restrictions on AI chip exports to China and left loopholes that let advanced chips reach the country indirectly. Treasury Secretary Scott Bessent says his department pushed for months to blacklist Megaspeed, a Singapore cloud company the US is investigating for alleged chip smuggling, but that decision belongs to Commerce.",
+    "Megaspeed told CNBC that Alice Huang, the executive at the centre of the reports, left in August 2025, and that it has hired outside counsel for an internal review. Lutnick is still due to travel with President Trump to meet Xi Jinping this week, and the White House says it has full confidence in him.",
+    "Nvidia reports quarterly results on Tuesday, its first under interim chief executive Colette Kress. Investors will watch for any guidance on China sales and on who will lead the company."
    ],
    "links": [
     {
@@ -124,78 +98,90 @@
    ]
   },
   {
-   "cat": "gen",
+   "cat": "ux",
    "top": false,
-   "date": "14 Nov",
-   "headline": "Stanford releases Memorilla, which squeezes a document collection into 16 memory tokens",
-   "why": "Cheaper ways to give a model access to company documents could change how retrieval features in products are built.",
-   "source": "Emergent",
+   "date": "13 Nov",
+   "headline": "Vercel Labs open-sources UI SDK, a set of accessible interface behaviours for coding agents",
+   "why": "It addresses a common complaint about agent-written front ends, which is broken keyboard, focus and accessibility behaviour.",
+   "source": "CASRAI · AlphaSignal",
    "body": [
-    "Stanford researchers have open-sourced Memorilla, a memory module for large language models that are used unchanged, without fine-tuning. Instead of pasting long documents into the prompt or retrieving chunks, Memorilla compresses a whole document collection into 16 special memory tokens that the model reads alongside the question.",
-    "In tests with the frozen Qwen3-8B model, the team reports 84.33% accuracy on the FactKG fact-checking benchmark while using 108 times fewer document tokens than methods that load the full context. The code, training setup and evaluation benchmarks are released under an open-source licence.",
-    "The figures come from the authors and cover one benchmark and one model, so they need independent testing. If the approach holds up, it could cut the cost and delay of assistants that answer questions over manuals, specifications or test reports, which today often rely on large context windows or retrieval pipelines that are fragile to tune."
+    "Vercel Labs has released UI SDK in public beta under the Apache 2.0 licence. It is a library of more than 50 'headless' behaviours with no styling of their own, such as popups, selection, typeahead, roving focus, reordering, drag-and-drop and virtualised lists. Adapters cover React, Vue, Svelte, Solid and Web Components. Focus handling, keyboard navigation and ARIA states are built in, and the core is described as aligned with WCAG 2.2 AA.",
+    "The release also includes an 'Agent Bridge' that lets AI agents operate an interface through MCP, using structured snapshots and actions instead of screenshots. Guardrails let developers allow or refuse agent actions on sensitive forms. Vercel says internal tests needed up to 69% fewer tool calls than DOM inspection, but that figure has not been checked independently. Stable React and Vue adapters are planned for early 2027.",
+    "For design-system teams, the idea is to give coding agents tested building blocks rather than letting them write interaction code from scratch. It also treats agents as a second kind of user that an interface has to serve."
    ],
    "links": [
     {
-     "label": "Emergent",
-     "url": "https://emergent.sh/news/stanford-open-sources-memorilla-memory-module"
+     "label": "CASRAI",
+     "url": "https://casrai.org/news/vercel-ui-sdk-ai-coding-agents-behaviors-2026"
+    },
+    {
+     "label": "AlphaSignal",
+     "url": "https://alphasignal.ai/news/vercel-labs-ui-sdk-gives-ai-agents-50-open-source-building-blocks"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "14 Nov",
+   "headline": "Cloudflare open-sources Kitesurf, a lightweight browser engine built for AI agents",
+   "why": "More of a site's traffic will come from agent browsers that are not Chrome, and front-end teams will need to test for them.",
+   "source": "Linuxiac · tbreak",
+   "body": [
+    "Cloudflare has released Kitesurf under the Apache 2.0 licence. It is a browser engine that loads pages, runs JavaScript and renders them without Chromium or a browser container. It combines the Blitz layout engine and the Stylo CSS engine, runs scripts on Cloudflare's Dynamic Workers with the Boa engine as a fallback, and can output PDFs. It supports the Chrome DevTools Protocol, so tools like Puppeteer can connect, although not every feature works.",
+    "When Cloudflare first showed the engine in August, it reported three to seven times lower CPU and memory use than Chromium, for example about 58 MiB against 271 MiB per screenshot. Chromium still rendered about 1.7 times faster. Developers can run it locally, while hosting their own instance needs a paid Workers plan. Cloudflare calls it experimental.",
+    "For frontend developers, this adds another rendering engine that may visit their sites on behalf of users. Pages built on semantic HTML and standard layout are more likely to work in it."
+   ],
+   "links": [
+    {
+     "label": "Linuxiac",
+     "url": "https://linuxiac.com/cloudflare-open-sources-kitesurf-its-lightweight-browser-engine-for-ai-agents/"
+    },
+    {
+     "label": "tbreak",
+     "url": "https://tbreak.com/cloudflare-kitesurf-ai-browser/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "14–15 Nov",
+   "headline": "Researchers find thousands of Lovable-built apps exposing personal data without a login",
+   "why": "Prototypes and internal tools from AI app builders need a security review before real customer data goes in.",
+   "source": "Crissy Field · Enterprise DNA",
+   "body": [
+    "Berlin security firm Crissy Field has published an English version of its study of 159,041 projects built with the AI app builder Lovable between December 2025 and September 2026. Of the 34,545 projects that used the Supabase database service, 24,664 sent database records to the browser as soon as the page loaded, with no login required. Follow-up read-only checks found email addresses on 7,403 of those sites. The authors say this should not be read as a confirmed leak rate.",
+    "Examples include a German lifestyle forum with more than 80,000 profiles and over 200,000 chat messages, ticket and food-sales records with addresses, and more than 1,000 records containing passport details. The report blames access-control mistakes in the database setup, which are easy to find at scale because many generated apps share the same patterns. No misuse has been reported.",
+    "For teams using AI builders, the lesson is to treat generated apps as untrusted until someone has checked database permissions and row-level security."
+   ],
+   "links": [
+    {
+     "label": "Crissy Field",
+     "url": "https://www.crissyfield.de/research/lovable-en/"
+    },
+    {
+     "label": "Enterprise DNA",
+     "url": "https://enterprisedna.co/resources/ai-pulse/ai-pulse-2026-11-14-lovable-app-data-exposure-reported"
     }
    ]
   },
   {
    "cat": "pm",
    "top": false,
-   "date": "15 Nov",
-   "headline": "Apple and OpenEvidence open a 200,000-person study of how people use AI for health questions",
-   "why": "Apple is collecting real-world evidence on trust and comprehension before putting health AI into its core products.",
-   "source": "TechCrunch",
+   "date": "13 Nov",
+   "headline": "OpenAI and Databricks widen their partnership to connect ChatGPT and Codex to governed company data",
+   "why": "Enterprise AI is settling into a pairing of model provider and governed data platform, with spending controls per team becoming standard.",
+   "source": "Databricks",
    "body": [
-    "Apple has released a research app, built with the medical AI company OpenEvidence, to study how people use AI for health questions. Up to 200,000 US participants over 21 can join for a study planned to last more than a year. They need an iPhone 15 or later with iOS 26 and Apple Intelligence switched on.",
-    "Participants ask health questions and get answers grounded in clinical sources such as The New England Journal of Medicine, JAMA and Nature. They rate answers, take monthly surveys and can choose to share HealthKit data such as resting heart rate, sleep or lab results. The app can also help people prepare for doctor visits. Apple says data is anonymised before it goes to a third-party cloud and is not used to train models, and OpenEvidence deletes queries after 24 hours.",
-    "For product teams, the study is a reminder that in sensitive areas, the big question is not whether the model can answer but whether users understand and trust the answer. Apple is measuring that directly, at scale, before launch."
+    "Databricks and OpenAI have extended the multi-year deal they signed in September 2025. OpenAI's GPT models, including the GPT-6 family and the open-weight gpt-oss, can now be called directly from SQL, notebooks and agents on Databricks. There are new plugins that bring Databricks' Genie analytics and a data-analyst tool into ChatGPT, and Codex gets a gateway tool, agent skills and a data-science plugin. A template for OpenAI's Agents SDK is available in Databricks Apps.",
+    "Through its Unity Gateway, engineering leaders can set budgets and track AI spending by team. No prices were given. Each company is also a customer of the other: Databricks says OpenAI is one of its largest customers, and Databricks engineers are getting Codex along with early access to new models.",
+    "For product leaders, the message is that the hard part of enterprise AI is now access to permissioned data and cost control, not the choice of model. Features that work inside a customer's existing data governance are easier to sell."
    ],
    "links": [
     {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
-    }
-   ]
-  },
-  {
-   "cat": "eng",
-   "top": false,
-   "date": "14 Nov",
-   "headline": "Humanoid start-up Foundation misses payroll after GM calls its claimed $300 million order 'fabricated'",
-   "why": "Factory buyers evaluating humanoid robots need to check customer claims and supplier finances carefully.",
-   "source": "San Francisco Standard · CNBC",
-   "body": [
-    "Foundation, a San Francisco humanoid robot start-up founded in 2024, has not paid staff since missing payroll on 30 October, according to CNBC reporting cited by the San Francisco Standard. The Standard also reports that the company's fundraising material implied a relationship with General Motors worth a possible $300 million order. GM described this as fabricated, and Foundation admitted it had overstated the link.",
-    "Foundation's main product is the Phantom MK-2, a roughly 1.8-metre, 90-kilogram humanoid in a dust- and waterproof aluminium body, aimed at factories and later at military use. It has not yet been shown publicly.",
-    "The case comes as money pours into robotics: Agile Robots in Munich and Path Robotics in Ohio both closed large rounds this month. For manufacturing engineers and purchasing teams, it shows why pilot results, named reference customers and the supplier's balance sheet matter as much as the demo when deciding whether to put humanoids on a line."
-   ],
-   "links": [
-    {
-     "label": "San Francisco Standard",
-     "url": "https://sfstandard.com/2026/11/14/humanoid-war-robots-soma-startup"
-    }
-   ]
-  },
-  {
-   "cat": "eng",
-   "top": false,
-   "date": "16 Nov",
-   "headline": "SK hynix builds a $655 million open test fab so suppliers can validate tools on a real memory line",
-   "why": "A shared, production-grade test bed is a model for shortening validation of new equipment and materials in any high-volume industry.",
-   "source": "Korea JoongAng Daily",
-   "body": [
-    "SK hynix and Korean national and local governments are funding Trinity Fab, an 874.6 billion won (about $655 million) test bed inside the company's new Y1 memory fab in Yongin. It offers 3,305 square metres of cleanroom where smaller suppliers of materials, parts and equipment can test products in conditions close to mass production. Fifteen rooms will be rented to suppliers for their own tools, and the site will have 51 tools of its own, including metrology and inspection systems.",
-    "It will be run by an independent non-profit, with SK hynix providing the space and engineers free of charge. The operator expects it to cut time to market by at least 30%, though it has not explained the basis for that figure. Full operation is planned for the fourth quarter of 2027.",
-    "For automotive suppliers, the idea is familiar from shared test centres for batteries and drivetrains: validating parts under realistic production conditions before qualification can remove repeated test loops between supplier and customer."
-   ],
-   "links": [
-    {
-     "label": "Korea JoongAng Daily",
-     "url": "https://www.koreajoongangdaily.com/business/inside-sk-hynixs-655-million-chip-test-bed/12971453"
+     "label": "Databricks",
+     "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"
     }
    ]
   },
@@ -203,105 +189,240 @@
    "cat": "auto",
    "top": false,
    "date": "13 Nov",
-   "headline": "VW's Scout starts building test vehicles in South Carolina as buyers pick range extenders",
-   "why": "Reservation data showing 87% demand for range extenders is a strong signal for drivetrain and powertrain planning in the US.",
+   "headline": "Tesla opens Cybercab orders at $29,990 plus a $299 monthly autonomy subscription",
+   "why": "It is a live test of how regulators handle a production car designed around software instead of steering wheel and pedals.",
+   "source": "InsideEVs",
+   "body": [
+    "Tesla has started taking orders for the Cybercab, its two-seat robotaxi with no steering wheel, pedals or side mirrors. At $29,990 it is about $7,000 cheaper than a Model 3, which makes it Tesla's cheapest car. Buyers must also subscribe to autonomous driving for $299 a month, with the first month free, which adds about $3,600 a year.",
+    "Sales are open only to selected customers at first, and the car will work only inside supported service areas, which Tesla has not named. The US safety regulator NHTSA is asking how Tesla concluded that the car meets federal safety standards. Without an exemption, federal rules allow a maker only 2,500 non-compliant vehicles a year. Zoox received an exemption for 5,000 vehicles over two years.",
+    "For engineers working on development and type approval, the open question is how a car without conventional controls gets certified. Europe will face the same question as UNECE rules for driverless vehicles take effect."
+   ],
+   "links": [
+    {
+     "label": "InsideEVs",
+     "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "14 Nov",
+   "headline": "Dutch court lifts JLR's evidence seizure at BYD in the Defender lookalike dispute",
+   "why": "It is an early test of how far European OEMs can use EU courts to protect vehicle designs against Chinese competitors.",
    "source": "electrive",
    "body": [
-    "Scout Motors, Volkswagen's US brand, has started building its first validation vehicles at its new plant in Blythewood, South Carolina. The body shop, paint shop and assembly hall are running, and the plant uses AI-assisted weld seam monitoring. Volkswagen puts the investment at more than $2 billion, with more than 4,000 jobs expected.",
-    "Scout was first planned as fully electric, but 87% of its roughly 210,000 refundable $100 reservations are for range-extender versions. Three quarters of reservations are for the Traveler SUV. The likely order is the Traveler with range extender first, then the Terra pickup, with fully electric versions last. Validation builds continue into 2027, followed by pre-series production; customer deliveries are not expected until 2028. Audi also plans to build about 25,000 vehicles a year at the plant.",
-    "For drivetrain, bearing and thermal engineers, it confirms a trend across US-bound programmes: range extenders, where a small combustion engine only charges the battery, are filling the gap while demand for full EVs stays weak."
+    "In August, a Dutch court allowed Jaguar Land Rover to have evidence seized at BYD's offices in Schiedam and Hoofddorp. JLR argues that BYD's Ti7 plug-in hybrid copies the Land Rover Defender. On 11 November the court in The Hague lifted the measure and ordered JLR to have the seized documents destroyed, with a penalty of 50,000 euros per hour of delay, capped at 500,000 euros. JLR must also pay BYD about 25,000 euros in legal costs.",
+    "The court found that the seizure was not needed to prove the alleged design-right breach. It also noted that the Ti7 is not yet on sale in the EU, so no harm was evident. Two cases are still open: one on EU design rights in The Hague and one on copyright and unfair imitation in Rotterdam. The Ti7 has a 300 kW system output and a 35.6 kWh battery, and goes on sale in the UK in January 2027 at £47,995, well below a seven-seat Defender.",
+    "The remaining cases will indicate how much protection design rights give OEMs as Chinese brands expand in Europe."
    ],
    "links": [
     {
      "label": "electrive",
-     "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"
+     "url": "https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/"
+    }
+   ]
+  },
+  {
+   "cat": "ndt",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "ZEISS launches INRADIA 3D, an in-line CT system that inspects up to 10 battery cells a minute",
+   "why": "CT is moving out of the lab and onto the production line, with AI making the pass/fail call, which matters for e-drive, battery and joining processes.",
+   "source": "AZoM · Electronics-USA",
+   "body": [
+    "ZEISS has introduced INRADIA 3D, an automated computed tomography system designed to keep up with series-production cycle times. Unlike standard CT, where the part rotates, the X-ray source and detector move around a stationary part, while two robots take turns loading and unloading. ZEISS gives a throughput of up to ten prismatic battery cells per minute.",
+    "Scanning, reconstruction and analysis run in ZEISS INSPECT X-Ray with its Volume Inspection AI. Application-specific AI models decide pass or fail. The launch targets include electrode overhang, electrode count and folded electrodes in battery cells, soldered and welded joints in power electronics, and connector geometry. The system connects to manufacturing execution systems and handles calibration, temperature compensation and reference measurements automatically. ZEISS has not published resolution, X-ray voltage, price or availability.",
+    "For drivetrain and battery suppliers, inspecting every part with in-line CT would replace sample-based lab CT for internal defects. The open questions are how the AI pass/fail decisions are qualified and how they fit with existing NDT certification practice."
+   ],
+   "links": [
+    {
+     "label": "AZoM",
+     "url": "https://www.azom.com/news.aspx?newsID=66044"
+    },
+    {
+     "label": "Electronics-USA",
+     "url": "https://www.electronics-usa.com/news/117320-zeiss-inradia-3d-in-line-computed-tomography-for-series-production"
+    }
+   ]
+  },
+  {
+   "cat": "ndt",
+   "top": false,
+   "date": "13 Nov",
+   "headline": "Marposs sensors spot 10-micrometre chips on battery-electrode cutting blades during production",
+   "why": "Condition monitoring of the tool itself, not only of the part, is reaching series production in cell manufacturing.",
+   "source": "battery-news.de",
+   "body": [
+    "Marposs has presented an optical sensor system that watches the blades used to slit battery electrodes, in real time. The sensors sit in the blade holder or drive and detect edge chips as small as 10 micrometres. When damage passes a set threshold, the system can stop the machine within milliseconds or issue a warning, before damaged blades produce burrs that can later cause internal short circuits.",
+    "Readings are compensated for web speed and blade rotation to reduce false alarms, and the results were validated against manual inspection and microscopy. The system is in use on anode and cathode lines at an unnamed German cell maker. Marposs says it is ready for series production, can be retrofitted with minor changes and connects to manufacturing execution systems.",
+    "For test and quality engineers, it shows a pattern that also applies to bearing grinding and gear finishing: monitoring tool condition in-process to catch the cause of defects before parts need inspecting."
+   ],
+   "links": [
+    {
+     "label": "battery-news.de",
+     "url": "https://battery-news.de/en/2026/11/13/electrode-manufacturing-sensors-detect-minute-damage-to-cutting-tools/"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "11 Nov",
+   "headline": "Induction thermography finds micro-cracks about one micrometre wide in hard WC-Co-Cr coatings",
+   "why": "It points to a contact-free way to find cracks in hard-coated or ground rolling surfaces such as rollers, bearing rings and gears.",
+   "source": "Journal of Nondestructive Evaluation (Leibniz Universität Hannover)",
+   "body": [
+    "Researchers at the Institut für Werkstoffkunde, Leibniz Universität Hannover, tested induction thermography on a 400-micrometre sprayed tungsten-carbide coating on steel, both as-sprayed and ground. They created cracks by stretching specimens or by thermal shock, then heated the surface with a high-frequency induction coil and recorded it with an infrared camera at about 15 micrometres per pixel. Cracks disturb the heat flow, and Fourier phase analysis and principal component analysis bring them out. The paper is peer-reviewed and open access.",
+    "The method detected cracks about one micrometre wide on ground surfaces and below two micrometres as-sprayed, with clear signal-to-noise margins from strains of around 0.2%. A ferrite yoke worked better than a round coil, which has a blind spot at its centre, and two yoke orientations at right angles found cracks in all directions. The results matched dye-penetrant testing.",
+    "The work was motivated by calender rollers in battery-electrode production and so far uses only lab specimens, without a probability-of-detection study. Even so, it is a possible faster, chemical-free alternative to penetrant testing on hard rolling surfaces."
+   ],
+   "links": [
+    {
+     "label": "Springer – J. Nondestructive Evaluation",
+     "url": "https://link.springer.com/article/10.1007/s10921-026-01453-4"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "11 Nov",
+   "headline": "Rig tests show how load, speed and oil temperature drive wear and seizure in tri-metal sliding bearings",
+   "why": "It gives measured numbers on how long engine and driveline plain bearings survive oil starvation, which are useful for setting margins and checking simulations.",
+   "source": "Lubricants (Dalian Maritime University)",
+   "body": [
+    "A team led by Dalian Maritime University, with Jiujiang Polytechnic University of Science and Technology, tested multilayer sliding bearings on a component-level rig with a 140 mm shaft. The bushes had a steel back, an aluminium-alloy layer, a nickel mesh and a lead-tin-copper overlay plated into grooves. Each factor was varied on its own in 12-hour wear tests, and in seizure tests the oil supply was cut off. The paper is peer-reviewed and published in Lubricants.",
+    "Raising the load from 10 to 25 MPa increased wear by about 74% and cut the time to seizure after oil cut-off from about 78 to 32 minutes. Higher speed reduced wear by about 43%, which fits a thicker oil film. Raising the oil temperature from 70 to 100 °C increased wear by about a third and shortened the time to seizure from about 52 to 31 minutes. After seizure, the groove structure had collapsed and only about a third of the overlay remained.",
+    "Because factors were tested one at a time, interactions are not captured, but the data is a useful reference for validating lubrication and wear models."
+   ],
+   "links": [
+    {
+     "label": "MDPI Lubricants",
+     "url": "https://www.mdpi.com/2075-4442/14/11/429"
     }
    ]
   }
  ],
  "watch": [
   {
-   "title": "Nvidia results, Tuesday",
-   "text": "Nvidia reports on 17 November, its first results since Jensen Huang resigned. Analysts expect about $109 billion in quarterly revenue.",
+   "title": "SKF Vertevo Capital Markets Day, Tuesday",
+   "text": "Vertevo sets out its strategy in Stockholm on 17 November. Its shares start trading on Nasdaq Stockholm on 1 December.",
    "link": {
-    "label": "The National",
-    "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+    "label": "Börsvärlden",
+    "url": "https://borsvarlden.com/artiklar/skf-vertevo-satter-upp-finansiella-mal-infor-borsnoteringen"
    }
   },
   {
-   "title": "Anthropic's Nasdaq debut",
-   "text": "Anthropic is expected to price its 825 million shares in the $70–78 range this week and start trading on Thursday under the ticker ANT.",
+   "title": "Sweden and the EU joining Pax Silica",
+   "text": "Germany, Sweden, the Netherlands and the Commission are expected to sign the declaration this week. The open questions are whether the EU gets carve-outs that protect its own digital rules, and how its reservations about the AI provisions are handled.",
    "link": {
-    "label": "The National",
-    "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
+    "label": "Poland Insight",
+    "url": "https://polandinsight.com/us-partners-ai-supply-chain-declaration-38006/"
    }
   },
   {
-   "title": "SKF Vertevo Capital Markets Day",
-   "text": "SKF's automotive spin-off presents its plans to investors in Stockholm on 17 November, ahead of its listing on 1 December.",
+   "title": "Nvidia results and Anthropic's IPO",
+   "text": "Nvidia reports on 17 November, its first results under an interim CEO. Anthropic is expected to price its IPO midweek and start trading on Nasdaq on Thursday.",
    "link": {
-    "label": "SKF Vertevo",
-    "url": "https://capital.com/en-gb/news/skf-vertevo-capital-markets-day-to-be-held-on-17"
+    "label": "The National",
+    "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
    }
   }
  ],
  "sources": [
   {
-   "label": "CNBC – OpenAI launches ChatGPT Wallet for dots purchases (13 Nov)",
+   "label": "US State Department – US and nine partners sign the 'San Francisco Declaration' on AI supply chains; Sweden and the EU are expected to follow (15 Nov)",
+   "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/11/the-san-francisco-declaration-on-the-secure-foundations-of-enduring-prosperity"
+  },
+  {
+   "label": "Poland Insight – US and nine partners sign the 'San Francisco Declaration' on AI supply chains; Sweden and the EU are expected to follow (15 Nov)",
+   "url": "https://polandinsight.com/us-partners-ai-supply-chain-declaration-38006/"
+  },
+  {
+   "label": "CNBC – OpenAI launches ChatGPT Wallet so its agents can pay for things on users' behalf (13 Nov)",
    "url": "https://www.cnbc.com/2026/11/13/openai-chatgpt-wallet-dot-purchases.html"
   },
   {
-   "label": "Crissy Field – Lovable: many apps expose sensitive data (Nov)",
-   "url": "https://www.crissyfield.de/research/lovable-en/"
+   "label": "EFN – J.P. Morgan upgrades SKF and analysts put a value on Vertevo ahead of Tuesday's Capital Markets Day (13 Nov)",
+   "url": "https://efn.se/dagens-rekar-kullagerjatten-hojs-och-skistar-forlorar-kopstampel"
   },
   {
-   "label": "InsideEVs – Tesla Cybercab pricing and sales announced (13 Nov)",
-   "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/"
+   "label": "MarketScreener / Finwire – J.P. Morgan upgrades SKF and analysts put a value on Vertevo ahead of Tuesday's Capital Markets Day (13 Nov)",
+   "url": "https://www.marketscreener.com/news/landsbanken-values-skf-spin-off-vertevo-at-sek-10bn-ce785edbda8df225"
   },
   {
-   "label": "Sierra – Releasing Personal Agent Protocol 1.0 (13 Nov)",
-   "url": "https://sierra.ai/blog/releasing-poppy"
+   "label": "Börsvärlden – J.P. Morgan upgrades SKF and analysts put a value on Vertevo ahead of Tuesday's Capital Markets Day (13 Nov)",
+   "url": "https://borsvarlden.com/artiklar/skf-vertevo-satter-upp-finansiella-mal-infor-borsnoteringen"
   },
   {
-   "label": "Google Research – Advancing science and engineering with Antigravity's teamwork feature (13 Nov)",
-   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
-  },
-  {
-   "label": "Semafor – Under pressure, Lutnick joins Trump in China (15 Nov)",
+   "label": "Semafor – Nvidia scandal spreads into US chip-export politics as Trump heads to China (14–15 Nov)",
    "url": "https://www.semafor.com/article/11/15/2026/under-pressure-lutnick-joins-trump-in-china"
   },
   {
-   "label": "CNBC – Megaspeed says Alice Huang left in 2025, hires counsel (15 Nov)",
+   "label": "CNBC – Nvidia scandal spreads into US chip-export politics as Trump heads to China (14–15 Nov)",
    "url": "https://www.cnbc.com/2026/11/15/megaspeed-alice-huang-probe-nvidia-scandal.html"
   },
   {
-   "label": "Emergent – Stanford open-sources Memorilla memory module (14 Nov)",
-   "url": "https://emergent.sh/news/stanford-open-sources-memorilla-memory-module"
+   "label": "CASRAI – Vercel Labs open-sources UI SDK, a set of accessible interface behaviours for coding agents (13 Nov)",
+   "url": "https://casrai.org/news/vercel-ui-sdk-ai-coding-agents-behaviors-2026"
   },
   {
-   "label": "TechCrunch – Apple launches app to study how people use AI for health (15 Nov)",
-   "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health/"
+   "label": "AlphaSignal – Vercel Labs open-sources UI SDK, a set of accessible interface behaviours for coding agents (13 Nov)",
+   "url": "https://alphasignal.ai/news/vercel-labs-ui-sdk-gives-ai-agents-50-open-source-building-blocks"
   },
   {
-   "label": "San Francisco Standard – Inside the humanoid war-robot start-up (14 Nov)",
-   "url": "https://sfstandard.com/2026/11/14/humanoid-war-robots-soma-startup"
+   "label": "Linuxiac – Cloudflare open-sources Kitesurf, a lightweight browser engine built for AI agents (14 Nov)",
+   "url": "https://linuxiac.com/cloudflare-open-sources-kitesurf-its-lightweight-browser-engine-for-ai-agents/"
   },
   {
-   "label": "Korea JoongAng Daily – Inside SK hynix's $655 million chip test bed (16 Nov)",
-   "url": "https://www.koreajoongangdaily.com/business/inside-sk-hynixs-655-million-chip-test-bed/12971453"
+   "label": "tbreak – Cloudflare open-sources Kitesurf, a lightweight browser engine built for AI agents (14 Nov)",
+   "url": "https://tbreak.com/cloudflare-kitesurf-ai-browser/"
   },
   {
-   "label": "electrive – VW's Scout begins production of first test vehicles (13 Nov)",
-   "url": "https://www.electrive.com/2026/11/13/vws-scout-brand-begins-production-of-first-test-vehicles-at-new-us-plant/"
+   "label": "Crissy Field – Researchers find thousands of Lovable-built apps exposing personal data without a login (14–15 Nov)",
+   "url": "https://www.crissyfield.de/research/lovable-en/"
   },
   {
-   "label": "The National – Nvidia earnings and Anthropic IPO lead crucial week (16 Nov)",
+   "label": "Enterprise DNA – Researchers find thousands of Lovable-built apps exposing personal data without a login (14–15 Nov)",
+   "url": "https://enterprisedna.co/resources/ai-pulse/ai-pulse-2026-11-14-lovable-app-data-exposure-reported"
+  },
+  {
+   "label": "Databricks – OpenAI and Databricks widen their partnership to connect ChatGPT and Codex to governed company data (13 Nov)",
+   "url": "https://www.databricks.com/blog/openai-and-databricks-enterprise-ai-your-governed-data"
+  },
+  {
+   "label": "InsideEVs – Tesla opens Cybercab orders at $29,990 plus a $299 monthly autonomy subscription (13 Nov)",
+   "url": "https://insideevs.com/news/815473/tesla-cybercab-pricing-sales-announced/"
+  },
+  {
+   "label": "electrive – Dutch court lifts JLR's evidence seizure at BYD in the Defender lookalike dispute (14 Nov)",
+   "url": "https://www.electrive.com/2026/11/14/legal-proceedings-should-establish-whether-the-byd-ti7-is-a-copy-of-jlrs-defender/"
+  },
+  {
+   "label": "AZoM – ZEISS launches INRADIA 3D, an in-line CT system that inspects up to 10 battery cells a minute (13 Nov)",
+   "url": "https://www.azom.com/news.aspx?newsID=66044"
+  },
+  {
+   "label": "Electronics-USA – ZEISS launches INRADIA 3D, an in-line CT system that inspects up to 10 battery cells a minute (13 Nov)",
+   "url": "https://www.electronics-usa.com/news/117320-zeiss-inradia-3d-in-line-computed-tomography-for-series-production"
+  },
+  {
+   "label": "battery-news.de – Marposs sensors spot 10-micrometre chips on battery-electrode cutting blades during production (13 Nov)",
+   "url": "https://battery-news.de/en/2026/11/13/electrode-manufacturing-sensors-detect-minute-damage-to-cutting-tools/"
+  },
+  {
+   "label": "Springer – J. Nondestructive Evaluation – Induction thermography finds micro-cracks about one micrometre wide in hard WC-Co-Cr coatings (11 Nov)",
+   "url": "https://link.springer.com/article/10.1007/s10921-026-01453-4"
+  },
+  {
+   "label": "MDPI Lubricants – Rig tests show how load, speed and oil temperature drive wear and seizure in tri-metal sliding bearings (11 Nov)",
+   "url": "https://www.mdpi.com/2075-4442/14/11/429"
+  },
+  {
+   "label": "The National – Nvidia results and Anthropic's IPO",
    "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/"
-  },
-  {
-   "label": "SKF Vertevo – Capital Markets Day on 17 November 2026",
-   "url": "https://capital.com/en-gb/news/skf-vertevo-capital-markets-day-to-be-held-on-17"
   }
  ],
- "note": "All summaries are paraphrased. Benchmark and performance figures are vendor- or author-reported. The Lovable figures describe exposed data found by researchers, not a confirmed leak rate."
+ "note": "All summaries are paraphrased. Benchmark and performance figures are vendor-reported. Research items are peer-reviewed journal articles."
 }
