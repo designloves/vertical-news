@@ -1,0 +1,203 @@
+{
+  "date": "2026-11-19",
+  "weekday": "Thursday",
+  "covers": "Tue 17 – Wed 18 Nov",
+  "glance": "Anthropic priced its IPO at $83 a share, above its range, raising about $81 billion at a valuation of roughly $1.5 trillion before trading starts on Nasdaq today. Google answered OpenAI's new models with Gemini 4 Neon at $3/$15 per million tokens, and fully electric cars took 32% of the market in key European countries in October. Also: an AI-found Java flaw, US banks pushing AI-agent risk onto customers, Snap's agent-built AR Lenses, Gemini's longer chat retention, Einride's Q3 numbers, Waymo's freeway halt and Atlas heading into a chip fab.",
+  "brief": "Anthropic priced its stock market debut at eighty-three dollars a share, above the expected range. It raises about eighty-one billion dollars and values the company at around one and a half trillion dollars. Trading on Nasdaq under the ticker A N T starts today. Google released Gemini four Neon, a model for coding and long agent tasks, priced at three dollars per million input tokens and fifteen per million output tokens, with a one million token context window. In Europe, fully electric cars made up about thirty-two percent of new registrations in October across eighteen key markets, up more than sixty percent from a year earlier. Sweden was at fifty-one percent. A security startup used an OpenAI model to find a serious flaw in Java, nicknamed Java four Shell, and Oracle has released fixes. Several large US banks, including Citi and PNC, changed their terms so that customers who let AI agents into their accounts carry the risk, while Satya Nadella warned that companies blocking agents will lose business to those that accept them. Snap launched a command-line tool so coding agents such as Claude Code and Cursor can build AR Lenses. Google says Gemini chats will be kept for about two months even with history switched off, while letting users opt out of training. Swedish autonomous trucking company Einride grew quarterly revenue by twenty-seven percent and its contracted annual revenue by seventy-six percent, but burned more cash. Waymo halted freeway rides in all its cities after a California order over construction zones. And Boston Dynamics will put its Atlas humanoid to work at chipmaker GlobalFoundries early next year.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "18 Nov",
+      "headline": "Anthropic prices its IPO at $83 a share, raising about $81 billion at a valuation near $1.5 trillion",
+      "why": "The maker of Claude now has public-market money and public-market scrutiny, which will shape its pricing, roadmap and enterprise deals.",
+      "source": "CNBC · TechCrunch",
+      "body": [
+        "Anthropic priced its initial public offering on Wednesday evening at $83 per share, above the $70–78 range it set on 10 November. It also increased the deal from 825 million to about 980 million shares, raising roughly $81.3 billion. CNBC puts the fully diluted market value at around $1.5 trillion. The shares are due to start trading on Nasdaq today under the ticker ANT. Google, Microsoft, Nvidia and AMD have also agreed to invest a combined $26 billion at the IPO price in a parallel private placement.",
+        "The prospectus shows revenue of $33.2 billion for the nine months to September, about twelve times the year before, and an annualised run rate of about $81 billion at the end of October. The reported net loss of $104 billion comes mostly from accounting changes on convertible notes and derivatives, not from operations. Amazon and Google will together own nearly 30% after the listing.",
+        "For teams building on Claude, the listing adds stability and a capital base comparable to OpenAI's. It also means quarterly reporting, so pricing changes and margin pressure on API and seat products will be easier to see."
+      ],
+      "links": [
+        {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"},
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "18 Nov",
+      "headline": "Google launches Gemini 4 Neon for coding and long agent tasks at $3/$15 per million tokens",
+      "why": "A day after OpenAI's GPT-6.2, Google offers a cheaper frontier-class option for coding agents and document-heavy work.",
+      "source": "Google · AI Weekly",
+      "body": [
+        "Google DeepMind released Gemini 4 Neon on Wednesday, its fourth Gemini 4 variant in about a month. It is aimed at software engineering, knowledge work and science, has a 1 million token context window and handles spreadsheets, PDFs, charts, audio and video. It has four reasoning levels, with high as the default. Google pitches it as an orchestrator that can run parallel sub-agents in its Antigravity coding tool. A separate \"Neon for cyber\" version for vulnerability work is going to vetted partners.",
+        "API pricing is $3 per million input tokens and $15 per million output tokens, with cached input at $0.15. AI Weekly reports that this is an introductory rate until 30 November. Google says Neon ranks third on the Artificial Analysis Intelligence Index and first on its Coding Agent Index, and costs 32% less per task than Gemini 4 Carbon. It is available in AI Studio, Gemini for business, Antigravity and the Gemini app for paid subscribers.",
+        "With GPT-6.2 Sol at $2/$10 and Astra at $8/$40, product teams now have several models of similar strength at different prices. It is worth testing your own agent workloads before you pick one."
+      ],
+      "links": [
+        {"label": "Google", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"},
+        {"label": "AI Weekly", "url": "https://aiweekly.co/alerts/google-launches-gemini-4-neon-at-315-per-million-tokens"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": true,
+      "date": "18 Nov",
+      "headline": "Fully electric cars take 32% of new registrations in key European markets in October, with Sweden at 51%",
+      "why": "Demand is rising faster than many plans assumed, just as Brussels debates softening the 2035 CO2 targets.",
+      "source": "Reuters (via Global Banking & Finance) · SMMT",
+      "body": [
+        "Battery-electric car registrations across 18 key European markets rose more than 60% year on year in October to about 295,000, a 32.1% share of new car sales, according to data from E-Mobility Europe, New AutoMotive and Fier Automotive reported by Reuters. From January to October, about 2.33 million BEVs were registered, up 41%.",
+        "The Nordic countries lead: Norway was at 98.8%, Denmark 88.4%, Finland 59.9% and Sweden 51.1%. Germany reached 37% with about 94,000 cars and France 41.5%. Italy (5.9%), Poland (6.2%) and the Czech Republic (9.3%) are still far behind. Reuters points to purchase subsidies, high fuel prices and more affordable models.",
+        "For OEMs and suppliers, the gap between markets makes planning harder. North-west Europe is moving towards mostly electric sales, while the south and east still buy mainly combustion cars. This affects decisions on e-drive and battery capacity, on bearing and drivetrain variants, and on how much effort goes into Euro 7 combustion engines."
+      ],
+      "links": [
+        {"label": "Reuters via Global Banking & Finance", "url": "https://www.globalbankingandfinance.com/europe-ev-sales-jump-october-high-oil-prices-subsidies-fuel/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "17–18 Nov",
+      "headline": "Startup uses an OpenAI model to find 'Java4Shell', a critical flaw in Java 17 to 27",
+      "why": "The case shows AI speeding up bug-hunting on both sides, and many backends, build tools and test rigs run on Java.",
+      "source": "Aikido · Gizmodo · The New York Times",
+      "body": [
+        "Security startup Calif disclosed CVE-2026-114938, nicknamed Java4Shell, on 17 November. It is a memory-corruption bug in the fast Base64 decoder of OpenJDK's HotSpot runtime that can lead to remote code execution. Calif rates it 9.2 out of 10, and Oracle rates it 8.1. The New York Times reported that Calif found it with OpenAI's GPT-6 Cyber, while Calif's own account credits Codex and about an hour of work.",
+        "It affects Java 17, 21, 25 and 27 on x86-64 processors with AVX-512 VBMI. ARM64 and standard Java 8 and 11 are not affected. Oracle, Eclipse Temurin and Amazon Corretto have released fixed builds (for example 17.0.21.1 and 21.0.13.1), and Red Hat is preparing fixes. As a stopgap, the decoder can be disabled with a JVM flag. As of 18 November there were no confirmed attacks.",
+        "Engineering teams should check servers, CI runners and simulation or test tooling that run Java, not only customer-facing apps. With models now finding serious bugs in about an hour, it makes sense to shorten patch cycles."
+      ],
+      "links": [
+        {"label": "Aikido", "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938"},
+        {"label": "Gizmodo", "url": "https://gizmodo.com/a-startup-vibe-coded-its-way-to-finding-a-vulnerability-affecting-90-of-fortune-500-firms-2000841501"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "18 Nov",
+      "headline": "Citi and PNC make customers liable for what their AI agents do, as Nadella warns firms that block agents will lose out",
+      "why": "Who carries the risk when an agent acts for a user is becoming a product and business-model question, not only a legal one.",
+      "source": "TechCrunch",
+      "body": [
+        "Citibank updated its online user agreement this week. Customers who give third-party AI agents access to their accounts are now responsible for what those agents do, including when an agent is hacked or leaks login details. PNC changed its terms on 18 November, and Citizens emailed customers with a similar warning. JPMorgan and Bank of America took the same line in October. Citi says agents it provides itself carry no extra liability for the customer.",
+        "Speaking at the DealBook Summit the same day, Microsoft CEO Satya Nadella said agents will reshape the economics of the web. He expects ad models built on human page views to move towards per-click or per-transaction payments. He also said firms that block agents, as Amazon does on its store, risk losing customers to rivals that let them in.",
+        "For product teams, the lesson is to decide early whether your service welcomes outside agents, offers its own, or blocks them, and to make permissions, read-only modes and liability clear to users."
+      ],
+      "links": [
+        {"label": "TechCrunch – banks", "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"},
+        {"label": "TechCrunch – Nadella", "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"}
+      ]
+    },
+    {
+      "cat": "ux",
+      "top": false,
+      "date": "18 Nov",
+      "headline": "Snap launches Easy Lens CLI so coding agents like Claude Code and Cursor can build and publish AR Lenses",
+      "why": "Platforms now design their creator tools for AI agents as well as for people, and the workflow is a model for other design tools.",
+      "source": "Snap · TechCrunch",
+      "body": [
+        "Snap released a command-line version of its Easy Lens tool on Wednesday. Creators describe a Lens in plain language, and an AI coding assistant such as Claude Code, Cursor or Codex builds it. The agent creates assets, tests the Lens, fixes errors and sends new versions to the creator's phone for review. It runs on Mac, Windows and Linux.",
+        "Snap says the agent can use more than 100 AR building blocks and 50 AI asset generators, and can also publish Lenses and track how they perform. Snap claims a simple game can go from idea to published Lens in a day without the creator writing code. Lenses built this way can earn money through Lens+ Payouts, which Snap says paid creators $1.8 million last month.",
+        "For designers, the pattern is clear. The human sets the idea and judges the result on a real device, and the agent does the build. Expect more design and prototyping tools to offer agent-ready CLIs or APIs alongside their visual editors."
+      ],
+      "links": [
+        {"label": "Snap Newsroom", "url": "https://newsroom.snap.com/introducing-easy-lens-cli"},
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"}
+      ]
+    },
+    {
+      "cat": "ux",
+      "top": false,
+      "date": "17 Nov",
+      "headline": "Google lets Gemini users opt out of training without losing history, but keeps chats about two months even with history off",
+      "why": "Privacy controls and how long data is kept are now part of the product, and they matter to teams putting work into AI assistants.",
+      "source": "Gizmodo",
+      "body": [
+        "Google has split two Gemini settings. Users can now keep their chat history while opting out of having their conversations used to train models. Until now, turning off training also meant losing history and some connected apps.",
+        "Google's updated privacy notice also says that even with Gemini History turned off, future chats will be kept for around two months, up from 72 hours. Google says the data is used to respond to users, process feedback and for safety, and human reviewers may see it. The setting text still says 72 hours, and Google has not given a start date. For comparison, OpenAI keeps temporary chats for up to 30 days and Anthropic keeps Claude conversations for 30 days by default.",
+        "For UX teams, this is a useful example of separating controls that users see as different choices. For anyone pasting design files, code or test data into consumer assistants, the longer retention is a reason to check company policy and use business accounts, where admins control retention."
+      ],
+      "links": [
+        {"label": "Gizmodo", "url": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "18 Nov",
+      "headline": "Einride grows revenue 27% in the quarter and contracted revenue 76%, with Germany's first cab-less Level 4 truck in daily use",
+      "why": "Sweden's autonomous electric freight company shows driverless trucks winning real contracts in Europe, though it is still burning cash.",
+      "source": "Einride (via Stock Titan) · Investing.com",
+      "body": [
+        "Einride's Q3 update showed revenue of $18.3 million at constant currency, up 27% from the second quarter. Contracted annual recurring revenue rose 76% since June to about $167 million, and the company added eight customers, taking it past 40. Driverless hours in customer operations reached about 8,500, and Einride now has permits for driverless operation in four countries and five US states.",
+        "In Germany, Einride says it runs the first cab-less SAE Level 4 truck in daily public-road use for Lidl, under a permit from the KBA, the federal motor transport authority. It also signed a five-year deal with Lorenz Snacks and is working with Nvidia on its next autonomous driving system, with motorway autonomy targeted from 2028. Most of the 500 Tesla Semis it ordered in August will arrive in 2027.",
+        "The costs are high. Adjusted EBITDA was minus $20.3 million and cash fell to $53 million. Einride raised its expected second-half loss and aims to break even on cash flow only in 2028."
+      ],
+      "links": [
+        {"label": "Stock Titan (Einride release)", "url": "https://www.stocktitan.net/news/ENRD/einride-provides-q3-2026-business-yzue4yvbel55.html"},
+        {"label": "Investing.com", "url": "https://www.investing.com/news/company-news/einride-q3-2026-slides-76-carr-surge-amid-stock-decline-93CH-5036456"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "17 Nov",
+      "headline": "Waymo halts freeway rides in all its cities after California calls construction-zone errors an 'imminent hazard'",
+      "why": "Regulators are judging robotaxis on rare edge cases, and those are the scenarios validation teams must cover.",
+      "source": "TechCrunch",
+      "body": [
+        "California's DMV restricted Waymo's driverless freeway operations in an order dated 11 November and made public on 17 November. It called the operations an imminent hazard to public safety. Three Waymo vehicles had driven into an active construction closure on US Route 101 near Burlingame, and in another case vehicles met California Highway Patrol units on Highway 280. This happened even though Waymo had already changed its software after similar incidents in May.",
+        "Waymo has stopped freeway rides in all 15 US cities where it operates, not only in California. It says no one was hurt and nothing was hit, and that rides on ordinary streets continue at over half a million trips a week. The restriction applies until the DMV accepts Waymo's fixes.",
+        "This is the second freeway pause in six months. Temporary construction zones, with changed lanes, cones and police directing traffic, are still a weak point for driverless systems. ADAS and autonomy teams in Europe should cover these cases in simulation and on test tracks."
+      ],
+      "links": [
+        {"label": "TechCrunch", "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"}
+      ]
+    },
+    {
+      "cat": "eng",
+      "top": false,
+      "date": "18 Nov",
+      "headline": "Boston Dynamics' Atlas moves beyond car plants to GlobalFoundries chip fabs, including Dresden",
+      "why": "Humanoid robots tested in Hyundai factories are being tried in other industries, and inspection robots are already doing large volumes of work.",
+      "source": "Seoul Economic Daily · IBTimes",
+      "body": [
+        "Chipmaker GlobalFoundries has joined Boston Dynamics' early adopter programme for the Atlas humanoid. It is the first customer outside the car industry and the first chipmaker to test the robot. Atlas will start work at key GlobalFoundries sites early next year, first moving and sorting parts. The two companies will then work out which tasks in chip production a humanoid can take on. The number of robots has not been disclosed.",
+        "GlobalFoundries is also expanding its use of Boston Dynamics' four-legged Spot robot from Vermont and Singapore to sites including New York and Dresden. In Singapore, two Spot units have travelled about 900 km through the equipment areas under the cleanroom since April and carried out more than 90,000 inspections with 99% mission success. The company says this supports its move to predictive maintenance.",
+        "Until now, Atlas development has focused on Hyundai's car plants. The Spot numbers show that automated inspection rounds, such as thermal and gauge checks, are delivering results today, while humanoids are still at the pilot stage."
+      ],
+      "links": [
+        {"label": "Seoul Economic Daily", "url": "https://en.sedaily.com/economy/2026/11/18/boston-dynamics-atlas-moves-from-car-plants-to-chip-fabs"},
+        {"label": "IBTimes", "url": "https://www.ibtimes.com.au/boston-dynamics-spot-globalfoundries-factory-deployment-atlas-trials-1878877"}
+      ]
+    }
+  ],
+  "watch": [
+    {"title": "Anthropic's first trading day", "text": "ANT starts trading on Nasdaq today after pricing above its range. How it trades in the first days will affect sentiment around other AI listings and funding rounds.", "link": {"label": "CNBC", "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"}},
+    {"title": "EU–UK summit and 'Made in Europe' rules, Friday", "text": "Ford Europe's president warned that leaving the UK, Turkey and Morocco out of the EU's planned Industrial Accelerator Act would weaken European car supply chains. ACEA and SMMT want a joint statement on rules of origin at Friday's summit.", "link": {"label": "SteelOrbis", "url": "https://www.steelorbis.com/steel-news/latest-news/european-automakers-warn-eus-made-in-europe-rules-could-undermine-automotive-supply-chains-1491863.htm"}},
+    {"title": "Toyota's stake in Volvo and Daimler's fuel-cell venture", "text": "Toyota has asked the European Commission to approve its purchase of a one-third stake in Cellcentric. The provisional deadline for a decision is 21 December.", "link": {"label": "MLex", "url": "https://mlex.com/mlex/mergers-acquisitions/articles/2551500"}}
+  ],
+  "sources": [
+    {"label": "CNBC – Anthropic IPO raises over $81 billion (18 Nov 2026)", "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html"},
+    {"label": "TechCrunch – Anthropic prices IPO at $83 a share (18 Nov 2026)", "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"},
+    {"label": "Google – Introducing Gemini 4 Neon (18 Nov 2026)", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"},
+    {"label": "AI Weekly – Google launches Gemini 4 Neon at $3/$15 (18 Nov 2026)", "url": "https://aiweekly.co/alerts/google-launches-gemini-4-neon-at-315-per-million-tokens"},
+    {"label": "Reuters via Global Banking & Finance – Europe EV sales jump in October (18 Nov 2026)", "url": "https://www.globalbankingandfinance.com/europe-ev-sales-jump-october-high-oil-prices-subsidies-fuel/"},
+    {"label": "Aikido – Java4Shell, CVE-2026-114938 (17–18 Nov 2026)", "url": "https://www.aikido.dev/blog/java-17-rce-vulnerability-cve-2026-114938"},
+    {"label": "Gizmodo – Startup finds major Java vulnerability with AI (17 Nov 2026)", "url": "https://gizmodo.com/a-startup-vibe-coded-its-way-to-finding-a-vulnerability-affecting-90-of-fortune-500-firms-2000841501"},
+    {"label": "TechCrunch – More banks say customers using AI agents are on their own (18 Nov 2026)", "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"},
+    {"label": "TechCrunch – Nadella predicts AI agents will reshuffle the economics of the web (18 Nov 2026)", "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/"},
+    {"label": "Snap Newsroom – Introducing Easy Lens CLI (18 Nov 2026)", "url": "https://newsroom.snap.com/introducing-easy-lens-cli"},
+    {"label": "TechCrunch – Snapchat lets developers build AR Lenses with AI coding assistants (18 Nov 2026)", "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/"},
+    {"label": "Gizmodo – Google to keep AI chat logs for two months even with Gemini History off (17 Nov 2026)", "url": "https://gizmodo.com/google-to-keep-ai-chat-logs-for-two-months-even-with-gemini-history-turned-off-2000841271"},
+    {"label": "Stock Titan – Einride provides Q3 2026 business update (18 Nov 2026)", "url": "https://www.stocktitan.net/news/ENRD/einride-provides-q3-2026-business-yzue4yvbel55.html"},
+    {"label": "Investing.com – Einride Q3 2026 slides (18 Nov 2026)", "url": "https://www.investing.com/news/company-news/einride-q3-2026-slides-76-carr-surge-amid-stock-decline-93CH-5036456"},
+    {"label": "TechCrunch – Waymo suspends freeway rides nationwide after California DMV order (17 Nov 2026)", "url": "https://techcrunch.com/2026/11/17/waymo-suspends-freeway-rides-nationwide-after-california-dmv-order/"},
+    {"label": "Seoul Economic Daily – Boston Dynamics Atlas moves from car plants to chip fabs (18 Nov 2026)", "url": "https://en.sedaily.com/economy/2026/11/18/boston-dynamics-atlas-moves-from-car-plants-to-chip-fabs"},
+    {"label": "IBTimes – Spot logs 90,000 inspections as Boston Dynamics expands GlobalFoundries deal (Nov 2026)", "url": "https://www.ibtimes.com.au/boston-dynamics-spot-globalfoundries-factory-deployment-atlas-trials-1878877"},
+    {"label": "SteelOrbis – European automakers warn on 'Made in Europe' rules (18 Nov 2026)", "url": "https://www.steelorbis.com/steel-news/latest-news/european-automakers-warn-eus-made-in-europe-rules-could-undermine-automotive-supply-chains-1491863.htm"},
+    {"label": "MLex – Toyota seeks EU clearance for Cellcentric stake (18 Nov 2026)", "url": "https://mlex.com/mlex/mergers-acquisitions/articles/2551500"}
+  ],
+  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported. Einride figures are preliminary and unaudited."
+}
