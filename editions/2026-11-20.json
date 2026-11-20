@@ -2,28 +2,29 @@
  "date": "2026-11-20",
  "weekday": "Friday",
  "covers": "Thu 19 Nov",
- "glance": "Anthropic's shares opened 34% above the IPO price in their Nasdaq debut and closed up about 17%, after the largest US IPO on record. Ford started shipping US-made LFP cells built with CATL-licensed technology, and the European Commission confirmed that an AI-driven cyber campaign disrupted its staff systems. Also: Deutsche Telekom puts €100 million into Mistral, US banks push AI-agent risk onto customers, BMW starts iX5 production, Uber and Momenta start robotaxi trials in Munich, and Sany targets European truck buyers on price.",
+ "glance": "Anthropic's first day on Nasdaq ended 17% above its IPO price after a much higher start. In Europe, electric car sales passed 2.3 million for the year while Volkswagen and IG Metall head for a hard pay fight and Volvo Cars' cutbacks reach its suppliers. Sweden's Algoryx gets Wallenberg backing for physics simulation, and Siemens and Deutsche Telekom push AI further into factory software and robot training.",
+ "brief": "This is Vertical News for Friday the twentieth of November. Anthropic's shares began trading on Nasdaq yesterday. The first trade came just before noon at about one hundred and eleven dollars, thirty-four percent above the eighty-three dollar offer price, and the stock closed at about ninety-seven dollars, seventeen percent higher. The listing raised around eighty-one billion dollars. In Europe, electric car sales passed two point three million for the year, after October registrations jumped sixty-one percent and battery cars took about a third of the market. That comes as Parliament prepares to vote on softening the 2035 CO2 target. Volkswagen wants a two-year pay freeze and longer hours without extra pay, while IG Metall has called the first full-day strikes in eight years at BMW, Audi, Porsche and suppliers. In Sweden, seat maker Adient may cut about a hundred jobs in Gothenburg after Volvo Cars reduced output, even as the new EX60 won a UK car of the year award. BMW has started building the electric iX5 in South Carolina, using cylindrical cells from AESC, which has now shipped ten million of them. Ford has shipped its first American-made LFP cells, and Sany plans to undercut European truck makers by twenty percent. OpenAI launched ChatGPT for Accounting. Swedish simulation firm Algoryx gained Wallenberg Investments as an owner. Siemens ended forced project upgrades in its automation software, and Deutsche Telekom will train robot skills in simulation. Analysts weighed Schaeffler's China exposure and SKF's Vertevo spin-off. Finally, two new papers improve bearing fault diagnosis using motor current and changing operating conditions.",
  "stories": [
   {
    "cat": "gen",
    "top": true,
    "date": "19 Nov",
-   "headline": "Anthropic opens 34% above its IPO price and closes its first day valued at about $1.8 trillion",
-   "why": "Investors now put a public price on a frontier AI lab, and that price shapes funding, pricing and competition across the AI tools teams rely on.",
-   "source": "CNBC · Benzinga",
+   "headline": "Anthropic's shares start trading 34% above the IPO price and close 17% higher",
+   "why": "The biggest AI listing yet sets a public price on a frontier lab whose models many product and engineering teams build on.",
+   "source": "Stock Titan · FourWeekMBA",
    "body": [
-    "Anthropic's shares began trading on Nasdaq under the ticker ANT on Thursday. They opened at $111.50, about 34% above the $83 offer price, which briefly gave the company a market value of roughly $2 trillion. The stock lost some of that gain during the day and closed at $97.17, up about 17%. CNBC put the fully diluted value at the close at about $1.8 trillion, making it the seventh most valuable US company. More than 846 million shares changed hands, compared with 522 million on SpaceX's first day in June.",
-    "The company sold 980 million shares and raised $81.3 billion, the largest US IPO on record. Its filings show $33.2 billion in revenue for the first nine months of 2026, up about twelvefold. The same period showed a net loss of $104 billion, mostly from changes in the value of convertible notes and similar instruments. Amazon owns 14.7% and Google 13.7%, and the seven co-founders keep a majority of voting power.",
-    "For product and engineering teams, the main effect is visibility. As a listed company, Anthropic will report results every quarter, so pricing, capacity and model plans will face more public scrutiny."
+    "Anthropic's Class A shares, ticker ANT, began trading on Nasdaq on Thursday. The stock did not trade at the 9:30 open; after Nasdaq's opening auction for new listings, the first trade came at 11:48 a.m. Eastern at 111.50 dollars, about 34% above the 83-dollar IPO price set the evening before. It peaked near 115 dollars within minutes, fell to about 92.70 dollars in the early afternoon and closed at 97.17 dollars, according to Stock Titan's live coverage.",
+    "The IPO sold 980 million shares at 83 dollars, raising about 81.3 billion dollars before fees, most of it new money for Anthropic. The price had already been set above the marketed range of 70 to 78 dollars. Stock Titan values the company at about 1.1 trillion dollars on all share classes at the IPO price; other outlets quote higher, fully diluted figures, so headline valuations vary by method.",
+    "For teams that rely on Claude, a public Anthropic means quarterly reporting, more scrutiny of pricing and capacity, and pressure to show revenue growth. Expect the closing price, rather than the first trade, to anchor coverage in the coming days."
    ],
    "links": [
     {
-     "label": "CNBC",
-     "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+     "label": "Stock Titan",
+     "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
     },
     {
-     "label": "Benzinga",
-     "url": "https://www.benzinga.com/markets/tech/26/11/63442044/anthropic-stock-opens-at-111-50-in-record-breaking-nasdaq-debut"
+     "label": "FourWeekMBA",
+     "url": "https://fourweekmba.com/ai-anthropics-ipo-day-by-day-pricing-18-nov-trading-19-nov/"
     }
    ]
   },
@@ -31,133 +32,82 @@
    "cat": "auto",
    "top": true,
    "date": "19 Nov",
-   "headline": "Ford ships its first US-made LFP battery cells, built with CATL-licensed technology",
-   "why": "A Western carmaker making low-cost LFP cells in-house, using a Chinese licence, is a model European OEMs are weighing too.",
-   "source": "Ford · electrive",
+   "headline": "Europe's electric car sales pass 2.3 million for the year as October jumps 61%",
+   "why": "Demand is rising just as the EU decides how far to soften the 2035 CO2 target, which shapes OEM and supplier product plans.",
+   "source": "Transport + Energy",
    "body": [
-    "Ford says BlueOval Battery Park Michigan in Marshall is now producing lithium iron phosphate (LFP) prismatic cells. The first cells are going to Louisville, Kentucky, where they will power prototypes of the Ford Fathom, the first vehicle on Ford's new Universal EV Platform. Ford owns and runs the plant. The cell technology is licensed from CATL, and CATL staff helped with training and the production ramp-up.",
-    "The plant is smaller than first planned. Capacity was cut from 35 GWh to about 20 GWh a year, and the workforce target from 2,500 to 1,700. Fathom production is set for 2027, with a US base price of $28,350, and pack assembly in Marshall is due before then. Some cells will also go into Ford Energy's stationary storage business, with assembly in Kentucky from 2027. Ford claims the platform uses about 20% fewer parts than a conventionally developed vehicle.",
-    "For engineers, the licensing model is the part to watch. Ford gets proven cell chemistry and process know-how without a joint venture, but stays dependent on a Chinese supplier's IP. That trade-off is under debate in Europe as well."
+    "New figures for 18 European markets show 295,252 electric cars registered in October, up 61% on a year earlier. That takes the year-to-date total to 2,334,832, up 41%. Battery electric cars made up 32.1% of new registrations in October, against about 20% a year before, and 25.3% on average so far this year.",
+    "France and Germany together accounted for more than half of October's electric registrations. Growth was fastest in smaller markets such as Slovenia, Romania and Czechia, while Sweden rose 10%. Italy was the only market where October's share was below its average for the year. The trade group E-Mobility Europe called it a market that is accelerating, not retreating.",
+    "The numbers land in the middle of the CO2 debate. On 4 November the European Parliament's environment committee voted 48 to 30 for an 87.5% cut in new-car CO2 by 2035, with credits that could take it to 95%. The full Parliament still has to vote, and the current 100% target stands until the law changes. For engineering teams, stronger demand argues against slowing EV programmes even if the target is relaxed."
    ],
    "links": [
     {
-     "label": "Ford",
-     "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-is-in-the-battery-business-now"
-    },
-    {
-     "label": "electrive",
-     "url": "https://www.electrive.com/2026/11/19/ford-delivers-first-lfp-batteries-for-test-fitting-in-fathom-prototypes/"
-    }
-   ]
-  },
-  {
-   "cat": "gen",
-   "date": "19 Nov",
-   "headline": "European Commission confirms an AI-driven cyber campaign disrupted its HR and staff systems",
-   "why": "AI-assisted attacks have hit the EU's own administration, which will shape how Brussels thinks about AI security rules.",
-   "source": "Brussels Signal",
-   "body": [
-    "At its midday briefing on Thursday, the Commission confirmed that it had been targeted by a cyberattack carried out with AI tools. Spokesperson Thomas Regnier called it \"an AI-generated cybercampaign\" and said the attackers used a publicly available AI tool. He said he knew of no ransom demand. The attack was detected on 22 October and confirmed on 26 October. It became public after Politico reported that internal services had been disrupted for more than ten days.",
-    "The systems hit include Sysper, the HR platform for pay and leave, and MyPMO, which handles medical expense claims. Several internal applications were taken offline as a precaution, and most have been restored. So far no data breach affecting all staff has been found. CERT-EU and the European Data Protection Supervisor have been told. Regnier would not say who was behind the attack or whether it is over. It is the third known attack on Commission systems this year.",
-    "For teams building with AI agents, this adds to a run of cases where public tools are used to speed up attacks. Expect more pressure on security testing and logging in EU procurement."
-   ],
-   "links": [
-    {
-     "label": "Brussels Signal",
-     "url": "https://brusselssignal.eu/2026/11/european-commission-confirms-ai-driven-cyberattack-weeks-after-detecting-it/"
-    }
-   ]
-  },
-  {
-   "cat": "gen",
-   "date": "19 Nov",
-   "headline": "Deutsche Telekom invests €100 million in Mistral as a first step toward a sovereign AI partnership",
-   "why": "German industry may get a European model supplier delivered through Telekom's own cloud, which matters for companies with strict data rules.",
-   "source": "Deutsche Telekom",
-   "body": [
-    "Deutsche Telekom's T.Capital Tech Fund has put €100 million into Mistral's Series D round. Telekom calls the deal a first step toward a strategic partnership, aimed at German businesses and public bodies, especially in industrial and regulated sectors.",
-    "Under the plan, Telekom would bring its sovereign infrastructure, customer relationships and integration skills, and Mistral would bring its models, enterprise software and deployment teams. The investment builds on Telekom's Industrial AI Cloud in Munich and on Mistral's new hub in the same city. T-Systems chief Ferri Abolhassan said businesses must be able to trust the technology and keep control of their data.",
-    "For automotive suppliers and engineering firms, this points to one more option for AI that keeps data within the EU and runs in German data centres. That could matter for design data, simulation models and supplier documents that cannot go to US clouds."
-   ],
-   "links": [
-    {
-     "label": "Deutsche Telekom",
-     "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/deutsche-telekom-advances-sovereign-ai-in-germany"
-    }
-   ]
-  },
-  {
-   "cat": "pm",
-   "date": "18 Nov",
-   "headline": "Citi, PNC and Citizens tell customers they are liable for what third-party AI agents do with their accounts",
-   "why": "Agent products that act for users now hit a hard limit: the companies that hold the money will not share the risk.",
-   "source": "TechCrunch",
-   "body": [
-    "Citibank updated its online user agreement this week. Customers who give third-party AI tools access to their accounts are now responsible for anything done through those agents. That includes cases where the tool leaks their login details or is hacked. PNC changed its terms on 18 November, and Citizens emailed customers with a similar warning. JPMorgan and Bank of America announced similar policies in October.",
-    "Banks also say they will not reverse transactions made by automated assistants, whether intended or not. Citi exempts AI agents it provides itself, so its own tools get an advantage over outside ones. TechCrunch notes that banks see third-party agents both as a security risk and as a threat to their fee and deposit business.",
-    "For product teams building agents, this is a design constraint. Read-only access, clear confirmation steps and audit trails become selling points, and some financial tasks may stay out of reach until liability is settled."
-   ],
-   "links": [
-    {
-     "label": "TechCrunch",
-     "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
-    }
-   ]
-  },
-  {
-   "cat": "eng",
-   "date": "17 Nov",
-   "headline": "Dassault Systèmes targets over €8 billion in revenue by 2029, with industrial AI and usage-based pricing",
-   "why": "The company behind CATIA and SIMULIA is changing how engineering teams will pay for AI in design and simulation.",
-   "source": "Dassault Systèmes · Placera",
-   "body": [
-    "At its Capital Markets Day, Dassault Systèmes set targets for 2029: revenue above €8 billion, adjusted earnings per share of €1.80 and operating cash flow of about €2.5 billion. It aims for double-digit growth in both revenue and earnings by then. The company said revenue growth sped up each quarter during 2026, and that subscriptions now make up half of its recurring revenue.",
-    "Industrial AI is central to the plan. Reports say Dassault will add usage-based pricing for its AI assistants, which it calls Virtual Companions, next to its usual per-seat licences. CEO Pascal Daloz said AI will mainly change how products are designed, built and used.",
-    "For automotive and supplier engineering teams, the pricing change matters most. Paying per use for AI in CAD, PLM and simulation makes costs harder to predict, but lets teams try AI on specific tasks without buying more seats."
-   ],
-   "links": [
-    {
-     "label": "Dassault Systèmes",
-     "url": "https://www.globenewswire.com/news-release/2026/11/17/3404259/0/en/dassault-syst%C3%A8mes-2026-capital-markets-day-a-new-industrial-era-a-new-growth-cycle-targeting-double-digit-revenue-and-eps-growth-in-2029.html"
-    },
-    {
-     "label": "Placera",
-     "url": "https://www.placera.se/telegram/dassault-aviation-dassault-systemes-siktar-pa-tvasiffrig-tillvaxt-2029-omsattning-over-8-miljarder-euro-20261117"
-    }
-   ]
-  },
-  {
-   "cat": "eng",
-   "date": "17 Nov",
-   "headline": "Vector launches FLOW, a cloud platform where AI agents propose changes and prepare compliance evidence for vehicle software",
-   "why": "A major tool supplier is building agents into the software-defined vehicle V-cycle, from specification to fleet data.",
-   "source": "Autocar Professional",
-   "body": [
-    "Vector Informatik premiered Vector FLOW at its NEXT HORIZONS conference in Stuttgart. The cloud platform links specification, development, validation, deployment and fleet operation, and feeds field data back into engineering. Vector calls this the \"Big Loop\".",
-    "FLOW includes predefined workflows, quality gates and AI agents. The agents can propose system changes, adjust tests and prepare evidence for regulatory compliance. Every workflow passes the same quality gates, so the required evidence is produced as part of the process. Vector's Marcus Eggenberger summed it up as \"Humans specify, design and validate; agents take care of the rest.\" A fleet management module for monitoring and updating mixed device fleets is available now. The platform is open and modular, so existing customer and partner tools can be plugged in.",
-    "For teams working on testing and type approval, the claim to watch is automated compliance evidence. If it holds up, it could cut the paperwork around software updates under UN R155 and R156. Vector named no customers."
-   ],
-   "links": [
-    {
-     "label": "Autocar Professional",
-     "url": "https://www.autocarpro.in/news/vector-unveils-cloud-based-engineering-platform-vector-flow-at-stuttgart-event-135988"
+     "label": "Transport + Energy",
+     "url": "https://transportandenergy.com/2026/11/19/europe-electric-vehicle-market-passes-two-million-sales-for-2026/"
     }
    ]
   },
   {
    "cat": "auto",
+   "top": true,
    "date": "19 Nov",
-   "headline": "BMW starts series production of the iX5 in Spartanburg, and AESC passes 10 million 46120 cells",
-   "why": "Large cylindrical cells are now in volume production for premium SUVs, but early volumes are below plan.",
-   "source": "electrive",
+   "headline": "Volkswagen asks for a two-year pay freeze as IG Metall calls full-day strikes at BMW, Audi and Porsche",
+   "why": "Labour costs and strike risk are now central to German automotive planning, from OEM plants to the supplier base.",
+   "source": "Reuters · onvista",
    "body": [
-    "BMW has started series production of the electric iX5 at its plant in Spartanburg, South Carolina. It is built on the same line as its petrol, diesel and hybrid models. The car uses a 141 kWh battery assembled at BMW's new plant in nearby Woodruff. It is the first electric BMW built in the US. Output starts at about 70 cars a day. According to electrive, suppliers were told to plan for 60,000 units in 2027, down from an earlier 100,000.",
-    "On the same day, Envision AESC said it has delivered more than 10 million cylindrical cells in the 46120 format (46 mm wide, 120 mm tall). The cells come from its Chinese plants in Jiangsu and Hebei, which started series production in July. BMW is the main customer, and the iX7 is the second BMW model confirmed to use them.",
-    "For drivetrain and battery engineers, this is one of the first large-scale tests of 46-series cells in a premium vehicle. The lower volume forecast shows that demand, not the technology, is now the main risk."
+    "Volkswagen set out its demands on Thursday for talks on its in-house wage agreement, which covers about 120,000 workers. It wants a two-year pay freeze, an end to a bonus that staff can take as cash or time off, and a reopening of the 35-hour week, with longer hours but no extra pay. IG Metall is asking for 5%. Talks begin on 24 November in Emden, one of four plants that could close from the early 2030s, and workers have threatened strikes from January.",
+    "In the wider metal and electrical industry round, which covers 3.7 million workers, IG Metall called 24-hour warning strikes from Friday, the first full-day strikes in eight years. BMW, Audi, Porsche and suppliers are affected. Employers have offered a one-off payment in July 2027 and a permanent 1.3% rise from summer 2028; the union wants 5% plus job security.",
+    "For suppliers and engineering service firms, the two disputes add up to a risk of production gaps in early 2027 and continued pressure to move work out of Germany."
    ],
    "links": [
     {
-     "label": "electrive – iX5",
+     "label": "Reuters via WBOW",
+     "url": "https://1027wbow.com/2026/11/19/volkswagen-demands-pay-freeze-flexible-hours-in-looming-showdown-with-union/"
+    },
+    {
+     "label": "onvista (Reuters)",
+     "url": "https://onvista.de/news/2026/11-19-ig-metall-ruft-zu-ganztaegigen-warnstreiks-auf-audi-und-bmw-betroffen-0-20-26578371"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "Volvo Cars' production cuts hit seat maker Adient, with about 100 layoffs in Gothenburg",
+   "why": "The slowdown at Torslanda is now reaching West Sweden's supplier base, even as the new EX60 collects awards.",
+   "source": "Carup · Volvo Car UK",
+   "body": [
+    "Seat supplier Adient told staff in Gothenburg on Thursday that about 100 jobs are at risk, after Volvo Cars sharply cut its orders. Output at Torslanda, mainly of the XC60 and XC90, has fallen. Volvo's October sales were down 25% to 45,264 cars, and it reported an operating loss of 5.6 billion kronor for the third quarter. In October it announced 5 billion kronor in further savings and about 2,500 job cuts, roughly 2,000 of them in Sweden.",
+    "The EX60, built on the new SPA3 platform, has more than 50,000 European orders but is ramping up more slowly than planned. The same day it was named Carwow Car of the Year 2027 in the UK, with a claimed range of up to 503 miles and 10–80% charging in 19 minutes in its top version.",
+    "For engineers at Swedish suppliers and consultancies, the signal is that volume relief depends on how fast the EX60 ramp goes, not on the older models."
+   ],
+   "links": [
+    {
+     "label": "Carup",
+     "url": "https://carup.se/volvos-kris-slar-mot-underleverantor-100-varslas-i-dag/"
+    },
+    {
+     "label": "Volvo Car UK",
+     "url": "https://www.volvocars.com/uk/media/press-releases/299600FDF8225D6A/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "BMW starts building the iX5 in South Carolina as AESC passes 10 million 46120 cells",
+   "why": "BMW's first US-built EV shows how large-format cylindrical cells are moving into series cars, and how cautious volume plans have become.",
+   "source": "electrive",
+   "body": [
+    "BMW has started series production of the electric iX5 at Spartanburg, its first EV built in the United States, at about 70 cars a day according to US reports. Suppliers have been told to plan for 60,000 units of capacity in 2027, down from an earlier 100,000. The car uses a 141 kWh battery assembled in nearby Woodruff. The electric iX7 will follow at the same plant.",
+    "Cell maker Envision AESC said it has delivered more than 10 million 46120 cylindrical cells, 46 millimetres wide and 120 tall, from plants in Jiangsu and Hebei, with a stated yield of 95%. The iX5 is the first car to use them. The cells are imported from China because AESC paused its South Carolina cell plant in 2025.",
+    "For battery and pack engineers, BMW's move puts the 46-series format into high-volume premium cars, and the supply route shows how tariffs and local-content rules still shape sourcing."
+   ],
+   "links": [
+    {
+     "label": "electrive – BMW iX5",
      "url": "https://www.electrive.com/2026/11/19/bmw-ix5-enters-series-production/"
     },
     {
@@ -168,32 +118,34 @@
   },
   {
    "cat": "auto",
-   "date": "18 Nov",
-   "headline": "Uber and Momenta start a supervised robotaxi pilot in Munich",
-   "why": "A Chinese autonomy supplier is now carrying passengers in Germany, in BMW's home city.",
-   "source": "CnEVPost",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "Ford's Michigan plant ships its first LFP cells for test fitting in Fathom prototypes",
+   "why": "Ford's cheaper EV platform depends on these CATL-licensed cells, a test case for Western-built LFP.",
+   "source": "electrive",
    "body": [
-    "Uber and Chinese self-driving company Momenta have started a robotaxi pilot covering large parts of northern Munich, including the area around the Olympic Park. Rides are free and limited to pre-selected users who sign up in the Uber app. Pick-ups and drop-offs are at set stops, and a trained safety operator rides on every trip. The companies plan to expand across the city step by step.",
-    "The pilot runs under test permits from Germany's Federal Motor Transport Authority (KBA). In July, Momenta became the first Chinese company allowed to run Level 4 urban tests across Germany without applying city by city. Momenta already supplies driver assistance to German carmakers, with its systems in more than 1.4 million vehicles worldwide. It listed in Hong Kong in July and plans to spend about a fifth of the proceeds on robotaxis.",
-    "For ADAS and validation teams, Germany's type-approval route for Level 4 is now being tested by a non-European supplier. That raises questions about data, cybersecurity and supplier choice for European OEMs."
+    "The first prismatic lithium iron phosphate cells have come off the line at Ford's BlueOval Battery Park in Marshall, Michigan, marking the end of the pilot phase. The technology is licensed from CATL. The cells go first to Louisville, Kentucky, for fitting in prototypes of the Fathom, the first vehicle on Ford's Universal EV Platform, which enters production in 2027 at a base price of 28,350 dollars.",
+    "The plant has been scaled back from 35 to 20 gigawatt-hours a year and from 2,500 to about 1,700 jobs. Ford says the platform has about 20% fewer parts and 25% fewer connecting elements than its current EVs. Range and charging figures have not been published, and no European launch has been confirmed.",
+    "For European OEMs weighing their own LFP supply, Ford's licensing route is the model to watch: local production of Chinese chemistry with the original supplier's know-how."
    ],
    "links": [
     {
-     "label": "CnEVPost",
-     "url": "https://cnevpost.com/2026/11/18/momenta-uber-launch-robotaxi-pilot-germany/"
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/19/ford-delivers-first-lfp-batteries-for-test-fitting-in-fathom-prototypes/"
     }
    ]
   },
   {
    "cat": "auto",
+   "top": false,
    "date": "19 Nov",
-   "headline": "Sany brings electric trucks to Europe with about 500 km of range, priced 20% below European makers",
-   "why": "Chinese electric heavy trucks are now competing directly with Volvo, Scania, Daimler and MAN on price.",
+   "headline": "Sany targets Europe's electric truck market with 500 km range and prices 20% below local makers",
+   "why": "Chinese heavy trucks are coming for the construction and depot segments where Volvo, Scania and Daimler earn good margins.",
    "source": "electrive",
    "body": [
-    "Chinese machinery group Sany is pushing its electric trucks into Europe. Its main product is the e263 electric tractor, with a usable battery capacity of 620 kWh and a quoted range of about 500 km. Sany is focusing on depot charging for now, and on construction work such as tippers and cement mixers, with logistics to follow. The first customers have used the trucks since May, and the normal lead time is about four months.",
-    "Sany says it will price its trucks about 20% below European manufacturers. For service it works with Alltrucks, which has about 650 workshops, and uses the dealer network, warranty processes and spare-parts system of Putzmeister, the German concrete-pump maker it owns. Sany deployed about 22,000 electric tractors in China in 2025, but has not given sales targets for Europe.",
-    "This lands as the EU reviews its CO2 rules for trucks and as European truck makers ask for faster support for electric trucks. Lower-priced Chinese trucks add pressure on their margins and on suppliers of drivetrains and bearings."
+    "In an interview at IAA Transportation, Sany eTrucks Europe set out its plans. Its flagship e263 tractor has a 620 kWh usable battery and about 500 km of range. The first trucks have been with customers since May 2026, starting with construction uses such as tippers and cement mixers before moving into logistics. Lead times are about four months.",
+    "Sany says it aims to price about 20% below European makers. Service runs through the Alltrucks network of about 650 workshops and through Putzmeister, the German concrete pump maker Sany owns. Sany sold about 22,000 electric tractor units in China in 2025 but gave no European sales target.",
+    "For European truck makers and their suppliers, this adds price pressure in exactly the segments where electric trucks are taking off first: short, predictable routes with depot charging."
    ],
    "links": [
     {
@@ -201,99 +153,245 @@
      "url": "https://www.electrive.com/2026/11/19/sany-etrucks-targeting-europe-with-500-km-ranges-and-competitive-pricing/"
     }
    ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "OpenAI launches ChatGPT for Accounting, with plugins for QuickBooks, Xero and NetSuite",
+   "why": "OpenAI keeps packaging ChatGPT by job role, with partner plugins and human sign-off as the template for agent features.",
+   "source": "Dataconomy · FourWeekMBA",
+   "body": [
+    "OpenAI has launched ChatGPT for Accounting, built around a new Accounting plugin for ChatGPT Business and Work plans. It handles invoice processing, bank reconciliation, month-end reports, data entry and audit preparation, and it shows up in a sidebar next to the chat. Final accounting entries need human approval.",
+    "Partner plugins connect to Intuit QuickBooks, Xero, Oracle NetSuite, BILL, FreshBooks, Rillet and Campfire. FourWeekMBA counts eight partner tiles on the launch page, against 33 for ChatGPT for Sales earlier in the week, and notes that the customer results shown are testimonials, not measured outcomes. No pricing was given.",
+    "For product teams, the pattern is clear: a general assistant, a role-specific plugin, write access to the system of record, and an approval step before anything final. That approval step is the design choice to copy for any agent that touches money or regulated data."
+   ],
+   "links": [
+    {
+     "label": "Dataconomy",
+     "url": "https://dataconomy.com/2026/11/19/openai-launches-chatgpt-for-accounting-with-finance/"
+    },
+    {
+     "label": "FourWeekMBA",
+     "url": "https://fourweekmba.com/ai-chatgpt-for-accounting-lists-8-partner-plugins-sales-had-33/"
+    }
+   ]
+  },
+  {
+   "cat": "vv",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "Swedish physics-simulation firm Algoryx gets Wallenberg Investments as a strategic owner",
+   "why": "A Swedish simulation specialist is getting long-term backing to build 'physical AI' for heavy machines and robots.",
+   "source": "Algoryx",
+   "body": [
+    "Algoryx, a physics-simulation company spun out of Umeå University in 2007, said Wallenberg Investments has become a strategic minority shareholder. The amount was not disclosed. The founders and staff keep the majority. Customers include machine makers, robotics firms, industrial companies and space projects.",
+    "The company wants to lead in what it calls physical AI for heavy equipment and mobile robots: simulation detailed and fast enough to train and test machine control in virtual environments before it runs on real hardware. The money will go to hiring, computing capacity and its next product platform, and more fundraising is planned.",
+    "For virtual validation teams, Algoryx is a useful reminder that simulation-based training and testing is not only a CAE-vendor topic. Real-time multibody and contact simulation is becoming core tooling for autonomy and off-highway machinery, and Sweden has a notable player in it."
+   ],
+   "links": [
+    {
+     "label": "Algoryx press release (PDF)",
+     "url": "https://www.algoryx.se/mainpage/wp-content/uploads/2026/11/Algoryx_Pressmeddelande_Wallenberg_Investments_ENG.pdf"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "Siemens ends forced project upgrades in TIA Portal V21.1 and links it to its AI engineering agent",
+   "why": "Automation engineers get continuous software updates without re-validating projects, plus a route to AI-assisted PLC work.",
+   "source": "Siemens",
+   "body": [
+    "Siemens launched TIA Portal V21.1, its automation engineering software, and changed how it is sold and updated. Installed software is now separate from licensing across STEP 7, WinCC Unified and Startdrive, so customers buy features rather than versions. Within V21, users get the latest software without migrating and re-validating their projects.",
+    "The release adds multicore programming for S7-1500 controllers and a link to the Eigen Engineering Agent, the AI agent Siemens first showed at Hannover Messe in April. Download is due at the end of November, with delivery in December.",
+    "For plants that run test rigs and production lines on Siemens controllers, avoiding re-validation after every upgrade saves real effort. The AI agent link means AI-generated PLC code is arriving in a mainstream engineering tool, so review and sign-off rules for that code are worth settling now."
+   ],
+   "links": [
+    {
+     "label": "Siemens press release",
+     "url": "https://press.siemens.com/global/en/pressrelease/continuous-access-new-software-siemens-ends-project-upgrades-tia-portal-within-v21"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "Deutsche Telekom's Industrial AI Cloud will train microagi's robot skills from simulated factory work",
+   "why": "Sim-to-real robot training on sovereign German infrastructure targets European manufacturers wary of sending production data abroad.",
+   "source": "Deutsche Telekom via EuropaWire",
+   "body": [
+    "Munich robotics AI company microagi will train its industrial robot models on Deutsche Telekom's Industrial AI Cloud, run by T-Systems at its Munich AI factory. Videos of real workflows are turned into simulations where robots practise tasks, and the learned skill is then moved to the physical robot. The first targets are manufacturing and logistics.",
+    "Telekom stresses that production data stays in Germany under the customer's control. No financial terms were disclosed.",
+    "For manufacturing and test engineers, this is another sign that simulation is becoming the training ground for factory automation, not only for product design. Data sovereignty is being used as a selling point against US cloud providers. The open question is how well skills learned in simulation hold up on real lines, where parts, lighting and tolerances vary more than in a virtual cell."
+   ],
+   "links": [
+    {
+     "label": "EuropaWire",
+     "url": "https://news.europawire.eu/deutsche-telekoms-industrial-ai-cloud-to-power-microagis-robot-skills-training-for-european-manufacturers/eu-press-release/2026/11/19/12/36/06/188617/"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "Analysts weigh Schaeffler's China exposure and SKF's value ahead of the Vertevo listing",
+   "why": "The two European bearing majors face different tests: China car demand for Schaeffler, and the automotive spin-off for SKF.",
+   "source": "dpa-AFX via finanznachrichten · ad-hoc-news",
+   "body": [
+    "UBS kept Schaeffler at Neutral with a price target of 8.10 euros. Analyst David Lesne pointed to China, where car retail sales fell about 25% year on year in the first half of November, with wholesale volumes down almost as much and no sign of recovery. For a supplier with large Chinese automotive volumes, that weakness weighs on bearing and drivetrain orders.",
+    "Pareto kept its Buy rating on SKF with a target of 315 kronor ahead of the Vertevo listing on 1 December. It values SKF and Vertevo together at about 320 kronor per SKF share, with Vertevo worth about 8 billion kronor. Pareto expects Vertevo's margin to be about 6% in 2028, with 1.5 billion kronor of investment in 2027 and about 500 million kronor a year of restructuring costs from 2027 to 2029.",
+    "For engineers at OEMs and suppliers, Vertevo's restructuring plan and Schaeffler's China exposure will both shape how hard these companies push on price and capacity in the next sourcing rounds."
+   ],
+   "links": [
+    {
+     "label": "finanznachrichten (UBS on Schaeffler)",
+     "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70177346-ubs-stuft-schaeffler-auf-neutral-322.htm"
+    },
+    {
+     "label": "ad-hoc-news (Pareto on SKF)",
+     "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-gets-pareto-support-ahead-of-vertevo-spin-off/70535285"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "15–16 Nov",
+   "headline": "Two bearing-diagnosis papers fuse motor current with vibration and adapt to new operating conditions",
+   "why": "Both target a real problem in EV drives: diagnosing bearings that run across many speeds and loads, with sensors already in the motor.",
+   "source": "Processes (MDPI) · Machines (MDPI)",
+   "body": [
+    "A peer-reviewed paper in Processes from Xinjiang University combines vibration and motor-current signals in a two-branch neural network, then links the predicted fault to a knowledge graph of causes and maintenance actions. On a public bearing dataset it reports 98.4% overall accuracy and 100% recognition of combined inner and outer ring faults. Fusing both signals beat either one alone.",
+    "A second peer-reviewed paper, in Machines from Anhui University of Science and Technology, tackles the change in operating conditions. It mixes wavelet-based deep features with seven classic statistics and adjusts the model so a diagnoser trained at one speed and load still works at another, using only confident predictions on the new data. It reports average accuracies of 98.7% and 99.5% across six transfer tasks on the Paderborn and HUST datasets.",
+    "Both were tested only on lab benchmark data, so these are incremental steps, not field-proven tools. Still, current-based sensing suits EV motors, where current is already measured, and the knowledge-graph step moves toward diagnosis that explains itself to maintenance staff."
+   ],
+   "links": [
+    {
+     "label": "Processes – knowledge graph and multimodal fusion",
+     "url": "https://www.mdpi.com/2227-9717/14/22/3681"
+    },
+    {
+     "label": "Machines – conditional subdomain adaptation",
+     "url": "https://www.mdpi.com/2075-1702/14/11/1352"
+    }
+   ]
   }
  ],
  "watch": [
   {
-   "title": "EU–UK summit today",
-   "text": "Leaders meet on Friday with EV rules of origin due to tighten on 1 January 2027. Carmakers want another delay to avoid 10% tariffs.",
+   "title": "EU–UK summit and rules of origin",
+   "text": "Leaders meet in Brussels on Friday. Carmakers want stricter battery and EV origin rules, due in January 2027, delayed to avoid 10% tariffs on most cross-Channel EV trade.",
    "link": {
-    "label": "electrive",
-    "url": "https://electrive.com/2026/11/12/eu-and-uk-could-delay-mutual-ev-tariffs-once-more"
+    "label": "The Star (Xinhua)",
+    "url": "https://www.thestar.com.my/news/world/2026/11/18/uk-eu-auto-industry-associations-call-for-removing-trade-barriers"
    }
   },
   {
-   "title": "SKF Vertevo listing on 1 December",
-   "text": "SKF's automotive spin-off is expected to start trading on Nasdaq Stockholm on 1 December, two weeks after its capital markets day.",
+   "title": "VW wage talks open on 24 November",
+   "text": "The first round in Emden will show whether the pay-freeze demand holds. IG Metall has threatened strikes from January.",
    "link": {
-    "label": "Börskollen",
-    "url": "https://www.borskollen.se/pressmeddelanden/skf-vertevo-capital-markets-day-to-be-held-on-17-november-2026"
+    "label": "Reuters via WBOW",
+    "url": "https://1027wbow.com/2026/11/19/volkswagen-demands-pay-freeze-flexible-hours-in-looming-showdown-with-union/"
    }
   },
   {
-   "title": "IG Metall 24-hour strikes",
-   "text": "The union has cleared 24-hour warning strikes across the German metal and electrical industry, which affects carmakers and suppliers such as Schaeffler and Bosch.",
+   "title": "Vertevo listing on 1 December",
+   "text": "SKF's automotive bearings business starts trading on its own. The first price will show how investors value its restructuring plan.",
    "link": {
-    "label": "IG Metall",
-    "url": "https://www.igmetall.de/en/presse/pressemitteilungen/2026/ig-metall-vorstand-beschliesst-24-stunden-warnstreiks-in-der-metall-und-elektroindustrie"
+    "label": "ad-hoc-news",
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-gets-pareto-support-ahead-of-vertevo-spin-off/70535285"
    }
   }
  ],
  "sources": [
   {
-   "label": "CNBC – Anthropic IPO live updates: ANT stock price and Nasdaq debut (19 Nov)",
-   "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ant-live-updates.html"
+   "label": "Stock Titan – Anthropic's shares start trading 34% above the IPO price and close 17% higher (19 Nov)",
+   "url": "https://www.stocktitan.net/articles/anthropic-ipo-live-ant-first-trading-day-2026"
   },
   {
-   "label": "Benzinga – Anthropic stock opens at $111.50 in record-breaking Nasdaq debut (19 Nov)",
-   "url": "https://www.benzinga.com/markets/tech/26/11/63442044/anthropic-stock-opens-at-111-50-in-record-breaking-nasdaq-debut"
+   "label": "FourWeekMBA – Anthropic's shares start trading 34% above the IPO price and close 17% higher (19 Nov)",
+   "url": "https://fourweekmba.com/ai-anthropics-ipo-day-by-day-pricing-18-nov-trading-19-nov/"
   },
   {
-   "label": "Ford – Ford is in the battery business now (19 Nov)",
-   "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/ford-is-in-the-battery-business-now"
+   "label": "Transport + Energy – Europe's electric car sales pass 2.3 million for the year as October jumps 61% (19 Nov)",
+   "url": "https://transportandenergy.com/2026/11/19/europe-electric-vehicle-market-passes-two-million-sales-for-2026/"
   },
   {
-   "label": "electrive – Ford delivers first LFP batteries for Fathom prototypes (19 Nov)",
-   "url": "https://www.electrive.com/2026/11/19/ford-delivers-first-lfp-batteries-for-test-fitting-in-fathom-prototypes/"
+   "label": "Reuters via WBOW – Volkswagen asks for a two-year pay freeze as IG Metall calls full-day strikes at BMW, Audi and Porsche (19 Nov)",
+   "url": "https://1027wbow.com/2026/11/19/volkswagen-demands-pay-freeze-flexible-hours-in-looming-showdown-with-union/"
   },
   {
-   "label": "Brussels Signal – European Commission confirms AI-driven cyberattack (19 Nov)",
-   "url": "https://brusselssignal.eu/2026/11/european-commission-confirms-ai-driven-cyberattack-weeks-after-detecting-it/"
+   "label": "onvista (Reuters) – Volkswagen asks for a two-year pay freeze as IG Metall calls full-day strikes at BMW, Audi and Porsche (19 Nov)",
+   "url": "https://onvista.de/news/2026/11-19-ig-metall-ruft-zu-ganztaegigen-warnstreiks-auf-audi-und-bmw-betroffen-0-20-26578371"
   },
   {
-   "label": "Deutsche Telekom – Deutsche Telekom advances sovereign AI in Germany (19 Nov)",
-   "url": "https://www.telekom.com/en/newsroom/latest-updates/media-information/2026/11/deutsche-telekom-advances-sovereign-ai-in-germany"
+   "label": "Carup – Volvo Cars' production cuts hit seat maker Adient, with about 100 layoffs in Gothenburg (19 Nov)",
+   "url": "https://carup.se/volvos-kris-slar-mot-underleverantor-100-varslas-i-dag/"
   },
   {
-   "label": "TechCrunch – More banks say customers using AI agents are on their own (18 Nov)",
-   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/"
+   "label": "Volvo Car UK – Volvo Cars' production cuts hit seat maker Adient, with about 100 layoffs in Gothenburg (19 Nov)",
+   "url": "https://www.volvocars.com/uk/media/press-releases/299600FDF8225D6A/"
   },
   {
-   "label": "Dassault Systèmes – 2026 Capital Markets Day (17 Nov)",
-   "url": "https://www.globenewswire.com/news-release/2026/11/17/3404259/0/en/dassault-syst%C3%A8mes-2026-capital-markets-day-a-new-industrial-era-a-new-growth-cycle-targeting-double-digit-revenue-and-eps-growth-in-2029.html"
-  },
-  {
-   "label": "Placera – Dassault Systèmes aims for double-digit growth in 2029 (17 Nov)",
-   "url": "https://www.placera.se/telegram/dassault-aviation-dassault-systemes-siktar-pa-tvasiffrig-tillvaxt-2029-omsattning-over-8-miljarder-euro-20261117"
-  },
-  {
-   "label": "Autocar Professional – Vector unveils cloud-based engineering platform Vector FLOW (17 Nov)",
-   "url": "https://www.autocarpro.in/news/vector-unveils-cloud-based-engineering-platform-vector-flow-at-stuttgart-event-135988"
-  },
-  {
-   "label": "electrive – BMW iX5 enters series production (19 Nov)",
+   "label": "electrive – BMW iX5 – BMW starts building the iX5 in South Carolina as AESC passes 10 million 46120 cells (19 Nov)",
    "url": "https://www.electrive.com/2026/11/19/bmw-ix5-enters-series-production/"
   },
   {
-   "label": "electrive – Envision AESC passes production milestone for 46120 cells (19 Nov)",
+   "label": "electrive – AESC – BMW starts building the iX5 in South Carolina as AESC passes 10 million 46120 cells (19 Nov)",
    "url": "https://www.electrive.com/2026/11/19/envision-aesc-surpasses-production-volume-milestone-for-46120-battery-cells/"
   },
   {
-   "label": "CnEVPost – Momenta, Uber launch supervised robotaxi pilot in Germany (18 Nov)",
-   "url": "https://cnevpost.com/2026/11/18/momenta-uber-launch-robotaxi-pilot-germany/"
+   "label": "electrive – Ford's Michigan plant ships its first LFP cells for test fitting in Fathom prototypes (19 Nov)",
+   "url": "https://www.electrive.com/2026/11/19/ford-delivers-first-lfp-batteries-for-test-fitting-in-fathom-prototypes/"
   },
   {
-   "label": "electrive – Sany eTrucks targeting Europe with 500 km ranges (19 Nov)",
+   "label": "electrive – Sany targets Europe's electric truck market with 500 km range and prices 20% below local makers (19 Nov)",
    "url": "https://www.electrive.com/2026/11/19/sany-etrucks-targeting-europe-with-500-km-ranges-and-competitive-pricing/"
   },
   {
-   "label": "electrive – EU and UK could delay mutual EV tariffs once more (12 Nov)",
-   "url": "https://electrive.com/2026/11/12/eu-and-uk-could-delay-mutual-ev-tariffs-once-more"
+   "label": "Dataconomy – OpenAI launches ChatGPT for Accounting, with plugins for QuickBooks, Xero and NetSuite (19 Nov)",
+   "url": "https://dataconomy.com/2026/11/19/openai-launches-chatgpt-for-accounting-with-finance/"
   },
   {
-   "label": "IG Metall – Executive board approves 24-hour warning strikes (Nov)",
-   "url": "https://www.igmetall.de/en/presse/pressemitteilungen/2026/ig-metall-vorstand-beschliesst-24-stunden-warnstreiks-in-der-metall-und-elektroindustrie"
+   "label": "FourWeekMBA – OpenAI launches ChatGPT for Accounting, with plugins for QuickBooks, Xero and NetSuite (19 Nov)",
+   "url": "https://fourweekmba.com/ai-chatgpt-for-accounting-lists-8-partner-plugins-sales-had-33/"
+  },
+  {
+   "label": "Algoryx press release (PDF) – Swedish physics-simulation firm Algoryx gets Wallenberg Investments as a strategic owner (19 Nov)",
+   "url": "https://www.algoryx.se/mainpage/wp-content/uploads/2026/11/Algoryx_Pressmeddelande_Wallenberg_Investments_ENG.pdf"
+  },
+  {
+   "label": "Siemens press release – Siemens ends forced project upgrades in TIA Portal V21.1 and links it to its AI engineering agent (19 Nov)",
+   "url": "https://press.siemens.com/global/en/pressrelease/continuous-access-new-software-siemens-ends-project-upgrades-tia-portal-within-v21"
+  },
+  {
+   "label": "EuropaWire – Deutsche Telekom's Industrial AI Cloud will train microagi's robot skills from simulated factory work (19 Nov)",
+   "url": "https://news.europawire.eu/deutsche-telekoms-industrial-ai-cloud-to-power-microagis-robot-skills-training-for-european-manufacturers/eu-press-release/2026/11/19/12/36/06/188617/"
+  },
+  {
+   "label": "finanznachrichten (UBS on Schaeffler) – Analysts weigh Schaeffler's China exposure and SKF's value ahead of the Vertevo listing (19 Nov)",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70177346-ubs-stuft-schaeffler-auf-neutral-322.htm"
+  },
+  {
+   "label": "ad-hoc-news (Pareto on SKF) – Analysts weigh Schaeffler's China exposure and SKF's value ahead of the Vertevo listing (19 Nov)",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-gets-pareto-support-ahead-of-vertevo-spin-off/70535285"
+  },
+  {
+   "label": "Processes – knowledge graph and multimodal fusion – Two bearing-diagnosis papers fuse motor current with vibration and adapt to new operating conditions (15–16 Nov)",
+   "url": "https://www.mdpi.com/2227-9717/14/22/3681"
+  },
+  {
+   "label": "Machines – conditional subdomain adaptation – Two bearing-diagnosis papers fuse motor current with vibration and adapt to new operating conditions (15–16 Nov)",
+   "url": "https://www.mdpi.com/2075-1702/14/11/1352"
+  },
+  {
+   "label": "The Star (Xinhua) – UK, EU auto industry associations call for removing trade barriers (18 Nov)",
+   "url": "https://www.thestar.com.my/news/world/2026/11/18/uk-eu-auto-industry-associations-call-for-removing-trade-barriers"
   }
  ],
- "note": "All summaries are paraphrased. Company figures and claims are as reported by the companies or the cited outlets."
+ "note": "All summaries are paraphrased. Benchmark and accuracy figures are vendor- or author-reported. Share prices are from market coverage, not official exchange records."
 }
