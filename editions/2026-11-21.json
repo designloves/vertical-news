@@ -1,307 +1,359 @@
 {
-  "date": "2026-11-21",
-  "weekday": "Saturday",
-  "covers": "Thu 19 – Fri 20 Nov",
-  "glance": "NSK and NTN signed the binding deal to merge into NSK-NTN Ltd., setting the share ratio, the leadership and an October 2027 start for what would be one of the world's largest bearing groups. In Brussels, the European Commission is still dealing with a cyberattack that used a freely available AI hacking tool, while Apple and Google both moved toward agents that operate the Mac for you. In automotive, US lawmakers are close to writing a ban on Chinese-linked cars into law, and new silicon carbide chips and EU battery passports point to the next round of EV engineering work.",
-  "stories": [
+ "date": "2026-11-21",
+ "weekday": "Saturday",
+ "covers": "Fri 20 Nov",
+ "glance": "NSK and NTN signed the binding deal to merge into NSK-NTN Ltd. in October 2027, and an Anthropic mathematician claimed a Claude-assisted proof of the Riemann Hypothesis that has yet to be checked. Intuit sold Mailchimp for a third of what it paid, ChatGPT and Google Search both moved further toward agent-style interfaces, and Anthropic's shares fell on their second day. In automotive, Germany saw its first full-day metal strikes in eight years, the US moved closer to a legal ban on Chinese-linked cars, and two new papers show how to make lubrication and clutch simulations faster and better correlated.",
+ "brief": "This is Vertical News for Saturday the twenty-first of November. Japan's NSK and NTN signed their binding merger agreement on Friday. They will form a holding company called NSK-NTN, listing in Tokyo on the first of October 2027, and they are aiming for fifty to sixty billion yen in savings. Carmakers buying from both should expect fewer product lines. In AI, Anthropic mathematician Levent Alpöge claimed a proof of the Riemann Hypothesis, worked out with Claude over forty-one days and released as machine-checkable code. Hours later, a Stanford researcher posted a rival proof made without AI. Neither has been peer reviewed, so treat both as unconfirmed. Intuit is selling Mailchimp to Bending Spoons for three point six eight billion dollars, about a third of what it paid, saying AI inside QuickBooks will do the job. OpenAI is testing a ChatGPT app built around personal agents, though not in Europe, and Google's homepage now has a sidebar of AI Mode threads. Anthropic's shares fell eight and a half percent on their second day. In Germany, a hundred and fifty-one thousand metal workers held the first full-day strikes in eight years. US lawmakers are close to a law banning Chinese-linked cars, with a likely exemption for Mercedes. Cheap EU-built electric cars from Volkswagen and Renault reached UK order books, but the EU–UK summit did not fix rules of origin. Ford Trucks is preparing for the battery passport, and GM will score suppliers on automation. Finally, two new papers speed up lubrication simulation and correlate clutch models with test data.",
+ "stories": [
+  {
+   "cat": "bear",
+   "top": true,
+   "date": "20 Nov",
+   "headline": "NSK and NTN sign the definitive deal to merge into NSK-NTN Ltd. from 1 October 2027",
+   "why": "Two of the world's largest bearing makers become one owner of hub, transmission and EV motor bearings, which changes sourcing for OEMs and Tier 1s.",
+   "source": "NTN / NSK (SEC Form 425) · Adnkronos",
+   "body": [
+    "NSK and NTN signed a binding business integration agreement on Friday, approved by both boards the same day, six months after their May memorandum of understanding. A joint share transfer will create a holding company, NSK-NTN Ltd., that owns both. Each NSK share becomes one share in the new company and each NTN share becomes 0.353, with about 709 million new shares issued. Shareholders vote on 25 June 2027, both companies delist on 29 September and the holding company lists in Tokyo on 1 October 2027. Foreign competition approvals are still needed.",
+    "NSK's Akitoshi Ichii will be CEO and NTN's Eiichi Ukai co-CEO, with an NTN-nominated non-executive chair of a ten-member board and head offices in both Tokyo and Osaka. The target is 50–60 billion yen of operating profit synergies by the year to March 2031: about 40% from purchasing and logistics, 30% from production sites, 20% from admin and R&D and 10% from sales. Combined sales last financial year were about 1.74 trillion yen.",
+    "European car and truck makers that dual-source between the two should expect product-line and plant consolidation and new commercial terms. Together with SKF's Vertevo spin-off on 1 December, the automotive bearing supplier map is being redrawn within a year."
+   ],
+   "links": [
     {
-      "cat": "bear",
-      "top": true,
-      "date": "20 Nov",
-      "headline": "NSK and NTN sign the definitive merger deal: NSK-NTN Ltd. to start on 1 October 2027",
-      "why": "Two of the six biggest bearing makers become one, changing the supplier map for OEMs, Tier 1s and industrial buyers.",
-      "source": "NTN / NSK (SEC Form 425 filings) · TipRanks",
-      "body": [
-        "NSK and NTN have signed a binding business integration agreement, six months after their May memorandum of understanding. The two Japanese bearing makers will form a joint holding company, NSK-NTN Ltd., through a share transfer. Each NSK share becomes one share in the new company, and each NTN share becomes 0.353 shares. Shareholders vote on 25 June 2027, both companies delist on 29 September 2027, and the holding company is due to list on the Tokyo Stock Exchange Prime Market on 1 October 2027.",
-        "NSK's Akitoshi Ichii will be CEO and NTN's Eiichi Ukai co-CEO, with NSK's Keita Suzuki as CFO and an NTN-nominated non-executive chair. The head office will be in Tokyo, with a second head office in Osaka. The companies target 50–60 billion yen in operating profit synergies by the year to March 2031, mostly from purchasing and logistics (about 40%) and shared production sites (about 30%). Combined net sales were roughly 1.7 trillion yen last financial year.",
-        "For European car and truck makers, the deal puts hub bearings, drive shafts, transmission and EV motor bearings under one owner. Buyers who dual-source from NSK and NTN should expect product line and plant consolidation, and possibly new terms. Regulatory approvals are still needed."
-      ],
-      "links": [
-        {
-          "label": "NTN Form 425 filing",
-          "url": "https://www.sec.gov/Archives/edgar/data/0002125802/000119312526469226/d462217d425.htm"
-        },
-        {
-          "label": "TipRanks",
-          "url": "https://www.tipranks.com/news/company-announcements/nsk-ntn-sign-definitive-agreement-for-joint-holding-company"
-        }
-      ]
+     "label": "NTN Form 425 filing",
+     "url": "https://www.sec.gov/Archives/edgar/data/0002125802/000119312526469226/d462217d425.htm"
     },
     {
-      "cat": "gen",
-      "top": true,
-      "date": "19 Nov",
-      "headline": "European Commission fights a cyberattack carried out with an AI hacking tool",
-      "why": "It shows agent-run attacks are hitting major European institutions now, not in some future threat scenario, so every IT and product team needs to plan for them.",
-      "source": "The Register · Politico",
-      "body": [
-        "Attackers used ARTEX, a publicly available AI-powered penetration testing framework, against the European Commission's internal IT systems, The Register reported, following Politico. Disruption has lasted more than ten days. Sysper, the staff system for payslips, timesheets and leave, went down, as did the MyPMO medical reimbursement system and some translation services. Salaries were still paid. Sysper came back earlier in the week and then failed again on Wednesday. Tech commissioner Henna Virkkunen briefed the College of Commissioners.",
-        "CERT-EU had warned on 5 November about suspected ARTEX-assisted attacks. The tool's developer took down its GitHub repository in October after reports of misuse, but forks are still circulating. The FBI recently reported more than 1,600 ARTEX consoles exposed on the internet, and in some cases attackers went from first reconnaissance to privileged access in under three hours. The Commission has not said whether staff data was taken.",
-        "The case comes as Brussels debates how strictly to apply the AI Act. For product and engineering organisations, it is a reminder that security work now has to assume automated attackers who move far faster than a human red team."
-      ],
-      "links": [
-        {
-          "label": "The Register",
-          "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
-        }
-      ]
-    },
-    {
-      "cat": "ux",
-      "top": false,
-      "date": "19 Nov",
-      "headline": "Google gives Gemini control of the Mac, and Apple is reportedly building its own computer-use agent",
-      "why": "Desktop apps are becoming something agents operate, so designers need to think about interfaces a machine can read and navigate as well as a person.",
-      "source": "TechCrunch · Bloomberg",
-      "body": [
-        "Google added computer use to the Gemini desktop app for macOS. Given an instruction, the agent fills in forms, repeats tasks across batches of files, sorts folders or builds slide decks from local files. It runs in a live preview inside the chat, so the user's own screen and cursor stay free. Users can pause or stop it and approve actions first. It is available in English in the US for Google AI Plus, Pro and Ultra subscribers.",
-        "On the same day, Bloomberg spotted an Apple job listing for a senior engineering manager to lead an AI agent that can use a computer: browse, work across apps, run commands and write and debug code. Bloomberg says Apple has considered launching as early as the end of next year, but the work is still at an early stage. Meanwhile macOS 27.3 will warn users before they give third-party agents full access.",
-        "For product teams, this means apps will increasingly be used by agents acting for a person. Clear labels, predictable flows and confirmation steps will matter for automation as much as they do for accessibility."
-      ],
-      "links": [
-        {
-          "label": "TechCrunch – Gemini on Mac",
-          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
-        },
-        {
-          "label": "TechCrunch – Apple agent",
-          "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
-        }
-      ]
-    },
-    {
-      "cat": "ux",
-      "top": false,
-      "date": "18–19 Nov",
-      "headline": "Meta's Muse agent reportedly showed staff other people's messages and bank balances",
-      "why": "A personal agent with broad access is only as trustworthy as its data isolation, and this kind of failure is very hard to design around after the fact.",
-      "source": "Reuters · TechCrunch",
-      "body": [
-        "A Reuters investigation based on internal Meta posts says employees testing Meta's Muse agent saw information that was not theirs. That included childcare requests and product orders they never made, and other people's bank balances. In one case, a chat about weather and tides returned an unprompted list of Capital One and Charles Schwab balances. Another employee got a reminder to reply to a Signal message, even though she said she had not given Muse access to other apps.",
-        "Meta said employee testing is central to development and that staff run different Muse versions than the public, often with features that are not yet released. Muse launched in September and has passed 10 million downloads. Meta is also preparing Muse Charm, a portable device reported at about $300.",
-        "For anyone designing AI assistants, the lesson is that memory, context and permissions need visible boundaries. Users should be able to see what the agent knows about them, where it came from, and what it cannot touch."
-      ],
-      "links": [
-        {
-          "label": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
-        }
-      ]
-    },
-    {
-      "cat": "pm",
-      "top": false,
-      "date": "19 Nov",
-      "headline": "OpenAI's 'Performance Factory' uses Codex agents to find and fix ChatGPT slowdowns",
-      "why": "It is a detailed, real-world example of agents doing engineering operations, with honest numbers on accuracy and where humans still decide.",
-      "source": "OpenAI",
-      "body": [
-        "OpenAI described an internal system that runs Codex agents against performance regressions in ChatGPT. An alert opens a task. An agent searches metrics, logs, traces and code for the root cause, a separate adversarial Codex session challenges the diagnosis, and the agent then opens a pull request with a fix. After deployment, another agent checks whether performance is back to baseline.",
-        "In just over three months the system ran more than 1,700 investigations, about 17 a day, and found the root cause in over 600. In a manual review of 100 diagnoses, 70% were judged accurate and 30% needed more work. Engineers still write the workflows, review and merge every fix, and make the calls on architectural trade-offs. OpenAI says human review is now the bottleneck.",
-        "For product and engineering leaders, the useful parts are the structure: defined states, steps that require a human, a second agent acting as a critic, and checks after deployment. The same pattern could be applied to test triage or simulation post-processing."
-      ],
-      "links": [
-        {
-          "label": "OpenAI",
-          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"
-        }
-      ]
-    },
-    {
-      "cat": "eng",
-      "top": false,
-      "date": "19 Nov",
-      "headline": "Google opens its Genie 4 world model to developers for interactive 3D scenes and robot training",
-      "why": "Generated, controllable environments are becoming an API, which could make it cheap to try out scenarios for spatial design, HMI concepts and agent testing.",
-      "source": "Google",
-      "body": [
-        "Google made Genie 4, launched a day earlier, available through the Gemini API and Google AI Studio. From a text prompt, a reference image or both, it generates continuous interactive worlds at 720p and 24 frames per second, with synchronised sound. Users move through them with the keyboard and can change weather, lighting, objects or events with text prompts while it runs. Google says Gemini reasoning keeps the world consistent over time, and every output carries a SynthID watermark.",
-        "Google lists prototyping interactive experiences, visualising spatial design ideas and training robots and AI agents as uses. The announcement does not give limits on session length or quotas.",
-        "Genie is not a physics solver and should not replace validated simulation. But for early concept work, such as an in-car experience, a factory walkthrough or edge cases for a perception agent, a promptable world could be a quick first step before CAE or a driving simulator."
-      ],
-      "links": [
-        {
-          "label": "Google blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "US Congress nears a law banning Chinese-linked cars, with a likely way out for Mercedes-Benz",
-      "why": "Making the connected-vehicle ban law would lock in the US split for any carmaker or supplier with Chinese owners, including Swedish brands tied to Geely.",
-      "source": "Yahoo Finance · Bloomberg",
-      "body": [
-        "Bloomberg reports that lawmakers are close to a lame-duck deal that would write the ban on Chinese-made and Chinese-linked cars into law, with backers aiming to get it to President Trump before January. An earlier bill from Senators Bernie Moreno and Elissa Slotkin would bar connected-car sales by any carmaker with more than 15% Chinese ownership. Revised wording shown to industry on Wednesday would allow sales where Chinese stakes are passive, with no voting power.",
-        "That matters for Mercedes-Benz. BAIC holds 9.98% of the voting rights and Geely founder Li Shufu holds 9.69%, which together pass the threshold. Senator Katie Britt of Alabama expects Mercedes and its Alabama plant to be protected. Geely-controlled Polestar has already stopped US sales after it did not get a Commerce Department waiver, even for its US-built Polestar 3.",
-        "Commerce rules already block Chinese-linked connected cars from model year 2027. A law would make that much harder to reverse and would fix compliance requirements for software and connectivity suppliers."
-      ],
-      "links": [
-        {
-          "label": "Yahoo Finance",
-          "url": "https://finance.yahoo.com/markets/stocks/article/congress-closes-in-on-chinese-car-ban-with-a-possible-way-out-for-mercedes-160342747.html"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "Onsemi launches EliteSiC M4, a fourth-generation silicon carbide platform for EV inverters",
-      "why": "Lower switching and conduction losses in the inverter mean more range or a smaller battery, and Schaeffler is already backing the platform.",
-      "source": "electrive",
-      "body": [
-        "Onsemi has launched its fourth generation of silicon carbide power chips, a trench design. The company claims up to 30% higher power density and up to 35% lower losses than the previous generation. Specific on-resistance falls by 20–50%, and switching losses improve by 67% in hard-switching and 50% in soft-switching use. A 750 V bare die for traction inverters is available now. Versions up to 1,200 V follow from 2027, and Onsemi plans to qualify the parts for 185°C and above.",
-        "The chips fit existing package types, including top-side-cooled SMD packages and power modules. Schaeffler's eMotor Controls unit publicly supported the focus on efficiency and power density.",
-        "These are chip-level figures and do not translate directly into drivetrain efficiency. Teams working on e-axles and inverters will want to see new loss maps, thermal models and lifetime data before updating system simulations. Higher junction temperatures will also put more stress on module packaging, cooling design and nearby bearings and seals."
-      ],
-      "links": [
-        {
-          "label": "electrive",
-          "url": "https://www.electrive.com/2026/11/20/onsemi-introduces-new-sic-platform-elitesic-m4/"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "Ford Trucks works with Circulor to get electric truck batteries ready for the EU battery passport",
-      "why": "From 18 February 2027 every EV traction battery sold in the EU needs a digital passport, and supply chain data is the hard part.",
-      "source": "electrive",
-      "body": [
-        "Ford Otosan, the Ford and Koç joint venture behind Ford Trucks, has hired supply chain traceability firm Circulor to prepare the batteries in its F-Line E electric trucks for the EU Battery Regulation. The work starts by mapping suppliers, production sites and material origins. Higher-risk materials may need extra evidence and independent audits. Each battery will have a QR code linking to data on its specification, performance, durability, sustainability and recycling.",
-        "The F-Line E comes as a 19-tonne version with a 294 kWh NMC battery and a range of up to 250 km, and a 26-tonne version with 392 kWh and up to 300 km. Circulor previously built the battery passport for the Volvo EX90 and says it now tracks materials for more than 1.4 million vehicles.",
-        "With under three months to the deadline, carmakers and suppliers need to have the data model, supplier onboarding and audit trail in place. This is product data work as much as a compliance exercise."
-      ],
-      "links": [
-        {
-          "label": "electrive",
-          "url": "https://www.electrive.com/2026/11/20/ford-trucks-partners-with-circulor-for-battery-passport/"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "Cheap EU-built electric cars reach the UK: VW ID. Cross from £26,985 and Renault Twingo from £14,745",
-      "why": "Both cars are built in the EU and sold in the UK, so they show what is at stake in the 2027 rules-of-origin decision.",
-      "source": "electrive",
-      "body": [
-        "Volkswagen opened UK orders for the ID. Cross, a 4.15-metre compact SUV on the MEB+ platform built in Navarra, Spain. The 52 kWh versions with 155 kW cost £30,260 and £33,675 and qualify for a £1,500 grant, with up to 264 miles of WLTP range. 37 kWh versions from £26,985 follow in January 2027. Renault priced the Slovenian-built Twingo E-Tech from £14,745 after the full £3,750 Electric Car Grant. It has a 27.5 kWh LFP battery, a 60 kW motor and a target range of 163 miles, with orders opening in early 2027.",
-        "Both launched on the day of the EU–UK summit. ACEA estimates that 82% of the 520,000 electric cars and vans the EU is expected to send to Britain in 2027 would fail the stricter rules of origin due on 1 January and face a 10% tariff.",
-        "For product strategists, small LFP cars at combustion-car prices are where European volume is heading. Their business cases depend on trade terms that are still not settled."
-      ],
-      "links": [
-        {
-          "label": "electrive – VW ID. Cross",
-          "url": "https://www.electrive.com/2026/11/20/volkswagen-id-cross-opens-for-uk-orders-from-26985/"
-        },
-        {
-          "label": "electrive – Twingo",
-          "url": "https://www.electrive.com/2026/11/20/renault-twingo-e-tech-uk-pricing-revealed/"
-        },
-        {
-          "label": "ACEA",
-          "url": "https://www.acea.auto/press-release/europes-automakers-urge-united-action-to-avert-punishing-trade-threats-ahead-of-eu-uk-summit/"
-        }
-      ]
+     "label": "Adnkronos",
+     "url": "https://english.adnkronos.com/?p=20174"
     }
-  ],
-  "watch": [
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "20 Nov",
+   "headline": "Anthropic mathematician claims a Claude-assisted proof of the Riemann Hypothesis, and a rival human proof appears hours later",
+   "why": "If it holds, it would be the strongest sign yet that AI plus formal verification can solve problems experts could not, but nothing is confirmed.",
+   "source": "TechCrunch · OfficeChai · DataCamp",
+   "body": [
+    "Levent Alpöge, a mathematician at Anthropic, posted a short note on Friday claiming a proof of the Riemann Hypothesis and its generalised form, open since 1859. He says he worked it out with Claude over 41 days, from 6 October to 16 November. The proof was released only as Lean code, a formal language that a computer can check, split into a 14-part archive. Alpöge says a full natural-language version would run past 250,000 pages and has promised a readable explanation. He said he chose the timing himself, a day after Anthropic's stock market debut, and rejected links to the share price.",
+    "Hours later, Stanford's Ravi Vakil, president of the American Mathematical Society, posted a draft proof of the generalised hypothesis by Stanford postdoc Alessandro Masullo, which he described as made without AI. Early checks say Alpöge's Lean statement does match the hypothesis, but there is no peer review, and Anthropic and the Clay Institute had not commented.",
+    "Treat this as unconfirmed. For engineers, the interesting part is the method: machine-checked proofs let people trust output they cannot read line by line, the same idea behind formal verification in chip and software sign-off."
+   ],
+   "links": [
     {
-      "title": "EU–UK deal, but EV rules still open",
-      "text": "Friday's summit agreed deals on food trade, linking emissions trading schemes and youth mobility. Early reports did not mention a fix for the EV rules of origin that tighten on 1 January, and talks on a delay are expected to follow.",
-      "link": {
-        "label": "Council of the EU – joint statement",
-        "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/joint-statement-eu-united-kingdom-summit-20-november-2026/"
-      }
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
     },
     {
-      "title": "SKF Vertevo record date",
-      "text": "The last day to trade SKF shares with the right to Vertevo shares is 25 November, the record date is 27 November, and trading is due to start on 1 December.",
-      "link": {
-        "label": "IndexBox",
-        "url": "https://www.indexbox.io/blog/skf-sets-27-november-2026-record-date-for-skf-vertevo-share-distribution/"
-      }
+     "label": "OfficeChai",
+     "url": "https://officechai.com/ai/hours-after-alpoges-ai-assisted-riemann-hypothesis-proof-ams-president-ravi-vakil-rushes-out-a-rival-all-human-proof-by-alessandro-masullo/"
     },
     {
-      "title": "XPeng AI Day, 25 November",
-      "text": "XPeng will show physical AI, its IRON humanoid robot and new mobility technology in Guangzhou on Wednesday.",
-      "link": {
-        "label": "Archyde",
-        "url": "https://archyde.com/xpeng-ai-day-2026-iron-humanoid-robot-physical-ai-debut-nov-25"
-      }
+     "label": "DataCamp",
+     "url": "https://www.datacamp.com/blog/ai-solved-riemann-hypothesis"
     }
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "19–20 Nov",
+   "headline": "Intuit sells Mailchimp to Bending Spoons for $3.68 billion, a third of what it paid, betting on AI inside QuickBooks",
+   "why": "A big SaaS product is being replaced by AI features in a suite, and AI search is hurting how products find customers.",
+   "source": "Bending Spoons (SEC filing) · Fortune · StockAnalysis",
+   "body": [
+    "Milan-based Bending Spoons, owner of Evernote, Vimeo, Eventbrite and Airtable, is buying Mailchimp from Intuit at an enterprise value of 3.68 billion dollars. Intuit gets 3.31 billion in cash and puts 368 million into new Bending Spoons shares. The deal was announced after the US market closed on Thursday and is expected to close in early 2027. Intuit paid about 12 billion dollars for Mailchimp in 2021; Mailchimp revenue fell 1% to 313 million dollars last quarter.",
+    "Chief executive Sasan Goodarzi said AI built into QuickBooks can serve small firms' lead-to-cash needs better than owning a separate marketing tool. CFO Sandeep Aujla said people now turn to AI for the first answer, which weakens how Credit Karma gets customers from search. Intuit cut its revenue guidance for fiscal 2027 and its shares fell about 10–13% after hours.",
+    "For product strategists, two lessons stand out: point products are being folded into AI features of larger platforms, and acquisition through search is no longer reliable when users ask an assistant first."
+   ],
+   "links": [
     {
-      "label": "SEC/NTN – Form 425: NSK and NTN business integration agreement (20 Nov)",
-      "url": "https://www.sec.gov/Archives/edgar/data/0002125802/000119312526469226/d462217d425.htm"
+     "label": "Bending Spoons press release (SEC)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0002004711/000200471126000026/bsp_ex99-1.htm"
     },
     {
-      "label": "TipRanks – NSK, NTN sign definitive agreement for joint holding company (20 Nov)",
-      "url": "https://www.tipranks.com/news/company-announcements/nsk-ntn-sign-definitive-agreement-for-joint-holding-company"
-    },
-    {
-      "label": "The Register – European Commission scrambles to contain AI-assisted cyberattack (19 Nov)",
-      "url": "https://www.theregister.com/cyber-crime/2026/11/19/european-commission-scrambles-to-contain-ai-assisted-cyberattack/5311103"
-    },
-    {
-      "label": "TechCrunch – Google gives Gemini the ability to use your Mac (19 Nov)",
-      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/"
-    },
-    {
-      "label": "TechCrunch – Apple may be developing its own AI agent that runs your Mac (19 Nov)",
-      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/"
-    },
-    {
-      "label": "TechCrunch – Meta's Muse is mixing up conversations, report says (19 Nov)",
-      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/"
-    },
-    {
-      "label": "OpenAI – How OpenAI's Performance Factory keeps ChatGPT fast (19 Nov)",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/"
-    },
-    {
-      "label": "Google – Genie 4 in the Gemini API (19 Nov)",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
-    },
-    {
-      "label": "Yahoo Finance – Congress closes in on Chinese car ban (20 Nov)",
-      "url": "https://finance.yahoo.com/markets/stocks/article/congress-closes-in-on-chinese-car-ban-with-a-possible-way-out-for-mercedes-160342747.html"
-    },
-    {
-      "label": "electrive – Onsemi introduces EliteSiC M4 (20 Nov)",
-      "url": "https://www.electrive.com/2026/11/20/onsemi-introduces-new-sic-platform-elitesic-m4/"
-    },
-    {
-      "label": "electrive – Ford Trucks partners with Circulor for battery passport (20 Nov)",
-      "url": "https://www.electrive.com/2026/11/20/ford-trucks-partners-with-circulor-for-battery-passport/"
-    },
-    {
-      "label": "electrive – Volkswagen ID. Cross opens for UK orders (20 Nov)",
-      "url": "https://www.electrive.com/2026/11/20/volkswagen-id-cross-opens-for-uk-orders-from-26985/"
-    },
-    {
-      "label": "electrive – Renault Twingo E-Tech UK pricing (20 Nov)",
-      "url": "https://www.electrive.com/2026/11/20/renault-twingo-e-tech-uk-pricing-revealed/"
-    },
-    {
-      "label": "ACEA – Automakers urge united action ahead of EU-UK summit (17 Nov)",
-      "url": "https://www.acea.auto/press-release/europes-automakers-urge-united-action-to-avert-punishing-trade-threats-ahead-of-eu-uk-summit/"
-    },
-    {
-      "label": "Council of the EU – Joint statement, EU-UK summit (20 Nov)",
-      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/11/20/joint-statement-eu-united-kingdom-summit-20-november-2026/"
-    },
-    {
-      "label": "ABC News – Key takeaways from the UK-EU summit (21 Nov)",
-      "url": "https://www.abc.net.au/news/2026-11-21/key-takeaways-from-uk-eu-summit/107406986"
+     "label": "Fortune",
+     "url": "https://fortune.com/2026/11/20/intuit-sell-mailchimp-3-68-billion-ai-reshapes-growth-strategy-cfo/"
     }
-  ],
-  "note": "All summaries are paraphrased. Benchmark and performance figures are vendor-reported."
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "19–20 Nov",
+   "headline": "OpenAI tests a redesigned ChatGPT app built around personal agents, but not in the EU or UK",
+   "why": "The chat box is turning into app-style navigation around an always-on agent, a pattern other assistants are likely to follow.",
+   "source": "Digital Trends · The Verge",
+   "body": [
+    "OpenAI has started testing a new mobile layout for ChatGPT, shown in a demo by OpenAI's Thibault Sottiaux. A bottom tab bar has three parts: Home, with a greeting and an 'Ask anything' field; a dedicated tab for the user's 'dot', an always-on personal agent marked as an early preview; and a grid of tools including Projects, Images, Scheduled, Codex, Plugins, Finance, Health and Sites. Users can press and hold a tool to pin it to the tab bar.",
+    "The design is switched on in Settings. The first wave covers adult Pro users plus a small group of Plus users, and dots are also coming to US Business Standard customers. The European Economic Area, the UK, Switzerland and South Korea are excluded for now, so most of our readers will not see it yet.",
+    "For designers, the shift is from one conversation to a home screen with a persistent agent and pinnable tools. It raises familiar questions about discoverability and how much a personal agent should surface on its own. It is a test, not a general release."
+   ],
+   "links": [
+    {
+     "label": "Digital Trends",
+     "url": "https://www.digitaltrends.com/computing/chatgpt-new-mobile-design/"
+    },
+    {
+     "label": "The Verge",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1038334/openai-is-testing-a-new-design-for-mobile-chatgpt"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "19–20 Nov",
+   "headline": "Google's desktop homepage gets a sidebar of AI Mode threads, rolling out worldwide",
+   "why": "The world's most-used search page now treats a query as an ongoing conversation, which changes how people arrive at websites and products.",
+   "source": "Talk Android · Digital Trends",
+   "body": [
+    "Google is gradually adding a collapsible left-hand sidebar to google.com on desktop, worldwide, as announced by Search vice president Robby Stein. A thin grey rail opens into a panel with options for a new thread, a list of search threads, a Notes area where users can add a Gemini notebook, and recent AI Mode conversations that reopen where they left off. The logo and search box stay in the centre.",
+    "Stein said people's questions are rarely one-off, and that the sidebar made a big difference in testing. Google has not said whether mobile will get it or whether users can turn it off. AI Mode reached one billion monthly users in May, according to Google.",
+    "Digital Trends notes that Search now looks a lot like a chatbot app. For product and marketing teams, more journeys will start and continue inside Google's AI threads rather than on a list of links, so being cited inside answers matters more than ranking alone."
+   ],
+   "links": [
+    {
+     "label": "Talk Android",
+     "url": "https://www.talkandroid.com/536008-google-homepage-ai-mode-sidebar/"
+    },
+    {
+     "label": "Digital Trends",
+     "url": "https://www.digitaltrends.com/computing/google-search-is-starting-to-look-a-lot-like-a-chatbot-app/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Anthropic shares fall 8.5% on day two as the greenshoe lifts IPO proceeds to about $93.5 billion",
+   "why": "The second day shows how quickly sentiment around AI listings can swing, with knock-on effects for AI pricing and spending.",
+   "source": "Fortune · Trending Topics · StockAnalysis",
+   "body": [
+    "After closing its first day at 97.17 dollars, Anthropic's stock fell more than 10% before the market opened on Friday, traded around 86 dollars at midday and closed at 88.91 dollars, down 8.5% and only slightly above the 83-dollar IPO price. Coverage pointed to a broad tech sell-off, turmoil at Nvidia and uncertainty around the midterms.",
+    "Underwriters exercised their full option to sell 147 million extra shares, about 12.2 billion dollars at the IPO price. That takes IPO proceeds to about 93.5 billion dollars, or roughly 119.5 billion including the earlier 26 billion private placement. The filing showed a third-quarter operating loss of 567 million dollars, partly due to about five billion dollars of compute costs. Bloomberg reports that the stock could join the Nasdaq 100 as soon as December.",
+    "For teams that build on Claude, day-to-day share moves change little. The more important thing is that Anthropic now reports publicly, so pricing, capacity and spending will be watched every quarter."
+   ],
+   "links": [
+    {
+     "label": "Fortune",
+     "url": "https://fortune.com/2026/11/20/anthropic-stock-teeters-close-to-ipo-price-in-second-day-of-trading/"
+    },
+    {
+     "label": "Trending Topics",
+     "url": "https://www.trendingtopics.eu/anthropic-shares-premarket-greenshoe/"
+    },
+    {
+     "label": "StockAnalysis",
+     "url": "https://stockanalysis.com/stocks/ant/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "IG Metall's first 24-hour strikes in eight years hit 151,000 workers at more than 100 companies",
+   "why": "Production gaps at German OEMs and suppliers are now a real risk for early 2027 planning.",
+   "source": "IG Metall · TRT World",
+   "body": [
+    "IG Metall says 151,000 employees at more than 100 companies stopped work for a full day on Friday, with some stoppages starting on Thursday night shifts. TRT World reported action at BMW and Audi plants in Bavaria, suppliers in Baden-Württemberg and shipyards in the north. About 464,000 people had already joined shorter warning strikes since the peace obligation ended on 31 October.",
+    "The third bargaining round failed earlier in November. The union wants 5% more pay over 12 months, profit-sharing and binding commitments on jobs and sites. Employers have offered a one-off payment of 1% of annual pay in July 2027, which struggling firms could withhold, and a permanent 1.3% rise from July 2028, over 26 months. The agreement covers about 3.7 million workers. No fourth round has been scheduled and more action is planned for next week.",
+    "This is the industry-wide round, separate from Volkswagen's in-house talks that start on 24 November. Suppliers, including drivetrain and bearing plants, should expect more disruption before a deal."
+   ],
+   "links": [
+    {
+     "label": "IG Metall",
+     "url": "https://www.igmetall.de/tarif/tarifrunden/metall-und-elektro/aktionen-zur-metall-tarifrunde"
+    },
+    {
+     "label": "TRT World",
+     "url": "https://www.trtworld.com/article/0978127b5d4a"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "19–20 Nov",
+   "headline": "US Congress nears a law banning Chinese-linked cars, with a likely way out for Mercedes-Benz",
+   "why": "A law would lock in the US split for any carmaker or supplier with Chinese owners, including Geely-linked Swedish brands.",
+   "source": "Yahoo Finance (Bloomberg) · CnEVPost",
+   "body": [
+    "Bloomberg reports, citing unnamed sources, that lawmakers are close to a deal in the post-election session to write a ban on Chinese-linked cars into law, and want it on President Trump's desk before January. A bill from Senators Bernie Moreno and Elissa Slotkin would bar carmakers with more than 15% Chinese ownership from selling connected cars in the US.",
+    "That would catch Mercedes-Benz, where BAIC holds 9.98% and Geely founder Li Shufu 9.69%. Revised wording shown to carmakers on Wednesday would allow passive stakes without voting rights, and Alabama Senator Katie Britt expects Mercedes to be protected. Geely-controlled Polestar has already stopped US sales after it did not receive a Commerce Department waiver, even for the US-built Polestar 3.",
+    "Commerce rules already block Chinese-linked connected cars from model year 2027. A law would be far harder to reverse and would set fixed compliance demands on software and connectivity suppliers. It is not law yet."
+   ],
+   "links": [
+    {
+     "label": "Yahoo Finance",
+     "url": "https://finance.yahoo.com/markets/stocks/article/congress-closes-in-on-chinese-car-ban-with-a-possible-way-out-for-mercedes-160342747.html"
+    },
+    {
+     "label": "CnEVPost",
+     "url": "https://cnevpost.com/2026/11/20/us-lawmakers-near-deal-ban-chinese-cars/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Cheap EU-built EVs reach the UK as the EU–UK summit leaves EV rules of origin unresolved",
+   "why": "Small electric cars at combustion-car prices depend on cross-Channel trade terms that tighten on 1 January.",
+   "source": "electrive · RTÉ · The Star (Reuters)",
+   "body": [
+    "Volkswagen opened UK orders for the ID. Cross, a 4.15-metre compact SUV on the MEB+ platform built in Navarra, Spain. The 52 kWh versions cost £30,260 and £33,675, with up to 264 miles of WLTP range and a £1,500 grant; 37 kWh versions from £26,985 can be ordered from January. Renault priced the Slovenian-built Twingo E-Tech from £14,745 after the full £3,750 grant, with a 27.5 kWh LFP battery, a 60 kW motor and up to 163 miles of range. Orders open early in 2027.",
+    "On the same day, the EU–UK summit in Brussels agreed a common area for food and plant rules, a link between the two carbon markets targeted for 2028 and a youth mobility scheme. None of the reports we read mentioned a fix for the stricter EV and battery rules of origin due on 1 January 2027. Car industry groups SMMT and ACEA warned this week that fewer than one in four electrified cars and vans traded next year would comply, with a 10% tariff on the rest.",
+    "For product planners, both cars show where European volume is heading, and how much their UK business cases depend on a trade fix."
+   ],
+   "links": [
+    {
+     "label": "electrive – VW ID. Cross",
+     "url": "https://www.electrive.com/2026/11/20/volkswagen-id-cross-opens-for-uk-orders-from-26985/"
+    },
+    {
+     "label": "electrive – Twingo",
+     "url": "https://www.electrive.com/2026/11/20/renault-twingo-e-tech-uk-pricing-revealed/"
+    },
+    {
+     "label": "RTÉ",
+     "url": "https://www.rte.ie/news/uk/2026/1120/1599944-uk-eu-summit/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Ford Trucks hires Circulor to get its electric trucks ready for the EU battery passport",
+   "why": "From 18 February 2027 every EV traction battery sold in the EU needs a digital passport, and supplier data is the hard part.",
+   "source": "electrive",
+   "body": [
+    "Ford Otosan, the Ford and Koç Holding joint venture that sells under the Ford Trucks brand, is working with UK traceability firm Circulor to prepare its F-Line E electric trucks for the EU Battery Regulation. The work starts by mapping the battery supply chain from supplier data: companies, production sites and where materials come from. Higher-risk materials may need extra evidence and independent audits. Each battery will get a QR code linking to its passport data.",
+    "The F-Line E comes as a 19-tonne version with a 294 kWh NMC battery and up to 250 km of range, and a 26-tonne version with 392 kWh and up to 300 km. Circulor built the battery passport for the Volvo EX90 in 2024 and says it now traces materials for more than 1.4 million vehicles.",
+    "With under three months to go, carmakers and suppliers need the data model, supplier onboarding and audit trail in place. It is as much a product data and systems problem as a compliance task, and a natural fit for teams that already run PLM and traceability tools."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/20/ford-trucks-partners-with-circulor-for-battery-passport/"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "GM targets 20% more robots and automation in North American plants by 2028 and scores suppliers on it",
+   "why": "Automation plans are becoming a sourcing criterion, which affects how suppliers bid for OEM work.",
+   "source": "Robotics 24/7",
+   "body": [
+    "General Motors aims to raise the use of robots and automation in its North American factories by 20% by 2028, citing rising manufacturing costs. It is building its own robots at its Kokomo, Indiana plant, mainly autonomous mobile robots that move parts and materials, and will keep buying equipment from outside suppliers. Its in-house robotics team had about 100 roboticists, AI engineers and hardware specialists last year.",
+    "Suppliers bidding for new GM contracts must now submit automation plans, which GM will grade on a scorecard that may count in contract awards. GM estimates its 2023 union agreement adds about 575 dollars of labour cost per vehicle. A UAW vice president criticised the push as a way to cut jobs; the next contract talks are in 2028.",
+    "For suppliers, including European ones serving US plants, this means automation roadmaps, simulation of cells and lines, and data on uptime may become part of quotations, not only price and quality."
+   ],
+   "links": [
+    {
+     "label": "Robotics 24/7",
+     "url": "https://www.robotics247.com/article/gm-targets-20-increase-in-robotics-and-factory-automation-by-2028"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "18 Nov",
+   "headline": "Neural-network starting guesses cut CPU time for EHL simulations by about 60%",
+   "why": "Faster lubrication solvers make it cheaper to run the many contact cases needed for gear and bearing design and virtual validation.",
+   "source": "Lubricants (MDPI) · Leibniz University Hannover · TU Munich (FZG)",
+   "body": [
+    "A peer-reviewed paper in Lubricants by researchers from Leibniz University Hannover, TU Munich's gear research centre FZG, Arts et Métiers in Paris and the Lebanese American University uses a small neural network to give a finite-element elastohydrodynamic lubrication solver a better place to start. The network, with two hidden layers of 32 neurons, was trained on almost 48,000 FEM runs of smooth line contacts and predicts pressure and film thickness at 101 points in under a millisecond.",
+    "Across 58 operating conditions, starting from the network's pressure prediction cut the median number of solver iterations by about 55% and CPU time by about 61%, compared with a standard Hertzian start with constant film thickness. Adding the predicted film thickness gave the smallest starting error but smaller savings, about 58% less CPU time. The solver still converges to the full physics answer, so accuracy is not traded away.",
+    "This is a practical way to use ML in simulation: speed up a trusted solver rather than replace it. The study covers smooth, isothermal line contacts, so extending it to point contacts, heat and roughness is the next test."
+   ],
+   "links": [
+    {
+     "label": "Lubricants",
+     "url": "https://www.mdpi.com/2075-4442/14/11/440"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "18 Nov",
+   "headline": "Test-corrected FE model and reduced-order surrogate predict wet clutch temperatures",
+   "why": "It is a clear example of correcting simulation with measurements before building a fast surrogate, a core step in virtual validation.",
+   "source": "Lubricants (MDPI) · Beijing Information Science & Technology University · CERTH / NTUA",
+   "body": [
+    "Researchers from Beijing Information Science and Technology University, with partners at CERTH and the National Technical University of Athens, built an Abaqus model of a wet clutch friction pair, a copper-based disc against a steel disc. They corrected it using 12 thermocouple measurements, spreading the difference between measured and simulated temperatures over the field. A reduced-order model then compresses the corrected fields to 64 modes and maps pressure, speed and sliding time to the full temperature field. The paper is peer-reviewed.",
+    "Correcting against test data cut the model's error by almost half, from 3.5 to 1.8 °C mean absolute error. On held-out test cases the surrogate reached an R² of 0.956 and a mean error of 3.3 °C. Peak temperatures were less accurate, with errors above 100 °C in four cases, which the authors put down to measurement fluctuations.",
+    "For drivetrain teams, the workflow of correlate first, then reduce is directly transferable to clutches, brakes and bearings. The weak peak predictions show why surrogates still need checking where the limits are set."
+   ],
+   "links": [
+    {
+     "label": "Lubricants",
+     "url": "https://www.mdpi.com/2075-4442/14/11/439"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "SKF Vertevo listing on 1 December",
+   "text": "The record date for the Vertevo share distribution is 27 November, and trading in SKF's automotive spin-off starts on 1 December, weeks after NSK and NTN agreed to merge.",
+   "link": {
+    "label": "ad-hoc-news",
+    "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-gets-pareto-support-ahead-of-vertevo-spin-off/70535285"
+   }
+  },
+  {
+   "title": "German metal strikes and VW talks",
+   "text": "IG Metall plans more action next week with no new bargaining round set, and Volkswagen's in-house pay talks open in Emden on 24 November.",
+   "link": {
+    "label": "IG Metall",
+    "url": "https://www.igmetall.de/tarif/tarifrunden/metall-und-elektro/aktionen-zur-metall-tarifrunde"
+   }
+  },
+  {
+   "title": "Checking the Riemann claims",
+   "text": "Mathematicians are checking the Lean code behind the Claude-assisted proof and reading the rival human draft. A readable version of the AI-assisted proof has been promised but not published.",
+   "link": {
+    "label": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"
+   }
+  }
+ ],
+ "sources": [
+  {"label": "NTN Form 425 filing – NSK and NTN sign the definitive deal to merge into NSK-NTN Ltd. (20 Nov)", "url": "https://www.sec.gov/Archives/edgar/data/0002125802/000119312526469226/d462217d425.htm"},
+  {"label": "Adnkronos – NSK and NTN to integrate business in Oct. 2027 (20 Nov)", "url": "https://english.adnkronos.com/?p=20174"},
+  {"label": "TechCrunch – AI claimed a solution to the Riemann hypothesis, and a human did too (20 Nov)", "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/"},
+  {"label": "OfficeChai – Rival all-human Riemann proof by Alessandro Masullo (20 Nov)", "url": "https://officechai.com/ai/hours-after-alpoges-ai-assisted-riemann-hypothesis-proof-ams-president-ravi-vakil-rushes-out-a-rival-all-human-proof-by-alessandro-masullo/"},
+  {"label": "DataCamp – Has AI solved the Riemann Hypothesis? (20 Nov)", "url": "https://www.datacamp.com/blog/ai-solved-riemann-hypothesis"},
+  {"label": "Bending Spoons (SEC) – Agreement to acquire Mailchimp from Intuit (19 Nov)", "url": "https://www.sec.gov/Archives/edgar/data/0002004711/000200471126000026/bsp_ex99-1.htm"},
+  {"label": "Fortune – Intuit to sell Mailchimp for $3.68 billion as AI reshapes growth strategy (20 Nov)", "url": "https://fortune.com/2026/11/20/intuit-sell-mailchimp-3-68-billion-ai-reshapes-growth-strategy-cfo/"},
+  {"label": "Digital Trends – ChatGPT's new mobile design (19 Nov)", "url": "https://www.digitaltrends.com/computing/chatgpt-new-mobile-design/"},
+  {"label": "The Verge – OpenAI is testing a new design for mobile ChatGPT (19 Nov)", "url": "https://www.theverge.com/ai-artificial-intelligence/1038334/openai-is-testing-a-new-design-for-mobile-chatgpt"},
+  {"label": "Talk Android – Google homepage gets AI Mode sidebar (20 Nov)", "url": "https://www.talkandroid.com/536008-google-homepage-ai-mode-sidebar/"},
+  {"label": "Digital Trends – Google Search is starting to look a lot like a chatbot app (20 Nov)", "url": "https://www.digitaltrends.com/computing/google-search-is-starting-to-look-a-lot-like-a-chatbot-app/"},
+  {"label": "Fortune – Anthropic stock teeters close to IPO price in second day of trading (20 Nov)", "url": "https://fortune.com/2026/11/20/anthropic-stock-teeters-close-to-ipo-price-in-second-day-of-trading/"},
+  {"label": "Trending Topics – Anthropic shares premarket and greenshoe (20 Nov)", "url": "https://www.trendingtopics.eu/anthropic-shares-premarket-greenshoe/"},
+  {"label": "StockAnalysis – ANT stock price (20 Nov)", "url": "https://stockanalysis.com/stocks/ant/"},
+  {"label": "IG Metall – Actions in the metal and electrical bargaining round (20 Nov)", "url": "https://www.igmetall.de/tarif/tarifrunden/metall-und-elektro/aktionen-zur-metall-tarifrunde"},
+  {"label": "TRT World – German metal workers hold 24-hour strikes (20 Nov)", "url": "https://www.trtworld.com/article/0978127b5d4a"},
+  {"label": "Yahoo Finance – Congress closes in on Chinese car ban with a possible way out for Mercedes (20 Nov)", "url": "https://finance.yahoo.com/markets/stocks/article/congress-closes-in-on-chinese-car-ban-with-a-possible-way-out-for-mercedes-160342747.html"},
+  {"label": "CnEVPost – US lawmakers near deal to ban Chinese cars (20 Nov)", "url": "https://cnevpost.com/2026/11/20/us-lawmakers-near-deal-ban-chinese-cars/"},
+  {"label": "electrive – Volkswagen ID. Cross opens for UK orders from £26,985 (20 Nov)", "url": "https://www.electrive.com/2026/11/20/volkswagen-id-cross-opens-for-uk-orders-from-26985/"},
+  {"label": "electrive – Renault Twingo E-Tech UK pricing revealed (20 Nov)", "url": "https://www.electrive.com/2026/11/20/renault-twingo-e-tech-uk-pricing-revealed/"},
+  {"label": "RTÉ – UK-EU summit (20 Nov)", "url": "https://www.rte.ie/news/uk/2026/1120/1599944-uk-eu-summit/"},
+  {"label": "The Star (Reuters) – UK, EU auto industry associations call for removing trade barriers (18 Nov)", "url": "https://www.thestar.com.my/news/world/2026/11/18/uk-eu-auto-industry-associations-call-for-removing-trade-barriers"},
+  {"label": "electrive – Ford Trucks partners with Circulor for battery passport (20 Nov)", "url": "https://www.electrive.com/2026/11/20/ford-trucks-partners-with-circulor-for-battery-passport/"},
+  {"label": "Robotics 24/7 – GM targets 20% increase in robotics and factory automation by 2028 (20 Nov)", "url": "https://www.robotics247.com/article/gm-targets-20-increase-in-robotics-and-factory-automation-by-2028"},
+  {"label": "Lubricants – AI-based initial guesses for FEM EHL line contacts (18 Nov)", "url": "https://www.mdpi.com/2075-4442/14/11/440"},
+  {"label": "Lubricants – Temperature field prediction for wet clutch friction pairs (18 Nov)", "url": "https://www.mdpi.com/2075-4442/14/11/439"}
+ ],
+ "note": "All summaries are paraphrased. Benchmark, performance and accuracy figures are vendor- or author-reported. The Riemann Hypothesis proof claims are unverified. Share prices are from market coverage, not official exchange records."
 }
