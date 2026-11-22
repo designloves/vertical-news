@@ -1,213 +1,420 @@
 {
-  "date": "2026-11-22",
-  "weekday": "Sunday",
-  "covers": "Fri 20 – Sat 21 Nov",
-  "glance": "The AI sell-off turned into a rout on Friday: the Nasdaq had its worst week since March 2020, Nvidia fell 14% on a report of an SEC accounting review, and Taiwan banned most short-selling on Saturday. A five-month Dragos experiment found that prompts sent to AI providers and resellers were leaked, logged and used by attackers, which matters to every team building on third-party models. Elsewhere, UN talks on killer robots ended without a ban, METR says agents still lack judgment outside coding, and in automotive onsemi launched a fourth-generation SiC chip for traction inverters while a Chinese-designed EV sportscar will be assembled in Italy from 2027.",
-  "stories": [
+ "date": "2026-11-22",
+ "weekday": "Sunday",
+ "covers": "Fri 20 – Sat 21 Nov",
+ "glance": "An Anthropic mathematician and an NYU colleague claim an AI-written proof that Navier–Stokes flows can blow up on their own, and Italy approves Tesla's supervised driver assistance, bringing it to almost a third of the EU. TSMC pauses some shipments under new US export rules, Leapmotor outsells Tesla in Europe, and Opel buys Leapmotor engineering for a Spanish-built SUV.",
+ "brief": "The biggest story is mathematical. Tristan Buckmaster of New York University and Levent Alpöge of Anthropic claim a proof that smooth Navier–Stokes flows can break down in finite time without any outside force, which would settle part of a Millennium Prize problem. Claude wrote the first version of the proof, and it is backed by a huge Lean formalisation, but the key numerical certificate is unpublished and nothing is peer reviewed yet. In Europe, Italy has approved Tesla's supervised driver assistance, the twelfth country to do so, so close to thirty percent of the EU population can now use it. An EU-wide vote has slipped to December at the earliest. TSMC has paused shipments to several chip designers while it checks new US export rules that now cover chips at sixteen nanometres and below. The US Senate voted to make data centres pay for the grid upgrades they cause. Google told schools that Search comes with AI Overviews, and big districts object. ChatGPT Space reached Plus users, with pages that refresh themselves from connected apps. Persona AI's welding humanoids are training in HD Hyundai shipyards. In cars, Leapmotor outsold Tesla in Europe in October. Opel is paying Leapmotor one hundred million euros to engineer an electric SUV for Zaragoza. Tesla began rolling out FSD version fifteen. German politicians want carmakers to keep production at home, and Culina ordered over a thousand Volvo FH Aero trucks. In research, worn seals are shown to hide rotor instability, and a robot eddy current system finds hidden blade defects.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "20–21 Nov",
+   "headline": "Anthropic and NYU mathematicians claim an AI-written proof that Navier–Stokes flows can blow up without any outside force",
+   "why": "If it holds, AI will have helped settle a Millennium Prize problem at the heart of every CFD code engineers use.",
+   "source": "OfficeChai · AI Weekly",
+   "body": [
+    "Tristan Buckmaster of New York University and Levent Alpöge of Anthropic posted a 79-page paper on Friday claiming that smooth solutions to the three-dimensional Navier–Stokes equations can break down in finite time with no external forcing. The authors say this disproves two of the statements in the Clay Mathematics Institute's Millennium Prize problem, which carries a one-million-dollar prize. The blow-up rate they find matches a lower bound Jean Leray identified in 1934. A companion paper claims a similar result for the Euler equations.",
+    "According to the paper, Claude wrote the first force-free version of the proof, and the authors then rewrote it with help from Claude and OpenAI's Codex. The argument is backed by a Lean 4 formalisation of about 600,000 lines. Important caveats remain: the key numerical certificate has so far been published only as a cryptographic hash, the interval-arithmetic step is not formalised, the code was patched on release day, and there is no peer review yet.",
+    "Daily CFD work is unaffected. But it is a strong sign that AI can contribute to deep analysis, and it follows a Claude-assisted Riemann Hypothesis claim by another Anthropic mathematician."
+   ],
+   "links": [
     {
-      "cat": "gen",
-      "top": true,
-      "date": "20–21 Nov",
-      "headline": "Nasdaq has its worst week since March 2020 as Nvidia falls 14%, and Taiwan bans most short-selling",
-      "why": "A sharp repricing of AI stocks can quickly hit funding, AI budgets and the price of compute for both software teams and suppliers.",
-      "source": "CNBC · Focus Taiwan",
-      "body": [
-        "US stocks fell hard on Friday. The S&P 500 dropped 3.7% to 6,910, its seventh loss in a row, and closed in correction territory, about 10% below its record. The Nasdaq Composite fell 5.3% and is now down 2.7% for 2026. Over the week the Nasdaq lost about 10% and the S&P 500 8.6%. Nvidia fell about 14% after Reuters reported that the SEC is looking into possible accounting issues at the company. AMD and Micron each fell around 13–14%, and Anthropic lost 8.5% on its second day of trading.",
-        "The damage spread to Asia. Taiwan's Taiex fell 6.2% on Friday to its lowest close in almost seven months, about 28% below its October peak. On Saturday, Taiwan's financial regulator banned short-selling of any stock that fell in the previous session, from Monday, and raised short-selling margin from 130% to 150%. It is the first blanket ban since 2015.",
-        "For product and engineering teams, the practical risk is tighter AI budgets and more cautious investors. Vendors whose pricing depends on cheap capital may change terms."
-      ],
-      "links": [
-        {"label": "CNBC – market close", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"},
-        {"label": "Focus Taiwan", "url": "https://focustaiwan.tw/business/202611210013"}
-      ]
+     "label": "OfficeChai",
+     "url": "https://officechai.com/ai/tristan-buckmaster-levent-alpoge-claim-proof-of-navier-stokes-millennium-prize-problem-without-forcing/"
     },
     {
-      "cat": "gen",
-      "top": true,
-      "date": "19–21 Nov",
-      "headline": "Dragos plants two million bait secrets in AI prompts and finds three providers breached and resellers reading prompts",
-      "why": "If your product or agents send code, keys or customer data to a model through a router or reseller, that data may not stay private.",
-      "source": "Dragos",
-      "body": [
-        "HD Moore, chief research officer at industrial security firm Dragos, sent about two million prompts to widely used AI services between July and November. Each contained unique bait: AWS keys, URLs, DNS names and passwords. His team then watched for anyone using them. Data from at least three AI hosting providers was exposed, the earliest in mid-July. In the largest case a couple of hundred AWS keys were stolen and used for tens of thousands of API calls.",
-        "Cheap resellers on an inference marketplace could read and keep customer prompts simply by turning on logging. A Chinese AI lab fetched secret URLs from more than half of the prompts sent to its models, including about two-thirds of those flagged for zero data retention. One link sent to a US provider with that flag turned up in a Chinese company chat 24 days later. Some routes passed through companies not listed on the advertised path.",
-        "Dragos advises self-hosting for sensitive work, contracting directly with first-tier providers, avoiding reseller marketplaces and seeding your own canary credentials into agent pipelines."
-      ],
-      "links": [
-        {"label": "Dragos – Three breaches, endless leaks", "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"}
-      ]
-    },
-    {
-      "cat": "gen",
-      "top": false,
-      "date": "20–21 Nov",
-      "headline": "UN talks on killer robots end without a ban, a day after Bessent says Trump and Xi agreed humans must decide on military AI",
-      "why": "Rules on human control of autonomous systems shape what defence and dual-use suppliers, including automotive ones, can build and sell.",
-      "source": "Yahoo News (dpa) · Reuters via SRN News",
-      "body": [
-        "The Geneva conference of the 128 states in the UN Convention on Certain Conventional Weapons ended early on Saturday with only a minimal deal. Almost 100 countries wanted to start negotiating a binding ban on weapons that can kill without a human making the final decision. The United States, Israel, Belarus and the UK opposed a negotiating mandate. Government experts will instead keep working on elements of a possible agreement and recommend by 2028 whether it should become a treaty. Campaign groups called the result disappointing.",
-        "On Friday, US Treasury Secretary Scott Bessent told CNBC that Donald Trump and Xi Jinping agreed in Shenzhen that humans should always be involved in military decisions that use AI, and that no major operation should start without a person in the loop. China has not confirmed this, and no text was published.",
-        "Taken together, the two events show that governments talk about human control but do not yet want binding rules."
-      ],
-      "links": [
-        {"label": "Yahoo News – UN talks on killer robots", "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"},
-        {"label": "SRN News (Reuters) – Bessent", "url": "https://srnnews.com/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/"}
-      ]
-    },
-    {
-      "cat": "gen",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "METR: AI agents match skilled humans on coding but show weaker judgment when feedback is slow or unclear",
-      "why": "It is a useful guide to which product and engineering tasks you can hand to agents today, and which still need expert review.",
-      "source": "METR",
-      "body": [
-        "Evaluation group METR published its quarterly update on public models up to Opus 5.5 and GPT-6 Astra. The length of tasks agents can finish keeps doubling roughly every 3.6 months. On tasks with clear, automatic scoring, the doubling time is only 1.65 months, though METR says that figure is uncertain. Models often match or beat skilled humans on coding and optimisation work with fast feedback.",
-        "Results are weaker elsewhere. On a benchmark that rates philosophical critiques, every public model stayed below experts who spent 15 minutes on each item. When asked to design new evaluation tasks, agents produced nothing METR found especially useful. Model judges agreed with human graders on weaker models' work but overrated work from models as strong as or stronger than themselves. Costlier tasks gave about 2.9 times shorter time horizons.",
-        "METR says public evidence cannot rule out a sharp speed-up in AI research within a couple of years. For teams, the lesson is to keep humans reviewing work where quality is hard to measure, and not to rely on one model to grade another."
-      ],
-      "links": [
-        {"label": "METR – Q4 2026 capability update", "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"}
-      ]
-    },
-    {
-      "cat": "gen",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "Thinking Machines releases Inkling 2 Mini, an open-weights coding model that runs on a 32 GB laptop",
-      "why": "Strong local models give teams an option for sensitive code and design files that should not leave the machine.",
-      "source": "Thinking Machines Lab",
-      "body": [
-        "Thinking Machines Lab released Inkling 2 Mini with open weights. It is a mixture-of-experts model with 26.4 billion parameters, of which about 3.4 billion are active per token. It is a looped transformer: the middle layers run three times for each token, which gives more compute without more stored weights. The whole model needs about 20 GB of memory and runs on Macs with at least 32 GB of RAM through Ollama, and on Nvidia DGX Spark.",
-        "The lab reports 79.2% on SWE-bench Verified, 48.2% on DeepSWE v1.1, 71.6% on Terminal Bench 2.1 and 46.5% on the Vals Index, which it says leads open models under 100 billion parameters. It trails Alibaba's Qwen 3.8 27B on some chat and instruction tasks. These figures are vendor-reported. Weights are on Hugging Face, with support in vLLM, SGLang, llama.cpp and the lab's Tinker fine-tuning service.",
-        "Given the Dragos findings on leaking prompts, a capable model that runs locally is a practical choice for frontend and tooling work on private code."
-      ],
-      "links": [
-        {"label": "Thinking Machines – Inkling 2 Mini", "url": "https://thinkingmachines.ai/news/inkling-2-mini/"}
-      ]
-    },
-    {
-      "cat": "gen",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "OpenAI says new safeguards cut attempts to copy its models' reasoning from 54% success to 0.2%",
-      "why": "Model makers are hiding more of how models reason, which affects how far teams can inspect or audit AI output.",
-      "source": "OpenAI",
-      "body": [
-        "OpenAI described how it fights adversarial distillation, where someone collects a model's outputs without permission to train a copy, then runs that copy without safety limits. OpenAI says exact reasoning traces are the most valuable target: in an internal cyber study, student models trained on full traces beat those trained on summaries.",
-        "Its defences include training models to refuse extraction attempts, classifiers on inputs and outputs, API rules that drop hidden reasoning if earlier messages are edited, and blocking older models from reading newer models' reasoning. In red-team tests across six attacker models, the success rate for extracting reasoning from an earlier request fell from 54.0% on GPT-6 Astra to 0.2% on GPT-6.2 Astra. For the current request it fell from 22.9% to 0.9%. Weekly enforcement now hits thousands to tens of thousands of accounts.",
-        "For developers, this means less visibility into model reasoning through the API, and a higher risk of account action for heavy automated use that looks like scraping."
-      ],
-      "links": [
-        {"label": "OpenAI – Combatting adversarial distillation", "url": "https://openai.com/index/combatting-adversarial-distillation/"}
-      ]
-    },
-    {
-      "cat": "pm",
-      "top": false,
-      "date": "20–21 Nov",
-      "headline": "Cursor tells Congress it may drop Chinese open-weight models, while US clouds keep serving DeepSeek and Kimi",
-      "why": "Where your AI features' underlying model comes from is becoming a procurement and compliance question, not just a cost one.",
-      "source": "CNBC · Fortune",
-      "body": [
-        "A House report reviewed by CNBC says Cursor, the AI code editor owned by SpaceX, told the Homeland Security and China committees it will explore phasing out open-weight models developed in China because of geopolitical risk. Cursor's Composer 2 model was built on Moonshot AI's Kimi K2.5. Airbnb and DoorDash also answered questions about their use of Chinese models. The report recommends a US open-weight model programme and extending the federal DeepSeek ban to other Chinese models.",
-        "In a Fortune opinion piece on Saturday, researchers from Georgetown's CSET counted at least 16 inference providers outside China, including Amazon Bedrock, that serve DeepSeek's latest model. They also report that Moonshot asks firms with over $20 million in sales from Kimi K3 to negotiate a revenue-share licence. The authors argue against banning US clouds from serving Chinese models.",
-        "Product teams using cheap open models should map which ones they rely on and plan for a possible switch."
-      ],
-      "links": [
-        {"label": "CNBC – Cursor and Chinese models", "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"},
-        {"label": "Fortune – US chips serve Chinese models", "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models"}
-      ]
-    },
-    {
-      "cat": "pm",
-      "top": false,
-      "date": "21 Nov",
-      "headline": "China plans national standards for how AI tokens are measured, billed and quality-checked",
-      "why": "Tokens are becoming a regulated unit of sale, which could shape how AI features are priced and compared.",
-      "source": "The Next Web",
-      "body": [
-        "China's National Data Administration said on Saturday that it will improve standards for measuring, billing and testing the quality of AI tokens. Director Liu Liehong also wants to widen the uses of token services and curb low-quality duplication as so-called token factories spread. These bundle rented compute, models and data into one service. No date was given for the standards.",
-        "The agency's figures show how fast use is growing. Daily token use in China passed 140 trillion in March, over 1,000 times more than in early 2024, and passed 500 trillion by June. Banks and telecom operators already sell tokens to consumers, so the rules would reach retail buyers as well as businesses.",
-        "Most AI pricing today is per token, but providers count tokens differently, so the same task costs different amounts. A government standard would be a first step toward comparing them like for like. Product managers pricing AI features should watch whether other regions follow."
-      ],
-      "links": [
-        {"label": "The Next Web", "url": "https://thenextweb.com/news/chinas-data-regulator-plans-standards-for-measuring-and-billing-ai-tokens"}
-      ]
-    },
-    {
-      "cat": "eng",
-      "top": false,
-      "date": "20–21 Nov",
-      "headline": "Siemens and AGIBOT show an AI agent that designs, simulates and prepares a 3D-printed robot gripper from a text prompt",
-      "why": "It shows agents running CAD, simulation and manufacturing prep in one chain, the same pattern now reaching fixtures and tooling in car plants.",
-      "source": "3D Printing Industry · Siemens",
-      "body": [
-        "At Formnext in Frankfurt, Siemens and Chinese humanoid robot maker AGIBOT showed an agent that designs a gripper from a plain description of the object and the task. The agent picks a gripper type, adapts its geometry in Siemens Designcenter, simulates it, checks the robot interface and handling needs, and prepares the data for additive manufacturing. It reaches the engineering software through the Model Context Protocol, so no one has to step through each tool by hand.",
-        "The designs will be built in an adaptive production cell Siemens is setting up at its electronics factory in Erlangen with 3D-printing firm EOS and post-processing specialist AM Solutions. The cell combines printing, automation, software and post-processing in one chain. No completion date or performance figures were given.",
-        "BMW engineers already use Synera's agents for lightweight grippers based on topology optimisation. Siemens' approach starts from the task instead. For plant engineers, custom end-of-arm tooling is an easy first place for agent-driven design."
-      ],
-      "links": [
-        {"label": "3D Printing Industry", "url": "https://3dprintingindustry.com/news/siemens-and-agibot-show-ai-agent-that-designs-3d-printed-humanoid-robot-grippers-from-a-text-prompt-256961/"},
-        {"label": "Automation World – Siemens release", "url": "https://www.automationworld.com/process/digital-transformation/press-release/55419869/siemens-corporation-siemens-develops-adaptive-production-cell-with-ai-automation-and-additive-manufacturing"}
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "20 Nov",
-      "headline": "onsemi launches its fourth-generation EliteSiC M4 chips for EV traction inverters, with Schaeffler backing",
-      "why": "Lower inverter losses mean more range or smaller batteries, and less heat to manage in e-axles and drive units.",
-      "source": "electrive",
-      "body": [
-        "onsemi introduced EliteSiC M4, its fourth generation of silicon carbide power chips, built on a trench design. The company claims up to 30% higher power density and up to 35% lower conduction and switching losses than the previous generation. It says specific on-resistance is 20–50% lower, and switching improves by 67% in hard-switching and 50% in soft-switching use. These are chip-level figures and do not translate directly into drivetrain savings.",
-        "A 750 V bare die for traction inverters is available now, with 1,200 V versions due from 2027. The chips fit existing packages, including top-side-cooled surface-mount parts and power modules, and onsemi plans to qualify them for 185°C and above. Schaeffler publicly backed the platform; its executive Harald Hartel sees gains in range, heat and installation space.",
-        "For drivetrain engineers, higher temperature ratings and lower losses change cooling and packaging trade-offs in integrated e-axles, including the thermal load on nearby bearings and seals."
-      ],
-      "links": [
-        {"label": "electrive – onsemi EliteSiC M4", "url": "https://www.electrive.com/2026/11/20/onsemi-introduces-new-sic-platform-elitesic-m4/"}
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
-      "date": "21 Nov",
-      "headline": "A Chinese-designed electric sportscar, the SC01, will be assembled in Italy from May 2027",
-      "why": "It is another small sign of Chinese EV designs being built inside the EU, partly to avoid tariffs and handle homologation locally.",
-      "source": "electrive",
-      "body": [
-        "Italian company FIPA (Fabbrica Italiana Produzione Autoveicoli) plans to assemble the SC01 electric sportscar in the Marche region from the end of May 2027. The car was developed by Chinese startup Tianjin Gongjiangpai Auto Technology. FIPA is its only authorised importer and maker for the EU and is responsible for European homologation. The Chinese version has 320 kW, all-wheel drive, weighs just under 1.4 tonnes and reaches 100 km/h in 2.9 seconds. European specifications are not yet known.",
-        "The first phase uses an existing industrial site with 2,000 m² of production space, growing to 24,000 m² within two years. Buildings will be renovated from January to March 2027, with lines and homologation completed by May. About 50 people will work in the first phase, rising to 285 by the end of 2030. FIPA also plans light EVs and its own models. Investment and volumes were not disclosed.",
-        "The project is small, but it follows the same route as larger Chinese brands seeking European plants."
-      ],
-      "links": [
-        {"label": "electrive – SC01 in Italy", "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"}
-      ]
+     "label": "AI Weekly",
+     "url": "https://aiweekly.co/alerts/alpge-buckmaster-post-ai-aided-unforced-navier-stokes-blowup"
     }
-  ],
-  "watch": [
-    {"title": "Markets reopen Monday", "text": "Taiwan's short-selling ban takes effect as investors test whether the AI sell-off spreads further. A reported CrowdStrike–Zscaler deal is also unconfirmed.", "link": {"label": "Focus Taiwan", "url": "https://focustaiwan.tw/business/202611210013"}},
-    {"title": "VW wage talks open on 24 November", "text": "Volkswagen and IG Metall start bargaining in Emden on Tuesday, with a second round in Zwickau on 15 December.", "link": {"label": "Automotive World", "url": "https://www.automotiveworld.com/news/volkswagen-and-ig-metall-to-begin-talks-on-24-november/"}},
-    {"title": "EU car CO2 vote in December", "text": "The European Parliament's plenary is expected to vote in December on softening the 2035 target to 95%, after the environment committee backed it on 4 November.", "link": {"label": "electrive", "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"}}
-  ],
-  "sources": [
-    {"label": "CNBC – S&P 500 and Dow close in correction; Nasdaq erases 2026 gain (20 Nov)", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"},
-    {"label": "Focus Taiwan – Taiwan tightens short-selling rules (21 Nov)", "url": "https://focustaiwan.tw/business/202611210013"},
-    {"label": "Dragos – Three breaches, endless leaks: your AI supply chain needs canaries (19 Nov)", "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"},
-    {"label": "Yahoo News – UN talks on autonomous killer robots end without ban (21 Nov)", "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"},
-    {"label": "SRN News (Reuters) – Trump, Xi agreed military AI decisions should involve humans, Bessent says (20 Nov)", "url": "https://srnnews.com/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/"},
-    {"label": "METR – Q4 2026 capability update (20 Nov)", "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"},
-    {"label": "Thinking Machines Lab – Inkling 2 Mini (20 Nov)", "url": "https://thinkingmachines.ai/news/inkling-2-mini/"},
-    {"label": "OpenAI – Combatting adversarial distillation (20 Nov)", "url": "https://openai.com/index/combatting-adversarial-distillation/"},
-    {"label": "CNBC – Cursor weighs phasing out Chinese AI models (20 Nov)", "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"},
-    {"label": "Fortune – US data centers and chips serve Chinese models (21 Nov)", "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models"},
-    {"label": "The Next Web – China's data regulator plans standards for billing AI tokens (21 Nov)", "url": "https://thenextweb.com/news/chinas-data-regulator-plans-standards-for-measuring-and-billing-ai-tokens"},
-    {"label": "3D Printing Industry – Siemens and AGIBOT AI agent designs robot grippers (21 Nov)", "url": "https://3dprintingindustry.com/news/siemens-and-agibot-show-ai-agent-that-designs-3d-printed-humanoid-robot-grippers-from-a-text-prompt-256961/"},
-    {"label": "Automation World – Siemens develops adaptive production cell with AI and AM (Nov)", "url": "https://www.automationworld.com/process/digital-transformation/press-release/55419869/siemens-corporation-siemens-develops-adaptive-production-cell-with-ai-automation-and-additive-manufacturing"},
-    {"label": "electrive – onsemi introduces EliteSiC M4 (20 Nov)", "url": "https://www.electrive.com/2026/11/20/onsemi-introduces-new-sic-platform-elitesic-m4/"},
-    {"label": "electrive – Chinese SC01 sportscar to be built in Italy from May 2027 (21 Nov)", "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"},
-    {"label": "Automotive World – Volkswagen and IG Metall to begin talks on 24 November", "url": "https://www.automotiveworld.com/news/volkswagen-and-ig-metall-to-begin-talks-on-24-november/"},
-    {"label": "electrive – EU Parliament environment committee votes to relax CO2 rules (5 Nov)", "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"}
-  ],
-  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "20 Nov",
+   "headline": "Italy approves Tesla's supervised driver assistance, bringing it to about 30% of the EU population",
+   "why": "National recognition of a Dutch approval is becoming Europe's route for advanced Level 2 systems while an EU-wide vote stalls.",
+   "source": "Electrek · Tesla Mag",
+   "body": [
+    "Italy's transport ministry has given provisional approval to Tesla Assisted Driving, the European name for FSD (Supervised), making Italy the twelfth European country to allow it. The approval builds on the Dutch RDW's type approval from April, granted under Article 39 of the EU type-approval regulation, which lets other member states recognise it nationally. With Italy's roughly 59 million people, close to 30% of the EU population can now use the system, about double the share before. Tesla has not given a rollout date.",
+    "The system remains SAE Level 2, with the driver responsible at all times. Italy approved the version with the stricter driver monitoring that RDW signed off on 16 November, including hands on the wheel above 130 km/h, and Tesla has cut the allowed speed margin over the limit from 50% to 10%.",
+    "An EU-wide approval needs a qualified majority in the TCMV committee, and that vote has slipped to December at the earliest. France has refused, Spain has not recognised the Dutch approval and Sweden is still reviewing it. For ADAS teams, the case shows how far national recognition can stretch type-approval rules."
+   ],
+   "links": [
+    {
+     "label": "Electrek",
+     "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/"
+    },
+    {
+     "label": "Tesla Mag",
+     "url": "https://www.tesla-mag.com/en/tesla-fsd-italy-provisional-approval-mit-salvini/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "21 Nov",
+   "headline": "TSMC pauses shipments to several chip designers as new US export rules reach beyond AI chips",
+   "why": "Export controls now touch ordinary consumer and automotive-class chips at 16 nm and below, not just AI accelerators.",
+   "source": "AI Weekly (citing Nikkei Asia)",
+   "body": [
+    "Taiwan's TSMC has held back shipments to several chip developers, both Chinese and non-Chinese, while it reviews compliance with tighter US Commerce Department rules that took effect on Thursday 19 November, Nikkei Asia reported. Under the new rules, foundries must treat chips made at 14/16 nm or more advanced nodes as presumptively restricted unless the designer is on a US-approved list.",
+    "The rules also close a route where independent packaging and testing companies certified that a design was not an AI chip and therefore fell outside the controls. Executives told Nikkei the effect spreads to mobile and consumer chips and to designers outside China, while Chinese firms are pushed back towards 28 nm and 40 nm processes.",
+    "For automotive buyers the immediate exposure is limited, since many vehicle microcontrollers use older nodes. But ADAS processors, infotainment chips and zone controllers increasingly use advanced nodes, so purchasing and supply-chain teams should check which suppliers' designs are caught by the review."
+   ],
+   "links": [
+    {
+     "label": "AI Weekly",
+     "url": "https://aiweekly.co/alerts/tsmc-pauses-shipments-as-new-us-chip-rules-hit-beyond-ai"
+    },
+    {
+     "label": "Nikkei Asia",
+     "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "US Senate votes 62–33 to make data centres pay for the grid upgrades they trigger",
+   "why": "Power costs for AI computing are becoming a political issue, which will feed into cloud and AI pricing.",
+   "source": "AI Weekly · CNBC",
+   "body": [
+    "The US Senate passed the Bipartisan American Affordability and Jobs Act by 62 votes to 33, with fifteen Democrats voting yes. The bill directs the energy regulator FERC to write rules that charge all data centres, new and existing, for the grid upgrades they require and for their use of the existing network. It also speeds up environmental reviews for power lines, solar and wind farms, mines and drilling.",
+    "Analysis by Grid Strategies, cited by Senator Martin Heinrich's office, estimates data centres would contribute about 55 billion dollars to transmission costs over ten years, roughly 35 billion more than under current policy. Supporters project household bills falling by 50 to 78 dollars a year by 2040. The bill now goes to the House.",
+    "For product teams, the direction matters more than the detail: the energy cost of running AI features is being pushed back onto the operators, and some of it will reach customers through cloud prices."
+   ],
+   "links": [
+    {
+     "label": "AI Weekly",
+     "url": "https://aiweekly.co/alerts/senate-passes-baaja-62-33-puts-55b-grid-tab-on-data-centers"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "21 Nov",
+   "headline": "Google tells schools that keeping Search means keeping AI Overviews, and big US districts push back",
+   "why": "Bundling AI into a core product with no off switch is meeting resistance from large institutional customers.",
+   "source": "Fortune",
+   "body": [
+    "Google has told schools that its Search product comes with AI Overviews and cannot be separated, Fortune reports. Earlier this month Google reversed course on its Classroom assistant, making Gemini off by default for school student accounts from early 2027 unless administrators switch it on. But Search stays tied to AI summaries, and Google's education vice president said students at schools that ban AI will not have access to search.",
+    "Three of the four largest US school districts are resisting. New York City, with about 1.3 million Chromebooks, has disabled Gemini and AI Mode on student devices. Los Angeles has blocked generative AI for about 378,000 students and asked Google for an off switch, and Chicago says it is exploring all options. Alphabet did not comment.",
+    "For product managers, it is a clear case of the trade-off between pushing AI adoption through defaults and giving buyers control. Enterprise and public-sector customers increasingly expect admin settings that let them turn individual AI features off."
+   ],
+   "links": [
+    {
+     "label": "Fortune",
+     "url": "https://fortune.com/2026/11/21/google-search-ai-overviews-schools-chicago-nyc-los-angeles-miami/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "ChatGPT Space reaches Plus users, with pages and slides that refresh themselves from connected apps",
+   "why": "Self-updating documents built by an assistant compete directly with dashboards, wikis and slide tools.",
+   "source": "OpenAI release notes",
+   "body": [
+    "OpenAI has rolled out ChatGPT Space to Plus subscribers aged 18 and over. Space lets users create interactive pages and presentations, invite collaborators, and set pages and slides to update automatically from connected apps and tools. It replaces the old Library as the home for pages, slides, images and uploaded files, and pages can be edited on the web, desktop and mobile apps. Space first launched for higher tiers at the end of September.",
+    "Sharing is restricted: a viewer needs permission and a paid ChatGPT plan with Space. Free users cannot open shared pages, and there are no public links.",
+    "For designers and product teams the interesting pattern is the living document: an artefact that an assistant keeps current from live data, rather than a static export. It raises familiar UX questions about provenance and trust, such as showing when content last refreshed and which source changed it. The paid-only sharing model also limits how far such pages can travel outside an organisation."
+   ],
+   "links": [
+    {
+     "label": "OpenAI release notes",
+     "url": "https://help-lb.openai.com/en/articles/6825453-chatgpt-release-notes"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Persona AI ships welding humanoids to HD Hyundai shipyards, where skilled welders are training them",
+   "why": "Humanoids are being taught trade skills on existing equipment, a model that could reach heavy fabrication in vehicle plants.",
+   "source": "Seoul Economic Daily",
+   "body": [
+    "US robot maker Persona AI has shipped its bipedal humanoid robots to Korea, where HD Hyundai's shipbuilding and robotics units are developing their welding functions. Skilled welders in the US and Korea are training the robots. The partners signed a development agreement in March, built second-generation robots in May and passed enterprise-grade quality validation in September. Commercial use is expected around the end of the year, with a first site planned.",
+    "HD Hyundai is responsible for integration, welding-quality technology and staged rollout. A key design goal is that the robot works with existing welding gear built for people, including a 15 kg wire feeder, rather than needing a rebuilt workcell.",
+    "For manufacturing engineers, shipyard welding is a demanding test of mobile robots in unstructured, cramped spaces. If the approach works, similar robots could take on low-volume welding and repair tasks in truck, bus and body-in-white production, where fixed robot cells are hard to justify."
+   ],
+   "links": [
+    {
+     "label": "Seoul Economic Daily",
+     "url": "https://en.sedaily.com/world/2026/11/20/us-robot-maker-sends-welding-humanoids-to-korea-for-training"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "21 Nov",
+   "headline": "Leapmotor outsells Tesla in Europe in October as Chinese brands double their volume",
+   "why": "Chinese brands are scaling fast in Europe through Stellantis channels and hybrids, even as their share dips.",
+   "source": "Global China EV (Dataforce data)",
+   "body": [
+    "Preliminary Dataforce figures covering about 98% of the European market show Leapmotor registered 13,902 cars in October, up 256%, ahead of Tesla's 11,722. Tesla's sales are concentrated in the last month of each quarter. The overall market rose 3.3% to about 1.11 million cars, and battery-electric cars grew 57% to a 31% share, while petrol fell 18% and diesel 26%.",
+    "Chinese brands more than doubled their combined volume, but their share slipped to 13.5% from a record 14.6% in September. Geely jumped to 8,144 cars and Chery grew 290%. Polestar was the only major Chinese-owned brand to fall, down 30% to 2,659. Chinese brands also registered 52,467 plug-in hybrids, up 182%, likely pulled forward before an EU cap of 350,000 Chinese hybrids a year starts in December.",
+    "For European OEMs and suppliers, the numbers show competition now coming through hybrids and partnerships as well as pure EVs. Official ACEA figures follow later this month."
+   ],
+   "links": [
+    {
+     "label": "Global China EV",
+     "url": "https://www.globalchinaev.com/post/leapmotor-outsells-tesla-in-europe-in-october-as-chinese-share-slips-to-135"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Opel pays Leapmotor 100 million euros to engineer an electric C-SUV for Zaragoza from 2028",
+   "why": "A European brand is buying a Chinese EV platform and engineering service, a template other OEMs are studying.",
+   "source": "CnEVPost · Opel",
+   "body": [
+    "Opel and Leapmotor have signed the cooperation agreement for a new electric C-segment SUV. Leapmotor will provide engineering and development services for about 100 million euros, according to its Hong Kong stock exchange filing. Production is planned at Stellantis's Zaragoza plant in Spain from September 2028, on a new line shared with the Leapmotor B10.",
+    "Leapmotor supplies the EV architecture, battery technology and core components. Opel handles exterior design, ergonomics, chassis engineering, lighting and seats, with joint teams in Rüsselsheim and Hangzhou. Stellantis owns about 20% of Leapmotor, so the deal counts as a connected transaction, and component supply needs a separate agreement. The project was first announced in May with a target of under two years' development.",
+    "For engineers, the split is telling: the European side keeps brand-defining work such as chassis tuning and design, while platform, battery and electronics come from China. That shifts where validation and supplier work happen."
+   ],
+   "links": [
+    {
+     "label": "CnEVPost",
+     "url": "https://cnevpost.com/2026/11/20/leapmotor-opel-deal-develop-suv-2028-launch/"
+    },
+    {
+     "label": "Opel press release",
+     "url": "https://www.lifepr.de/pressemitteilung/opel-automobile-gmbh/Major-Milestone-Opel-and-Leapmotor-Sign-Official-Cooperation-Agreement/boxid/1080338"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "21 Nov",
+   "headline": "Tesla starts rolling out FSD v15 with a new vision encoder and claims 25 times fewer critical interventions",
+   "why": "A single vision model shared across cars and robots is Tesla's bet for reaching unsupervised driving.",
+   "source": "Electrek",
+   "body": [
+    "Tesla has begun rolling out version 15 of its FSD software in North America. The main change is a new vision encoder, shared across FSD, Robotaxi and the Optimus robot and trained on millions of internet videos. Tesla claims it improves the critical intervention rate by 25 times, but has not published the underlying rate. Electrek's own extrapolation, not a Tesla figure, puts it at around 50,000 miles between critical interventions.",
+    "Other changes include a single end-to-end visualisation called Reality View, an end-to-end navigation model, better detection of signs, debris, potholes and standing water, and handling of speed cameras and school zones. Tesla says its current AI4 computer is sufficient.",
+    "For ADAS and validation teams, the release highlights a familiar gap: large claimed improvements without public, comparable metrics. A US NHTSA investigation from October 2025 is still open, and European tests have found the system speeding in 30 km/h zones."
+   ],
+   "links": [
+    {
+     "label": "Electrek",
+     "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "21 Nov",
+   "headline": "German politicians press carmakers to keep development and production at home before VW pay talks",
+   "why": "Political pressure is rising on OEMs that plan to move work out of Germany, with knock-on effects for suppliers.",
+   "source": "Oldenburger Onlinezeitung · Made in Bocholt",
+   "body": [
+    "Federal Transport Minister Steffen Bilger told the Neue Osnabrücker Zeitung that Germany must remain the home base for vehicle development and production. He called the end of the EU's 2035 combustion-engine ban a political achievement and said carmakers should now commit to German sites in return. He blamed high costs on labour, energy and bureaucracy and called for a European response to subsidised Chinese cars.",
+    "Lower Saxony's premier Olaf Lies, who sits on Volkswagen's supervisory board, rejected management's planned job cuts just before VW's pay talks with IG Metall begin on Tuesday. He argued that a German company cannot be saved by giving up production in Germany, and proposed more automation, robotics, better workflows and costs in line with other European plants instead.",
+    "For suppliers in Germany and the Nordics, the statements signal that site decisions at VW and others will be politically contested over the coming months, while pay talks and strikes continue."
+   ],
+   "links": [
+    {
+     "label": "Oldenburger Onlinezeitung",
+     "url": "https://www.oldenburger-onlinezeitung.de/nachrichten/bilger-erwartet-bekenntnis-der-autohersteller-zum-standort-251898.html"
+    },
+    {
+     "label": "Made in Bocholt",
+     "url": "https://madeinbocholt.de/lies-vw-mitarbeiter-nicht-fuer-krise-verantwortlich/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "UK haulier Culina orders 1,051 Volvo FH Aero trucks",
+   "why": "A large diesel order for Volvo shows fleets still buying efficiency upgrades rather than switching to electric.",
+   "source": "NT (Dutch trade press)",
+   "body": [
+    "British logistics group Culina has ordered 1,051 Volvo FH Aero trucks, after putting 134 Volvo FH trucks into service in 2024, Dutch trade magazine NT reports. The trucks will arrive in three batches, with all on the road by the second quarter of 2027, and each is expected to cover between 150,000 and 260,000 kilometres a year.",
+    "The order is for diesel trucks with Volvo's D13TC turbo-compound engine, which adds 300 Nm of torque and recovers energy from exhaust gas, combined with the I-Shift automated gearbox and predictive cruise control. The FH Aero's longer, more aerodynamic cab is designed to cut fuel use on long-haul routes.",
+    "The order has so far been reported by a single trade source, without a Volvo Group release. For drivetrain engineers it is a reminder that high-mileage diesel powertrains, with their gearbox and bearing loads, will make up a large part of European truck fleets for years, even as electric truck sales grow."
+   ],
+   "links": [
+    {
+     "label": "NT",
+     "url": "https://nt.nl/wegvervoer/2026/11/20/culina-zet-ruim-duizend-nieuwe-volvo-fh-aeros-op-de-weg"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "17 Nov",
+   "headline": "Worn seal teeth can make rotor vibration look better while instability grows, study finds",
+   "why": "Condition monitoring that only tracks the 1× vibration level may miss a developing rotor–bearing instability.",
+   "source": "Lubricants (MDPI)",
+   "body": [
+    "Researchers at the University of Shanghai for Science and Technology and Southeast University in Nanjing studied how mushroom-shaped wear on labyrinth seal teeth changes a rotor running on plain journal bearings. The peer-reviewed paper in Lubricants uses CFD to compute seal stiffness and damping at different wear depths, then feeds these into a finite-element rotor model.",
+    "Wear of 0.6 mm raised leakage by about 295%. Effective seal damping fell by 43 to 68%, resonance amplitude grew by 17.8%, and the onset of oil whirl dropped from 3,650 to about 3,530 rpm. At 4,800 rpm, synchronous vibration fell by 27.6% while subsynchronous vibration rose by 39.9%.",
+    "The practical point is that a worn seal can make the usual once-per-revolution vibration look healthier while the machine moves closer to instability. Monitoring rules should also track subsynchronous content. The method, feeding component coefficients from CFD into a rotordynamics model, is also a useful pattern for virtual validation of turbomachinery and high-speed e-drive rotors."
+   ],
+   "links": [
+    {
+     "label": "Lubricants",
+     "url": "https://www.mdpi.com/2075-4442/14/11/437"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "19 Nov",
+   "headline": "Robot-guided eddy current probe designed by simulation finds hidden defects in turbine blades",
+   "why": "The same simulate-then-automate approach could speed up eddy current inspection of bearing rings, gears and shafts.",
+   "source": "Journal of Nondestructive Evaluation (Springer)",
+   "body": [
+    "A team from Nanchang Hangkong University and AECC Power Corporation in Zhuzhou has published a peer-reviewed study in the Journal of Nondestructive Evaluation on automating eddy current inspection of aero-engine turbine blades. They used electromagnetic finite-element simulation to choose the probe's core material and coil design, removing the blind zones seen in manual inspection.",
+    "The probe was mounted on a robot with a turntable, and scan paths were tuned on a notched reference specimen to see how robot speed and defect depth and orientation affect the signal. The abstract reports no numbers, but the paper's figures show signal amplitude rising from about 180 to 800 mV as defect depth increases from 0.1 to 0.5 mm, with the best signal-to-noise ratio at 20 mm/s. The system was then validated on real blades with subsurface cold-shut defects.",
+    "For bearing and drivetrain plants, it is a practical template: design the probe in simulation, tune scan parameters on reference parts, then automate inspection of curved precision surfaces."
+   ],
+   "links": [
+    {
+     "label": "Journal of Nondestructive Evaluation",
+     "url": "https://link.springer.com/article/10.1007/s10921-026-01458-z"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Stellantis motorsport cuts",
+   "text": "Le Figaro reports works-council meetings at Stellantis Motorsport on Monday 23 November, with Peugeot's endurance programme and other racing projects at risk. Not yet confirmed.",
+   "link": {
+    "label": "Journal de l'Automobile",
+    "url": "https://journalauto.com/constructeurs/stellantis-sappreterait-a-tailler-dans-le-sport-automobile"
+   }
+  },
+  {
+   "title": "Battery health display from 29 November",
+   "text": "Under Euro 7, new car types approved from 29 November must show traction-battery state of health to the driver, for batteries of 2 kWh and up.",
+   "link": {
+    "label": "Allt om Elbil",
+    "url": "https://alltomelbil.se/nytt-krav-pa-nya-elbilar-ska-visa-batterihalsan/"
+   }
+  },
+  {
+   "title": "EU vote on Tesla's system",
+   "text": "The TCMV committee's vote on EU-wide approval of Tesla's supervised driving has been pushed to December at the earliest; Sweden is still reviewing it.",
+   "link": {
+    "label": "FSD EU tracker",
+    "url": "https://fsd-eu-tracker.de/en/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "OfficeChai – Buckmaster and Alpöge claim Navier–Stokes proof without forcing (21 Nov)",
+   "url": "https://officechai.com/ai/tristan-buckmaster-levent-alpoge-claim-proof-of-navier-stokes-millennium-prize-problem-without-forcing/"
+  },
+  {
+   "label": "AI Weekly – Alpöge and Buckmaster post AI-aided unforced Navier–Stokes blow-up (20 Nov)",
+   "url": "https://aiweekly.co/alerts/alpge-buckmaster-post-ai-aided-unforced-navier-stokes-blowup"
+  },
+  {
+   "label": "Electrek – Tesla FSD gets approval in Italy (20 Nov)",
+   "url": "https://electrek.co/2026/11/20/tesla-fsd-italy-approval-assisted-driving/"
+  },
+  {
+   "label": "Tesla Mag – Italy gives provisional approval to Tesla FSD (20 Nov)",
+   "url": "https://www.tesla-mag.com/en/tesla-fsd-italy-provisional-approval-mit-salvini/"
+  },
+  {
+   "label": "AI Weekly – TSMC pauses shipments as new US chip rules hit beyond AI (21 Nov)",
+   "url": "https://aiweekly.co/alerts/tsmc-pauses-shipments-as-new-us-chip-rules-hit-beyond-ai"
+  },
+  {
+   "label": "Nikkei Asia – Chip supply chain warns of broader disruption from new US export controls (21 Nov)",
+   "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls"
+  },
+  {
+   "label": "AI Weekly – Senate passes BAAJA 62–33 (21 Nov)",
+   "url": "https://aiweekly.co/alerts/senate-passes-baaja-62-33-puts-55b-grid-tab-on-data-centers"
+  },
+  {
+   "label": "CNBC – Senate passes BAAJA permitting reform (20 Nov)",
+   "url": "https://www.cnbc.com/2026/11/20/baaja-bill-senate-passes-permitting-reform.html"
+  },
+  {
+   "label": "Fortune – Google Search, AI Overviews and US school districts (21 Nov)",
+   "url": "https://fortune.com/2026/11/21/google-search-ai-overviews-schools-chicago-nyc-los-angeles-miami/"
+  },
+  {
+   "label": "OpenAI – ChatGPT release notes: Space for Plus (20 Nov)",
+   "url": "https://help-lb.openai.com/en/articles/6825453-chatgpt-release-notes"
+  },
+  {
+   "label": "Seoul Economic Daily – US robot maker sends welding humanoids to Korea for training (20 Nov)",
+   "url": "https://en.sedaily.com/world/2026/11/20/us-robot-maker-sends-welding-humanoids-to-korea-for-training"
+  },
+  {
+   "label": "Global China EV – Leapmotor outsells Tesla in Europe in October (21 Nov)",
+   "url": "https://www.globalchinaev.com/post/leapmotor-outsells-tesla-in-europe-in-october-as-chinese-share-slips-to-135"
+  },
+  {
+   "label": "CnEVPost – Leapmotor and Opel deal to develop SUV for 2028 (20 Nov)",
+   "url": "https://cnevpost.com/2026/11/20/leapmotor-opel-deal-develop-suv-2028-launch/"
+  },
+  {
+   "label": "Opel – Opel and Leapmotor sign official cooperation agreement (20 Nov)",
+   "url": "https://www.lifepr.de/pressemitteilung/opel-automobile-gmbh/Major-Milestone-Opel-and-Leapmotor-Sign-Official-Cooperation-Agreement/boxid/1080338"
+  },
+  {
+   "label": "Electrek – Tesla FSD v15 rollout (21 Nov)",
+   "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/"
+  },
+  {
+   "label": "Oldenburger Onlinezeitung – Bilger expects carmakers to commit to Germany (21 Nov)",
+   "url": "https://www.oldenburger-onlinezeitung.de/nachrichten/bilger-erwartet-bekenntnis-der-autohersteller-zum-standort-251898.html"
+  },
+  {
+   "label": "Made in Bocholt – Lies: VW workers not to blame for the crisis (21 Nov)",
+   "url": "https://madeinbocholt.de/lies-vw-mitarbeiter-nicht-fuer-krise-verantwortlich/"
+  },
+  {
+   "label": "NT – Culina puts over a thousand new Volvo FH Aeros on the road (20 Nov)",
+   "url": "https://nt.nl/wegvervoer/2026/11/20/culina-zet-ruim-duizend-nieuwe-volvo-fh-aeros-op-de-weg"
+  },
+  {
+   "label": "Lubricants – Mushroom-shaped tooth wear, labyrinth seals and rotor–bearing dynamics (17 Nov)",
+   "url": "https://www.mdpi.com/2075-4442/14/11/437"
+  },
+  {
+   "label": "Journal of Nondestructive Evaluation – Robotic eddy current inspection of turbine blades (19 Nov)",
+   "url": "https://link.springer.com/article/10.1007/s10921-026-01458-z"
+  },
+  {
+   "label": "Journal de l'Automobile – Stellantis set to cut motorsport (20 Nov)",
+   "url": "https://journalauto.com/constructeurs/stellantis-sappreterait-a-tailler-dans-le-sport-automobile"
+  },
+  {
+   "label": "Allt om Elbil – New requirement: EVs must show battery health",
+   "url": "https://alltomelbil.se/nytt-krav-pa-nya-elbilar-ska-visa-batterihalsan/"
+  },
+  {
+   "label": "FSD EU tracker",
+   "url": "https://fsd-eu-tracker.de/en/"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
 }
