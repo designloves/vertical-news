@@ -190,5 +190,11 @@
     "sha": "d7f5489cd3d8",
     "duration": 118.7,
     "voice": "bf_emma"
+  },
+  "2026-11-22": {
+    "file": "2026-11-22.mp3",
+    "sha": "a7d895cfc0d1",
+    "duration": 234.5,
+    "voice": "bf_emma"
   }
 }
