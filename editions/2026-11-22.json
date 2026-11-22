@@ -1,0 +1,213 @@
+{
+  "date": "2026-11-22",
+  "weekday": "Sunday",
+  "covers": "Fri 20 – Sat 21 Nov",
+  "glance": "The AI sell-off turned into a rout on Friday: the Nasdaq had its worst week since March 2020, Nvidia fell 14% on a report of an SEC accounting review, and Taiwan banned most short-selling on Saturday. A five-month Dragos experiment found that prompts sent to AI providers and resellers were leaked, logged and used by attackers, which matters to every team building on third-party models. Elsewhere, UN talks on killer robots ended without a ban, METR says agents still lack judgment outside coding, and in automotive onsemi launched a fourth-generation SiC chip for traction inverters while a Chinese-designed EV sportscar will be assembled in Italy from 2027.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "20–21 Nov",
+      "headline": "Nasdaq has its worst week since March 2020 as Nvidia falls 14%, and Taiwan bans most short-selling",
+      "why": "A sharp repricing of AI stocks can quickly hit funding, AI budgets and the price of compute for both software teams and suppliers.",
+      "source": "CNBC · Focus Taiwan",
+      "body": [
+        "US stocks fell hard on Friday. The S&P 500 dropped 3.7% to 6,910, its seventh loss in a row, and closed in correction territory, about 10% below its record. The Nasdaq Composite fell 5.3% and is now down 2.7% for 2026. Over the week the Nasdaq lost about 10% and the S&P 500 8.6%. Nvidia fell about 14% after Reuters reported that the SEC is looking into possible accounting issues at the company. AMD and Micron each fell around 13–14%, and Anthropic lost 8.5% on its second day of trading.",
+        "The damage spread to Asia. Taiwan's Taiex fell 6.2% on Friday to its lowest close in almost seven months, about 28% below its October peak. On Saturday, Taiwan's financial regulator banned short-selling of any stock that fell in the previous session, from Monday, and raised short-selling margin from 130% to 150%. It is the first blanket ban since 2015.",
+        "For product and engineering teams, the practical risk is tighter AI budgets and more cautious investors. Vendors whose pricing depends on cheap capital may change terms."
+      ],
+      "links": [
+        {"label": "CNBC – market close", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"},
+        {"label": "Focus Taiwan", "url": "https://focustaiwan.tw/business/202611210013"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "19–21 Nov",
+      "headline": "Dragos plants two million bait secrets in AI prompts and finds three providers breached and resellers reading prompts",
+      "why": "If your product or agents send code, keys or customer data to a model through a router or reseller, that data may not stay private.",
+      "source": "Dragos",
+      "body": [
+        "HD Moore, chief research officer at industrial security firm Dragos, sent about two million prompts to widely used AI services between July and November. Each contained unique bait: AWS keys, URLs, DNS names and passwords. His team then watched for anyone using them. Data from at least three AI hosting providers was exposed, the earliest in mid-July. In the largest case a couple of hundred AWS keys were stolen and used for tens of thousands of API calls.",
+        "Cheap resellers on an inference marketplace could read and keep customer prompts simply by turning on logging. A Chinese AI lab fetched secret URLs from more than half of the prompts sent to its models, including about two-thirds of those flagged for zero data retention. One link sent to a US provider with that flag turned up in a Chinese company chat 24 days later. Some routes passed through companies not listed on the advertised path.",
+        "Dragos advises self-hosting for sensitive work, contracting directly with first-tier providers, avoiding reseller marketplaces and seeding your own canary credentials into agent pipelines."
+      ],
+      "links": [
+        {"label": "Dragos – Three breaches, endless leaks", "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "20–21 Nov",
+      "headline": "UN talks on killer robots end without a ban, a day after Bessent says Trump and Xi agreed humans must decide on military AI",
+      "why": "Rules on human control of autonomous systems shape what defence and dual-use suppliers, including automotive ones, can build and sell.",
+      "source": "Yahoo News (dpa) · Reuters via SRN News",
+      "body": [
+        "The Geneva conference of the 128 states in the UN Convention on Certain Conventional Weapons ended early on Saturday with only a minimal deal. Almost 100 countries wanted to start negotiating a binding ban on weapons that can kill without a human making the final decision. The United States, Israel, Belarus and the UK opposed a negotiating mandate. Government experts will instead keep working on elements of a possible agreement and recommend by 2028 whether it should become a treaty. Campaign groups called the result disappointing.",
+        "On Friday, US Treasury Secretary Scott Bessent told CNBC that Donald Trump and Xi Jinping agreed in Shenzhen that humans should always be involved in military decisions that use AI, and that no major operation should start without a person in the loop. China has not confirmed this, and no text was published.",
+        "Taken together, the two events show that governments talk about human control but do not yet want binding rules."
+      ],
+      "links": [
+        {"label": "Yahoo News – UN talks on killer robots", "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"},
+        {"label": "SRN News (Reuters) – Bessent", "url": "https://srnnews.com/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "20 Nov",
+      "headline": "METR: AI agents match skilled humans on coding but show weaker judgment when feedback is slow or unclear",
+      "why": "It is a useful guide to which product and engineering tasks you can hand to agents today, and which still need expert review.",
+      "source": "METR",
+      "body": [
+        "Evaluation group METR published its quarterly update on public models up to Opus 5.5 and GPT-6 Astra. The length of tasks agents can finish keeps doubling roughly every 3.6 months. On tasks with clear, automatic scoring, the doubling time is only 1.65 months, though METR says that figure is uncertain. Models often match or beat skilled humans on coding and optimisation work with fast feedback.",
+        "Results are weaker elsewhere. On a benchmark that rates philosophical critiques, every public model stayed below experts who spent 15 minutes on each item. When asked to design new evaluation tasks, agents produced nothing METR found especially useful. Model judges agreed with human graders on weaker models' work but overrated work from models as strong as or stronger than themselves. Costlier tasks gave about 2.9 times shorter time horizons.",
+        "METR says public evidence cannot rule out a sharp speed-up in AI research within a couple of years. For teams, the lesson is to keep humans reviewing work where quality is hard to measure, and not to rely on one model to grade another."
+      ],
+      "links": [
+        {"label": "METR – Q4 2026 capability update", "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "20 Nov",
+      "headline": "Thinking Machines releases Inkling 2 Mini, an open-weights coding model that runs on a 32 GB laptop",
+      "why": "Strong local models give teams an option for sensitive code and design files that should not leave the machine.",
+      "source": "Thinking Machines Lab",
+      "body": [
+        "Thinking Machines Lab released Inkling 2 Mini with open weights. It is a mixture-of-experts model with 26.4 billion parameters, of which about 3.4 billion are active per token. It is a looped transformer: the middle layers run three times for each token, which gives more compute without more stored weights. The whole model needs about 20 GB of memory and runs on Macs with at least 32 GB of RAM through Ollama, and on Nvidia DGX Spark.",
+        "The lab reports 79.2% on SWE-bench Verified, 48.2% on DeepSWE v1.1, 71.6% on Terminal Bench 2.1 and 46.5% on the Vals Index, which it says leads open models under 100 billion parameters. It trails Alibaba's Qwen 3.8 27B on some chat and instruction tasks. These figures are vendor-reported. Weights are on Hugging Face, with support in vLLM, SGLang, llama.cpp and the lab's Tinker fine-tuning service.",
+        "Given the Dragos findings on leaking prompts, a capable model that runs locally is a practical choice for frontend and tooling work on private code."
+      ],
+      "links": [
+        {"label": "Thinking Machines – Inkling 2 Mini", "url": "https://thinkingmachines.ai/news/inkling-2-mini/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "20 Nov",
+      "headline": "OpenAI says new safeguards cut attempts to copy its models' reasoning from 54% success to 0.2%",
+      "why": "Model makers are hiding more of how models reason, which affects how far teams can inspect or audit AI output.",
+      "source": "OpenAI",
+      "body": [
+        "OpenAI described how it fights adversarial distillation, where someone collects a model's outputs without permission to train a copy, then runs that copy without safety limits. OpenAI says exact reasoning traces are the most valuable target: in an internal cyber study, student models trained on full traces beat those trained on summaries.",
+        "Its defences include training models to refuse extraction attempts, classifiers on inputs and outputs, API rules that drop hidden reasoning if earlier messages are edited, and blocking older models from reading newer models' reasoning. In red-team tests across six attacker models, the success rate for extracting reasoning from an earlier request fell from 54.0% on GPT-6 Astra to 0.2% on GPT-6.2 Astra. For the current request it fell from 22.9% to 0.9%. Weekly enforcement now hits thousands to tens of thousands of accounts.",
+        "For developers, this means less visibility into model reasoning through the API, and a higher risk of account action for heavy automated use that looks like scraping."
+      ],
+      "links": [
+        {"label": "OpenAI – Combatting adversarial distillation", "url": "https://openai.com/index/combatting-adversarial-distillation/"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "20–21 Nov",
+      "headline": "Cursor tells Congress it may drop Chinese open-weight models, while US clouds keep serving DeepSeek and Kimi",
+      "why": "Where your AI features' underlying model comes from is becoming a procurement and compliance question, not just a cost one.",
+      "source": "CNBC · Fortune",
+      "body": [
+        "A House report reviewed by CNBC says Cursor, the AI code editor owned by SpaceX, told the Homeland Security and China committees it will explore phasing out open-weight models developed in China because of geopolitical risk. Cursor's Composer 2 model was built on Moonshot AI's Kimi K2.5. Airbnb and DoorDash also answered questions about their use of Chinese models. The report recommends a US open-weight model programme and extending the federal DeepSeek ban to other Chinese models.",
+        "In a Fortune opinion piece on Saturday, researchers from Georgetown's CSET counted at least 16 inference providers outside China, including Amazon Bedrock, that serve DeepSeek's latest model. They also report that Moonshot asks firms with over $20 million in sales from Kimi K3 to negotiate a revenue-share licence. The authors argue against banning US clouds from serving Chinese models.",
+        "Product teams using cheap open models should map which ones they rely on and plan for a possible switch."
+      ],
+      "links": [
+        {"label": "CNBC – Cursor and Chinese models", "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"},
+        {"label": "Fortune – US chips serve Chinese models", "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "21 Nov",
+      "headline": "China plans national standards for how AI tokens are measured, billed and quality-checked",
+      "why": "Tokens are becoming a regulated unit of sale, which could shape how AI features are priced and compared.",
+      "source": "The Next Web",
+      "body": [
+        "China's National Data Administration said on Saturday that it will improve standards for measuring, billing and testing the quality of AI tokens. Director Liu Liehong also wants to widen the uses of token services and curb low-quality duplication as so-called token factories spread. These bundle rented compute, models and data into one service. No date was given for the standards.",
+        "The agency's figures show how fast use is growing. Daily token use in China passed 140 trillion in March, over 1,000 times more than in early 2024, and passed 500 trillion by June. Banks and telecom operators already sell tokens to consumers, so the rules would reach retail buyers as well as businesses.",
+        "Most AI pricing today is per token, but providers count tokens differently, so the same task costs different amounts. A government standard would be a first step toward comparing them like for like. Product managers pricing AI features should watch whether other regions follow."
+      ],
+      "links": [
+        {"label": "The Next Web", "url": "https://thenextweb.com/news/chinas-data-regulator-plans-standards-for-measuring-and-billing-ai-tokens"}
+      ]
+    },
+    {
+      "cat": "eng",
+      "top": false,
+      "date": "20–21 Nov",
+      "headline": "Siemens and AGIBOT show an AI agent that designs, simulates and prepares a 3D-printed robot gripper from a text prompt",
+      "why": "It shows agents running CAD, simulation and manufacturing prep in one chain, the same pattern now reaching fixtures and tooling in car plants.",
+      "source": "3D Printing Industry · Siemens",
+      "body": [
+        "At Formnext in Frankfurt, Siemens and Chinese humanoid robot maker AGIBOT showed an agent that designs a gripper from a plain description of the object and the task. The agent picks a gripper type, adapts its geometry in Siemens Designcenter, simulates it, checks the robot interface and handling needs, and prepares the data for additive manufacturing. It reaches the engineering software through the Model Context Protocol, so no one has to step through each tool by hand.",
+        "The designs will be built in an adaptive production cell Siemens is setting up at its electronics factory in Erlangen with 3D-printing firm EOS and post-processing specialist AM Solutions. The cell combines printing, automation, software and post-processing in one chain. No completion date or performance figures were given.",
+        "BMW engineers already use Synera's agents for lightweight grippers based on topology optimisation. Siemens' approach starts from the task instead. For plant engineers, custom end-of-arm tooling is an easy first place for agent-driven design."
+      ],
+      "links": [
+        {"label": "3D Printing Industry", "url": "https://3dprintingindustry.com/news/siemens-and-agibot-show-ai-agent-that-designs-3d-printed-humanoid-robot-grippers-from-a-text-prompt-256961/"},
+        {"label": "Automation World – Siemens release", "url": "https://www.automationworld.com/process/digital-transformation/press-release/55419869/siemens-corporation-siemens-develops-adaptive-production-cell-with-ai-automation-and-additive-manufacturing"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "20 Nov",
+      "headline": "onsemi launches its fourth-generation EliteSiC M4 chips for EV traction inverters, with Schaeffler backing",
+      "why": "Lower inverter losses mean more range or smaller batteries, and less heat to manage in e-axles and drive units.",
+      "source": "electrive",
+      "body": [
+        "onsemi introduced EliteSiC M4, its fourth generation of silicon carbide power chips, built on a trench design. The company claims up to 30% higher power density and up to 35% lower conduction and switching losses than the previous generation. It says specific on-resistance is 20–50% lower, and switching improves by 67% in hard-switching and 50% in soft-switching use. These are chip-level figures and do not translate directly into drivetrain savings.",
+        "A 750 V bare die for traction inverters is available now, with 1,200 V versions due from 2027. The chips fit existing packages, including top-side-cooled surface-mount parts and power modules, and onsemi plans to qualify them for 185°C and above. Schaeffler publicly backed the platform; its executive Harald Hartel sees gains in range, heat and installation space.",
+        "For drivetrain engineers, higher temperature ratings and lower losses change cooling and packaging trade-offs in integrated e-axles, including the thermal load on nearby bearings and seals."
+      ],
+      "links": [
+        {"label": "electrive – onsemi EliteSiC M4", "url": "https://www.electrive.com/2026/11/20/onsemi-introduces-new-sic-platform-elitesic-m4/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "21 Nov",
+      "headline": "A Chinese-designed electric sportscar, the SC01, will be assembled in Italy from May 2027",
+      "why": "It is another small sign of Chinese EV designs being built inside the EU, partly to avoid tariffs and handle homologation locally.",
+      "source": "electrive",
+      "body": [
+        "Italian company FIPA (Fabbrica Italiana Produzione Autoveicoli) plans to assemble the SC01 electric sportscar in the Marche region from the end of May 2027. The car was developed by Chinese startup Tianjin Gongjiangpai Auto Technology. FIPA is its only authorised importer and maker for the EU and is responsible for European homologation. The Chinese version has 320 kW, all-wheel drive, weighs just under 1.4 tonnes and reaches 100 km/h in 2.9 seconds. European specifications are not yet known.",
+        "The first phase uses an existing industrial site with 2,000 m² of production space, growing to 24,000 m² within two years. Buildings will be renovated from January to March 2027, with lines and homologation completed by May. About 50 people will work in the first phase, rising to 285 by the end of 2030. FIPA also plans light EVs and its own models. Investment and volumes were not disclosed.",
+        "The project is small, but it follows the same route as larger Chinese brands seeking European plants."
+      ],
+      "links": [
+        {"label": "electrive – SC01 in Italy", "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"}
+      ]
+    }
+  ],
+  "watch": [
+    {"title": "Markets reopen Monday", "text": "Taiwan's short-selling ban takes effect as investors test whether the AI sell-off spreads further. A reported CrowdStrike–Zscaler deal is also unconfirmed.", "link": {"label": "Focus Taiwan", "url": "https://focustaiwan.tw/business/202611210013"}},
+    {"title": "VW wage talks open on 24 November", "text": "Volkswagen and IG Metall start bargaining in Emden on Tuesday, with a second round in Zwickau on 15 December.", "link": {"label": "Automotive World", "url": "https://www.automotiveworld.com/news/volkswagen-and-ig-metall-to-begin-talks-on-24-november/"}},
+    {"title": "EU car CO2 vote in December", "text": "The European Parliament's plenary is expected to vote in December on softening the 2035 target to 95%, after the environment committee backed it on 4 November.", "link": {"label": "electrive", "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"}}
+  ],
+  "sources": [
+    {"label": "CNBC – S&P 500 and Dow close in correction; Nasdaq erases 2026 gain (20 Nov)", "url": "https://www.cnbc.com/2026/11/19/stock-market-today-live-updates.html"},
+    {"label": "Focus Taiwan – Taiwan tightens short-selling rules (21 Nov)", "url": "https://focustaiwan.tw/business/202611210013"},
+    {"label": "Dragos – Three breaches, endless leaks: your AI supply chain needs canaries (19 Nov)", "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"},
+    {"label": "Yahoo News – UN talks on autonomous killer robots end without ban (21 Nov)", "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"},
+    {"label": "SRN News (Reuters) – Trump, Xi agreed military AI decisions should involve humans, Bessent says (20 Nov)", "url": "https://srnnews.com/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/"},
+    {"label": "METR – Q4 2026 capability update (20 Nov)", "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"},
+    {"label": "Thinking Machines Lab – Inkling 2 Mini (20 Nov)", "url": "https://thinkingmachines.ai/news/inkling-2-mini/"},
+    {"label": "OpenAI – Combatting adversarial distillation (20 Nov)", "url": "https://openai.com/index/combatting-adversarial-distillation/"},
+    {"label": "CNBC – Cursor weighs phasing out Chinese AI models (20 Nov)", "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"},
+    {"label": "Fortune – US data centers and chips serve Chinese models (21 Nov)", "url": "https://fortune.com/2026/11/21/data-centers-us-chips-serve-chinese-models"},
+    {"label": "The Next Web – China's data regulator plans standards for billing AI tokens (21 Nov)", "url": "https://thenextweb.com/news/chinas-data-regulator-plans-standards-for-measuring-and-billing-ai-tokens"},
+    {"label": "3D Printing Industry – Siemens and AGIBOT AI agent designs robot grippers (21 Nov)", "url": "https://3dprintingindustry.com/news/siemens-and-agibot-show-ai-agent-that-designs-3d-printed-humanoid-robot-grippers-from-a-text-prompt-256961/"},
+    {"label": "Automation World – Siemens develops adaptive production cell with AI and AM (Nov)", "url": "https://www.automationworld.com/process/digital-transformation/press-release/55419869/siemens-corporation-siemens-develops-adaptive-production-cell-with-ai-automation-and-additive-manufacturing"},
+    {"label": "electrive – onsemi introduces EliteSiC M4 (20 Nov)", "url": "https://www.electrive.com/2026/11/20/onsemi-introduces-new-sic-platform-elitesic-m4/"},
+    {"label": "electrive – Chinese SC01 sportscar to be built in Italy from May 2027 (21 Nov)", "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"},
+    {"label": "Automotive World – Volkswagen and IG Metall to begin talks on 24 November", "url": "https://www.automotiveworld.com/news/volkswagen-and-ig-metall-to-begin-talks-on-24-november/"},
+    {"label": "electrive – EU Parliament environment committee votes to relax CO2 rules (5 Nov)", "url": "https://www.electrive.com/2026/11/05/eu-parliament-environment-committee-votes-to-relax-co2-rules/"}
+  ],
+  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+}
