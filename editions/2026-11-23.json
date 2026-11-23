@@ -1,337 +1,445 @@
 {
-  "date": "2026-11-23",
-  "weekday": "Monday",
-  "covers": "Fri 20 – Mon 23 Nov",
-  "glance": "OpenAI's chief scientist published the company's internal pretraining scores for the first time and asked rival labs to agree common limits they would not cross until monitoring improves. Security researchers showed that several AI inference providers leaked or logged prompts despite zero-retention promises, and Friday's AI-led sell-off pushed the S&P 500 and Dow into a correction. In automotive, Tesla keeps its cars on AI4 hardware, a Chinese-developed sports car gets an Italian plant, and Stellantis is expected to shut its works racing programmes.",
-  "stories": [
+ "date": "2026-11-23",
+ "weekday": "Monday",
+ "covers": "Fri 20 – Sun 22 Nov",
+ "glance": "OpenAI proposed perplexity as a shared metric for pacing frontier AI, a canary test exposed prompt leaks across inference providers, and a Dutch court blocked BYD's Ti7 in the EU over Land Rover design rights. Euro 7 takes effect for new car types this week, Stellantis is set to quit works racing, and Chinese brands keep pushing into Europe despite thinner margins.",
+ "brief": "Good morning. Here is Vertical News for Monday the twenty-third of November, covering the weekend. OpenAI's chief scientist, Jakub Pachocki, has proposed perplexity, a measure of how well a model predicts text, as a shared yardstick for frontier AI. OpenAI published its own figures for the first time and asked rival labs to agree common limits until better safety monitoring exists. A canary test by the security firm Dragos caught AI inference providers leaking prompts, and seeded cloud keys were later used by attackers. OpenRouter dropped three providers and pulled a hundred and twenty-five endpoints from its zero-retention list. And a Dutch court has barred BYD from selling or building its Ti7 in the EU, after Jaguar Land Rover argued it copies the Defender design. BYD will appeal. In other news, the Lean community says the Claude-assisted proof of the Riemann Hypothesis checks out formally. UN talks on autonomous weapons ended without a mandate to negotiate a ban. Cursor told US lawmakers it may phase out Chinese open-weight models. Lovable added new models, payment connectors and company-only publishing. Google added EU data-region controls and an AI switch to Workspace Studio. In automotive, Stellantis is reported to be ending its works racing programmes. Euro 7 applies to new car types from Sunday, including the first brake-dust limits. Leapmotor's profit fell seventy-three percent even as its platform launched in Europe under Hongqi. Volkswagen is finally fixing the PerfektBlue Bluetooth flaws. And in research, a UK and Chinese study shows crowded trains can cut wheelset crack-growth life by up to seventy-two percent.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "22 Nov",
+   "headline": "OpenAI's chief scientist proposes perplexity as a shared yardstick for frontier AI and publishes OpenAI's own figures",
+   "why": "If labs agree common limits on training progress, release pacing of the models your products depend on could become an industry-wide negotiation.",
+   "source": "OpenAI · Unite.AI",
+   "body": [
+    "Jakub Pachocki, OpenAI's chief scientist, published an essay on Sunday arguing that perplexity, a measure of how well a model predicts held-out text, should become a common metric for tracking frontier progress. For the first time OpenAI released its internal pretraining log-perplexity on a held-out code dataset: about 0.99 for GPT-3.5, about 0.91 for GPT-4, and below 0.8 for the models where strong cyber-security and maths abilities appeared. A model at about 0.76 began producing notable results on open maths problems, and he expects further, unknown jumps around 0.68 to 0.70.",
+    "He proposes that frontier labs agree shared evaluation norms, transparency standards and common limits tied to measures like perplexity, not to be crossed until monitoring milestones are met, such as a successor to chain-of-thought monitors. He warns that AI-driven pretraining research could cause a sudden burst of progress, possibly as soon as 2027, and admits the metric's weaknesses: labs train on different data and the number does not map to specific tasks.",
+    "For Europe the proposal lands next to the AI Act's rules for general-purpose models with systemic risk, which also need measurable thresholds. The next test is whether Anthropic, Google and others publish comparable numbers."
+   ],
+   "links": [
     {
-      "cat": "gen",
-      "top": true,
-      "date": "22 Nov",
-      "headline": "OpenAI publishes its internal perplexity scores and asks rival labs to agree common limits",
-      "why": "A proposal to pace frontier training by a shared metric could shape which models reach the APIs your products depend on.",
-      "source": "OpenAI",
-      "body": [
-        "Jakub Pachocki, OpenAI's chief scientist, published an essay on Sunday arguing that perplexity, a measure of how well a model predicts held-out text, should become a shared yardstick for frontier progress and safety rules. For the first time, OpenAI released its own log-perplexity figures on an internal code dataset: about 0.99 for GPT-3.5, about 0.91 for GPT-4, and below 0.8 for recent models, where he says strong cyber and maths abilities appeared. He expects further, unknown capabilities around 0.68–0.70.",
-        "He asks labs to agree on common limits, based on perplexity and other measures, that no one crosses until a concrete monitoring milestone is reached, such as a successor to chain-of-thought monitors. OpenAI commits to publishing its measurements and to avoiding full recursive self-improvement without human oversight. It does not commit to a specific cap of its own.",
-        "For product and engineering teams, the practical point is that release pacing may become a negotiated industry matter, not just a company choice. Watch whether Anthropic, Google and others respond with their own numbers."
-      ],
-      "links": [
-        {
-          "label": "OpenAI – Perplexity and intelligence",
-          "url": "https://openai.com/index/perplexity-and-intelligence/"
-        }
-      ]
+     "label": "OpenAI – Perplexity and Intelligence",
+     "url": "https://openai.com/index/perplexity-and-intelligence"
     },
     {
-      "cat": "gen",
-      "top": true,
-      "date": "19–22 Nov",
-      "headline": "Canary test finds AI inference providers leaking prompts, and OpenRouter drops three of them",
-      "why": "If your product sends customer data or keys through third-party model hosts, zero-retention labels are not enough on their own.",
-      "source": "OpenRouter · Together AI via Unite.AI · Crypto Briefing",
-      "body": [
-        "HD Moore of the security firm Dragos planted about two million fake credentials and tracking links, known as canaries, in requests to AI inference services and routers between July and November. He found at least three hosting providers compromised, saw about 200 planted AWS keys stolen and tested in late October, and found signs that some resellers logged prompts despite zero data retention (ZDR) policies.",
-        "OpenRouter said on Sunday that its own systems were not breached, but it removed three providers from its network, took 125 endpoints off its ZDR list and notified affected customers. Novita, Phala, Together and Atlas Cloud have posted incident notes. Together said an AI coding agent had committed a credential to a public GitHub repository, which let an intruder download stored samples of customer prompts from June and July. Together now makes ZDR the default for new accounts.",
-        "The lesson for teams shipping AI features: treat anything in a prompt as potentially exposed, keep secrets out of prompts, check routing paths, and scan code written by agents for credentials."
-      ],
-      "links": [
-        {
-          "label": "OpenRouter – Data processing incidents on inference providers",
-          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
-        },
-        {
-          "label": "Unite.AI – Together AI discloses prompt leak",
-          "url": "https://www.unite.ai/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential/"
-        },
-        {
-          "label": "Crypto Briefing – Dragos canary study",
-          "url": "https://cryptobriefing.com/hd-moore-ai-supply-chain-data-leaks/"
-        }
-      ]
-    },
-    {
-      "cat": "gen",
-      "date": "20 Nov",
-      "headline": "Nasdaq falls 5.3% as an AI-led sell-off pushes the S&P 500 and Dow into a correction",
-      "why": "A sharp turn in AI sentiment can tighten budgets for AI projects and data-centre build-outs in 2027.",
-      "source": "NBC News · Fox Business",
-      "body": [
-        "US stocks had one of their worst days in years on Friday. The Nasdaq Composite fell about 5.3% to 22,617.73, wiping out its gains for 2026. The S&P 500 dropped 3.7%, its seventh losing session in a row, and both it and the Dow ended at least 10% below their recent highs, the usual definition of a correction. The VIX volatility index closed at its highest level since April 2025.",
-        "Nvidia fell about 14% after a Reuters report that regulators are examining possible accounting problems, on top of the scandal around former chief executive Jensen Huang. Anthropic, a day after its debut, lost about 9% and ended just above its IPO price. Analysts also pointed to expected Federal Reserve rate rises, the Democrats' midterm gains and growing local opposition to new data centres.",
-        "For product leaders, this is a signal to watch AI vendor pricing and funding, not a reason to change plans overnight. Startups that rely on cheap capital and suppliers building capacity may get more cautious."
-      ],
-      "links": [
-        {
-          "label": "NBC News – Markets plunge",
-          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
-        },
-        {
-          "label": "Fox Business – Correction territory",
-          "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
-        }
-      ]
-    },
-    {
-      "cat": "gen",
-      "date": "21–22 Nov",
-      "headline": "Lean community says the Claude-assisted Riemann Hypothesis proof checks out formally",
-      "why": "Machine-checked proofs let people trust AI output they cannot read line by line, which is the same idea behind formal verification in engineering.",
-      "source": "Lean community blog",
-      "body": [
-        "The Lean and Mathlib communities, with backing from the Lean FRO and the Mathlib Initiative, said on Saturday that the Lean proof of the Riemann Hypothesis released on 20 November by Anthropic mathematician Levent Alpöge passes every formal check they ran. The library runs to about 17 million lines and depends only on Mathlib.",
-        "Dozens of people rebuilt the same proof export without errors. Two tools confirmed that the proved theorem matches Mathlib's carefully reviewed statement of the hypothesis, and Lean's kernel plus several independent checkers written in other languages accepted the proof. Two of those checkers come with their own formal guarantee that they cannot accept a false proof.",
-        "This is not peer review. The checks were run on an exported copy, and the statement does not discuss which axioms are used or explain the mathematical ideas, which the community says is the work still ahead. Even so, it moves the claim from 'unconfirmed' to formally verified, and it shows how far machine-checked output can go when humans cannot inspect it directly."
-      ],
-      "links": [
-        {
-          "label": "Lean community – Riemann Hypothesis statement",
-          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
-        }
-      ]
-    },
-    {
-      "cat": "gen",
-      "date": "21 Nov",
-      "headline": "UN talks on autonomous weapons end without a mandate to negotiate a ban",
-      "why": "The rules for AI that selects targets on its own will stay voluntary for at least two more years.",
-      "source": "dpa via Yahoo News",
-      "body": [
-        "A meeting of the 128 states that are parties to the UN Convention on Certain Conventional Weapons ended in Geneva early on Saturday after overnight talks. Almost 100 countries wanted to start negotiating a binding ban on the most dangerous autonomous weapons systems, but the meeting did not agree a negotiating mandate.",
-        "According to the report, the United States opposed a specific mandate, while Israel, Belarus and the UK opposed talks on a binding treaty. Instead, government experts will keep studying possible elements of an agreement and recommend by 2028 whether these should become a binding instrument. Campaign groups such as Stop Killer Robots called the result disappointing.",
-        "Europe's AI Act excludes military uses, so this forum is one of the few places where global rules on lethal autonomy could be set. For engineers in defence-adjacent supply chains, including robotics, vision and vehicle autonomy, the dual-use debate will continue without a clear legal line."
-      ],
-      "links": [
-        {
-          "label": "Yahoo News – UN talks on autonomous killer robots",
-          "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"
-        }
-      ]
-    },
-    {
-      "cat": "pm",
-      "date": "20 Nov",
-      "headline": "Cursor tells US lawmakers it may phase out Chinese open-weight models",
-      "why": "Model choice is becoming a geopolitical and compliance question, not just a matter of price and benchmarks.",
-      "source": "CNBC",
-      "body": [
-        "Cursor, the AI coding tool now owned by SpaceX, told the House Homeland Security Committee and the House Select Committee on China that it will explore phasing out open-weight models developed in China because of geopolitical risk, according to a House report seen by CNBC. Cursor's Composer 2 coding model was built on Kimi K2.5 from China's Moonshot AI.",
-        "The report says Chinese models are spreading because of low cost, easy customisation and near-frontier performance, and that the US lacks an open-weight alternative with the price and performance the market wants. It recommends a national American open-weight programme and a ban on Chinese-developed models in federal systems and contracts. Airbnb and DoorDash were also asked about their use of Chinese models.",
-        "For product teams, especially those selling to governments or regulated industries, it is worth documenting which base models sit under your features and having a fallback. Customers may start to ask."
-      ],
-      "links": [
-        {
-          "label": "CNBC – Cursor and Chinese AI models",
-          "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
-        }
-      ]
-    },
-    {
-      "cat": "ux",
-      "date": "22 Nov",
-      "headline": "Apple starts rolling out Siri AI in its own apps, but not in the EU",
-      "why": "Siri app skills could become a new interface for your product, while European users will have to wait.",
-      "source": "Forkast · MacRumors",
-      "body": [
-        "Apple has begun rolling out new Siri AI features in eight of its own apps: Calendar, Files, Mail, Maps, Messages, Photos, Safari and Weather. A developer preview of the App Intents API lets third-party apps expose content and actions, such as checking a delivery or booking a table, and build 'app skills' that guide Siri through several steps and across apps.",
-        "Users must name a background app, but not one that is in the foreground, showing a Live Activity or already part of the conversation. For now, preview integrations work only in Xcode builds and internal TestFlight, with App Store submissions expected in spring. Siri AI is not available in the EU on iOS, iPadOS and watchOS while Apple talks to the European Commission. Bloomberg's Mark Gurman reports that recent Siri layoffs hit the old infrastructure team, and he does not expect a more advanced agent before late 2027.",
-        "UX teams should start mapping their key tasks to intents and think about how they should sound in a voice flow, since Siri will now invoke them by context."
-      ],
-      "links": [
-        {
-          "label": "Forkast – Siri AI rollout and developer preview",
-          "url": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview"
-        },
-        {
-          "label": "MacRumors – Siri layoffs",
-          "url": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems/"
-        }
-      ]
-    },
-    {
-      "cat": "eng",
-      "date": "22 Nov",
-      "headline": "Boston Dynamics puts Atlas on wheels to test how well simulated training carries over to hardware",
-      "why": "It is a clear case study in sim-to-real transfer, the core question behind virtual validation.",
-      "source": "Robotics & Automation News",
-      "body": [
-        "Boston Dynamics released a video on Sunday of its Atlas humanoid rolling, sliding sideways and doing a 360-degree jump on wheels. Engineers swapped the feet for scooter rims mounted on custom adapters on the existing ankle actuators. The control policy was trained with whole-body reinforcement learning over millions of simulated scenarios, and some moves, including the jump, came from human motion capture.",
-        "The company says the wheeled version is a research testbed, not a product. Its aim was to push the actuators across a wide range of speeds and torques and to check how well behaviour learned in simulation holds on real hardware. Engineers say the policy worked out how to use the wheels on its own. Lessons are now being applied to the standard Atlas, including better handling of actuator failures.",
-        "For drivetrain and test engineers, the interesting part is the method: changing the hardware to stress the simulation, then measuring the gap. The same approach applies to validating controllers for e-axles and chassis systems."
-      ],
-      "links": [
-        {
-          "label": "Robotics & Automation News – Wheeled Atlas",
-          "url": "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "date": "22 Nov",
-      "headline": "Musk says Tesla cars will stay on AI4 while the new AI5 chip goes to Optimus first",
-      "why": "It shows how Tesla is splitting compute between vehicles and robots, with no hardware upgrade date for older cars.",
-      "source": "Tesla North",
-      "body": [
-        "Replying to a Tesla owner on X on Sunday, Elon Musk said cars will stay on the AI4 computer, which he says is powerful enough to drive better than a human, while the AI5 chip goes to the Optimus humanoid robot first. He put AI5 at about 12 times AI4's compute, and in another reply estimated about a tenfold gain in overall hardware performance, adding that memory bandwidth is still a limit.",
-        "He gave no date for when cars might move to AI5 or when cars with the older HW3 computer might get an upgrade. AI4 cars now get FSD (Supervised) v15, while HW3 cars stay on a lighter v14 branch. Tesla signalled this direction in April, when it said AI5 would go to Optimus and data centres.",
-        "For automotive engineers, the decision shows a carmaker choosing to keep a fixed in-car compute platform and improve driving through software, while new silicon goes elsewhere. It also leaves the HW3 retrofit promise to early FSD buyers unresolved."
-      ],
-      "links": [
-        {
-          "label": "Tesla North – AI4 stays, AI5 to Optimus",
-          "url": "https://teslanorth.com/2026/11/22/tesla-ai4-ai5-optimus/"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "date": "21 Nov",
-      "headline": "Chinese-developed SC01 electric sports car will be built in Italy from May 2027",
-      "why": "Chinese EV makers keep moving assembly into the EU, which changes the homologation and supplier picture.",
-      "source": "electrive",
-      "body": [
-        "FIPA (Fabbrica Italiana Produzione Autoveicoli) will assemble the SC01 electric sports car for Europe at an existing industrial site in Italy's Marche region. The car was developed by Chinese start-up Tianjin Gongjiangpai Auto Technology. FIPA, led by entrepreneur Wenyu Sun, says it is the only authorised importer and maker of the SC01 in the EU and will handle European homologation.",
-        "Buildings will be renovated from January to March 2027, lines installed and homologation completed by May, and production will start at the end of May 2027. The first phase has 2,000 square metres of production space and about 50 staff, rising to 285 jobs by the end of 2030 and 24,000 square metres within two years. The Chinese version has 320 kW all-wheel drive, 560 Nm and weighs just under 1.4 tonnes. No volume target or European price was given.",
-        "It is a small project, but it fits a wider pattern: Chinese-developed cars assembled in Europe to get around tariffs and rules of origin, often with local firms responsible for type approval."
-      ],
-      "links": [
-        {
-          "label": "electrive – SC01 to be built in Italy",
-          "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "date": "20–23 Nov",
-      "headline": "Stellantis is expected to close its works racing programmes, with works councils meeting today",
-      "why": "Cutting about 300 million euros a year of motorsport shows how hard Stellantis is pushing on costs, including engineering budgets.",
-      "source": "Autocar · Ouest-France · La Libre (AFP)",
-      "body": [
-        "Stellantis is reported to be ending all its works motorsport programmes, according to Le Figaro, as relayed by Reuters, Autocar and others. That would end Peugeot's 9X8 Hypercar in the World Endurance Championship, the Citroën and Opel Formula E teams, Lancia's rally return and customer racing. Dodge's 2027 NASCAR return is said to be unaffected. This is not yet confirmed.",
-        "Stellantis has only confirmed that extraordinary works council meetings were called for Monday 23 November at Poissy and at the Stellantis Motorsport site in Satory, and it declined further comment during the consultation. Autocar puts the division's running cost at about 300 million euros a year, and Ouest-France says about 300 people work there. Monday is also the entry deadline for the 2027 WEC season.",
-        "For engineers, racing has been a test bed for hybrid systems, batteries and simulation methods. Its loss would also be felt by specialist suppliers around Versailles."
-      ],
-      "links": [
-        {
-          "label": "Autocar – Stellantis to end motorsport investment",
-          "url": "https://www.autocar.co.uk/car-news/new-cars/stellantis-end-all-motorsport-investment-%E2%80%93-report"
-        },
-        {
-          "label": "La Libre – Stellantis to discuss motorsport unit with unions",
-          "url": "https://www.lalibre.be/dernieres-depeches/2026/11/20/stellantis-va-discuter-avec-les-syndicats-de-lavenir-de-sa-filiale-sport-auto-4SQ5BXNZSBBTFBTDPJJPI6445Y/"
-        },
-        {
-          "label": "Ouest-France – End of the rally programme",
-          "url": "https://rallye-sport.ouest-france.fr/vers-la-fin-du-programme-rallye-chez-stellantis/"
-        }
-      ]
+     "label": "Unite.AI",
+     "url": "https://www.unite.ai/openai-proposes-shared-ai-development-limits-tied-to-safety-milestones/"
     }
-  ],
-  "watch": [
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "22 Nov",
+   "headline": "Canary test catches AI inference providers leaking prompts, and OpenRouter drops three of them",
+   "why": "Teams routing model calls through aggregators cannot rely on zero-retention flags alone; prompts with customer data or secrets may be exposed.",
+   "source": "Dragos · Unite.AI · DEV Community",
+   "body": [
+    "Security firm Dragos sent about two million prompts containing seeded web addresses and credentials through AI inference services between July and November, tracing roughly 2,000 routes. Several hundred passed through systems it could not identify. Attackers stole data from three hosting providers, and about 200 seeded AWS keys planted in late October were later used for tens of thousands of AWS API calls. None of the providers knew until Dragos told them. On one marketplace, sellers could see and keep customer prompts through ordinary request logging, and zero-retention settings appeared to be ignored.",
+    "On Sunday OpenRouter removed three unnamed providers and took 125 endpoints off its zero-data-retention list, some as a precaution, and said it will keep running similar tests. Provider notices describe misrouted MiniMax requests at Novita, an attacker controlling a virtual machine serving DeepSeek traffic at Phala, and an AI coding agent at Together AI that pushed a credential to public GitHub.",
+    "For product teams this is a GDPR and supply-chain issue: pin the providers you trust, avoid secrets in prompts, and rotate any keys that may have passed through third-party inference."
+   ],
+   "links": [
     {
-      "title": "US–China AI guardrails",
-      "text": "Trump said at the weekend that the US would work with China on joint guardrails for AI, a shift from his earlier stance after the midterm backlash. No details or timetable yet.",
-      "link": {
-        "label": "Semafor",
-        "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai"
-      }
+     "label": "Dragos",
+     "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
     },
     {
-      "title": "SKF Vertevo spin-off dates",
-      "text": "SKF shares trade with the right to Vertevo shares until 25 November, the record date is 27 November and the listing on Nasdaq Stockholm is planned for 1 December, one Vertevo share for every five SKF shares.",
-      "link": {
-        "label": "SKF Investors",
-        "url": "https://www.skf.com/group/investors"
-      }
+     "label": "Unite.AI",
+     "url": "https://www.unite.ai/openrouter-cuts-three-providers-after-ai-prompt-exposure-findings/"
     },
     {
-      "title": "Reactions to OpenAI's limits proposal",
-      "text": "Watch whether Anthropic, Google DeepMind and others publish comparable pretraining figures or back a shared pacing standard.",
-      "link": {
-        "label": "OpenAI",
-        "url": "https://openai.com/index/perplexity-and-intelligence/"
-      }
+     "label": "DEV Community",
+     "url": "https://dev.to/axrisi/openrouter-zero-data-retention-what-the-dragos-canary-test-and-three-provider-notices-say-5abe"
     }
-  ],
-  "sources": [
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "20 Nov",
+   "headline": "Dutch court bars BYD from selling or building the Ti7 in the EU over Land Rover Defender design rights",
+   "why": "Registered design rights are becoming a tool for European OEMs against Chinese entrants, and this ruling reaches BYD's Hungarian plant.",
+   "source": "CnEVPost · CarExpert · Carup",
+   "body": [
+    "The preliminary relief judge at the District Court of The Hague granted Jaguar Land Rover a temporary injunction on Friday, finding that BYD's Ti7 plug-in hybrid likely infringes the Defender 110 design JLR registered in the EU in 2018. The order covers importing, manufacturing and delivering the Ti7 anywhere in the EU, including at BYD's new plant in Hungary. It takes effect a week after formal service, with penalties capped at 10 million euros.",
+    "JLR must start a full case on the merits within six months or the injunction may lapse. The UK is not covered, because the court said it had no jurisdiction over BYD's UK arm, where deliveries are planned from January 2027. BYD says it strongly disagrees and will appeal. The seven-seat Ti7 is not yet on sale in the EU but has sold more than 300,000 units in China.",
+    "The ruling reverses the direction of earlier rounds, when the same court ordered JLR to destroy documents seized from BYD. For design and engineering teams, it is a reminder that exterior design registrations carry real commercial weight in Europe."
+   ],
+   "links": [
     {
-      "label": "OpenAI – Perplexity and intelligence (22 Nov)",
-      "url": "https://openai.com/index/perplexity-and-intelligence/"
+     "label": "CnEVPost",
+     "url": "https://cnevpost.com/2026/11/22/dutch-court-bars-eu-sales-byd-ti7-land-rover-defender-design/"
     },
     {
-      "label": "OpenRouter – Data processing incidents on inference providers (22 Nov)",
-      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+     "label": "CarExpert",
+     "url": "https://www.carexpert.com.au/car-news/byd-ti7-banned-in-europe-until-land-rover-copyright-case-is-resolved"
     },
     {
-      "label": "Unite.AI – Together AI discloses prompt leak after coding agent exposed credential (21 Nov)",
-      "url": "https://www.unite.ai/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential/"
-    },
-    {
-      "label": "Crypto Briefing – HD Moore study of AI supply-chain data leaks (20 Nov)",
-      "url": "https://cryptobriefing.com/hd-moore-ai-supply-chain-data-leaks/"
-    },
-    {
-      "label": "NBC News – Nasdaq erases 2026 gains, S&P and Dow enter corrections (20 Nov)",
-      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
-    },
-    {
-      "label": "Fox Business – Wall Street suffers historic losses (20 Nov)",
-      "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
-    },
-    {
-      "label": "Lean community – Statement on the Riemann Hypothesis proof (21 Nov)",
-      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
-    },
-    {
-      "label": "Yahoo News (dpa) – UN talks on autonomous killer robots (21 Nov)",
-      "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"
-    },
-    {
-      "label": "CNBC – Cursor weighs dropping Chinese AI models (20 Nov)",
-      "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
-    },
-    {
-      "label": "Forkast – Apple starts Siri AI rollout with developer preview (22 Nov)",
-      "url": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview"
-    },
-    {
-      "label": "MacRumors – Siri layoffs spared newer AI systems (22 Nov)",
-      "url": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems/"
-    },
-    {
-      "label": "Robotics & Automation News – Boston Dynamics gives Atlas wheels (22 Nov)",
-      "url": "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438"
-    },
-    {
-      "label": "Tesla North – Cars stay on AI4, AI5 goes to Optimus (22 Nov)",
-      "url": "https://teslanorth.com/2026/11/22/tesla-ai4-ai5-optimus/"
-    },
-    {
-      "label": "electrive – SC01 sports car to be built in Italy from May 2027 (21 Nov)",
-      "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"
-    },
-    {
-      "label": "Autocar – Stellantis to end all motorsport investment (report, Nov)",
-      "url": "https://www.autocar.co.uk/car-news/new-cars/stellantis-end-all-motorsport-investment-%E2%80%93-report"
-    },
-    {
-      "label": "La Libre (AFP) – Stellantis to discuss future of motorsport unit with unions (20 Nov)",
-      "url": "https://www.lalibre.be/dernieres-depeches/2026/11/20/stellantis-va-discuter-avec-les-syndicats-de-lavenir-de-sa-filiale-sport-auto-4SQ5BXNZSBBTFBTDPJJPI6445Y/"
-    },
-    {
-      "label": "Ouest-France – Towards the end of Stellantis's rally programme (Nov)",
-      "url": "https://rallye-sport.ouest-france.fr/vers-la-fin-du-programme-rallye-chez-stellantis/"
-    },
-    {
-      "label": "Semafor – US and China eye joint guardrails on AI (22 Nov)",
-      "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai"
-    },
-    {
-      "label": "SKF – Investors: Vertevo record date and listing",
-      "url": "https://www.skf.com/group/investors"
+     "label": "Carup",
+     "url": "https://carup.se/byds-bil-forbjuds-i-europa-land-rover-vann-i-domstol/"
     }
-  ],
-  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported. The Stellantis motorsport story is based on press reports not yet confirmed by the company."
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "21 Nov",
+   "headline": "Lean community certifies the Claude-assisted proof of the Riemann Hypothesis",
+   "why": "Machine-checked verification at this scale is a model for how to trust AI-generated work in other high-stakes fields, including engineering sign-off.",
+   "source": "Lean community blog · Emergent",
+   "body": [
+    "A joint statement on the Lean community blog, endorsed by the Lean Focused Research Organization and the Mathlib Initiative, says the formal proof of the Riemann Hypothesis released by Levent Alpöge on Friday checks out. The library is about 17 million lines of Lean and depends only on Mathlib, the community's shared maths library. Dozens of people reproduced the same compiled proof export.",
+    "Two tools confirmed that the proved theorem matches Mathlib's vetted statement of the Riemann Hypothesis, so the proof cannot have quietly proved something easier. Several independent proof checkers, including Lean's own kernel and checkers written in other languages, accepted it. The checks ran on an inert export, so hidden code in the proof sources could not interfere. Emergent reports that more than 175,000 modules compiled with no errors in about 24 hours.",
+    "This is a community certification, not journal peer review, and mathematicians still need to understand the ideas. But it shows a workable pattern: when AI produces something too large for people to read, independent machine checking against an agreed specification can establish that it is correct."
+   ],
+   "links": [
+    {
+     "label": "Lean community blog",
+     "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    },
+    {
+     "label": "Emergent",
+     "url": "https://emergent.sh/news/lean-community-certifies-claude-aided-riemann"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "21 Nov",
+   "headline": "UN talks on autonomous weapons end without a mandate to negotiate a ban",
+   "why": "There will be no binding international rules on autonomous weapons before 2028 at the earliest, which matters for Europe's dual-use autonomy suppliers.",
+   "source": "Swissinfo · DroneXL",
+   "body": [
+    "The review conference of the UN Convention on Certain Conventional Weapons ended in Geneva early on Saturday without agreeing to negotiate a legally binding instrument on lethal autonomous weapons. Nearly 100 of the 128 states attending backed negotiations, but the conference works by consensus, and the United States was among those opposed. Russia had earlier called restrictions premature.",
+    "The compromise asks government experts to develop elements of an instrument by 2028 and then propose whether it should become a binding treaty. During the week the US had proposed five years of talks on a non-binding text, while the Peruvian chair suggested a draft binding protocol by 2028. Campaign groups including Stop Killer Robots called the result the lowest common denominator.",
+    "For European companies working on perception, autonomy and robotics with possible defence uses, the outcome means national export rules and the EU's own frameworks remain the main constraints for several more years."
+   ],
+   "links": [
+    {
+     "label": "Swissinfo",
+     "url": "https://www.swissinfo.ch/eng/international-geneva/rules-for-killer-robots-talks-end-with-a-minimal-consensus/92416572"
+    },
+    {
+     "label": "DroneXL",
+     "url": "https://dronexl.co/2026/11/16/us-five-year-nonbinding-autonomous-weapons-geneva/"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Cursor tells US lawmakers it may phase out Chinese open-weight models",
+   "why": "Model provenance is turning into a procurement and compliance question for any product built on Qwen, Kimi or DeepSeek.",
+   "source": "The Next Web · CNBC",
+   "body": [
+    "A report from the US House Homeland Security Committee and the Select Committee on China, released on Friday, says Cursor will explore phasing out Chinese-developed open-weight models, with no decision or timetable. Cursor's flagship Composer 2 model is built on Moonshot's Kimi K2.5, which the committees note became public only after an outside developer spotted it.",
+    "The inquiry also looked at Airbnb and DoorDash. Airbnb runs customised Alibaba Qwen models on US servers, with one assistant handling about 80,000 guest and host conversations a day. DoorDash reported 25 Chinese model families in use and said replacing one embedded in a larger system could take up to six months. The committees recommend extending the federal DeepSeek ban to other Chinese developers, barring such models from federal contracts and critical infrastructure, and creating a model-provenance standard, while warning against removing them before trusted alternatives exist.",
+    "European teams that rely on Chinese open-weight models, directly or through tools, should expect customers to ask what is inside their stack and be ready to answer."
+   ],
+   "links": [
+    {
+     "label": "The Next Web",
+     "url": "https://thenextweb.com/news/cursor-chinese-ai-models-house-report-sarvam-deepseek"
+    },
+    {
+     "label": "CNBC",
+     "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Lovable adds GPT-6.2 models, new payment connectors and publishing to a company email domain",
+   "why": "Prompt-to-app tools are moving from prototypes to paid and internally deployed apps, which changes how design and product teams hand off and govern work.",
+   "source": "Lovable",
+   "body": [
+    "Swedish prompt-to-app builder Lovable updated its platform on Friday. Apps built with it can now call OpenAI's GPT-6.2 Astra for complex reasoning and GPT-6.2 Sol for everyday tasks, both with text and image input. New connectors for Square and for Paystack, which covers Nigeria, Ghana, Kenya, South Africa and Côte d'Ivoire, follow Adyen and Airwallex connectors added the day before.",
+    "Enterprise customers can now publish an app to a verified company email domain, so anyone with that address can open it after logging in. That turns Lovable into a way to ship internal tools without a separate hosting and access setup. Paid web plans also get a free domain for the first year.",
+    "The direction is clear: payments, access control and model choice are being built in, so what starts as a prototype can run as a real product. For design and product teams, that raises questions about who reviews and maintains these apps once they go live, especially after recent reports of Lovable-built apps exposing data."
+   ],
+   "links": [
+    {
+     "label": "Lovable changelog",
+     "url": "https://docs.lovable.dev/changelog#nov-20-2026"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Google adds EU data-region controls and an AI switch for Workspace Studio",
+   "why": "Data residency plus an admin on/off switch for generative AI is what many EU companies need before enabling agent workflows.",
+   "source": "Google Workspace Updates",
+   "body": [
+    "Google says the core features of Workspace Studio, its tool for building automated flows and agents, now follow US or EU data-region policies, and that support is generally available. A new admin control decides whether users in a data region may use generative AI. When it is off, Studio's AI steps, flow generation from plain language and Skills are disabled; both this control and the Gemini in Workspace setting must be on for AI to work.",
+    "In the same update, client-side encrypted Google Docs gain real-time co-editing in beta, with encryption keys staying under the customer's control. Gemini Enterprise also made third-party data stores generally available, including Asana, Airtable, GitLab, Stripe, Zapier and Linear.",
+    "For product leaders, this is a pattern worth copying: AI features in business software increasingly ship with region-level data residency and a separate, explicit AI toggle for administrators, so compliance teams can approve the product before approving the AI."
+   ],
+   "links": [
+    {
+     "label": "Google Workspace Updates",
+     "url": "https://workspaceupdates.googleblog.com/2026/11/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Stellantis is reported to be ending all works motorsport, with works councils meeting today",
+   "why": "Europe's second-largest carmaker is cutting a high-end test bed for hybrid powertrains as part of its cost programme.",
+   "source": "Sportscar365 · Le Figaro via Global Banking & Finance · Autonext",
+   "body": [
+    "Le Figaro reported on Friday that Stellantis will close its works racing programmes: Peugeot's Hypercar entry in the World Endurance Championship and the Citroën and Opel teams in Formula E. Two extraordinary works-council meetings with Stellantis Motorsport staff are set for Monday at Poissy and Satory. Peugeot confirmed the meetings but would not comment on the substance.",
+    "Monday is also the closing date for 2027 WEC entries, so withdrawing now could avoid penalties. About 300 people work at Stellantis Motorsport near Versailles. Peugeot's WEC programme is estimated to cost more than 30 million euros a year, and its 9X8 has not won a race since its 2022 debut. The context is a savings programme of 6 billion euros by 2028.",
+    "For engineers, works racing has long served as a fast development loop for hybrid systems, energy management and simulation methods. Losing it shows how hard the cost squeeze at European OEMs has become. Official confirmation is expected today."
+   ],
+   "links": [
+    {
+     "label": "Sportscar365",
+     "url": "https://sportscar365.com/lemans/wec/peugeot-poised-for-shock-wec-withdrawal/"
+    },
+    {
+     "label": "Global Banking & Finance",
+     "url": "https://www.globalbankingandfinance.com/stellantis-brands-exit-motorsports-reports-le-figaro/"
+    },
+    {
+     "label": "Autonext",
+     "url": "https://www.autonext.co/news/stellantis-ends-motorsport-peugeot-wec-formula-e"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "22 Nov",
+   "headline": "Euro 7 applies to new car and van types from Sunday, with the first brake-dust limits",
+   "why": "Brake-particle and battery-durability testing become part of type approval, directly affecting brake, test, simulation and cell teams.",
+   "source": "European Parliament · Autonext",
+   "body": [
+    "From 29 November, new type approvals for cars and vans in the EU must meet Euro 7, and from 29 November 2027 all newly registered cars and vans must comply. Buses and trucks follow with new types from 29 May 2028. Tailpipe limits stay close to Euro 6, but particle counting now goes down to 10 nanometres instead of 23.",
+    "The bigger change is outside the exhaust. Brake particle limits are set at 7 milligrams per kilometre for combustion, hybrid and fuel-cell cars and 3 for battery-electric cars, with tyre abrasion limits to follow through UN rules. Durability requirements rise to 10 years or 200,000 kilometres. Electric and plug-in hybrid batteries must keep at least 80 percent of certified energy after five years or 100,000 kilometres, and 72 percent after eight years or 160,000 kilometres. On-board emissions monitoring becomes mandatory.",
+    "For test and validation teams, this means new brake-emission test procedures, longer durability evidence, and battery-ageing models that must stand up in homologation."
+   ],
+   "links": [
+    {
+     "label": "European Parliament Legislative Observatory",
+     "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1784743"
+    },
+    {
+     "label": "Autonext",
+     "url": "https://www.autonext.co/news/euro-7-brake-dust-limits-new-cars"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Leapmotor's revenue rises 63% but profit falls 73%, as its platform launches in Europe under Hongqi",
+   "why": "The fastest-growing Chinese brand in Europe is feeling cost pressure, while its platform now reaches European buyers through a second Chinese group.",
+   "source": "CnEVPost · electrive",
+   "body": [
+    "Leapmotor, Stellantis's Chinese partner, reported unaudited third-quarter revenue of 31.7 billion yuan, up 63 percent, on a record 310,052 deliveries. Net profit fell 73 percent to 40 million yuan and gross margin dropped to 10.9 percent from 14.5 percent a year earlier, which the company blames on raw-material costs, product mix and higher shipping costs. Exports rose to 63,278 cars, about a fifth of volume.",
+    "On the same day, FAW's Hongqi launched the EHS4 electric SUV in Europe, built on Leapmotor's LEAP 3.5 platform. Italy is the first market, with introductory prices from 32,900 euros. It has a 160 kW rear motor and a 68.7 kWh LFP battery integrated into the chassis, giving up to 460 km WLTP and charging at up to 178 kW on a 400 V system. Hongqi plans ten models for Europe next year.",
+    "Platform sharing between Chinese groups is now reaching Europe at Volkswagen ID.3 prices, while thinner margins suggest the price war has limits."
+   ],
+   "links": [
+    {
+     "label": "CnEVPost",
+     "url": "https://cnevpost.com/2026/11/20/leapmotor-q3-2026-earnings/"
+    },
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/20/hongqi-ehs4-a-battery-electric-suv-with-leapmotor-technology-for-europe/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "22 Nov",
+   "headline": "Volkswagen ID.4 owners get a fix for the PerfektBlue Bluetooth flaws about two years after the supplier patch",
+   "why": "A concrete case of how slowly supplier software fixes reach cars in the field, relevant to every team working under UN R155 and R156.",
+   "source": "Autonext",
+   "body": [
+    "Volkswagen is rolling out fixes for the four PerfektBlue vulnerabilities in OpenSynergy's BlueSDK Bluetooth stack, which researchers at PCA Cyber Security reported in May 2024. OpenSynergy patched the stack in September 2024, so the vehicle-side fix comes roughly 26 months later. The worst flaw has a severity score of 8.0. The researchers tested Volkswagen's MEB infotainment unit, Mercedes NTG6 and Škoda MIB3.",
+    "The attack works within about ten metres but needs someone in the car to accept a pairing request. In tests the researchers reportedly controlled heating, wipers and the sunroof and recorded audio through the eCall microphone, with no evidence of access to brakes, steering or driver assistance. Volkswagen's route depends on software version: an over-the-air update for 3.x cars, a dealer visit for 4.x, an online update for some 5.x versions. Volkswagen says safety was never at risk and is not writing to owners.",
+    "For software-defined-vehicle teams, the gap between supplier patch and fleet fix is the real risk to manage."
+   ],
+   "links": [
+    {
+     "label": "Autonext",
+     "url": "https://www.autonext.co/news/volkswagen-id4-bluetooth-hack-software-update"
+    }
+   ]
+  },
+  {
+   "cat": "res",
+   "top": false,
+   "date": "20 Nov",
+   "headline": "Crowded trains cut predicted crack-growth life of high-speed wheelsets by up to 72%, mainly through load variability",
+   "why": "Inspection intervals and load spectra for axles, shafts and bearing seats should follow load variability and overload cases, not mean load.",
+   "source": "Lubricants (MDPI)",
+   "body": [
+    "Researchers at Shijiazhuang Tiedao University in China and the Institute of Railway Research at the University of Huddersfield in the UK published a peer-reviewed study in Lubricants on how passenger load affects fatigue in a high-speed railway wheelset. They combined a vehicle-dynamics model with a finite-element wheelset model that includes the press fit between wheel and axle, counted load cycles with rainflow counting, summed damage with Miner's rule, and modelled a semi-elliptical surface crack.",
+    "Compared with an empty train, maximum fatigue damage was about 9, 20 and 102 times higher for seated, fully laden and crush-laden cases, and predicted crack-growth life fell by up to 72 percent. Under crush load, the mean vertical force rose only 19 percent, but the spread of suspension forces was almost three times larger. The groove next to the wheel seat was the critical location in every case.",
+    "The lesson carries over to driveshafts and bearing seats: overload and variability, not average load, drive damage, and press-fit transitions are where ultrasonic inspection should focus."
+   ],
+   "links": [
+    {
+     "label": "Lubricants – DOI 10.3390/lubricants14110448",
+     "url": "https://doi.org/10.3390/lubricants14110448"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "SKF Vertevo listing",
+   "text": "The last day to trade SKF with the right to Vertevo shares is 25 November, and the automotive business starts trading on Nasdaq Stockholm on 1 December, one Vertevo share for every five SKF shares.",
+   "link": {
+    "label": "SKF via Inderes",
+    "url": "https://www.inderes.se/en/releases/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus"
+   }
+  },
+  {
+   "title": "US–China AI guardrails",
+   "text": "Trump said the US would work with China on joint guardrails for AI, according to Semafor. No scope or timetable has been given.",
+   "link": {
+    "label": "Semafor",
+    "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai"
+   }
+  },
+  {
+   "title": "Volkswagen pay talks",
+   "text": "Volkswagen and IG Metall open talks in Emden on 24 November, with a second round in Zwickau on 15 December, after the carmaker asked for a two-year pay freeze.",
+   "link": {
+    "label": "Automotive World",
+    "url": "https://www.automotiveworld.com/news/volkswagen-and-ig-metall-to-begin-talks-on-24-november/"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "OpenAI – Perplexity and Intelligence – OpenAI's chief scientist proposes perplexity as a shared yardstick for frontier AI and publishes OpenAI's own figures (22 Nov)",
+   "url": "https://openai.com/index/perplexity-and-intelligence"
+  },
+  {
+   "label": "Unite.AI – OpenAI's chief scientist proposes perplexity as a shared yardstick for frontier AI and publishes OpenAI's own figures (22 Nov)",
+   "url": "https://www.unite.ai/openai-proposes-shared-ai-development-limits-tied-to-safety-milestones/"
+  },
+  {
+   "label": "Dragos – Canary test catches AI inference providers leaking prompts, and OpenRouter drops three of them (22 Nov)",
+   "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+  },
+  {
+   "label": "Unite.AI – Canary test catches AI inference providers leaking prompts, and OpenRouter drops three of them (22 Nov)",
+   "url": "https://www.unite.ai/openrouter-cuts-three-providers-after-ai-prompt-exposure-findings/"
+  },
+  {
+   "label": "DEV Community – Canary test catches AI inference providers leaking prompts, and OpenRouter drops three of them (22 Nov)",
+   "url": "https://dev.to/axrisi/openrouter-zero-data-retention-what-the-dragos-canary-test-and-three-provider-notices-say-5abe"
+  },
+  {
+   "label": "CnEVPost – Dutch court bars BYD from selling or building the Ti7 in the EU over Land Rover Defender design rights (20 Nov)",
+   "url": "https://cnevpost.com/2026/11/22/dutch-court-bars-eu-sales-byd-ti7-land-rover-defender-design/"
+  },
+  {
+   "label": "CarExpert – Dutch court bars BYD from selling or building the Ti7 in the EU over Land Rover Defender design rights (20 Nov)",
+   "url": "https://www.carexpert.com.au/car-news/byd-ti7-banned-in-europe-until-land-rover-copyright-case-is-resolved"
+  },
+  {
+   "label": "Carup – Dutch court bars BYD from selling or building the Ti7 in the EU over Land Rover Defender design rights (20 Nov)",
+   "url": "https://carup.se/byds-bil-forbjuds-i-europa-land-rover-vann-i-domstol/"
+  },
+  {
+   "label": "Lean community blog – Lean community certifies the Claude-assisted proof of the Riemann Hypothesis (21 Nov)",
+   "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+  },
+  {
+   "label": "Emergent – Lean community certifies the Claude-assisted proof of the Riemann Hypothesis (21 Nov)",
+   "url": "https://emergent.sh/news/lean-community-certifies-claude-aided-riemann"
+  },
+  {
+   "label": "Swissinfo – UN talks on autonomous weapons end without a mandate to negotiate a ban (21 Nov)",
+   "url": "https://www.swissinfo.ch/eng/international-geneva/rules-for-killer-robots-talks-end-with-a-minimal-consensus/92416572"
+  },
+  {
+   "label": "DroneXL – UN talks on autonomous weapons end without a mandate to negotiate a ban (21 Nov)",
+   "url": "https://dronexl.co/2026/11/16/us-five-year-nonbinding-autonomous-weapons-geneva/"
+  },
+  {
+   "label": "The Next Web – Cursor tells US lawmakers it may phase out Chinese open-weight models (20 Nov)",
+   "url": "https://thenextweb.com/news/cursor-chinese-ai-models-house-report-sarvam-deepseek"
+  },
+  {
+   "label": "CNBC – Cursor tells US lawmakers it may phase out Chinese open-weight models (20 Nov)",
+   "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
+  },
+  {
+   "label": "Lovable changelog – Lovable adds GPT-6.2 models, new payment connectors and publishing to a company email domain (20 Nov)",
+   "url": "https://docs.lovable.dev/changelog#nov-20-2026"
+  },
+  {
+   "label": "Google Workspace Updates – Google adds EU data-region controls and an AI switch for Workspace Studio (20 Nov)",
+   "url": "https://workspaceupdates.googleblog.com/2026/11/"
+  },
+  {
+   "label": "Sportscar365 – Stellantis is reported to be ending all works motorsport, with works councils meeting today (20 Nov)",
+   "url": "https://sportscar365.com/lemans/wec/peugeot-poised-for-shock-wec-withdrawal/"
+  },
+  {
+   "label": "Global Banking & Finance – Stellantis is reported to be ending all works motorsport, with works councils meeting today (20 Nov)",
+   "url": "https://www.globalbankingandfinance.com/stellantis-brands-exit-motorsports-reports-le-figaro/"
+  },
+  {
+   "label": "Autonext – Stellantis is reported to be ending all works motorsport, with works councils meeting today (20 Nov)",
+   "url": "https://www.autonext.co/news/stellantis-ends-motorsport-peugeot-wec-formula-e"
+  },
+  {
+   "label": "European Parliament Legislative Observatory – Euro 7 applies to new car and van types from Sunday, with the first brake-dust limits (22 Nov)",
+   "url": "https://oeil.europarl.europa.eu/oeil/en/document-summary?id=1784743"
+  },
+  {
+   "label": "Autonext – Euro 7 applies to new car and van types from Sunday, with the first brake-dust limits (22 Nov)",
+   "url": "https://www.autonext.co/news/euro-7-brake-dust-limits-new-cars"
+  },
+  {
+   "label": "CnEVPost – Leapmotor's revenue rises 63% but profit falls 73%, as its platform launches in Europe under Hongqi (20 Nov)",
+   "url": "https://cnevpost.com/2026/11/20/leapmotor-q3-2026-earnings/"
+  },
+  {
+   "label": "electrive – Leapmotor's revenue rises 63% but profit falls 73%, as its platform launches in Europe under Hongqi (20 Nov)",
+   "url": "https://www.electrive.com/2026/11/20/hongqi-ehs4-a-battery-electric-suv-with-leapmotor-technology-for-europe/"
+  },
+  {
+   "label": "Autonext – Volkswagen ID.4 owners get a fix for the PerfektBlue Bluetooth flaws about two years after the supplier patch (22 Nov)",
+   "url": "https://www.autonext.co/news/volkswagen-id4-bluetooth-hack-software-update"
+  },
+  {
+   "label": "Lubricants – DOI 10.3390/lubricants14110448 – Crowded trains cut predicted crack-growth life of high-speed wheelsets by up to 72%, mainly through load variability (20 Nov)",
+   "url": "https://doi.org/10.3390/lubricants14110448"
+  },
+  {
+   "label": "SKF via Inderes – SKF Vertevo listing",
+   "url": "https://www.inderes.se/en/releases/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus"
+  },
+  {
+   "label": "Semafor – US–China AI guardrails",
+   "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai"
+  },
+  {
+   "label": "Automotive World – Volkswagen pay talks",
+   "url": "https://www.automotiveworld.com/news/volkswagen-and-ig-metall-to-begin-talks-on-24-november/"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
 }
