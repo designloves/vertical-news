@@ -1,0 +1,337 @@
+{
+  "date": "2026-11-23",
+  "weekday": "Monday",
+  "covers": "Fri 20 – Mon 23 Nov",
+  "glance": "OpenAI's chief scientist published the company's internal pretraining scores for the first time and asked rival labs to agree common limits they would not cross until monitoring improves. Security researchers showed that several AI inference providers leaked or logged prompts despite zero-retention promises, and Friday's AI-led sell-off pushed the S&P 500 and Dow into a correction. In automotive, Tesla keeps its cars on AI4 hardware, a Chinese-developed sports car gets an Italian plant, and Stellantis is expected to shut its works racing programmes.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "22 Nov",
+      "headline": "OpenAI publishes its internal perplexity scores and asks rival labs to agree common limits",
+      "why": "A proposal to pace frontier training by a shared metric could shape which models reach the APIs your products depend on.",
+      "source": "OpenAI",
+      "body": [
+        "Jakub Pachocki, OpenAI's chief scientist, published an essay on Sunday arguing that perplexity, a measure of how well a model predicts held-out text, should become a shared yardstick for frontier progress and safety rules. For the first time, OpenAI released its own log-perplexity figures on an internal code dataset: about 0.99 for GPT-3.5, about 0.91 for GPT-4, and below 0.8 for recent models, where he says strong cyber and maths abilities appeared. He expects further, unknown capabilities around 0.68–0.70.",
+        "He asks labs to agree on common limits, based on perplexity and other measures, that no one crosses until a concrete monitoring milestone is reached, such as a successor to chain-of-thought monitors. OpenAI commits to publishing its measurements and to avoiding full recursive self-improvement without human oversight. It does not commit to a specific cap of its own.",
+        "For product and engineering teams, the practical point is that release pacing may become a negotiated industry matter, not just a company choice. Watch whether Anthropic, Google and others respond with their own numbers."
+      ],
+      "links": [
+        {
+          "label": "OpenAI – Perplexity and intelligence",
+          "url": "https://openai.com/index/perplexity-and-intelligence/"
+        }
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "19–22 Nov",
+      "headline": "Canary test finds AI inference providers leaking prompts, and OpenRouter drops three of them",
+      "why": "If your product sends customer data or keys through third-party model hosts, zero-retention labels are not enough on their own.",
+      "source": "OpenRouter · Together AI via Unite.AI · Crypto Briefing",
+      "body": [
+        "HD Moore of the security firm Dragos planted about two million fake credentials and tracking links, known as canaries, in requests to AI inference services and routers between July and November. He found at least three hosting providers compromised, saw about 200 planted AWS keys stolen and tested in late October, and found signs that some resellers logged prompts despite zero data retention (ZDR) policies.",
+        "OpenRouter said on Sunday that its own systems were not breached, but it removed three providers from its network, took 125 endpoints off its ZDR list and notified affected customers. Novita, Phala, Together and Atlas Cloud have posted incident notes. Together said an AI coding agent had committed a credential to a public GitHub repository, which let an intruder download stored samples of customer prompts from June and July. Together now makes ZDR the default for new accounts.",
+        "The lesson for teams shipping AI features: treat anything in a prompt as potentially exposed, keep secrets out of prompts, check routing paths, and scan code written by agents for credentials."
+      ],
+      "links": [
+        {
+          "label": "OpenRouter – Data processing incidents on inference providers",
+          "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+        },
+        {
+          "label": "Unite.AI – Together AI discloses prompt leak",
+          "url": "https://www.unite.ai/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential/"
+        },
+        {
+          "label": "Crypto Briefing – Dragos canary study",
+          "url": "https://cryptobriefing.com/hd-moore-ai-supply-chain-data-leaks/"
+        }
+      ]
+    },
+    {
+      "cat": "gen",
+      "date": "20 Nov",
+      "headline": "Nasdaq falls 5.3% as an AI-led sell-off pushes the S&P 500 and Dow into a correction",
+      "why": "A sharp turn in AI sentiment can tighten budgets for AI projects and data-centre build-outs in 2027.",
+      "source": "NBC News · Fox Business",
+      "body": [
+        "US stocks had one of their worst days in years on Friday. The Nasdaq Composite fell about 5.3% to 22,617.73, wiping out its gains for 2026. The S&P 500 dropped 3.7%, its seventh losing session in a row, and both it and the Dow ended at least 10% below their recent highs, the usual definition of a correction. The VIX volatility index closed at its highest level since April 2025.",
+        "Nvidia fell about 14% after a Reuters report that regulators are examining possible accounting problems, on top of the scandal around former chief executive Jensen Huang. Anthropic, a day after its debut, lost about 9% and ended just above its IPO price. Analysts also pointed to expected Federal Reserve rate rises, the Democrats' midterm gains and growing local opposition to new data centres.",
+        "For product leaders, this is a signal to watch AI vendor pricing and funding, not a reason to change plans overnight. Startups that rely on cheap capital and suppliers building capacity may get more cautious."
+      ],
+      "links": [
+        {
+          "label": "NBC News – Markets plunge",
+          "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+        },
+        {
+          "label": "Fox Business – Correction territory",
+          "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
+        }
+      ]
+    },
+    {
+      "cat": "gen",
+      "date": "21–22 Nov",
+      "headline": "Lean community says the Claude-assisted Riemann Hypothesis proof checks out formally",
+      "why": "Machine-checked proofs let people trust AI output they cannot read line by line, which is the same idea behind formal verification in engineering.",
+      "source": "Lean community blog",
+      "body": [
+        "The Lean and Mathlib communities, with backing from the Lean FRO and the Mathlib Initiative, said on Saturday that the Lean proof of the Riemann Hypothesis released on 20 November by Anthropic mathematician Levent Alpöge passes every formal check they ran. The library runs to about 17 million lines and depends only on Mathlib.",
+        "Dozens of people rebuilt the same proof export without errors. Two tools confirmed that the proved theorem matches Mathlib's carefully reviewed statement of the hypothesis, and Lean's kernel plus several independent checkers written in other languages accepted the proof. Two of those checkers come with their own formal guarantee that they cannot accept a false proof.",
+        "This is not peer review. The checks were run on an exported copy, and the statement does not discuss which axioms are used or explain the mathematical ideas, which the community says is the work still ahead. Even so, it moves the claim from 'unconfirmed' to formally verified, and it shows how far machine-checked output can go when humans cannot inspect it directly."
+      ],
+      "links": [
+        {
+          "label": "Lean community – Riemann Hypothesis statement",
+          "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        }
+      ]
+    },
+    {
+      "cat": "gen",
+      "date": "21 Nov",
+      "headline": "UN talks on autonomous weapons end without a mandate to negotiate a ban",
+      "why": "The rules for AI that selects targets on its own will stay voluntary for at least two more years.",
+      "source": "dpa via Yahoo News",
+      "body": [
+        "A meeting of the 128 states that are parties to the UN Convention on Certain Conventional Weapons ended in Geneva early on Saturday after overnight talks. Almost 100 countries wanted to start negotiating a binding ban on the most dangerous autonomous weapons systems, but the meeting did not agree a negotiating mandate.",
+        "According to the report, the United States opposed a specific mandate, while Israel, Belarus and the UK opposed talks on a binding treaty. Instead, government experts will keep studying possible elements of an agreement and recommend by 2028 whether these should become a binding instrument. Campaign groups such as Stop Killer Robots called the result disappointing.",
+        "Europe's AI Act excludes military uses, so this forum is one of the few places where global rules on lethal autonomy could be set. For engineers in defence-adjacent supply chains, including robotics, vision and vehicle autonomy, the dual-use debate will continue without a clear legal line."
+      ],
+      "links": [
+        {
+          "label": "Yahoo News – UN talks on autonomous killer robots",
+          "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"
+        }
+      ]
+    },
+    {
+      "cat": "pm",
+      "date": "20 Nov",
+      "headline": "Cursor tells US lawmakers it may phase out Chinese open-weight models",
+      "why": "Model choice is becoming a geopolitical and compliance question, not just a matter of price and benchmarks.",
+      "source": "CNBC",
+      "body": [
+        "Cursor, the AI coding tool now owned by SpaceX, told the House Homeland Security Committee and the House Select Committee on China that it will explore phasing out open-weight models developed in China because of geopolitical risk, according to a House report seen by CNBC. Cursor's Composer 2 coding model was built on Kimi K2.5 from China's Moonshot AI.",
+        "The report says Chinese models are spreading because of low cost, easy customisation and near-frontier performance, and that the US lacks an open-weight alternative with the price and performance the market wants. It recommends a national American open-weight programme and a ban on Chinese-developed models in federal systems and contracts. Airbnb and DoorDash were also asked about their use of Chinese models.",
+        "For product teams, especially those selling to governments or regulated industries, it is worth documenting which base models sit under your features and having a fallback. Customers may start to ask."
+      ],
+      "links": [
+        {
+          "label": "CNBC – Cursor and Chinese AI models",
+          "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
+        }
+      ]
+    },
+    {
+      "cat": "ux",
+      "date": "22 Nov",
+      "headline": "Apple starts rolling out Siri AI in its own apps, but not in the EU",
+      "why": "Siri app skills could become a new interface for your product, while European users will have to wait.",
+      "source": "Forkast · MacRumors",
+      "body": [
+        "Apple has begun rolling out new Siri AI features in eight of its own apps: Calendar, Files, Mail, Maps, Messages, Photos, Safari and Weather. A developer preview of the App Intents API lets third-party apps expose content and actions, such as checking a delivery or booking a table, and build 'app skills' that guide Siri through several steps and across apps.",
+        "Users must name a background app, but not one that is in the foreground, showing a Live Activity or already part of the conversation. For now, preview integrations work only in Xcode builds and internal TestFlight, with App Store submissions expected in spring. Siri AI is not available in the EU on iOS, iPadOS and watchOS while Apple talks to the European Commission. Bloomberg's Mark Gurman reports that recent Siri layoffs hit the old infrastructure team, and he does not expect a more advanced agent before late 2027.",
+        "UX teams should start mapping their key tasks to intents and think about how they should sound in a voice flow, since Siri will now invoke them by context."
+      ],
+      "links": [
+        {
+          "label": "Forkast – Siri AI rollout and developer preview",
+          "url": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview"
+        },
+        {
+          "label": "MacRumors – Siri layoffs",
+          "url": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems/"
+        }
+      ]
+    },
+    {
+      "cat": "eng",
+      "date": "22 Nov",
+      "headline": "Boston Dynamics puts Atlas on wheels to test how well simulated training carries over to hardware",
+      "why": "It is a clear case study in sim-to-real transfer, the core question behind virtual validation.",
+      "source": "Robotics & Automation News",
+      "body": [
+        "Boston Dynamics released a video on Sunday of its Atlas humanoid rolling, sliding sideways and doing a 360-degree jump on wheels. Engineers swapped the feet for scooter rims mounted on custom adapters on the existing ankle actuators. The control policy was trained with whole-body reinforcement learning over millions of simulated scenarios, and some moves, including the jump, came from human motion capture.",
+        "The company says the wheeled version is a research testbed, not a product. Its aim was to push the actuators across a wide range of speeds and torques and to check how well behaviour learned in simulation holds on real hardware. Engineers say the policy worked out how to use the wheels on its own. Lessons are now being applied to the standard Atlas, including better handling of actuator failures.",
+        "For drivetrain and test engineers, the interesting part is the method: changing the hardware to stress the simulation, then measuring the gap. The same approach applies to validating controllers for e-axles and chassis systems."
+      ],
+      "links": [
+        {
+          "label": "Robotics & Automation News – Wheeled Atlas",
+          "url": "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "date": "22 Nov",
+      "headline": "Musk says Tesla cars will stay on AI4 while the new AI5 chip goes to Optimus first",
+      "why": "It shows how Tesla is splitting compute between vehicles and robots, with no hardware upgrade date for older cars.",
+      "source": "Tesla North",
+      "body": [
+        "Replying to a Tesla owner on X on Sunday, Elon Musk said cars will stay on the AI4 computer, which he says is powerful enough to drive better than a human, while the AI5 chip goes to the Optimus humanoid robot first. He put AI5 at about 12 times AI4's compute, and in another reply estimated about a tenfold gain in overall hardware performance, adding that memory bandwidth is still a limit.",
+        "He gave no date for when cars might move to AI5 or when cars with the older HW3 computer might get an upgrade. AI4 cars now get FSD (Supervised) v15, while HW3 cars stay on a lighter v14 branch. Tesla signalled this direction in April, when it said AI5 would go to Optimus and data centres.",
+        "For automotive engineers, the decision shows a carmaker choosing to keep a fixed in-car compute platform and improve driving through software, while new silicon goes elsewhere. It also leaves the HW3 retrofit promise to early FSD buyers unresolved."
+      ],
+      "links": [
+        {
+          "label": "Tesla North – AI4 stays, AI5 to Optimus",
+          "url": "https://teslanorth.com/2026/11/22/tesla-ai4-ai5-optimus/"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "date": "21 Nov",
+      "headline": "Chinese-developed SC01 electric sports car will be built in Italy from May 2027",
+      "why": "Chinese EV makers keep moving assembly into the EU, which changes the homologation and supplier picture.",
+      "source": "electrive",
+      "body": [
+        "FIPA (Fabbrica Italiana Produzione Autoveicoli) will assemble the SC01 electric sports car for Europe at an existing industrial site in Italy's Marche region. The car was developed by Chinese start-up Tianjin Gongjiangpai Auto Technology. FIPA, led by entrepreneur Wenyu Sun, says it is the only authorised importer and maker of the SC01 in the EU and will handle European homologation.",
+        "Buildings will be renovated from January to March 2027, lines installed and homologation completed by May, and production will start at the end of May 2027. The first phase has 2,000 square metres of production space and about 50 staff, rising to 285 jobs by the end of 2030 and 24,000 square metres within two years. The Chinese version has 320 kW all-wheel drive, 560 Nm and weighs just under 1.4 tonnes. No volume target or European price was given.",
+        "It is a small project, but it fits a wider pattern: Chinese-developed cars assembled in Europe to get around tariffs and rules of origin, often with local firms responsible for type approval."
+      ],
+      "links": [
+        {
+          "label": "electrive – SC01 to be built in Italy",
+          "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "date": "20–23 Nov",
+      "headline": "Stellantis is expected to close its works racing programmes, with works councils meeting today",
+      "why": "Cutting about 300 million euros a year of motorsport shows how hard Stellantis is pushing on costs, including engineering budgets.",
+      "source": "Autocar · Ouest-France · La Libre (AFP)",
+      "body": [
+        "Stellantis is reported to be ending all its works motorsport programmes, according to Le Figaro, as relayed by Reuters, Autocar and others. That would end Peugeot's 9X8 Hypercar in the World Endurance Championship, the Citroën and Opel Formula E teams, Lancia's rally return and customer racing. Dodge's 2027 NASCAR return is said to be unaffected. This is not yet confirmed.",
+        "Stellantis has only confirmed that extraordinary works council meetings were called for Monday 23 November at Poissy and at the Stellantis Motorsport site in Satory, and it declined further comment during the consultation. Autocar puts the division's running cost at about 300 million euros a year, and Ouest-France says about 300 people work there. Monday is also the entry deadline for the 2027 WEC season.",
+        "For engineers, racing has been a test bed for hybrid systems, batteries and simulation methods. Its loss would also be felt by specialist suppliers around Versailles."
+      ],
+      "links": [
+        {
+          "label": "Autocar – Stellantis to end motorsport investment",
+          "url": "https://www.autocar.co.uk/car-news/new-cars/stellantis-end-all-motorsport-investment-%E2%80%93-report"
+        },
+        {
+          "label": "La Libre – Stellantis to discuss motorsport unit with unions",
+          "url": "https://www.lalibre.be/dernieres-depeches/2026/11/20/stellantis-va-discuter-avec-les-syndicats-de-lavenir-de-sa-filiale-sport-auto-4SQ5BXNZSBBTFBTDPJJPI6445Y/"
+        },
+        {
+          "label": "Ouest-France – End of the rally programme",
+          "url": "https://rallye-sport.ouest-france.fr/vers-la-fin-du-programme-rallye-chez-stellantis/"
+        }
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "US–China AI guardrails",
+      "text": "Trump said at the weekend that the US would work with China on joint guardrails for AI, a shift from his earlier stance after the midterm backlash. No details or timetable yet.",
+      "link": {
+        "label": "Semafor",
+        "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai"
+      }
+    },
+    {
+      "title": "SKF Vertevo spin-off dates",
+      "text": "SKF shares trade with the right to Vertevo shares until 25 November, the record date is 27 November and the listing on Nasdaq Stockholm is planned for 1 December, one Vertevo share for every five SKF shares.",
+      "link": {
+        "label": "SKF Investors",
+        "url": "https://www.skf.com/group/investors"
+      }
+    },
+    {
+      "title": "Reactions to OpenAI's limits proposal",
+      "text": "Watch whether Anthropic, Google DeepMind and others publish comparable pretraining figures or back a shared pacing standard.",
+      "link": {
+        "label": "OpenAI",
+        "url": "https://openai.com/index/perplexity-and-intelligence/"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "label": "OpenAI – Perplexity and intelligence (22 Nov)",
+      "url": "https://openai.com/index/perplexity-and-intelligence/"
+    },
+    {
+      "label": "OpenRouter – Data processing incidents on inference providers (22 Nov)",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"
+    },
+    {
+      "label": "Unite.AI – Together AI discloses prompt leak after coding agent exposed credential (21 Nov)",
+      "url": "https://www.unite.ai/together-ai-discloses-prompt-leak-after-coding-agent-exposed-credential/"
+    },
+    {
+      "label": "Crypto Briefing – HD Moore study of AI supply-chain data leaks (20 Nov)",
+      "url": "https://cryptobriefing.com/hd-moore-ai-supply-chain-data-leaks/"
+    },
+    {
+      "label": "NBC News – Nasdaq erases 2026 gains, S&P and Dow enter corrections (20 Nov)",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394"
+    },
+    {
+      "label": "Fox Business – Wall Street suffers historic losses (20 Nov)",
+      "url": "https://www.foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory"
+    },
+    {
+      "label": "Lean community – Statement on the Riemann Hypothesis proof (21 Nov)",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+    },
+    {
+      "label": "Yahoo News (dpa) – UN talks on autonomous killer robots (21 Nov)",
+      "url": "https://www.yahoo.com/news/world/articles/un-talks-autonomous-killer-robots-060332325.html"
+    },
+    {
+      "label": "CNBC – Cursor weighs dropping Chinese AI models (20 Nov)",
+      "url": "https://www.cnbc.com/2026/11/20/cursor-chinese-ai-models-geopolitical-risk.html"
+    },
+    {
+      "label": "Forkast – Apple starts Siri AI rollout with developer preview (22 Nov)",
+      "url": "https://forkast.news/apple-starts-siri-ai-rollout-in-its-apps-alongside-third-party-developer-preview"
+    },
+    {
+      "label": "MacRumors – Siri layoffs spared newer AI systems (22 Nov)",
+      "url": "https://www.macrumors.com/2026/11/22/siri-layoffs-spared-newer-ai-systems/"
+    },
+    {
+      "label": "Robotics & Automation News – Boston Dynamics gives Atlas wheels (22 Nov)",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/boston-dynamics-gives-atlas-wheels-to-test-new-reinforcement-learning-capabilities/107438"
+    },
+    {
+      "label": "Tesla North – Cars stay on AI4, AI5 goes to Optimus (22 Nov)",
+      "url": "https://teslanorth.com/2026/11/22/tesla-ai4-ai5-optimus/"
+    },
+    {
+      "label": "electrive – SC01 sports car to be built in Italy from May 2027 (21 Nov)",
+      "url": "https://www.electrive.com/2026/11/21/chinese-electric-sc01-sportscar-to-be-built-in-italy-from-may-2027/"
+    },
+    {
+      "label": "Autocar – Stellantis to end all motorsport investment (report, Nov)",
+      "url": "https://www.autocar.co.uk/car-news/new-cars/stellantis-end-all-motorsport-investment-%E2%80%93-report"
+    },
+    {
+      "label": "La Libre (AFP) – Stellantis to discuss future of motorsport unit with unions (20 Nov)",
+      "url": "https://www.lalibre.be/dernieres-depeches/2026/11/20/stellantis-va-discuter-avec-les-syndicats-de-lavenir-de-sa-filiale-sport-auto-4SQ5BXNZSBBTFBTDPJJPI6445Y/"
+    },
+    {
+      "label": "Ouest-France – Towards the end of Stellantis's rally programme (Nov)",
+      "url": "https://rallye-sport.ouest-france.fr/vers-la-fin-du-programme-rallye-chez-stellantis/"
+    },
+    {
+      "label": "Semafor – US and China eye joint guardrails on AI (22 Nov)",
+      "url": "https://www.semafor.com/article/11/22/2026/us-china-eye-joint-guardrails-on-ai"
+    },
+    {
+      "label": "SKF – Investors: Vertevo record date and listing",
+      "url": "https://www.skf.com/group/investors"
+    }
+  ],
+  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported. The Stellantis motorsport story is based on press reports not yet confirmed by the company."
+}
