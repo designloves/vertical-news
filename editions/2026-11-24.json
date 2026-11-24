@@ -1,0 +1,380 @@
+{
+ "date": "2026-11-24",
+ "weekday": "Tuesday",
+ "covers": "Mon 23 Nov",
+ "glance": "Nvidia reversed course and reinstated Jensen Huang as CEO, Anthropic launched Claude Ship to let agents review, fix and approve code, and CrowdStrike agreed to buy Zscaler for $43.9 billion. In cars, Mercedes won German approval for urban point-to-point driving assistance, Stellantis confirmed its exit from works racing, and the EU agreed a trade deal with Indonesia while softening fleet EV targets.",
+ "stories": [
+  {
+   "cat": "gen",
+   "top": true,
+   "date": "23 Nov",
+   "headline": "Nvidia's board reinstates Jensen Huang as CEO less than two weeks after accepting his resignation",
+   "why": "The world's main supplier of AI compute is back under its founder, which steadies the roadmap and pricing that every AI product and simulation budget depends on.",
+   "source": "Nvidia · TechCrunch",
+   "body": [
+    "Nvidia's board said on Monday that Jensen Huang is reinstated, with immediate effect, as president, chief executive and board director. He had resigned less than two weeks earlier after admitting personal misconduct, including a relationship with a woman US officials suspect of working for Chinese intelligence. CFO Colette Kress, who served as interim CEO, stays on as finance chief.",
+    "The reversal is sharp. On the third-quarter earnings call the board chair had said there was no plan to bring Huang back, and a search firm had been hired to find a successor. The board now says the decision was unanimous and taken after consulting senior government officials, who it says found no national security risk. President Trump publicly backed the move. Shares opened about 30% higher and were up 27% in early trading.",
+    "For buyers of GPUs and Omniverse-based simulation tools, the main effect is continuity: product plans, partner deals and export-control strategy return to the person who set them. Huang is due to testify before the US Senate next week, so political scrutiny is not over."
+   ],
+   "links": [
+    {
+     "label": "Nvidia",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": true,
+   "date": "23 Nov",
+   "headline": "Anthropic launches Claude Ship, agents that review, fix and approve pull requests under a team-written policy",
+   "why": "Frontend and product teams shipping with coding agents get a way to move human review from every change to the changes that matter.",
+   "source": "Anthropic · TechCrunch",
+   "body": [
+    "Anthropic has introduced Claude Ship, a set of agents for the last stretch of software delivery on GitHub. Code Review, now generally available, checks pull requests against the codebase and posts sorted findings at Quick, Standard or Deep levels. PR Steward, in beta, fixes failing CI checks, merge conflicts and review comments, and explains after each push what it changed and how to undo it. It does not approve or merge.",
+    "The third part, Claude Approvals (beta), applies an approval policy that the team writes in plain language as a file in the repository. It can approve routine changes on its own or require a human sign-off, and it can run in observe-only mode first. A new /ship command in Claude Code pushes a change, opens the pull request and starts review. Billing is by tokens with admin spend limits, on Team and Enterprise plans.",
+    "Anthropic says merged pull requests on its own Claude Code team more than doubled between June and September while the share reverted fell by over 40%. For design-system and frontend teams, the practical question becomes which changes, such as tokens, copy or visual components, still need a person."
+   ],
+   "links": [
+    {
+     "label": "Anthropic",
+     "url": "https://claude.com/resources/articles/introducing-claude-ship"
+    },
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "23 Nov",
+   "headline": "Germany's KBA approves Mercedes' door-to-door driving assistant under the new UN R171 rules",
+   "why": "It is the first German-maker approval for point-to-point Level 2 assistance in cities, a benchmark for ADAS validation and type-approval teams across Europe.",
+   "source": "electrive",
+   "body": [
+    "Germany's Federal Motor Transport Authority (KBA) has approved MB.Drive Assist Pro, making Mercedes-Benz the first German carmaker cleared for a point-to-point driving assistant. The approval is based on UN Regulation R171 on driver control assistance systems (DCAS). The system can change lanes, turn at junctions, stop and pull away at traffic lights, and join and leave motorways on urban, rural and motorway roads.",
+    "It remains SAE Level 2: the driver must keep watching the road and stays responsible, and can steer without switching the system off. It uses 27 sensors, including 10 cameras and 5 radars, and a computer rated at up to 254 TOPS. An early-access programme starts in Stuttgart and Munich in December, with a wider German launch planned for the first half of 2027, likely starting with the electric CLA.",
+    "BMW has R171 approval only for hands-free motorway driving, while Tesla's supervised system has Dutch and Italian national approvals and awaits an EU decision. For validation engineers, the approval shows how authorities are applying R171 to urban scenarios before its wider framework arrives in January 2027."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/23/mercedes-receives-kba-approval-for-door-to-door-driving-assistant/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "CrowdStrike agrees to buy Zscaler for $43.9 billion in stock",
+   "why": "Security for AI agents and AI-heavy networks is consolidating into fewer, bigger platforms that product and IT teams will have to plan around.",
+   "source": "TechCrunch",
+   "body": [
+    "CrowdStrike has agreed to acquire Zscaler in an all-stock deal valued at $43.9 billion. It joins two of the largest pure-play cybersecurity companies: CrowdStrike is known for endpoint protection, while Zscaler runs a cloud platform that sits between users, applications and the internet.",
+    "The companies say the combination will position them for the AI era and help customers adopt AI safely. That points to a growing market for controlling what AI agents and copilots can reach inside company networks, and for spotting attacks that use AI. The deal is expected to close around this time next year, subject to regulatory approval, and per-share terms were not given in the report.",
+    "For product and engineering organisations, including automotive suppliers that rely on cloud security gateways for engineering data, this means one vendor relationship may soon cover both device and network security. Expect bundled pricing and roadmap changes during the year-long approval process, and possible scrutiny from competition authorities in the US and EU."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "Amazon takes over Decart's optimisation technology and team in a deal Bloomberg values at $7.5 billion",
+   "why": "Software that moves AI workloads off Nvidia hardware could make cheaper cloud inference realistic for European product teams.",
+   "source": "TechCrunch · Bloomberg",
+   "body": [
+    "Amazon has agreed to acquire a large part of Decart, an Israeli AI startup. It will take the technology behind the Decart Optimization Stack, plus the founding team and its AI researchers and engineers. Bloomberg puts the value at $7.5 billion; Amazon's announcement did not confirm a price.",
+    "Decart is best known for real-time interactive world models and video generation, but the prize here is its optimisation software, which helps AI models run efficiently on chips from Nvidia, Amazon and Google. Amazon has used its own Trainium chips in its data centres and is preparing to sell them to customers as an alternative to Nvidia.",
+    "The logic is that hardware is only useful if models run well on it. If Decart's tools make it easy to move inference to Trainium, teams running AI features or simulation surrogates on AWS could gain a cheaper option. The deal also shows that top inference-optimisation talent is now priced like a frontier lab."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+    }
+   ]
+  },
+  {
+   "cat": "pm",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "Sierra raises $1.75 billion at a $30 billion valuation and credits outcome-based pricing for doubling revenue",
+   "why": "Charging per resolved customer issue rather than per seat is becoming a proven model for AI products, with clear lessons for pricing strategy.",
+   "source": "TechCrunch",
+   "body": [
+    "Sierra, the customer-service AI company co-founded by Bret Taylor and Clay Bavor, has raised $1.75 billion in a Series F round led by Greenoaks and Lightspeed Venture Partners. Its valuation doubled to $30 billion less than six months after its previous round at $15 billion. Benchmark, Sequoia, GV and Tiger Global also took part.",
+    "The company says run-rate revenue doubled to $400 million in five months, and it gives the credit to outcome-based pricing, where customers pay when an AI agent actually resolves an issue. Sierra says it serves almost half of the Fortune 50, with customers including HSBC, Wells Fargo, Pearson, Next and Cox Automotive.",
+    "For product managers, the round is evidence that buyers accept paying for results when the outcome is easy to measure. It also raises the bar: outcome pricing needs clear definitions of success, solid analytics and honest handling of edge cases. Bavor has argued that most customers move staff into new roles rather than cut them."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+    }
+   ]
+  },
+  {
+   "cat": "ux",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "Google's AI Mode can now draw on Drive, Wallet and the Gemini app for personal answers",
+   "why": "Search is turning into a personal assistant built on users' own files and finances, which changes how people find and judge information.",
+   "source": "TechCrunch · Google",
+   "body": [
+    "Google said on Monday that Personal Intelligence in Search's AI Mode now connects to Google Drive, Google Wallet and the Gemini app. It already worked with Gmail, Calendar and Photos. Each connection is optional, and the feature can be turned off at any time.",
+    "Google's examples include using Drive documents and spreadsheets to plan a project or a tax season, and using Wallet data to track savings goals or get more from credit card rewards. Google stresses that AI Mode can only read account information and cannot move money. Ideas started in the Gemini app now carry over to AI Mode and back. Google also plans a small personalisation icon under answers that shows which context was used, and says AI Overviews will lean more on recent searches.",
+    "For UX teams, the transparency icon is the pattern to watch: personal answers need a visible trace of their sources to earn trust. For product teams, it is another sign that users will expect assistants to work across their own data without switching apps."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+    }
+   ]
+  },
+  {
+   "cat": "gen",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "Meta says it is re-evaluating its 2030 net-zero target as AI data centre emissions climb",
+   "why": "AI's energy footprint is now forcing big platforms to drop climate goals, which feeds into supplier ESG reporting and Europe's sustainability rules.",
+   "source": "TechCrunch · Ars Technica",
+   "body": [
+    "Meta's 2026 sustainability report says the company is re-evaluating its 2030 net-zero timeline, interim milestones and near-term intensity targets, and it does not set a new date. A spokesperson said Meta remains committed to net zero but is reconsidering the 2030 timeline. Meta left the RE100 renewable-energy initiative in July.",
+    "Its reported emissions rose from about 15.6 million tonnes of CO2 equivalent in 2024 to more than 21.7 million in 2025, roughly 40% higher, and data centre emissions alone grew more than twelvefold. Total emissions have more than doubled in four years despite years of clean-power purchases. Meta is relying on natural gas for parts of its AI build-out, including the Hyperion campus in Louisiana.",
+    "For European companies that report scope 3 emissions under the CSRD, cloud and AI services are becoming a harder line item to justify. Engineering teams running large AI or simulation workloads may face more questions about where and how that compute is powered."
+   ],
+   "links": [
+    {
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/"
+    },
+    {
+     "label": "Ars Technica",
+     "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "Stellantis confirms it will leave the WEC after 2026 and Formula E after summer 2027",
+   "why": "A big OEM is moving engineering resources from works racing to road-car performance and new models, a sign of how tight European development budgets have become.",
+   "source": "Motorsport Week · Racer",
+   "body": [
+    "Stellantis confirmed on Monday that it will end its factory programme in the FIA World Endurance Championship after the 2026 season, ending Peugeot's Hypercar effort. Its official Formula E participation will continue for one more season and end after Season 13 in summer 2027. The decision came on the day entries closed for the 2027 WEC season.",
+    "The group says it will shift resources to customer racing, road-car performance and product development, in line with its FaSTLAne 2030 plan, which includes 50 product launches and updates in Europe, 25 of them new models. Performance versions will carry names such as Veloce for Alfa Romeo, GTi for Peugeot, HF for Lancia and GSE for Opel. Affected staff are to be redeployed where possible; Bloomberg puts motorsport staff at about 200.",
+    "For engineers, works racing has long been a test bed for hybrid systems, energy management and simulation methods. Moving that talent into series development may speed up product work but removes a high-pressure validation environment."
+   ],
+   "links": [
+    {
+     "label": "Motorsport Week",
+     "url": "https://www.motorsportweek.com/2026/11/23/stellantis-wec-formula-e-announcement/"
+    },
+    {
+     "label": "Racer",
+     "url": "https://racer.com/2026/11/23/stellantis-confirms-closure-of-wec-formula-e-programs"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "EU and Indonesia agree a trade deal that phases out car tariffs of up to 50% over five years",
+   "why": "It opens a large Asian car market to European exporters and steadies access to Indonesian nickel and cobalt for batteries.",
+   "source": "electrive",
+   "body": [
+    "The EU and Indonesia have agreed a free trade deal after about ten years of talks. Indonesia's import tariffs of up to 50% on European cars will be phased out over five years, and once fully in force the deal removes tariffs on up to 98.5% of product categories. The European Commission estimates that EU exporters will save about 600 million euros a year in duties.",
+    "The Commission expects EU exports to Indonesia to rise by almost 40% over 15 years, led by machinery, motor vehicles and metals. Indonesia is a leading producer of nickel and cobalt, and the EU expects more stable access to these battery materials, along with investment openings in EVs and electronics. Indonesia is building its own battery and EV industry, with Hyundai, LG Energy Solution, Toyota, BYD and CATL active there.",
+    "The deal still needs European Parliament approval, with provisional application expected in early 2027. For purchasing and supply chain teams, it is a possible route to diversify battery raw materials away from China."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/23/eu-and-indonesia-agree-free-trade-deal-to-cut-tariffs-on-cars/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "EU governments move away from binding EV quotas for company car fleets",
+   "why": "Fleet buyers are a key source of new EVs in Europe, so softer targets could slow the electric shift that OEM product plans assume.",
+   "source": "electrive · Automobilwoche",
+   "body": [
+    "A compromise draft from the Irish Council presidency, reported by Automobilwoche, rejects the European Commission's plan for binding national quotas to electrify company cars from 2030. Under the draft, targets would be aspirational with no penalties, and tax incentives for combustion-engine company cars would still be allowed in principle. The European Parliament had already downgraded the quotas to voluntary targets.",
+    "The Parliament's centre groups, EPP, S&D and Renew, want incentives limited to zero- and low-emission vehicles from 2028. Jens Gieseke, who chairs the Transport Committee, said the compromise protects fleet operators from major burdens. The company car rule is a side issue in the wider automotive package, where the main fight is over CO2 rules: the same groups propose a 95% cut in new-car CO2 by 2035 instead of 100%, or 87.5% when green European steel is used.",
+    "A plenary vote is expected in December. For product planners, both changes point to a slower and more mixed powertrain transition than the original 2035 rules implied."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/23/eu-council-signals-shift-away-from-binding-ev-quotas-for-corporate-fleets/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "Aachen start-up Cylib buys BASF's battery recycling business, including the Schwarzheide black mass plant",
+   "why": "Europe's battery recycling capacity is moving from a chemical giant to a specialist start-up, with consequences for future recycled-content supply.",
+   "source": "electrive",
+   "body": [
+    "Cylib, a 2022 spin-off from RWTH Aachen, is buying BASF's battery recycling business in Europe and North America. The deal includes customer and partner contracts, intellectual property, a collection and dismantling network, and two plants at Schwarzheide in Brandenburg: a black mass plant and a prototype recycling facility. BASF keeps its cathode materials business. The price is confidential, and closing is expected in the second or third quarter of 2027.",
+    "The Schwarzheide black mass plant can process up to 15,000 tonnes of end-of-life batteries and production scrap a year, about 40,000 EV batteries. Cylib already runs a 10,000-tonne mechanical plant in Bavaria and uses a water-based process that it says recovers about 90% of battery materials, including lithium early in the process and graphite. A larger plant is being built in Dormagen.",
+    "For OEMs facing EU recycled-content rules and battery passports, the deal concentrates know-how in a focused European player. It also shows that large chemical groups are retreating from parts of the battery value chain."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/23/aachen-startup-cylib-acquires-basfs-battery-recycling-business/"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "23 Nov",
+   "headline": "Range-extender EVs look set to fall outside the new EU–China hybrid import quota",
+   "why": "The classification decides whether Chinese range-extender SUVs face a volume cap, shaping competition for European plug-in and EV programmes.",
+   "source": "electrive",
+   "body": [
+    "In October the EU and China agreed an annual import limit of 350,000 hybrid vehicles, rising 6% a year, but the legal act has not yet been published. According to electrive, range-extender EVs (EREVs) appear to be excluded and will probably stay classed as battery-electric vehicles, because their engine only generates electricity and never drives the wheels. That distinction is already set in an EU implementing regulation from 2024.",
+    "As BEVs, Chinese EREVs remain subject to the EU's anti-subsidy tariffs of up to 35.3%, depending on the maker, but face no volume cap. The Commission also opened a separate safeguard procedure on 30 October covering hybrids and plug-in hybrids from all third countries. Hybrid imports into the EU rose 49% to about 1.42 million units in the year to June 2026.",
+    "Models such as the Leapmotor C10 and Xpeng L03 range extenders, priced from about 33,000 to 39,000 euros in Germany, could therefore keep growing. For European OEMs weighing their own range-extender projects, the rule makes the technology a clearer regulatory category."
+   ],
+   "links": [
+    {
+     "label": "electrive",
+     "url": "https://www.electrive.com/2026/11/23/eu-china-hybrid-import-quota-does-not-apply-to-range-extenders/"
+    }
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "title": "Volkswagen pay talks",
+   "text": "VW and IG Metall start key talks on Tuesday over new job and pay cuts; the union threatens strikes from 1 January if there is no deal.",
+   "link": {
+    "label": "BusinessDay / Reuters",
+    "url": "https://www.businessday.co.za/motoring/2026-11-23-german-carmakers-face-hard-winter-of-union-battles/"
+   }
+  },
+  {
+   "title": "Huang before the Senate",
+   "text": "Jensen Huang is scheduled to testify in the US Senate next week, and Megaspeed, the firm at the centre of the affair, looks headed for a US blacklist.",
+   "link": {
+    "label": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/"
+   }
+  },
+  {
+   "title": "Polestar results on 25 November",
+   "text": "Polestar reports select third-quarter figures on Wednesday as it prepares to leave the US market at year end.",
+   "link": {
+    "label": "Stockhouse / Polestar",
+    "url": "https://stockhouse.com/news/press-releases/2026/11/23/polestar-sets-the-date-for-reporting-select-results-for-the-third-quarter-and"
+   }
+  }
+ ],
+ "sources": [
+  {
+   "label": "Nvidia – Nvidia's board reinstates Jensen Huang as CEO less than two weeks after accepting his resignation (23 Nov)",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+  },
+  {
+   "label": "TechCrunch – Nvidia's board reinstates Jensen Huang as CEO less than two weeks after accepting his resignation (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/nvidia-reverses-course-and-brings-jensen-huang-back-as-ceo/"
+  },
+  {
+   "label": "Anthropic – Anthropic launches Claude Ship, agents that review, fix and approve pull requests under a team-written policy (23 Nov)",
+   "url": "https://claude.com/resources/articles/introducing-claude-ship"
+  },
+  {
+   "label": "TechCrunch – Anthropic launches Claude Ship, agents that review, fix and approve pull requests under a team-written policy (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/"
+  },
+  {
+   "label": "electrive – Germany's KBA approves Mercedes' door-to-door driving assistant under the new UN R171 rules (23 Nov)",
+   "url": "https://www.electrive.com/2026/11/23/mercedes-receives-kba-approval-for-door-to-door-driving-assistant/"
+  },
+  {
+   "label": "TechCrunch – CrowdStrike agrees to buy Zscaler for $43.9 billion in stock (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion/"
+  },
+  {
+   "label": "TechCrunch – Amazon takes over Decart's optimisation technology and team in a deal Bloomberg values at $7.5 billion (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/"
+  },
+  {
+   "label": "TechCrunch – Sierra raises $1.75 billion at a $30 billion valuation and credits outcome-based pricing for doubling revenue (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/"
+  },
+  {
+   "label": "TechCrunch – Google's AI Mode can now draw on Drive, Wallet and the Gemini app for personal answers (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/"
+  },
+  {
+   "label": "TechCrunch – Meta says it is re-evaluating its 2030 net-zero target as AI data centre emissions climb (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/meta-throws-out-its-net-zero-goal-its-competitors-should-be-furious/"
+  },
+  {
+   "label": "Ars Technica – Meta says it is re-evaluating its 2030 net-zero target as AI data centre emissions climb (23 Nov)",
+   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/"
+  },
+  {
+   "label": "Motorsport Week – Stellantis confirms it will leave the WEC after 2026 and Formula E after summer 2027 (23 Nov)",
+   "url": "https://www.motorsportweek.com/2026/11/23/stellantis-wec-formula-e-announcement/"
+  },
+  {
+   "label": "Racer – Stellantis confirms it will leave the WEC after 2026 and Formula E after summer 2027 (23 Nov)",
+   "url": "https://racer.com/2026/11/23/stellantis-confirms-closure-of-wec-formula-e-programs"
+  },
+  {
+   "label": "electrive – EU and Indonesia agree a trade deal that phases out car tariffs of up to 50% over five years (23 Nov)",
+   "url": "https://www.electrive.com/2026/11/23/eu-and-indonesia-agree-free-trade-deal-to-cut-tariffs-on-cars/"
+  },
+  {
+   "label": "electrive – EU governments move away from binding EV quotas for company car fleets (23 Nov)",
+   "url": "https://www.electrive.com/2026/11/23/eu-council-signals-shift-away-from-binding-ev-quotas-for-corporate-fleets/"
+  },
+  {
+   "label": "electrive – Aachen start-up Cylib buys BASF's battery recycling business, including the Schwarzheide black mass plant (23 Nov)",
+   "url": "https://www.electrive.com/2026/11/23/aachen-startup-cylib-acquires-basfs-battery-recycling-business/"
+  },
+  {
+   "label": "electrive – Range-extender EVs look set to fall outside the new EU–China hybrid import quota (23 Nov)",
+   "url": "https://www.electrive.com/2026/11/23/eu-china-hybrid-import-quota-does-not-apply-to-range-extenders/"
+  },
+  {
+   "label": "BusinessDay / Reuters – Volkswagen pay talks (23 Nov)",
+   "url": "https://www.businessday.co.za/motoring/2026-11-23-german-carmakers-face-hard-winter-of-union-battles/"
+  },
+  {
+   "label": "TechCrunch – Huang before the Senate (23 Nov)",
+   "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/"
+  },
+  {
+   "label": "Stockhouse / Polestar – Polestar results on 25 November (23 Nov)",
+   "url": "https://stockhouse.com/news/press-releases/2026/11/23/polestar-sets-the-date-for-reporting-select-results-for-the-third-quarter-and"
+  }
+ ],
+ "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
+}
