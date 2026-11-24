@@ -2,7 +2,8 @@
  "date": "2026-11-24",
  "weekday": "Tuesday",
  "covers": "Mon 23 Nov",
- "glance": "Nvidia reversed course and reinstated Jensen Huang as CEO, Anthropic launched Claude Ship to let agents review, fix and approve code, and CrowdStrike agreed to buy Zscaler for $43.9 billion. In cars, Mercedes won German approval for urban point-to-point driving assistance, Stellantis confirmed its exit from works racing, and the EU agreed a trade deal with Indonesia while softening fleet EV targets.",
+ "glance": "Nvidia reversed course and reinstated Jensen Huang as CEO, Anthropic launched Claude Ship to let agents review, fix and approve code, and Germany's KBA cleared Mercedes' urban point-to-point driving assistant under UN R171. CrowdStrike agreed to buy Zscaler for 43.9 billion dollars, Stellantis confirmed its exit from works racing, and the EU agreed a trade deal with Indonesia while softening fleet EV targets.",
+ "brief": "Good morning. Here is Vertical News for Tuesday the twenty-fourth of November, covering Monday. Nvidia's board has reinstated Jensen Huang as chief executive, less than two weeks after accepting his resignation over personal misconduct. Shares jumped by more than a quarter. Anthropic has launched Claude Ship, agents that review pull requests, fix failing checks, and approve routine changes under a policy the team writes in plain language. And Germany's motor transport authority has approved Mercedes' door-to-door driving assistant under the new UN rule R171. It handles junctions and traffic lights, but the driver stays responsible. Early access starts in Stuttgart and Munich in December. In other news, CrowdStrike agreed to buy Zscaler for forty-three point nine billion dollars in stock. Amazon is taking over Decart's optimisation technology and team, in a deal Bloomberg values at seven and a half billion dollars. Sierra raised one point seven five billion dollars at a thirty billion dollar valuation, crediting outcome-based pricing. Google's AI Mode now draws on Drive and Wallet. Meta is re-evaluating its 2030 net-zero target as data centre emissions climb. In automotive, Stellantis confirmed it will leave endurance racing after 2026 and Formula E in 2027. The EU and Indonesia agreed a trade deal. EU governments are moving away from binding EV quotas for company fleets. Cylib is buying BASF's battery recycling business. Range-extender EVs look set to escape the new EU–China hybrid quota. And Volvo Trucks won a three hundred and seventy-five truck order from the US carrier E and O ONE.",
  "stories": [
   {
    "cat": "gen",
@@ -252,6 +253,25 @@
    "cat": "auto",
    "top": false,
    "date": "23 Nov",
+   "headline": "Volvo Trucks wins a 375-truck order from US long-haul carrier E&O ONE",
+   "why": "A large diesel long-haul order shows where Volvo Group's North American volume still comes from while European fleets move to electric.",
+   "source": "Volvo Trucks North America via GlobeNewswire",
+   "body": [
+    "Volvo Trucks North America said on Monday that E&O ONE, a long-haul carrier based in Elgin, Illinois, has ordered 375 new Volvo VNL trucks. About 125 are being delivered in 2026 and the other 250 are scheduled for the first quarter of 2027. The carrier already runs an all-Volvo fleet across the 48 contiguous US states.",
+    "The trucks are the VNL 860, Volvo's largest sleeper cab, with the Volvo D13 engine rated at 455 horsepower. A six-battery setup powers a parking cooler and heater, so drivers can rest without idling the engine. E&O ONE is building a new headquarters in Elgin and plans to expand its Huntley service centre in 2027 with a 40,000 square foot building and 150 trailer spaces.",
+    "For engineers at Volvo Group and its suppliers, the order is a reminder that diesel long-haul trucks remain the core of North American demand. Idle-reduction features such as battery-powered cab climate systems are where electrification is entering these fleets first."
+   ],
+   "links": [
+    {
+     "label": "GlobeNewswire",
+     "url": "https://www.globenewswire.com/news-release/2026/11/23/3408567/0/en/big-order-u-s-trucking-company-e-o-one-expands-all-volvo-fleet-with-375-new-volvo-trucks.html"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "23 Nov",
    "headline": "Range-extender EVs look set to fall outside the new EU–China hybrid import quota",
    "why": "The classification decides whether Chinese range-extender SUVs face a volume cap, shaping competition for European plug-in and EV programmes.",
    "source": "electrive",
@@ -287,10 +307,18 @@
   },
   {
    "title": "Polestar results on 25 November",
-   "text": "Polestar reports select third-quarter figures on Wednesday as it prepares to leave the US market at year end.",
+   "text": "Polestar publishes select third-quarter and nine-month figures on Wednesday before market open, with a call at 14:00 CET.",
    "link": {
-    "label": "Stockhouse / Polestar",
-    "url": "https://stockhouse.com/news/press-releases/2026/11/23/polestar-sets-the-date-for-reporting-select-results-for-the-third-quarter-and"
+    "label": "Polestar",
+    "url": "https://investors.polestar.com/news-releases/news-release-details/polestar-sets-date-reporting-select-results-third-quarter-and"
+   }
+  },
+  {
+   "title": "SKF Vertevo listing",
+   "text": "SKF's automotive business Vertevo starts trading on Nasdaq Stockholm on 1 December, with a record date of 27 November for the share distribution.",
+   "link": {
+    "label": "SKF via Cision",
+    "url": "https://news.cision.com/skf/r/skf-vertevo-capital-markets-day--unleashing-growth--efficiency-and-speed,c4425157"
    }
   }
  ],
@@ -360,6 +388,10 @@
    "url": "https://www.electrive.com/2026/11/23/aachen-startup-cylib-acquires-basfs-battery-recycling-business/"
   },
   {
+   "label": "GlobeNewswire – Volvo Trucks wins a 375-truck order from US long-haul carrier E&O ONE (23 Nov)",
+   "url": "https://www.globenewswire.com/news-release/2026/11/23/3408567/0/en/big-order-u-s-trucking-company-e-o-one-expands-all-volvo-fleet-with-375-new-volvo-trucks.html"
+  },
+  {
    "label": "electrive – Range-extender EVs look set to fall outside the new EU–China hybrid import quota (23 Nov)",
    "url": "https://www.electrive.com/2026/11/23/eu-china-hybrid-import-quota-does-not-apply-to-range-extenders/"
   },
@@ -372,8 +404,12 @@
    "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/"
   },
   {
-   "label": "Stockhouse / Polestar – Polestar results on 25 November (23 Nov)",
-   "url": "https://stockhouse.com/news/press-releases/2026/11/23/polestar-sets-the-date-for-reporting-select-results-for-the-third-quarter-and"
+   "label": "Polestar – Polestar sets date for reporting select results for Q3 2026 (23 Nov)",
+   "url": "https://investors.polestar.com/news-releases/news-release-details/polestar-sets-date-reporting-select-results-third-quarter-and"
+  },
+  {
+   "label": "SKF – SKF Vertevo Capital Markets Day (17 Nov)",
+   "url": "https://news.cision.com/skf/r/skf-vertevo-capital-markets-day--unleashing-growth--efficiency-and-speed,c4425157"
   }
  ],
  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported."
