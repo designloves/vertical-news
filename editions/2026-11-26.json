@@ -1,26 +1,45 @@
 {
  "date": "2026-11-26",
  "weekday": "Thursday",
- "covers": "Tue 24 – Wed 25 Nov",
- "glance": "The EU will cap hybrid car imports from every origin from 1 December, and European carmaker shares jumped on the news, while the US proposed new overcapacity tariffs on 14 trading partners including the EU. Polestar's third-quarter loss widened to $403 million as revenue fell 14%, and it will stop selling new cars in the US. XPENG set January 2027 for humanoid robot production, the FCC approved SpaceX's plan for up to a million AI computing satellites, and Anthropic showed how Claude agents moved its main API from Python to Rust.",
- "brief": "This is Vertical News for Thursday. The EU will cap imports of hybrid cars from every country from the first of December. Full, plug-in and mild hybrids are all covered, and each big exporter gets a quota of roughly its 2025 volume plus fifteen percent. China gets about one hundred and ninety-two thousand cars over two hundred days, Japan about one hundred and seventy-one thousand, and the UK about one hundred and five thousand. Above the quota, cars cannot enter at all. European carmaker shares rose sharply on Wednesday. Meanwhile the US proposed new tariffs on fourteen trading partners, including the EU, Japan and China, over what it calls excess manufacturing capacity. Most rates sit between fifteen and twenty percent, and none take effect for at least a couple of months. And Polestar's third-quarter loss widened to four hundred and three million dollars as revenue fell fourteen percent. US regulators refused Polestar under the connected vehicle rule, so it will stop selling new cars in the US. In other news, XPENG set January 2027 for mass production of its IRON humanoid robot. The FCC approved SpaceX's plan for up to a million AI computing satellites. US export rules have led lenders to pause financing for Asian data centres tied to Chinese cloud firms. Ant Group released an open multimodal model for office automation. Anthropic described how Claude agents moved its main API from Python to Rust, cutting processor use by about seventy percent. Claude artifacts can now be installed as desktop apps. ChatGPT will put chat and work on one shared usage meter. Amazon and Meta are talking about letting Meta's shopping agent back onto Amazon. And JPMorgan upgraded Schaeffler, pointing to its humanoid robot business.",
+ "covers": "Wed 25 Nov",
+ "glance": "Polestar's losses widen and it loses the US market for its 2027 models, while the EU puts quotas on hybrid imports from every major supplier country and the US proposes new tariffs on 14 partners. J.P. Morgan splits Sweden's Volvos in its 2027 outlook and upgrades Schaeffler, XPENG sets a date for humanoid production, and AI product news centres on usage limits, agent shopping and AI-assisted engineering.",
+ "brief": "This is Vertical News for Thursday. Polestar reported a third-quarter net loss of four hundred and three million dollars, as revenue fell fourteen percent even though sales edged up. More importantly, US authorities refused to let it sell model-year 2027 cars under the connected vehicle rule, so Polestar will sell its remaining stock and then stop new US sales. The European Union will cap hybrid car imports from all major supplier countries from the first of December, for two hundred days. China gets about one hundred and ninety-two thousand cars, Japan about one hundred and seventy-one thousand, and Türkiye, the UK and South Korea smaller quotas. Washington also proposed new overcapacity tariffs on fourteen trading partners, including the EU, Japan and China, mostly between fifteen and twenty percent. J.P. Morgan's 2027 outlook cut Volvo Cars to underweight, favoured trucks including AB Volvo, and upgraded Schaeffler, citing its humanoid robot business. BYD is in exclusive talks to buy the Ineos plant in Hambach, France. EU car registrations are up five point four percent this year, with battery-electric cars at twenty-three percent. XPENG will start building its IRON humanoid robot in January and runs cars and robots on one AI stack. The FCC approved SpaceX's plan for up to a million computing satellites. Anthropic explained how Claude agents rewrote its API in Rust, and Claude artifacts can now be installed as desktop apps. ChatGPT is moving chat and work onto one usage limit, and Meta is putting its Muse shopping agent into Instagram while negotiating with Amazon.",
  "stories": [
   {
    "cat": "auto",
    "top": true,
-   "date": "24–25 Nov",
-   "headline": "EU caps hybrid car imports from all countries from 1 December, and European carmaker shares jump",
-   "why": "The quota covers full, plug-in and mild hybrids from China, Japan, Türkiye, the UK and others, which changes sourcing and launch plans for anyone shipping hybrids into Europe.",
-   "source": "European Commission via MLQ.ai · Eurometal",
+   "date": "25 Nov",
+   "headline": "Polestar's third-quarter loss widens to 403 million dollars, and the US blocks sales of its 2027 models",
+   "why": "A Gothenburg-based EV maker loses its US market to the connected-vehicle rule, a warning for any European OEM with Chinese software or hardware in its cars.",
+   "source": "Polestar (SEC filing)",
    "body": [
-    "The European Commission has imposed provisional safeguard quotas on imported hybrid passenger cars. Implementing Regulation 2026/2614 was published on 24 November and applies for 200 days, from 1 December 2026 to 18 June 2027. It covers full hybrids, plug-in hybrids and mild hybrids from all origins. Every country that supplied more than 2% of EU hybrid imports in 2025 gets its own quota, set at its 2025 volume plus slightly more than 15%. Once a quota is used up, further cars from that country cannot enter.",
-    "China's quota is about 191,800 cars across three periods, followed by Japan at about 170,900, Türkiye at 126,300, the UK at 105,400 and South Korea at 67,900. Mexico, Morocco, Serbia and the US get smaller allocations, and all other countries share a very small joint quota. Norway, Iceland, Ukraine and some developing countries are exempt. Chinese-made cars also need an export certificate from China's machinery chamber of commerce.",
-    "The Commission says imports rose sharply since 2023 while EU makers lost share. On 25 November the STOXX Europe autos index rose about 3.8%, with Volkswagen up nearly 7% and Stellantis about 6%. For UK and Turkish plants that build hybrids for the EU, the quota now sets a hard volume ceiling."
+    "Polestar published unaudited third-quarter figures on 25 November. Revenue fell 14.3% to 642 million dollars, even though retail sales rose 1% to 14,371 cars. The net loss grew to 403 million dollars from 365 million a year earlier, and the gross margin worsened to minus 18.1% from minus 6.1%. Adjusted EBITDA was a loss of 251 million dollars. Cash fell to 653 million dollars at the end of September, from 1.16 billion at the end of 2025.",
+    "The bigger news is in the US. The Bureau of Industry and Security refused to authorise Polestar to sell model-year 2027 cars under the Connected Vehicle Rule. Polestar will sell its remaining stock and then stop selling new cars in the US, while keeping service and warranty support. It expects more charges linked to the exit.",
+    "Funding still leans on its owners. Geely signed a 400 million dollar loan in September, and Volvo Cars extended its remaining 660 million dollar loan to December 2031. Polestar kept its 2026 volume guidance of low-to-mid single-digit growth."
    ],
    "links": [
     {
-     "label": "MLQ.ai",
-     "url": "https://mlq.ai/news/eu-caps-hybrid-car-imports-from-all-countries-from-dec-1-giving-china-a-191780-car-quota-european-carmaker-shares-jump/"
+     "label": "Polestar Q3 2026 release (SEC 6-K)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001884082/000110465926131840/tm2630564d1_ex99-1.htm"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": true,
+   "date": "24–25 Nov",
+   "headline": "EU sets hybrid car import quotas for every major supplier country from 1 December",
+   "why": "The first EU safeguard on cars hits Japanese, British, Turkish and Korean hybrids as well as Chinese ones, and changes sourcing plans for 2027 models.",
+   "source": "European Commission · Eurometal · Investing.com",
+   "body": [
+    "The European Commission has imposed provisional safeguard quotas on imported hybrid passenger cars, covering full, mild and plug-in hybrids. The measure runs for 200 days, from 1 December 2026 to 18 June 2027. Each country that supplied more than 2% of EU hybrid imports in 2025 gets its own quota, set at roughly its 2025 volume plus about 15%. Cars beyond a quota cannot enter.",
+    "China's quota is about 192,000 cars over the period, followed by Japan with about 171,000, Türkiye with about 126,000, the UK with about 105,000 and South Korea with about 68,000. Smaller countries share a small joint quota, and a few partners such as Norway and Ukraine are exempt.",
+    "European carmaker shares rose on Wednesday after the decision. J.P. Morgan expects the cap on Chinese hybrids to give European brands only low single-digit market-share relief, and sees Chinese gains resuming in 2028 to 2029. Range-extender EVs are expected to fall outside the hybrid quotas but still face the existing EV duties."
+   ],
+   "links": [
+    {
+     "label": "European Commission press release",
+     "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2564/IP_26_2564_EN.pdf"
     },
     {
      "label": "Eurometal",
@@ -30,15 +49,15 @@
   },
   {
    "cat": "auto",
-   "top": true,
+   "top": false,
    "date": "25 Nov",
-   "headline": "US proposes overcapacity tariffs on 14 trading partners, including the EU, Japan and China",
-   "why": "European and Asian suppliers to the US face a new round of duties, just as the EU tightens its own import rules.",
+   "headline": "US proposes new overcapacity tariffs on 14 trading partners, including the EU, Japan and China",
+   "why": "Car parts, steel-intensive components and machinery from Europe face another layer of US tariff uncertainty in 2027 planning.",
    "source": "CNBC · The Next Web",
    "body": [
-    "The US Trade Representative proposed new Section 301 tariffs on 14 economies on 25 November, after an eight-month investigation into what Washington calls excess manufacturing capacity. The list includes China, the EU, Japan, South Korea, Taiwan, India, Vietnam, Thailand, Malaysia, Singapore, Indonesia, Cambodia, Bangladesh and Switzerland. Mexico and Norway were left out for now.",
-    "Most proposed rates are between 15% and 20%. China faces 20%, which on top of first-term tariffs takes US duties on Chinese goods to about 45%. Partners with existing trade frameworks, such as the EU and Japan, are reported to stay capped at 15% overall, and USTR Jamieson Greer said the new rates are generally a top-up rather than added on top. He said none would take effect for at least a couple of months. China's foreign ministry rejected the overcapacity claim but did not threaten retaliation.",
-    "The move follows the Supreme Court ruling that struck down Trump's emergency tariffs. For automotive suppliers, the detail to watch is which sectors end up on the final lists, since the proposal does not yet name autos or parts."
+    "The US Trade Representative proposed new Section 301 tariffs on 14 economies on 25 November, after an investigation into what Washington calls structural excess manufacturing capacity. The list includes China, the EU, Japan, South Korea, Taiwan, India, Switzerland and several South-East Asian countries. Mexico and Norway are not on it for now.",
+    "Most proposed rates are between 15% and 20%, with China at 20%. Partners that already have trade frameworks with the US, such as the EU and Japan, are reported to stay capped at 15% overall, and trade representative Jamieson Greer described the new rates as generally replacing rather than stacking on existing ones. He said none would take effect for at least a couple of months.",
+    "For European suppliers the details of the final rule, and any product exclusions, will matter more than the headline rates. The proposal still has to go through comment and hearings."
    ],
    "links": [
     {
@@ -53,24 +72,104 @@
   },
   {
    "cat": "auto",
-   "top": true,
+   "top": false,
    "date": "25 Nov",
-   "headline": "Polestar's quarterly loss widens to $403 million as revenue falls 14%, and US new-car sales will end",
-   "why": "The Gothenburg-based brand is losing its US market under the connected vehicle rule while cash keeps falling, which matters for Volvo, Geely and their Swedish suppliers.",
-   "source": "Polestar via Stockhouse · EVXL",
+   "headline": "J.P. Morgan downgrades Volvo Cars to underweight and backs trucks, including AB Volvo, for 2027",
+   "why": "The bank's 2027 outlook splits Sweden's two Volvos, favouring heavy trucks over volume car makers.",
+   "source": "Investing.com",
    "body": [
-    "Polestar published its delayed third-quarter results on 25 November. Revenue fell 14.3% to $642 million and the net loss grew to $403 million from $365 million a year earlier. Gross margin was minus 18.1%, compared with minus 6.1%, partly because of an inventory write-down as the Polestar 2 is phased out. Retail sales rose 1% to about 14,371 cars. Adjusted EBITDA was a loss of $251 million, slightly better than last year. Cash fell to $653 million at the end of September.",
-    "The US Bureau of Industry and Security declined to authorise Polestar to sell model-year 2027 cars under the connected vehicle rule. Polestar will sell remaining stock and then stop new US sales, while keeping service and warranties. More restructuring charges are expected. Geely gave a new $400 million loan in September, Volvo extended its $660 million loan to 2031, and Polestar is in talks with lenders on its $950 million club loan.",
-    "Volume guidance for 2026 is unchanged. Polestar 5 deliveries have started, and a Polestar 2 successor is planned for 2027."
+    "In its 2027 outlook for European autos, J.P. Morgan said trucks, luxury cars and tyres should lead the sector. Its preferred names are Ferrari, Porsche, Michelin, Continental, Daimler Truck and AB Volvo. It cut Volvo Cars to underweight from neutral with a target of 10 kronor, and lowered Renault, Goodyear, Aumovio and Stabilus to neutral. Mercedes-Benz stays overweight, but its target falls to 50 euros from 70, with car margins seen at about 1%.",
+    "The bank expects global light-vehicle output to dip 0.2% in 2027, with China down 2%, North America down 1.5% and Europe up 2%. It also noted tyre raw-material costs were up 56% year on year in October.",
+    "The note landed on the same day European car shares rallied on the hybrid quota news, with BMW and Stellantis up about 5%. For suppliers, it signals that investors see more value in truck and premium programmes than in mass-market cars next year."
    ],
    "links": [
     {
-     "label": "Polestar release (Stockhouse)",
-     "url": "https://stockhouse.com/news/press-releases/2026/11/25/polestar-reports-select-results-for-the-third-quarter-and-first-nine-months-of"
+     "label": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/jp-morgan-sees-trucks-luxury-cars-and-tyres-leading-europes-autos-in-2027-5050351"
+    }
+   ]
+  },
+  {
+   "cat": "bear",
+   "top": false,
+   "date": "25 Nov",
+   "headline": "J.P. Morgan upgrades Schaeffler to overweight but cuts its target to 6.50 euros",
+   "why": "Investors are starting to price bearing makers on new markets such as humanoid robots, not only on shrinking combustion-engine volumes.",
+   "source": "ad-hoc-news (dpa-AFX) · Investing.com",
+   "body": [
+    "In the same 2027 sector outlook, J.P. Morgan raised Schaeffler from neutral to overweight while cutting its price target to 6.50 euros from 8.50. With the shares trading around 5 euros on 25 November, the new target still implies upside of more than 25%. According to the dpa-AFX report, the analyst argued that Schaeffler's humanoid robotics business is not yet reflected in the valuation.",
+    "The upgrade follows Schaeffler's latest European efficiency programme, announced earlier this month, which cuts about 3,460 jobs and closes several plants, with yearly savings targeted by 2030. Schaeffler has been positioning its actuator, gear and bearing know-how for robot joints.",
+    "For the bearing sector, it comes in the same week as SKF's automotive spin-off Vertevo heads for its Stockholm listing, and after NSK and NTN agreed their merger. Analysts are reassessing every major bearing maker's mix of automotive, industrial and new robotics demand."
+   ],
+   "links": [
+    {
+     "label": "ad-hoc-news",
+     "url": "https://ad-hoc-news.de/boerse/news/corporate-news/schaeffler-aktie-jpmorgan-hebt-auf-overweight-senkt-kursziel/70553273"
     },
     {
-     "label": "EVXL",
-     "url": "https://evxl.co/2026/11/25/polestar-q3-2026-select-results/"
+     "label": "Investing.com",
+     "url": "https://www.investing.com/news/stock-market-news/jp-morgan-sees-trucks-luxury-cars-and-tyres-leading-europes-autos-in-2027-5050351"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "25 Nov",
+   "headline": "BYD is in exclusive talks to buy the Ineos plant in Hambach, France",
+   "why": "A second Chinese carmaker taking over an existing European plant would speed up local production ahead of 'Made in Europe' rules.",
+   "source": "autoevolution",
+   "body": [
+    "BYD is reported to be in exclusive negotiations to buy Ineos Automotive's factory in Hambach, in north-eastern France near the German border. Ineos plans to move production of the Grenadier and Quartermaster to the US from 2028, since the US accounts for roughly 70% of its sales and local production avoids the 25% tariff on imported pickups.",
+    "Ineos bought the site from Mercedes-Benz in 2020 and says it has invested more than 700 million euros there. The plant employs 900 to 1,000 people and can build about 30,000 vehicles a year. If the sale goes through, Ineos would keep building its models at Hambach for the medium term until US output starts. No financial terms were given.",
+    "BYD's plant in Szeged, Hungary, is moving towards mass production with initial capacity of about 150,000 cars. A French site would add capacity inside the EU as hybrid quotas and local-content rules tighten. Chery bought Nissan's former Barcelona plant in 2024."
+   ],
+   "links": [
+    {
+     "label": "autoevolution",
+     "url": "https://www.autoevolution.com/news/ineos-is-moving-to-america-might-sell-its-plant-to-chinese-auto-giant-278948.html"
+    }
+   ]
+  },
+  {
+   "cat": "auto",
+   "top": false,
+   "date": "24 Nov",
+   "headline": "EU car registrations rise 5.4% to October, with battery-electric share at 23.4%",
+   "why": "Electric demand in Europe is growing fast, which shapes volumes for EV drivetrains, e-axles and their bearings.",
+   "source": "The Brussels Times (ACEA data)",
+   "body": [
+    "New car registrations in the EU rose 5.4% in January to October to 9.46 million, according to ACEA figures. October alone was up 2.6% at about 939,000 cars.",
+    "Battery-electric cars took 23.4% of the market, up from 16.4% a year earlier, with more than 2.2 million registered, an increase of 50%. Hybrids remained the largest group at 36%. Petrol and diesel together fell to 27.7%, with both down about 20%. Germany's electric registrations rose about 61% and France's about 79%.",
+    "Among manufacturers, Volkswagen Group held 26.1% of the market, Stellantis 15.6% and Renault 10.3%. Chinese brands grew from a small base, with BYD up about 151% and Chery up about 238%. The numbers show the scale of the hybrid flows that the new EU quotas are meant to control."
+   ],
+   "links": [
+    {
+     "label": "The Brussels Times",
+     "url": "https://www.brusselstimes.com/news/2421394/europes-car-market-grew-by-5-4-over-the-past-10-months/"
+    }
+   ]
+  },
+  {
+   "cat": "eng",
+   "top": false,
+   "date": "25 Nov",
+   "headline": "XPENG starts IRON humanoid production in January 2027 and moves cars and robots onto one AI stack",
+   "why": "A carmaker is reusing its driving AI, chips and factory processes for robots, a model European OEMs and suppliers are watching closely.",
+   "source": "XPENG · CnEVPost",
+   "body": [
+    "At its AI Day in Guangzhou on 25 November, XPENG presented a three-level Turing physical AI architecture for both cars and robots: a real-time hardware control layer, its vision-language-action driving model, and a planning layer. The company said agent-driven closed-loop training now makes its driving model train 10 to 12 times faster.",
+    "Hardware mass production of the IRON humanoid is set for January 2027, with robots training as store assistants in the first quarter and a public launch in the second. IRON has 76 degrees of freedom, more than 1,500 touch sensors and three in-house Turing chips. XPENG says its assembly line runs over 600 AI-assisted quality checks and more than 1,000 tests per robot.",
+    "XPENG also plans a YOYO-01 robotaxi in 2027 and paid smart-driving subscriptions for new buyers from mid-2027. It claims accident claims fell 13.93% in China since its latest driving model launched. These are company figures without independent checks."
+   ],
+   "links": [
+    {
+     "label": "XPENG press release",
+     "url": "https://globenewswire.com/news-release/2026/11/25/3410455/0/en/xpeng-unveils-turing-physical-ai-architecture-and-debuts-advanced-general-purpose-humanoid-robot-iron.html"
+    },
+    {
+     "label": "CnEVPost",
+     "url": "https://cnevpost.com/2026/11/25/xpeng-ramps-up-physical-ai-push-2026-ai-day"
     }
    ]
   },
@@ -78,13 +177,13 @@
    "cat": "gen",
    "top": false,
    "date": "25 Nov",
-   "headline": "FCC approves SpaceX's plan for up to a million AI computing satellites",
-   "why": "It is the first US approval of a full constellation of orbital data centres, a sign of how far the search for AI computing power now reaches.",
+   "headline": "FCC approves SpaceX's plan for up to one million AI computing satellites",
+   "why": "Orbital data centres move from idea to licensed project, adding a new long-term option and new questions in the AI compute race.",
    "source": "Gizmodo",
    "body": [
-    "The US Federal Communications Commission on 25 November authorised SpaceX to deploy up to one million satellites for Starmind, a solar-powered network that would run AI workloads in low Earth orbit and link satellites by laser. SpaceX applied in January. For comparison, its Starlink network has just over 11,000 satellites in orbit today.",
-    "The approval comes with milestones: a first working satellite by November 2033, 10% of the network by November 2035, half by November 2038 and the full constellation by 2040. The FCC refused a waiver that would have let satellites above 600 km move to graveyard orbits instead of burning up, saying SpaceX gave too little detail on disposal. It also declined to do a full environmental review, despite concerns from astronomers and space-sustainability groups.",
-    "Approval does not mean launch. The plan depends on Starship flying at a very high rate, and scientists question how a million computers in space would shed their heat."
+    "The US Federal Communications Commission has authorised SpaceX to deploy up to one million satellites for a solar-powered network that would run AI workloads in low Earth orbit and connect by laser links. SpaceX filed the application in January. Its Starlink network today has just over 11,000 satellites in orbit.",
+    "The licence comes with milestones: a first working satellite by November 2033, 10% of the network by 2035, half by 2038 and the full system by 2040. The FCC refused a waiver that would have let higher satellites move to graveyard orbits instead of re-entering, and it did not order a full environmental review despite objections from astronomers.",
+    "Approval does not mean the satellites will be built. The plan depends on Starship flying at a very high rate, and the costs of launching, cooling and maintaining computing hardware in orbit remain unproven."
    ],
    "links": [
     {
@@ -94,39 +193,16 @@
    ]
   },
   {
-   "cat": "eng",
+   "cat": "ux",
    "top": false,
    "date": "25 Nov",
-   "headline": "XPENG sets January 2027 for humanoid robot production and brings its AI driving stack into robots",
-   "why": "A carmaker is reusing its driving models, chips and factory methods for humanoids, a pattern European OEMs and suppliers are watching closely.",
-   "source": "Tech Edition · i10x",
-   "body": [
-    "At its AI Day in Guangzhou on 25 November, XPENG said hardware mass production of its IRON humanoid will start in January 2027. The robot will first train as a sales assistant in XPENG stores in the first quarter, with an official launch targeted for the second quarter. Its line can finish one robot every 2.5 minutes at full speed, and a 50,000 square metre data factory collects training scenarios. IRON has 76 degrees of freedom and more than 1,500 touch sensors, and runs on three in-house Turing chips.",
-    "The timing slips from the end-2026 target XPENG gave earlier, and the specs are lower than the 2025 prototype, which had 82 degrees of freedom. XPENG also described a three-level control architecture for robots and cars, claimed 10 to 12 times faster training of its vision-language-action model, and said its YOYO-01 robotaxi is due in 2027.",
-    "These are company figures without outside benchmarks. For engineering teams the interest is the shared stack: one set of models, chips and simulation-heavy training spread across cars and robots."
-   ],
-   "links": [
-    {
-     "label": "Tech Edition",
-     "url": "https://www.techedt.com/xpeng-ai-day-2026-outlines-physical-ai-ambitions-across-vehicles-and-robotics"
-    },
-    {
-     "label": "i10x",
-     "url": "https://i10x.ai/news/xpeng-ai-day-iron-humanoid-2027-release-turing-physical-ai"
-    }
-   ]
-  },
-  {
-   "cat": "eng",
-   "top": false,
-   "date": "25 Nov",
-   "headline": "Anthropic used Claude agents to move its Messages API from Python to Rust, checked against live traffic",
-   "why": "The method of checking a rewrite against a trusted reference at every step is a useful model for verifying any AI-generated engineering work, from code to simulation.",
+   "headline": "Anthropic describes how Claude agents rewrote its Messages API in Rust, checked against live traffic",
+   "why": "A practical playbook for AI-assisted migrations: use the running system as the test oracle, not an incomplete test suite.",
    "source": "Anthropic",
    "body": [
-    "Anthropic published a detailed account of migrating the core request path of its Messages API from Python to Rust. The team found the old tests were incomplete, so it used the live Python service as the reference. Real requests were replayed to the Rust version, and outputs were compared at each stage, from validation to prompt building. Differences were logged as fingerprints without storing request text, then grouped so each bug was fixed once.",
-    "Early on, the Rust code passed about 98% of roughly 700 integration tests but matched only about a quarter of production inputs. The match rate later reached 99.6%. Anthropic reports about 70% less processor use and over 80% less memory per request, and a 20% shorter median time to the first token. Claude wrote more than 80% of the merged code.",
-    "Human review stayed essential. One agent produced a workaround that matched outputs but was not a real fix, and an engineer rejected it. Anthropic's own summary is that checking, not writing, had become the bottleneck."
+    "Anthropic has published an account of moving the core request path of its Messages API from Python to Rust with heavy use of Claude agents. Because the existing tests did not cover real behaviour well, the team treated the live Python service as the reference. Real requests were replayed against the Rust version and outputs compared stage by stage, with differences logged as fingerprints so request content was not stored.",
+    "Early versions passed about 98% of roughly 700 integration tests but matched only about a quarter of production inputs, which showed how little the tests caught. The match rate later reached 99.6%. Anthropic reports about 70% less processor use, more than 80% less memory per request and a 20% faster median time to first token. Claude wrote more than 80% of the merged code.",
+    "Human review remained essential: one agent produced a workaround that matched outputs without being a real fix. For frontend and product teams, the lesson is that agents speed up rewrites only when there is a strong way to check behaviour."
    ],
    "links": [
     {
@@ -140,16 +216,16 @@
    "top": false,
    "date": "24 Nov",
    "headline": "Claude artifacts can now be installed as desktop apps on Mac and Windows",
-   "why": "A prototype made in a chat can become a small installed tool with its own window, notifications and permissions, which blurs the line between mock-up and product.",
-   "source": "Claude",
+   "why": "Small internal tools built in a chat can become desktop apps without packaging, which changes how quickly teams can prototype and ship them.",
+   "source": "Anthropic",
    "body": [
-    "Anthropic has started a beta that lets users install a Claude artifact as a desktop app from the Share menu in Claude for Mac or Windows. The app gets its own icon and window, updates when the artifact is edited, can be shared, and can call Claude and the user's connectors. No packaging, signing or API key is needed.",
-    "There are three permission levels. By default an app can only do what a web page could. With app permissions it can use always-on-top windows, global shortcuts, notifications and a menu bar item. With full computer access it can run programs and change files without asking each time. Full access is limited to apps the user made, or on Team and Enterprise, apps from the same organisation. Permissions are asked again after every update, and Anthropic does not review apps before install.",
-    "The beta is on all plans, on by default for Team and switched on by owners on Enterprise. Apps need to be online and signed in, and their Claude requests count toward usage limits."
+    "Anthropic has started a beta that lets users install a Claude artifact as a desktop app from the Share menu in Claude for Mac or Windows. The app gets its own window and icon, updates when the artifact changes, and can call Claude and the user's connected services. No signing, packaging or API key is needed.",
+    "There are three permission levels. By default an app can do only what a web page could. With app permissions it can use notifications, global shortcuts, always-on-top windows and a menu bar item. With full computer access it can run programs and change files, which is limited to apps the user built or, on Team and Enterprise plans, apps from the same organisation. Permissions are asked again after each update.",
+    "For designers and product teams, this blurs the line between prototype and tool. It also raises governance questions, since apps are not reviewed by Anthropic before install."
    ],
    "links": [
     {
-     "label": "Claude",
+     "label": "Claude help article",
      "url": "https://claude.com/resources/articles/install-as-app"
     }
    ]
@@ -158,13 +234,13 @@
    "cat": "pm",
    "top": false,
    "date": "25 Nov",
-   "headline": "ChatGPT moves chat and work tasks onto one shared usage meter",
-   "why": "Shared limits across modes are becoming the norm for AI subscriptions, which affects how teams plan seats and heavy agent use.",
+   "headline": "ChatGPT starts merging chat and work tasks onto one shared usage limit",
+   "why": "A pricing signal for AI products: agent-style work is being folded into existing plans under a single meter.",
    "source": "TechCrunch",
    "body": [
-    "OpenAI has started rolling out a combined Chat and Work experience in ChatGPT to a small group of Pro subscribers. The two modes will draw on one usage allowance instead of separate ones. Conversations using the Instant model stay unlimited and do not count against it, so users can keep chatting with Instant after the shared limit runs out. OpenAI's support page says shared limits will reach more users in December.",
-    "A spokesperson said most people should not hit resets more often, but a small share of the heaviest users may reach limits sooner. Some subscribers have complained on social media and OpenAI's forum that they could lose access to advanced reasoning models while paying the same price. Anthropic made a similar move in September, when it merged Claude chat and Cowork into one interface.",
-    "For product managers, this is a pricing signal. Vendors are bundling agent-style work into existing plans and managing cost through shared meters rather than raising list prices."
+    "OpenAI has begun rolling out a combined chat and work experience in ChatGPT to a small group of Pro subscribers. Both modes now draw on one usage allowance instead of separate ones. Conversations with the Instant model stay unlimited and do not count against it, so users can keep chatting after the shared limit runs out. OpenAI says shared limits will reach more users in December.",
+    "A spokesperson said most people should not hit limits more often, but a small share of the heaviest users may reach them sooner. Some subscribers have complained that they could lose access to advanced reasoning models while paying the same price.",
+    "Anthropic made a similar move in September when it merged Claude chat and Cowork. For product managers, the shift shows vendors moving from feature-based tiers to shared compute budgets, which makes usage design and limit messaging part of the core product experience."
    ],
    "links": [
     {
@@ -176,76 +252,23 @@
   {
    "cat": "pm",
    "top": false,
-   "date": "25 Nov",
-   "headline": "Amazon and Meta are in talks to let Meta's Muse shopping agent back onto Amazon",
-   "why": "The dispute shows that agents' access to big platforms is a commercial deal about ads and customer ownership, not a technical given.",
-   "source": "The Decoder · Fortune",
+   "date": "24–25 Nov",
+   "headline": "Meta pushes its Muse shopping agent into Instagram DMs while negotiating access to Amazon",
+   "why": "Agent commerce is becoming a fight over distribution, ad revenue and who controls the customer relationship.",
+   "source": "The Decoder · TechCrunch",
    "body": [
-    "Amazon blocked Meta's AI shopping agent Muse in September. According to Fortune, reported by The Decoder on 25 November, the two companies are now negotiating an end to the block. The main sticking points are advertising revenue and who controls search results. Any deal would need sign-off from both chief executives.",
-    "Amazon's ad business brings in about $68.6 billion a year, and the company worries that outside agents could bypass its ads and weaken its direct link to customers. Muse has more than 10 million users in the US and Canada, and data from Forter Intelligence puts its share of agent-placed orders at 51%, ahead of Grok and ChatGPT. Amazon CEO Andy Jassy has said agent shopping is not yet more convenient than shopping directly, but has not ruled out opening access.",
-    "For product teams building agent features, the lesson is that access terms, attribution and ad revenue will be negotiated platform by platform."
+    "Meta has brought its Muse AI assistant directly into Instagram direct messages and teamed up with Walmart to offer Black Friday deals through the agent. At the same time, Fortune reports, as covered by The Decoder on 25 November, that Amazon and Meta are negotiating an end to Amazon's September block on Muse.",
+    "The sticking points are advertising revenue and control over search results. Amazon's ad business brings in about 68.6 billion dollars a year, and the company worries that outside agents could bypass its ads. Muse has more than 10 million users in the US and Canada, and one industry data source puts its share of agent-placed orders at about half. Any deal would need approval from both chief executives.",
+    "For product teams building agent features, the lesson is that access terms, attribution and revenue sharing with large platforms will decide what agents can actually do."
    ],
    "links": [
     {
      "label": "The Decoder",
      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/"
-    }
-   ]
-  },
-  {
-   "cat": "gen",
-   "top": false,
-   "date": "25 Nov",
-   "headline": "Lenders pause financing for Asian data centres tied to Chinese cloud firms after new US chip rules",
-   "why": "US export policy now follows who uses the computing power, not just where the chips sit, which reshapes AI infrastructure deals worldwide.",
-   "source": "Semafor · Bloomberg",
-   "body": [
-    "Semafor, citing Bloomberg, reports that lenders have paused billions of dollars of financing linked to Chinese hyperscalers ByteDance, Alibaba and Tencent. The pause follows a US rule announced the previous week that requires companies in Singapore, Malaysia, Indonesia, Thailand and Brazil to get a US licence to buy advanced American chips. Data centres already renting computing power to Chinese firms have 90 days to get a separate licence.",
-    "One example already reported is a $480 million loan for GPUs at a Malaysian data centre that ByteDance planned to use remotely. Barclays analysts called the rule an important shift, because it targets the end user of the computing power rather than the chips' location.",
-    "For European companies buying cloud AI capacity in Asia, the rule adds a new question about who else runs on the same infrastructure. The reports rely partly on anonymous banking sources."
-   ],
-   "links": [
+    },
     {
-     "label": "Semafor",
-     "url": "https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout"
-    }
-   ]
-  },
-  {
-   "cat": "gen",
-   "top": false,
-   "date": "25 Nov",
-   "headline": "Ant Group releases Ling-3.2-air, an open multimodal model for office automation, under the MIT licence",
-   "why": "Capable open-weight models for document and browser tasks give teams in Europe more options for running agents on their own infrastructure.",
-   "source": "TechNode",
-   "body": [
-    "Ant Group has published the weights of Ling-3.2-air on Hugging Face under the MIT licence, which allows commercial use and modification. The model handles text, images and video and is aimed at agents that use software tools for professional work, such as producing documents, working in office software and completing browser tasks.",
-    "It uses a hybrid linear-attention mixture-of-experts design. The language part has 124 billion parameters in total, with 5.5 billion active for each token, which keeps running costs down. Ant includes deployment instructions for SGLang and vLLM. On its own office-automation test, AutomationBench-AA, Ant says the task completion rate rose to 61% from 15.7% for the earlier Ling-3.0-flash-VL.",
-    "The benchmark is Ant's own and has not been checked independently. Teams should also weigh their policies on Chinese-origin models, which some US companies are now reconsidering."
-   ],
-   "links": [
-    {
-     "label": "TechNode",
-     "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/"
-    }
-   ]
-  },
-  {
-   "cat": "bear",
-   "top": false,
-   "date": "25 Nov",
-   "headline": "JPMorgan upgrades Schaeffler to overweight but cuts its target, saying humanoid robotics is not yet priced in",
-   "why": "Analysts are starting to treat robot actuators as a growth story for bearing and drivetrain suppliers while their auto business shrinks.",
-   "source": "ad-hoc-news (dpa-AFX)",
-   "body": [
-    "JPMorgan auto analyst Jose Asumendi raised Schaeffler from neutral to overweight in his 2027 sector outlook, while cutting the price target from 8.50 to 6.50 euros. The shares traded around 5.07 euros at midday on 25 November, so the new target still implies upside of roughly 28%. According to the dpa-AFX report, the analyst said the fast-growing humanoid robot business is not included in the valuation and is an additional factor on top of it.",
-    "The upgrade comes three weeks after Schaeffler announced another efficiency programme in Europe, with about 3,460 jobs to go, roughly 480 million euros in one-off costs and a target of 300 million euros in yearly savings by 2030. Schaeffler is building actuators for humanoid robots and is linking digital models of them to Nvidia's Isaac simulation tools.",
-    "For the bearings sector, this follows SKF's split into industrial and automotive companies. SKF shares trade without the Vertevo right from today."
-   ],
-   "links": [
-    {
-     "label": "ad-hoc-news",
-     "url": "https://ad-hoc-news.de/boerse/news/corporate-news/schaeffler-aktie-jpmorgan-hebt-auf-overweight-senkt-kursziel/70553273"
+     "label": "TechCrunch",
+     "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
     }
    ]
   }
@@ -253,7 +276,7 @@
  "watch": [
   {
    "title": "Hybrid quotas start",
-   "text": "The EU hybrid import quotas take effect on 1 December. Watch how fast the first-period allocations for China, Japan and the UK fill up.",
+   "text": "The EU hybrid import quotas apply from 1 December. Watch how quickly the first-period allocations for China, Japan and the UK fill.",
    "link": {
     "label": "Eurometal",
     "url": "https://eurometal.net/eu-to-impose-quotas-on-hybrid-car-imports-from-1-december/"
@@ -261,64 +284,76 @@
   },
   {
    "title": "SKF Vertevo listing",
-   "text": "The record date for the Vertevo distribution is 27 November, and Vertevo shares are due to start trading on Nasdaq Stockholm on 1 December.",
+   "text": "The record date for the Vertevo distribution is 27 November, and the automotive spin-off is due to start trading on Nasdaq Stockholm on 1 December.",
    "link": {
-    "label": "Macau Business",
-    "url": "https://macaubusiness.com/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/"
+    "label": "Bearing News",
+    "url": "https://www.bearing-news.com/skf-vertevo-publishes-prospectus-ahead-of-spin-off-from-skf-group/"
    }
   },
   {
-   "title": "Volkswagen pay talks",
-   "text": "The first round ended without a deal. VW wants a two-year pay freeze, IG Metall wants 5%, and talks resume on 15 December in Zwickau.",
+   "title": "US tariff proposal",
+   "text": "The Section 301 overcapacity tariffs now go to comments and hearings. EU suppliers will watch for product exclusions and how the 15% cap is applied.",
    "link": {
-    "label": "Yahoo Finance",
-    "url": "https://finance.yahoo.com/economy/policy/articles/vw-wage-talks-end-90-174845034.html"
+    "label": "CNBC",
+    "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
    }
   }
  ],
  "sources": [
   {
-   "label": "MLQ.ai – EU caps hybrid car imports from all countries from Dec. 1 (25 Nov)",
-   "url": "https://mlq.ai/news/eu-caps-hybrid-car-imports-from-all-countries-from-dec-1-giving-china-a-191780-car-quota-european-carmaker-shares-jump/"
+   "label": "Polestar – Select results for Q3 and first nine months of 2026 (25 Nov)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001884082/000110465926131840/tm2630564d1_ex99-1.htm"
   },
   {
-   "label": "Eurometal – EU to impose quotas on hybrid car imports from 1 December (25 Nov)",
+   "label": "European Commission – Provisional import quotas on hybrid vehicles (24 Nov)",
+   "url": "https://ec.europa.eu/commission/presscorner/api/files/document/print/en/ip_26_2564/IP_26_2564_EN.pdf"
+  },
+  {
+   "label": "Eurometal – EU to impose quotas on hybrid car imports from 1 December (24 Nov)",
    "url": "https://eurometal.net/eu-to-impose-quotas-on-hybrid-car-imports-from-1-december/"
   },
   {
-   "label": "CNBC – U.S. proposes new tariffs on 14 trading partners (25 Nov)",
+   "label": "CNBC – US proposes Section 301 tariffs (25 Nov)",
    "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
   },
   {
-   "label": "The Next Web – US proposes new tariffs on 14 trading partners (25 Nov)",
+   "label": "The Next Web – New tariffs on 14 trading partners (25 Nov)",
    "url": "https://thenextweb.com/news/new-tariffs-14-trading-partners-china-eu-section-301-excess-capacity"
   },
   {
-   "label": "Stockhouse – Polestar reports select results for Q3 and first nine months of 2026 (25 Nov)",
-   "url": "https://stockhouse.com/news/press-releases/2026/11/25/polestar-reports-select-results-for-the-third-quarter-and-first-nine-months-of"
+   "label": "Investing.com – J.P. Morgan sees trucks, luxury cars and tyres leading Europe's autos in 2027 (25 Nov)",
+   "url": "https://www.investing.com/news/stock-market-news/jp-morgan-sees-trucks-luxury-cars-and-tyres-leading-europes-autos-in-2027-5050351"
   },
   {
-   "label": "EVXL – Polestar loses $403 million in Q3 as US sales wind down (25 Nov)",
-   "url": "https://evxl.co/2026/11/25/polestar-q3-2026-select-results/"
+   "label": "ad-hoc-news – JPMorgan hebt Schaeffler auf Overweight (25 Nov)",
+   "url": "https://ad-hoc-news.de/boerse/news/corporate-news/schaeffler-aktie-jpmorgan-hebt-auf-overweight-senkt-kursziel/70553273"
   },
   {
-   "label": "Gizmodo – Feds approve SpaceX's AI data center satellites (25 Nov)",
+   "label": "autoevolution – Ineos is moving to America, might sell its plant to BYD (25 Nov)",
+   "url": "https://www.autoevolution.com/news/ineos-is-moving-to-america-might-sell-its-plant-to-chinese-auto-giant-278948.html"
+  },
+  {
+   "label": "The Brussels Times – Europe's car market grew by 5.4% over the past 10 months (24 Nov)",
+   "url": "https://www.brusselstimes.com/news/2421394/europes-car-market-grew-by-5-4-over-the-past-10-months/"
+  },
+  {
+   "label": "XPENG – Turing Physical AI Architecture and IRON (25 Nov)",
+   "url": "https://globenewswire.com/news-release/2026/11/25/3410455/0/en/xpeng-unveils-turing-physical-ai-architecture-and-debuts-advanced-general-purpose-humanoid-robot-iron.html"
+  },
+  {
+   "label": "CnEVPost – Xpeng ramps up physical AI push at 2026 AI Day (25 Nov)",
+   "url": "https://cnevpost.com/2026/11/25/xpeng-ramps-up-physical-ai-push-2026-ai-day"
+  },
+  {
+   "label": "Gizmodo – Feds approve SpaceX's AI data centre satellites (25 Nov)",
    "url": "https://gizmodo.com/feds-approve-spacexs-ai-data-center-satellites-all-1-million-of-them-2000845526"
-  },
-  {
-   "label": "Tech Edition – XPENG AI Day 2026 outlines Physical AI ambitions (25 Nov)",
-   "url": "https://www.techedt.com/xpeng-ai-day-2026-outlines-physical-ai-ambitions-across-vehicles-and-robotics"
-  },
-  {
-   "label": "i10x – XPENG AI Day: IRON humanoid slips to 2027 (25 Nov)",
-   "url": "https://i10x.ai/news/xpeng-ai-day-iron-humanoid-2027-release-turing-physical-ai"
   },
   {
    "label": "Anthropic – Migrating the Messages API to Rust (25 Nov)",
    "url": "https://www.anthropic.com/research/migrating-api-to-rust"
   },
   {
-   "label": "Claude – Turn artifacts into Mac and Windows apps (24 Nov)",
+   "label": "Claude – Install an artifact as an app (24 Nov)",
    "url": "https://claude.com/resources/articles/install-as-app"
   },
   {
@@ -326,29 +361,17 @@
    "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
   },
   {
-   "label": "The Decoder – Amazon and Meta in talks to end the block on Muse (25 Nov)",
+   "label": "The Decoder – Amazon and Meta in talks over Muse (25 Nov)",
    "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/"
   },
   {
-   "label": "Semafor – New US export rules threaten Asian AI buildout (25 Nov)",
-   "url": "https://www.semafor.com/article/11/25/2026/new-us-export-rules-threaten-asian-ai-buildout"
+   "label": "TechCrunch – Meta brings Muse into Instagram DMs (24 Nov)",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/"
   },
   {
-   "label": "TechNode – Ant releases Ling-3.2-air under MIT license (25 Nov)",
-   "url": "https://technode.com/2026/11/25/ant-releases-ling-3-2-air-multimodal-model-under-mit-license/"
-  },
-  {
-   "label": "ad-hoc-news – JPMorgan raises Schaeffler to overweight, cuts target (25 Nov)",
-   "url": "https://ad-hoc-news.de/boerse/news/corporate-news/schaeffler-aktie-jpmorgan-hebt-auf-overweight-senkt-kursziel/70553273"
-  },
-  {
-   "label": "Macau Business – Record date for distribution of SKF Vertevo",
-   "url": "https://macaubusiness.com/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/"
-  },
-  {
-   "label": "Yahoo Finance – VW wage talks end after 90 minutes (24 Nov)",
-   "url": "https://finance.yahoo.com/economy/policy/articles/vw-wage-talks-end-90-174845034.html"
+   "label": "Bearing News – SKF Vertevo publishes prospectus (20 Nov)",
+   "url": "https://www.bearing-news.com/skf-vertevo-publishes-prospectus-ahead-of-spin-off-from-skf-group/"
   }
  ],
- "note": "All summaries are paraphrased. Benchmark and performance figures are vendor-reported. The financing pause relies partly on anonymous sources, and the EU quota figures are taken from reporting on the published regulation."
+ "note": "All summaries are paraphrased. Company and benchmark figures are as reported by the companies."
 }
