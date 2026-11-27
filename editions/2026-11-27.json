@@ -3,7 +3,7 @@
   "weekday": "Friday",
   "covers": "Thu 26 Nov",
   "glance": "The EU has pushed its vote on Tesla's supervised driving system back to 15 December, and Europe's truck makers have cut their 2030 zero-emission forecast by more than half. In AI, SAP is reported to be weighing at least 10,000 job cuts tied to its AI push, and Reuters says US chip rules are slowing Chinese frontier models. BMW, Xiaomi, JTEKT, DeepL and ElevenLabs fill out the rest.",
-  "brief": "Good morning, here is Vertical News for Friday the twenty-seventh of November. The European Union has moved its vote on Tesla Assisted Driving, the European name for supervised Full Self-Driving, from the first to the fifteenth of December. A rejection would also cancel the approvals that about a dozen countries have already given. Europe's truck makers now expect only about thirty percent of new heavy trucks to be zero-emission in 2030, down from sixty-eight percent in their forecast two years ago, although the ICCT still expects electric trucks to be cheaper to run than diesel by then. In AI, Bloomberg reports that SAP is weighing at least ten thousand job cuts as part of an AI-driven restructuring. SAP has not confirmed this. Reuters says US chip rules and defences against model copying are delaying Chinese frontier models from Zhipu and Moonshot. Zhipu calls the report fake news. In other news, BMW will send a twenty-four-feature software update to about sixteen million cars in December. Spain's Auto Plus electric car subsidy has run out of money for private buyers and will not be extended. Xiaomi is testing cars in Arjeplog and at the Nürburgring ahead of its 2027 European launch, while its car losses grow. JTEKT has launched a share buyback worth about nineteen billion yen, and Toyota will sell it ten million shares. DeepL launched Aure version two, a speech-to-speech translation model. Canada added seven hundred million Canadian dollars to its AI compute fund. ElevenLabs is reported to be in talks at a thirty-three billion dollar valuation. Volvo's electric A40 haulers have started work on London's Lower Thames Crossing.",
+  "brief": "Good morning. The European Union has moved its vote on Tesla Assisted Driving, the European name for supervised Full Self-Driving, from the first to the fifteenth of December. A rejection would also cancel the approvals that about a dozen countries have already given. Europe's truck makers now expect only about thirty percent of new heavy trucks to be zero-emission in 2030, down from sixty-eight percent in their forecast two years ago, although the ICCT still expects electric trucks to be cheaper to run than diesel by then. In AI, Bloomberg reports that SAP is weighing at least ten thousand job cuts as part of an AI-driven restructuring. SAP has not confirmed this. Reuters says US chip rules and defences against model copying are delaying Chinese frontier models from Zhipu and Moonshot. Zhipu calls the report fake news. In other news, BMW will send a twenty-four-feature software update to about sixteen million cars in December. Spain's Auto Plus electric car subsidy has run out of money for private buyers and will not be extended. Xiaomi is testing cars in Arjeplog and at the Nürburgring ahead of its 2027 European launch, while its car losses grow. JTEKT has launched a share buyback worth about nineteen billion yen, and Toyota will sell it ten million shares. DeepL launched Aure version two, a speech-to-speech translation model. Canada added seven hundred million Canadian dollars to its AI compute fund. ElevenLabs is reported to be in talks at a thirty-three billion dollar valuation. Volvo's electric A40 haulers have started work on London's Lower Thames Crossing.",
   "stories": [
     {
       "cat": "auto",
@@ -18,7 +18,10 @@
         "For OEMs and suppliers developing hands-off and city driving assistants, the vote is a test of whether the Article 39 route can become a way to approve software-heavy ADAS features faster than UNECE regulations are updated."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"}
+        {
+          "label": "electrive",
+          "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"
+        }
       ]
     },
     {
@@ -34,7 +37,10 @@
         "For drivetrain and bearing engineers, a slower ramp means diesel and electric heavy-truck platforms will be built side by side for longer, which affects how test and validation budgets are split."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/electric-trucks-in-europe-why-manufacturers-are-slowing-down-and-the-icct-remains-optimistic/"}
+        {
+          "label": "electrive",
+          "url": "https://www.electrive.com/2026/11/26/electric-trucks-in-europe-why-manufacturers-are-slowing-down-and-the-icct-remains-optimistic/"
+        }
       ]
     },
     {
@@ -50,8 +56,14 @@
         "For product teams that build on SAP or compete with it, the report suggests vendors expect agents to take over much of the configuration, support and implementation work that people do today. This is a report based on anonymous sources."
       ],
       "links": [
-        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"},
-        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"}
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"
+        },
+        {
+          "label": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
+        }
       ]
     },
     {
@@ -67,7 +79,10 @@
         "Teams that use Chinese open-weight models in their products, often for cost reasons, should plan for longer gaps between major releases. The story is contested."
       ],
       "links": [
-        {"label": "Taipei Times (Reuters)", "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"}
+        {
+          "label": "Taipei Times (Reuters)",
+          "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"
+        }
       ]
     },
     {
@@ -83,7 +98,10 @@
         "Shipping ADAS changes over the air to a fleet this size depends on regression testing and simulation-based sign-off across many hardware and software combinations, which is the kind of virtual validation workload many OEMs are now scaling up."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/bmw-to-roll-out-a-new-software-update-in-december/"}
+        {
+          "label": "electrive",
+          "url": "https://www.electrive.com/2026/11/26/bmw-to-roll-out-a-new-software-update-in-december/"
+        }
       ]
     },
     {
@@ -99,7 +117,10 @@
         "Spain is a major production country for Stellantis, Renault and Volkswagen Group. An early end to the incentive could weaken local EV demand going into 2027, just as automakers work toward the EU's averaged CO2 targets."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/budget-exhausted-spain-cuts-purchase-subsidies-for-electric-cars/"}
+        {
+          "label": "electrive",
+          "url": "https://www.electrive.com/2026/11/26/budget-exhausted-spain-cuts-purchase-subsidies-for-electric-cars/"
+        }
       ]
     },
     {
@@ -115,7 +136,10 @@
         "Arjeplog's test service providers and engineering consultancies get another Chinese client, and European OEMs get a competitor whose cars are built around its own software stack."
       ],
       "links": [
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/xiaomi-prepares-for-eu-market-launch-with-test-drives-across-europe/"}
+        {
+          "label": "electrive",
+          "url": "https://www.electrive.com/2026/11/26/xiaomi-prepares-for-eu-market-launch-with-test-drives-across-europe/"
+        }
       ]
     },
     {
@@ -131,9 +155,18 @@
         "It is part of a wider unwinding of cross-shareholdings in Japan's car supply chain. For European buyers of Koyo hub, tapered roller and e-axle bearings, the Toyota relationship itself does not change, but JTEKT is under more pressure to raise returns on capital."
       ],
       "links": [
-        {"label": "JTEKT news releases", "url": "https://www.jtekt.co.jp/e/news/news_release.html"},
-        {"label": "BigGo Finance", "url": "https://finance.biggo.com/news/e375e373-87d2-4108-9ae5-3e13860f9efc"},
-        {"label": "Squawk News", "url": "https://squawknews.com/news/980748-toyota-intends-to-tender-10-million-jtekt-shares"}
+        {
+          "label": "JTEKT news releases",
+          "url": "https://www.jtekt.co.jp/e/news/news_release.html"
+        },
+        {
+          "label": "BigGo Finance",
+          "url": "https://finance.biggo.com/news/e375e373-87d2-4108-9ae5-3e13860f9efc"
+        },
+        {
+          "label": "Squawk News",
+          "url": "https://squawknews.com/news/980748-toyota-intends-to-tender-10-million-jtekt-shares"
+        }
       ]
     },
     {
@@ -149,7 +182,10 @@
         "For product teams, an API with this latency makes live multilingual support, field service calls and supplier meetings realistic features to build. The benchmark figures are DeepL's own."
       ],
       "links": [
-        {"label": "Unite.AI", "url": "https://www.unite.ai/deepl-launches-aure-v2-with-end-to-end-speech-translation/"}
+        {
+          "label": "Unite.AI",
+          "url": "https://www.unite.ai/deepl-launches-aure-v2-with-end-to-end-speech-translation/"
+        }
       ]
     },
     {
@@ -165,7 +201,10 @@
         "For European readers, the model is close to what EU AI Factories and national schemes offer: subsidised compute tied to local providers. That matters to engineering firms that need GPUs for simulation surrogates or model training but cannot send data to US hyperscalers."
       ],
       "links": [
-        {"label": "Government of Canada", "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html"}
+        {
+          "label": "Government of Canada",
+          "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html"
+        }
       ]
     },
     {
@@ -181,7 +220,10 @@
         "Read together with DeepL's launch, the funding shows voice becoming a main way to use software, not an add-on. Product teams adding voice agents have more capable vendors to choose from, and those vendors have strong pricing power."
       ],
       "links": [
-        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/"}
+        {
+          "label": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/"
+        }
       ]
     },
     {
@@ -197,35 +239,116 @@
         "For drivetrain engineers, high-payload electric haulers put heavy demands on e-motor bearings, gearboxes and thermal management. Data from real sites like this one will feed back into duty-cycle models and test programmes."
       ],
       "links": [
-        {"label": "Volvo CE", "url": "https://www.volvoce.com/global/en/news-and-events/news-and-stories/2026/lower-thames-crossing-becomes-worlds-first-project-to-deploy-volvo-a40-electric/"},
-        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/volvo-a40-electric-begins-first-construction-site-deployment/"}
+        {
+          "label": "Volvo CE",
+          "url": "https://www.volvoce.com/global/en/news-and-events/news-and-stories/2026/lower-thames-crossing-becomes-worlds-first-project-to-deploy-volvo-a40-electric/"
+        },
+        {
+          "label": "electrive",
+          "url": "https://www.electrive.com/2026/11/26/volvo-a40-electric-begins-first-construction-site-deployment/"
+        }
       ]
     }
   ],
   "watch": [
-    {"title": "SKF Vertevo listing", "text": "SKF's automotive bearings business starts trading on Nasdaq Stockholm on 1 December. The record date is today. Index changes at the 1 December close could bring forced selling.", "link": {"label": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/jp-morgan-says-skf-auto-spinoff-no-longer-weighs-on-shares-5024847"}},
-    {"title": "Guangzhou motor show", "text": "The show opens today and runs to 6 December, with 1,106 vehicles, 64% of them new-energy, and 115 debuts, including the next BYD Han and an 800-volt Leapmotor.", "link": {"label": "CnEVPost", "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"}},
-    {"title": "Tesla TAD vote", "text": "Watch how EU member states line up before the 15 December TCMV meeting. A qualified majority is needed for EU-wide approval.", "link": {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"}}
+    {
+      "title": "SKF Vertevo listing",
+      "text": "SKF's automotive bearings business starts trading on Nasdaq Stockholm on 1 December. The record date is today. Index changes at the 1 December close could bring forced selling.",
+      "link": {
+        "label": "Investing.com",
+        "url": "https://www.investing.com/news/stock-market-news/jp-morgan-says-skf-auto-spinoff-no-longer-weighs-on-shares-5024847"
+      }
+    },
+    {
+      "title": "Guangzhou motor show",
+      "text": "The show opens today and runs to 6 December, with 1,106 vehicles, 64% of them new-energy, and 115 debuts, including the next BYD Han and an 800-volt Leapmotor.",
+      "link": {
+        "label": "CnEVPost",
+        "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"
+      }
+    },
+    {
+      "title": "Tesla TAD vote",
+      "text": "Watch how EU member states line up before the 15 December TCMV meeting. A qualified majority is needed for EU-wide approval.",
+      "link": {
+        "label": "electrive",
+        "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"
+      }
+    }
   ],
   "sources": [
-    {"label": "electrive – EU postpones discussion on Tesla Assisted Driving (26 Nov)", "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"},
-    {"label": "electrive – Electric trucks in Europe: why manufacturers are slowing down (26 Nov)", "url": "https://www.electrive.com/2026/11/26/electric-trucks-in-europe-why-manufacturers-are-slowing-down-and-the-icct-remains-optimistic/"},
-    {"label": "SiliconANGLE – SAP reportedly plans to lay off 10,000 employees amid AI push (26 Nov)", "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"},
-    {"label": "Bloomberg – SAP weighs cutting at least 10,000 positions (26 Nov)", "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"},
-    {"label": "Taipei Times (Reuters) – Chinese AI model launches delayed (27 Nov)", "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"},
-    {"label": "electrive – BMW to roll out a new software update in December (26 Nov)", "url": "https://www.electrive.com/2026/11/26/bmw-to-roll-out-a-new-software-update-in-december/"},
-    {"label": "electrive – Spain cuts purchase subsidies for electric cars (26 Nov)", "url": "https://www.electrive.com/2026/11/26/budget-exhausted-spain-cuts-purchase-subsidies-for-electric-cars/"},
-    {"label": "electrive – Xiaomi prepares for EU market launch (26 Nov)", "url": "https://www.electrive.com/2026/11/26/xiaomi-prepares-for-eu-market-launch-with-test-drives-across-europe/"},
-    {"label": "JTEKT – News releases (25 Nov)", "url": "https://www.jtekt.co.jp/e/news/news_release.html"},
-    {"label": "BigGo Finance – JTEKT share buyback tender offer (25 Nov)", "url": "https://finance.biggo.com/news/e375e373-87d2-4108-9ae5-3e13860f9efc"},
-    {"label": "Squawk News – Toyota intends to tender 10 million JTEKT shares (25 Nov)", "url": "https://squawknews.com/news/980748-toyota-intends-to-tender-10-million-jtekt-shares"},
-    {"label": "Unite.AI – DeepL launches Aure v2 (26 Nov)", "url": "https://www.unite.ai/deepl-launches-aure-v2-with-end-to-end-speech-translation/"},
-    {"label": "Government of Canada – AI Compute Access Fund 700 million expansion (26 Nov)", "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html"},
-    {"label": "SiliconANGLE – ElevenLabs reportedly seeking funding at $33B valuation (25 Nov)", "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/"},
-    {"label": "Volvo CE – Lower Thames Crossing first to deploy Volvo A40 Electric (25 Nov)", "url": "https://www.volvoce.com/global/en/news-and-events/news-and-stories/2026/lower-thames-crossing-becomes-worlds-first-project-to-deploy-volvo-a40-electric/"},
-    {"label": "electrive – Volvo A40 Electric begins first construction site deployment (26 Nov)", "url": "https://www.electrive.com/2026/11/26/volvo-a40-electric-begins-first-construction-site-deployment/"},
-    {"label": "Investing.com – J.P. Morgan on SKF auto spin-off (Nov)", "url": "https://www.investing.com/news/stock-market-news/jp-morgan-says-skf-auto-spinoff-no-longer-weighs-on-shares-5024847"},
-    {"label": "CnEVPost – 2026 Guangzhou auto show to kick off 27 Nov (17 Nov)", "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"}
+    {
+      "label": "electrive – EU postpones discussion on Tesla Assisted Driving (26 Nov)",
+      "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"
+    },
+    {
+      "label": "electrive – Electric trucks in Europe: why manufacturers are slowing down (26 Nov)",
+      "url": "https://www.electrive.com/2026/11/26/electric-trucks-in-europe-why-manufacturers-are-slowing-down-and-the-icct-remains-optimistic/"
+    },
+    {
+      "label": "SiliconANGLE – SAP reportedly plans to lay off 10,000 employees amid AI push (26 Nov)",
+      "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"
+    },
+    {
+      "label": "Bloomberg – SAP weighs cutting at least 10,000 positions (26 Nov)",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"
+    },
+    {
+      "label": "Taipei Times (Reuters) – Chinese AI model launches delayed (27 Nov)",
+      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"
+    },
+    {
+      "label": "electrive – BMW to roll out a new software update in December (26 Nov)",
+      "url": "https://www.electrive.com/2026/11/26/bmw-to-roll-out-a-new-software-update-in-december/"
+    },
+    {
+      "label": "electrive – Spain cuts purchase subsidies for electric cars (26 Nov)",
+      "url": "https://www.electrive.com/2026/11/26/budget-exhausted-spain-cuts-purchase-subsidies-for-electric-cars/"
+    },
+    {
+      "label": "electrive – Xiaomi prepares for EU market launch (26 Nov)",
+      "url": "https://www.electrive.com/2026/11/26/xiaomi-prepares-for-eu-market-launch-with-test-drives-across-europe/"
+    },
+    {
+      "label": "JTEKT – News releases (25 Nov)",
+      "url": "https://www.jtekt.co.jp/e/news/news_release.html"
+    },
+    {
+      "label": "BigGo Finance – JTEKT share buyback tender offer (25 Nov)",
+      "url": "https://finance.biggo.com/news/e375e373-87d2-4108-9ae5-3e13860f9efc"
+    },
+    {
+      "label": "Squawk News – Toyota intends to tender 10 million JTEKT shares (25 Nov)",
+      "url": "https://squawknews.com/news/980748-toyota-intends-to-tender-10-million-jtekt-shares"
+    },
+    {
+      "label": "Unite.AI – DeepL launches Aure v2 (26 Nov)",
+      "url": "https://www.unite.ai/deepl-launches-aure-v2-with-end-to-end-speech-translation/"
+    },
+    {
+      "label": "Government of Canada – AI Compute Access Fund 700 million expansion (26 Nov)",
+      "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html"
+    },
+    {
+      "label": "SiliconANGLE – ElevenLabs reportedly seeking funding at $33B valuation (25 Nov)",
+      "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/"
+    },
+    {
+      "label": "Volvo CE – Lower Thames Crossing first to deploy Volvo A40 Electric (25 Nov)",
+      "url": "https://www.volvoce.com/global/en/news-and-events/news-and-stories/2026/lower-thames-crossing-becomes-worlds-first-project-to-deploy-volvo-a40-electric/"
+    },
+    {
+      "label": "electrive – Volvo A40 Electric begins first construction site deployment (26 Nov)",
+      "url": "https://www.electrive.com/2026/11/26/volvo-a40-electric-begins-first-construction-site-deployment/"
+    },
+    {
+      "label": "Investing.com – J.P. Morgan on SKF auto spin-off (Nov)",
+      "url": "https://www.investing.com/news/stock-market-news/jp-morgan-says-skf-auto-spinoff-no-longer-weighs-on-shares-5024847"
+    },
+    {
+      "label": "CnEVPost – 2026 Guangzhou auto show to kick off 27 Nov (17 Nov)",
+      "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"
+    }
   ],
   "note": "All summaries are paraphrased. Benchmark figures are vendor-reported. SAP and ElevenLabs items are based on media reports not confirmed by the companies."
 }
