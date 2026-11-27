@@ -1,0 +1,366 @@
+{
+  "date": "2026-11-27",
+  "weekday": "Friday",
+  "covers": "Wed 25 – Fri 27 Nov",
+  "glance": "Nvidia has stopped server shipments to four Southeast Asian countries under tighter US export rules, and Chinese labs are reported to be delaying their next flagship models. Schaeffler raised about 314 million euros by selling 6.5% of Schaeffler India, and SKF shares now trade without the Vertevo entitlement ahead of Monday's listing. BMW opened orders for the Neue Klasse i3 in China as the Guangzhou motor show began.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "26 Nov",
+      "headline": "Nvidia halts server shipments to four Southeast Asian countries, and Chinese labs are reported to be delaying flagship models",
+      "why": "Compute is getting harder to rent across borders, which affects model release timelines, cloud prices and where AI workloads can legally run.",
+      "source": "The Decoder · Financial Times · Reuters",
+      "body": [
+        "The Financial Times reports that Nvidia told server partners, including Dell and Supermicro, to stop shipping systems to Malaysia, Singapore, Thailand and Indonesia. The pause follows tighter US export rules meant to stop Chinese firms from renting Nvidia computing power through cloud providers in other countries. It is not clear how long the halt will last.",
+        "Under the new rules, cloud providers have 90 days to apply for licences and show that no restricted companies are among their users. Banks have paused about 500 million dollars in loans to Singapore cloud firm Aolani, which planned to rent capacity to ByteDance. CNBC says resellers are now listing unusual numbers of B300 GPUs.",
+        "Separately, Reuters reports that Z.ai's planned 3-trillion-parameter GLM-5.5 is likely to slip to early 2027, and Moonshot's Kimi K4 to mid-2027. Moonshot is said to be looking for compute in Europe. For European teams, the lesson is that a model provider's roadmap now depends on export policy as well as research progress."
+      ],
+      "links": [
+        {
+          "label": "The Decoder – Nvidia shipment halt",
+          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+        },
+        {
+          "label": "The Decoder – Chinese labs delay models",
+          "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
+        }
+      ]
+    },
+    {
+      "cat": "bear",
+      "top": true,
+      "date": "26 Nov",
+      "headline": "Schaeffler sells 6.5% of Schaeffler India for about 314 million euros to cut debt",
+      "why": "The deal cuts Schaeffler's leverage while it restructures, and shows the group is willing to sell assets to pay for the shift to e-mobility.",
+      "source": "Schaeffler AG",
+      "body": [
+        "Schaeffler placed 10,159,738 shares of Schaeffler India with institutional investors at 3,493 rupees each, or about 34.63 euros. That is 6.5% of the Indian unit. Net proceeds after taxes and costs are about 314 million euros. The sale follows an October notice that the promoter group was reviewing its holding.",
+        "The money goes to reducing net debt. On a pro forma basis at 30 September, Schaeffler says leverage falls by 0.13 to 2.13 times and the equity ratio rises 1.2 points to 15.8%. The group's stake drops from 74.13% to about 67.63%. Schaeffler says it intends to stay majority owner with at least two-thirds of the shares.",
+        "The placement follows Schaeffler's November decision to start another cost programme, reported to cut about 3,460 jobs. Schaeffler India is one of the group's fastest-growing and most profitable parts. Selling a slice of it, rather than the whole, raises cash without giving up control of a key bearings and drivetrain base for Asia."
+      ],
+      "links": [
+        {
+          "label": "Schaeffler press release",
+          "url": "https://www.finanzwire.com/press-release/schaeffler-ag-etr-de000sha-schaeffler-ag-successfully-places-65-stake-in-schaeffler-india-limited-8kJT2Tql8uw"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": true,
+      "date": "27 Nov",
+      "headline": "BMW opens orders for the Neue Klasse i3 in China as the Guangzhou motor show begins",
+      "why": "The i3 tests whether a European premium brand can win back Chinese buyers on range and price, against a show floor that is now almost two-thirds electrified.",
+      "source": "China EV Home · CnEVPost · 36Kr",
+      "body": [
+        "BMW launched the Neue Klasse i3 sedan on the first day of Auto Guangzhou. Three versions cost from 249,900 to 319,900 yuan, about 37,500 to 48,000 dollars, with deliveries from January 2027. All use a single 235 kW sixth-generation eDrive motor. The base car has a 77 kWh LFP pack rated at 708 km on the Chinese CLTC cycle. The top car has 113.4 kWh of large cylindrical cells and is rated at up to 1,028 km.",
+        "BMW needs a hit in China. Its deliveries there fell 24.8% in the third quarter, and the iX3 went on sale in China two days earlier. The show itself runs until 6 December with 1,106 vehicles, 115 premieres and 707 new-energy vehicles, or 63.9% of exhibits, up from 58% last year. BYD is showing a new Han, and Huawei-backed Aito is presenting an L3 driving architecture.",
+        "For engineers, the i3 shows a European OEM using LFP and cylindrical cells side by side on one platform, and pricing them for the world's toughest EV market."
+      ],
+      "links": [
+        {
+          "label": "China EV Home – BMW i3 launch",
+          "url": "https://chinaevhome.com/2026/11/27/bmw-neue-klasse-i3-launches-from-37-5k-tops-out-at-1028-km-range/"
+        },
+        {
+          "label": "CnEVPost – Guangzhou show preview",
+          "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"
+        },
+        {
+          "label": "36Kr – Guangzhou debuts",
+          "url": "https://eu.36kr.com/en/p/4083435558300289"
+        }
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "25–26 Nov",
+      "headline": "Microsoft says state-backed hackers are using the ARTEX agent framework to automate attacks",
+      "why": "Agent-driven attacks run at machine speed, so anyone shipping web apps, APIs or connected-vehicle back ends needs rate limits, secret hygiene and behaviour-based detection.",
+      "source": "Microsoft Security · The Decoder",
+      "body": [
+        "Microsoft published an analysis of ARTEX, an open-source AI penetration-testing framework released in July. It uses a set of LLM agents (a goal model, a planner, worker agents running tools in a real shell, and a reporter) and can plug in almost any model, including ones with safety guardrails removed. Microsoft has seen Chinese and North Korean state groups, among them Salt Typhoon and Onyx Sleet, as well as criminal gangs, using it.",
+        "ARTEX does not invent new attacks. It chains standard tools such as nmap, sqlmap and Metasploit with little human input. In one campaign Microsoft logged more than 151,000 failed sign-ins, peaking at 2,900 a minute. In one case an agent took five minutes to go from exposed GitHub credentials to data in Azure Key Vault.",
+        "Microsoft advises rate limiting, phishing-resistant MFA, removing secrets from code and automatic containment. It also suggests decoys and honeytokens that waste an agent's time and trigger alerts."
+      ],
+      "links": [
+        {
+          "label": "Microsoft Security blog",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
+        },
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+        }
+      ]
+    },
+    {
+      "cat": "ux",
+      "top": false,
+      "date": "24–26 Nov",
+      "headline": "Google makes Workspace MCP servers and CLI generally available, and agents must use them from 1 February",
+      "why": "Any product that lets an AI agent read or act on Gmail, Drive or Calendar data needs a migration plan, new OAuth settings and confirmation steps in its UX.",
+      "source": "Google Workspace Updates · Infosecurity Magazine",
+      "body": [
+        "Google has made hosted MCP servers for Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat and Tasks generally available, together with a Workspace command-line tool. From 1 February 2027, AI agents must connect through these instead of calling Workspace REST APIs directly. Regular apps can keep using the REST APIs.",
+        "Agents must identify themselves with OAuth clients marked as agentic, so admins can manage them like other apps. In the admin console, organisations can set human-in-the-loop rules and read agent audit logs. Routine actions such as drafting an email run without interruption. Admins can require users to confirm sensitive steps such as sharing data or reading external files. Existing data-loss rules apply to agents automatically.",
+        "Billing changes follow on 1 April 2027. A free Standard tier with published rate limits stays, and a paid Scaled tier charges for use above daily allowances. For product teams, this turns agent access into a governed and metered feature."
+      ],
+      "links": [
+        {
+          "label": "Google Workspace Updates",
+          "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+        },
+        {
+          "label": "Infosecurity Magazine",
+          "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/"
+        }
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "26 Nov",
+      "headline": "OpenAI fixes a billing error, and GPT-6.2 Astra limits now run out 40% faster",
+      "why": "A pricing bug that quietly gave users more usage shows how hard it is to meter agent-heavy products, and why limits need to be visible to users.",
+      "source": "The Decoder",
+      "body": [
+        "OpenAI Codex engineer Thibault Sottiaux said a billing mistake in the GPT-6.2 rollout gave most users the wrong discount on GPT-6.2 Astra and Sol. Now that it is fixed, usage limits run out about 40% faster on Astra and 25% faster on Sol than last week. They still last longer than with the previous GPT-6 Astra and GPT-6.1 Sol. Other models were not affected.",
+        "OpenAI will not charge users for the difference. To compensate, Go, Plus, Pro and Business subscribers get one extra saved reset, and Business users get Fast Mode free until the end of the year.",
+        "The fix comes as OpenAI starts merging Chat and Work onto one shared usage meter. For teams pricing their own AI features, it is a reminder that limits measured in tokens are hard for users to predict. Clear meters and compensation policies matter as much as the price itself."
+      ],
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
+        }
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "25 Nov",
+      "headline": "OpenAI pilots Private Inference, which runs business prompts on hardware OpenAI says it cannot read",
+      "why": "Verifiable privacy could open frontier models to confidential work such as unreleased product designs, CAD data or supplier contracts.",
+      "source": "The Decoder · CNBC TV18",
+      "body": [
+        "Sam Altman said OpenAI has begun testing Private Inference with a small group of business customers. Prompts and responses are processed on isolated hardware whose security can be checked independently, so OpenAI staff cannot see the content. The feature is in limited alpha. Pricing and supported models have not been disclosed, and OpenAI says it is adding compute to expand it.",
+        "A related system, Private Safety Processing, scans for misuse without OpenAI storing the data. Flagged content is encrypted and kept in the customer's own cloud, where only a secured review system can read it. Google offers a similar approach with Private AI Compute.",
+        "For companies that have kept sensitive engineering or customer data away from hosted models, verifiable confidential computing could change the build-versus-buy choice. It is worth asking vendors for technical attestations, not just contract promises."
+      ],
+      "links": [
+        {
+          "label": "The Decoder",
+          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/"
+        },
+        {
+          "label": "CNBC TV18",
+          "url": "https://www.cnbctv18.com/technology/sam-altman-announces-openai-private-inference-whats-the-new-privacy-feature-and-how-does-it-work-20041890.htm"
+        }
+      ]
+    },
+    {
+      "cat": "eng",
+      "top": false,
+      "date": "25 Nov",
+      "headline": "L&T Technology Services launches SDVault.ai, with more than 250 agents for software-defined vehicle engineering",
+      "why": "Engineering service providers are packaging AI agents across the whole V-model, from requirements to virtual ECU validation.",
+      "source": "Inside Electronics",
+      "body": [
+        "Indian engineering services firm L&T Technology Services has launched SDVault.ai, a platform for OEMs and suppliers that develop software-defined vehicles. It combines more than 250 specialised AI agents with rule-based automation for tasks that need repeatable, traceable results.",
+        "The platform links 12 engineering disciplines, including E/E architecture, functional safety, embedded debugging, cybersecurity, verification, release assurance and virtual ECU validation. LTTS says early pilots let teams take on 30 to 40% more work, and cut some ticket triage from about four hours to ten minutes. These are vendor figures from selected pilots. They are not an independent measure of overall development time, and no customers are named.",
+        "The mix of AI agents and deterministic automation fits regulated work under ISO 26262 and UN R155. There, agents can draft and triage, but traceable tools must produce the evidence for type approval."
+      ],
+      "links": [
+        {
+          "label": "Inside Electronics",
+          "url": "https://www.inelectronics.co.uk/lt-launches-software-defined-vehicle-engineering-platform/"
+        }
+      ]
+    },
+    {
+      "cat": "bear",
+      "top": false,
+      "date": "26–27 Nov",
+      "headline": "SKF shares trade without the Vertevo entitlement, with the record date today and listing on 1 December",
+      "why": "From Monday, investors, customers and suppliers will deal with SKF's automotive bearings business as a separate Stockholm-listed company.",
+      "source": "SKF · ad-hoc-news",
+      "body": [
+        "SKF shares began trading on Nasdaq Stockholm on 26 November without the right to receive shares in SKF Vertevo, the automotive business being spun off. The record date for the distribution is 27 November, and Vertevo is due to list on 1 December.",
+        "Five SKF A shares give one Vertevo A share, and five SKF B shares give one Vertevo B share. They will trade as SKFVER A and SKFVER B. SKF expects Vertevo's net debt to be about zero at listing, after some post-listing transactions. The distribution is expected to meet the Swedish Lex Asea rules, so it should not be taxed immediately for Swedish residents.",
+        "Vertevo will be a pure automotive bearings and seals supplier, exposed to EV drivetrains and to Europe's weak car market. SKF keeps its industrial business."
+      ],
+      "links": [
+        {
+          "label": "SKF – Vertevo listing",
+          "url": "https://www.skf.com/group/investors/skf-as-an-investment/skf-vertevo-listing"
+        },
+        {
+          "label": "ad-hoc-news",
+          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-shares-trade-ex-rights-ahead-of-vertevo-listing/70559103"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "26 Nov",
+      "headline": "Stellantis says keeping production in Italy is a daily challenge as costs rise",
+      "why": "Energy prices and import pressure are now driving footprint decisions at Europe's big OEMs, with knock-on effects for their supplier networks.",
+      "source": "Reuters (via Investing.com, TimesLIVE)",
+      "body": [
+        "Stellantis Europe chief Emanuele Cappellano told a conference in Verona that keeping production in Italy has become a daily challenge. He blamed higher production costs linked to global conflicts, more vehicle imports and the cost of the electric transition.",
+        "Cappellano said Stellantis is spending more than 5 billion euros on Italian R&D over five years, and more than 7 billion euros a year with local suppliers. The group builds 14 models in Italy and plans nine more by 2030. He asked the government to curb energy costs and cut red tape, and said Stellantis is seeking pragmatic solutions with EU authorities on climate and industrial targets.",
+        "Italian car output is still well below historic levels. It fell 20% in 2025 to about 380,000 vehicles. The comments follow Mercedes-Benz's freeze on German investment and point to a wider push by European OEMs for lower energy and labour costs."
+      ],
+      "links": [
+        {
+          "label": "Investing.com (Reuters)",
+          "url": "https://www.investing.com/news/stock-market-news/stellantis-says-keeping-production-in-italy-a-daily-challenge-amid-rising-costs-5052537"
+        },
+        {
+          "label": "TimesLIVE",
+          "url": "https://timeslive.co.za/motoring/2026-11-26-stellantis-says-keeping-production-in-italy-is-a-daily-challenge"
+        }
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "25–26 Nov",
+      "headline": "A second main contractor leaves Agratas' UK gigafactory, which now aims to open at the end of 2027",
+      "why": "Delays at Europe's battery plants affect cell supply for JLR and other OEMs that plan local sourcing under rules-of-origin requirements.",
+      "source": "Burnham-on-Sea.com · The Guardian (reported)",
+      "body": [
+        "TSL, the contractor building the exterior of Tata-owned Agratas' battery cell plant near Bridgwater in Somerset, is reported to be leaving once its work is finished. The Guardian reported that the two sides failed to agree terms. TSL replaced Sir Robert McAlpine in June, so this is the second main contractor change in about six months.",
+        "Agratas says it is on track to meet customer requirements and will not replace TSL. NG Bailey is already doing the internal fit-out. The plant was first meant to open in 2026 and is now confirmed for the end of 2027. It expects about 1,500 operational jobs in 2027 and around 4,600 at full output.",
+        "Agratas is part of the Tata Group, which owns Jaguar Land Rover. The UK's largest planned gigafactory is central to building EVs in Britain that meet EU–UK trade rules on battery content."
+      ],
+      "links": [
+        {
+          "label": "Burnham-on-Sea.com",
+          "url": "https://www.burnham-on-sea.com/news/agratas-says-somerset-gigafactory-remains-on-track-despite-contractor-stepping-away/"
+        },
+        {
+          "label": "Facilities Management Now",
+          "url": "https://www.facilitiesmanagement-now.com/article/295172/tsl-to-exit-5bn-gigafactory-build"
+        }
+      ]
+    }
+  ],
+  "watch": [
+    {
+      "title": "SKF Vertevo listing",
+      "text": "SKF's automotive bearings business starts trading on Nasdaq Stockholm on Monday 1 December as SKFVER A and SKFVER B.",
+      "link": {
+        "label": "SKF",
+        "url": "https://www.skf.com/group/investors/skf-as-an-investment/skf-vertevo-listing"
+      }
+    },
+    {
+      "title": "Huang before Congress",
+      "text": "Nvidia's Jensen Huang faces a closed-door interview with three House committees on 1 December and testifies publicly to the Senate Banking Committee on 3 December.",
+      "link": {
+        "label": "CBS News",
+        "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-megaspeed-investigations/"
+      }
+    },
+    {
+      "title": "Export licence window",
+      "text": "Cloud providers in Southeast Asia have 90 days to apply for US licences. Watch whether Nvidia's shipment pause lifts and whether Chinese labs move training to Europe.",
+      "link": {
+        "label": "The Decoder",
+        "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "label": "The Decoder – Nvidia halts server shipments to Malaysia, Singapore, Thailand and Indonesia (26 Nov)",
+      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+    },
+    {
+      "label": "The Decoder – Chinese AI developer turns to Google and Meta data as models slip (26 Nov)",
+      "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
+    },
+    {
+      "label": "Schaeffler AG – Successfully places 6.5% stake in Schaeffler India (26 Nov)",
+      "url": "https://www.finanzwire.com/press-release/schaeffler-ag-etr-de000sha-schaeffler-ag-successfully-places-65-stake-in-schaeffler-india-limited-8kJT2Tql8uw"
+    },
+    {
+      "label": "China EV Home – BMW Neue Klasse i3 launches from $37.5K (27 Nov)",
+      "url": "https://chinaevhome.com/2026/11/27/bmw-neue-klasse-i3-launches-from-37-5k-tops-out-at-1028-km-range/"
+    },
+    {
+      "label": "CnEVPost – 2026 Guangzhou Auto Show to kick off on 27 November (17 Nov)",
+      "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"
+    },
+    {
+      "label": "36Kr – Guangzhou Auto Show debut rights reversal (Nov)",
+      "url": "https://eu.36kr.com/en/p/4083435558300289"
+    },
+    {
+      "label": "Microsoft Security – What defenders need to know about ARTEX (25 Nov)",
+      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
+    },
+    {
+      "label": "The Decoder – Microsoft details ARTEX AI framework attacks (26 Nov)",
+      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
+    },
+    {
+      "label": "Google Workspace Updates – MCP servers, CLI and usage tiers now available (24 Nov)",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+    },
+    {
+      "label": "Infosecurity Magazine – Google requires AI agents to access Workspace through approved methods (Nov)",
+      "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/"
+    },
+    {
+      "label": "The Decoder – GPT-6.2 Astra users now hit limits 40% faster (26 Nov)",
+      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
+    },
+    {
+      "label": "The Decoder – OpenAI promises not to look at business data (25 Nov)",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/"
+    },
+    {
+      "label": "CNBC TV18 – Sam Altman announces OpenAI Private Inference (Nov)",
+      "url": "https://www.cnbctv18.com/technology/sam-altman-announces-openai-private-inference-whats-the-new-privacy-feature-and-how-does-it-work-20041890.htm"
+    },
+    {
+      "label": "Inside Electronics – L&T launches software-defined vehicle engineering platform (25 Nov)",
+      "url": "https://www.inelectronics.co.uk/lt-launches-software-defined-vehicle-engineering-platform/"
+    },
+    {
+      "label": "SKF – SKF Vertevo listing",
+      "url": "https://www.skf.com/group/investors/skf-as-an-investment/skf-vertevo-listing"
+    },
+    {
+      "label": "ad-hoc-news – SKF shares trade ex-rights ahead of Vertevo listing (26 Nov)",
+      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-shares-trade-ex-rights-ahead-of-vertevo-listing/70559103"
+    },
+    {
+      "label": "Investing.com (Reuters) – Stellantis says keeping production in Italy a daily challenge (26 Nov)",
+      "url": "https://www.investing.com/news/stock-market-news/stellantis-says-keeping-production-in-italy-a-daily-challenge-amid-rising-costs-5052537"
+    },
+    {
+      "label": "TimesLIVE – Stellantis says keeping production in Italy is a daily challenge (26 Nov)",
+      "url": "https://timeslive.co.za/motoring/2026-11-26-stellantis-says-keeping-production-in-italy-is-a-daily-challenge"
+    },
+    {
+      "label": "Burnham-on-Sea.com – Agratas says Somerset gigafactory remains on track (25 Nov)",
+      "url": "https://www.burnham-on-sea.com/news/agratas-says-somerset-gigafactory-remains-on-track-despite-contractor-stepping-away/"
+    },
+    {
+      "label": "Facilities Management Now – TSL to exit £5bn gigafactory build (Nov)",
+      "url": "https://www.facilitiesmanagement-now.com/article/295172/tsl-to-exit-5bn-gigafactory-build"
+    },
+    {
+      "label": "CBS News – Nvidia's Jensen Huang and the Megaspeed investigations (Nov)",
+      "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-megaspeed-investigations/"
+    }
+  ],
+  "note": "All summaries are paraphrased. Benchmark figures and pilot results are vendor-reported."
+}
