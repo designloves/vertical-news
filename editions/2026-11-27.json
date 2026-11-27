@@ -1,366 +1,231 @@
 {
   "date": "2026-11-27",
   "weekday": "Friday",
-  "covers": "Wed 25 – Fri 27 Nov",
-  "glance": "Nvidia has stopped server shipments to four Southeast Asian countries under tighter US export rules, and Chinese labs are reported to be delaying their next flagship models. Schaeffler raised about 314 million euros by selling 6.5% of Schaeffler India, and SKF shares now trade without the Vertevo entitlement ahead of Monday's listing. BMW opened orders for the Neue Klasse i3 in China as the Guangzhou motor show began.",
+  "covers": "Thu 26 Nov",
+  "glance": "The EU has pushed its vote on Tesla's supervised driving system back to 15 December, and Europe's truck makers have cut their 2030 zero-emission forecast by more than half. In AI, SAP is reported to be weighing at least 10,000 job cuts tied to its AI push, and Reuters says US chip rules are slowing Chinese frontier models. BMW, Xiaomi, JTEKT, DeepL and ElevenLabs fill out the rest.",
+  "brief": "Good morning, here is Vertical News for Friday the twenty-seventh of November. The European Union has moved its vote on Tesla Assisted Driving, the European name for supervised Full Self-Driving, from the first to the fifteenth of December. A rejection would also cancel the approvals that about a dozen countries have already given. Europe's truck makers now expect only about thirty percent of new heavy trucks to be zero-emission in 2030, down from sixty-eight percent in their forecast two years ago, although the ICCT still expects electric trucks to be cheaper to run than diesel by then. In AI, Bloomberg reports that SAP is weighing at least ten thousand job cuts as part of an AI-driven restructuring. SAP has not confirmed this. Reuters says US chip rules and defences against model copying are delaying Chinese frontier models from Zhipu and Moonshot. Zhipu calls the report fake news. In other news, BMW will send a twenty-four-feature software update to about sixteen million cars in December. Spain's Auto Plus electric car subsidy has run out of money for private buyers and will not be extended. Xiaomi is testing cars in Arjeplog and at the Nürburgring ahead of its 2027 European launch, while its car losses grow. JTEKT has launched a share buyback worth about nineteen billion yen, and Toyota will sell it ten million shares. DeepL launched Aure version two, a speech-to-speech translation model. Canada added seven hundred million Canadian dollars to its AI compute fund. ElevenLabs is reported to be in talks at a thirty-three billion dollar valuation. Volvo's electric A40 haulers have started work on London's Lower Thames Crossing.",
   "stories": [
     {
-      "cat": "gen",
+      "cat": "auto",
       "top": true,
       "date": "26 Nov",
-      "headline": "Nvidia halts server shipments to four Southeast Asian countries, and Chinese labs are reported to be delaying flagship models",
-      "why": "Compute is getting harder to rent across borders, which affects model release timelines, cloud prices and where AI workloads can legally run.",
-      "source": "The Decoder · Financial Times · Reuters",
+      "headline": "EU delays its vote on Tesla's supervised driving system to 15 December",
+      "why": "The decision sets the precedent for how Level 2 systems that existing EU rules don't fully cover get approved across Europe.",
+      "source": "electrive",
       "body": [
-        "The Financial Times reports that Nvidia told server partners, including Dell and Supermicro, to stop shipping systems to Malaysia, Singapore, Thailand and Indonesia. The pause follows tighter US export rules meant to stop Chinese firms from renting Nvidia computing power through cloud providers in other countries. It is not clear how long the halt will last.",
-        "Under the new rules, cloud providers have 90 days to apply for licences and show that no restricted companies are among their users. Banks have paused about 500 million dollars in loans to Singapore cloud firm Aolani, which planned to rent capacity to ByteDance. CNBC says resellers are now listing unusual numbers of B300 GPUs.",
-        "Separately, Reuters reports that Z.ai's planned 3-trillion-parameter GLM-5.5 is likely to slip to early 2027, and Moonshot's Kimi K4 to mid-2027. Moonshot is said to be looking for compute in Europe. For European teams, the lesson is that a model provider's roadmap now depends on export policy as well as research progress."
+        "The EU's Technical Committee on Motor Vehicles (TCMV) has moved its next meeting from 1 December to 15 December, the Commission confirmed to Reuters. Member states could vote there on EU-wide approval of Tesla Assisted Driving (TAD), which is what Tesla has called FSD (Supervised) in Europe since October, after Germany's transport minister criticised the old name.",
+        "The process rests on a provisional type approval that the Dutch authority RDW granted in April under Article 39 of Regulation 2018/858. Article 39 lets an authority approve new technology that the current rules do not yet fully cover. About a dozen member states, most recently Italy, have accepted it nationally. EU-wide approval needs a qualified majority: 15 of the 27 states, together representing at least 65% of the EU population. Reuters reports that a rejection would also cancel the national approvals.",
+        "For OEMs and suppliers developing hands-off and city driving assistants, the vote is a test of whether the Article 39 route can become a way to approve software-heavy ADAS features faster than UNECE regulations are updated."
       ],
       "links": [
-        {
-          "label": "The Decoder – Nvidia shipment halt",
-          "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
-        },
-        {
-          "label": "The Decoder – Chinese labs delay models",
-          "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
-        }
-      ]
-    },
-    {
-      "cat": "bear",
-      "top": true,
-      "date": "26 Nov",
-      "headline": "Schaeffler sells 6.5% of Schaeffler India for about 314 million euros to cut debt",
-      "why": "The deal cuts Schaeffler's leverage while it restructures, and shows the group is willing to sell assets to pay for the shift to e-mobility.",
-      "source": "Schaeffler AG",
-      "body": [
-        "Schaeffler placed 10,159,738 shares of Schaeffler India with institutional investors at 3,493 rupees each, or about 34.63 euros. That is 6.5% of the Indian unit. Net proceeds after taxes and costs are about 314 million euros. The sale follows an October notice that the promoter group was reviewing its holding.",
-        "The money goes to reducing net debt. On a pro forma basis at 30 September, Schaeffler says leverage falls by 0.13 to 2.13 times and the equity ratio rises 1.2 points to 15.8%. The group's stake drops from 74.13% to about 67.63%. Schaeffler says it intends to stay majority owner with at least two-thirds of the shares.",
-        "The placement follows Schaeffler's November decision to start another cost programme, reported to cut about 3,460 jobs. Schaeffler India is one of the group's fastest-growing and most profitable parts. Selling a slice of it, rather than the whole, raises cash without giving up control of a key bearings and drivetrain base for Asia."
-      ],
-      "links": [
-        {
-          "label": "Schaeffler press release",
-          "url": "https://www.finanzwire.com/press-release/schaeffler-ag-etr-de000sha-schaeffler-ag-successfully-places-65-stake-in-schaeffler-india-limited-8kJT2Tql8uw"
-        }
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"}
       ]
     },
     {
       "cat": "auto",
       "top": true,
-      "date": "27 Nov",
-      "headline": "BMW opens orders for the Neue Klasse i3 in China as the Guangzhou motor show begins",
-      "why": "The i3 tests whether a European premium brand can win back Chinese buyers on range and price, against a show floor that is now almost two-thirds electrified.",
-      "source": "China EV Home · CnEVPost · 36Kr",
+      "date": "26 Nov",
+      "headline": "European truck makers cut their 2030 zero-emission forecast from 68% to about 30%",
+      "why": "Volvo, Scania, Daimler Truck and their suppliers are planning around a much slower electrification of heavy trucks.",
+      "source": "electrive · ICCT",
       "body": [
-        "BMW launched the Neue Klasse i3 sedan on the first day of Auto Guangzhou. Three versions cost from 249,900 to 319,900 yuan, about 37,500 to 48,000 dollars, with deliveries from January 2027. All use a single 235 kW sixth-generation eDrive motor. The base car has a 77 kWh LFP pack rated at 708 km on the Chinese CLTC cycle. The top car has 113.4 kWh of large cylindrical cells and is rated at up to 1,028 km.",
-        "BMW needs a hit in China. Its deliveries there fell 24.8% in the third quarter, and the iX3 went on sale in China two days earlier. The show itself runs until 6 December with 1,106 vehicles, 115 premieres and 707 new-energy vehicles, or 63.9% of exhibits, up from 58% last year. BYD is showing a new Han, and Huawei-backed Aito is presenting an L3 driving architecture.",
-        "For engineers, the i3 shows a European OEM using LFP and cylindrical cells side by side on one platform, and pricing them for the world's toughest EV market."
+        "In the industry's latest survey, manufacturers expect about 30% of new heavy trucks over 12 tonnes sold in Europe to be zero-emission in 2030. In the 2024 survey the figure was 68%. For Germany, the forecast share of battery-electric trucks in 2030 has fallen to 24.2%, down from 48.2%.",
+        "The ICCT is more upbeat. It says that after the CO2 targets were eased, makers need about 39,000 electric trucks in 2030 to comply, down from about 90,000. That works out at roughly 14% of sales, against just over 5% today. Europe now has about 4,300 public charging points suitable for trucks, around 20% more than a year ago. The ICCT expects electric trucks to have a lower total cost of ownership than diesel in almost every European country by 2030, without subsidies. China, by contrast, sold about 400,000 electric trucks and buses in 2025, a 26% share.",
+        "For drivetrain and bearing engineers, a slower ramp means diesel and electric heavy-truck platforms will be built side by side for longer, which affects how test and validation budgets are split."
       ],
       "links": [
-        {
-          "label": "China EV Home – BMW i3 launch",
-          "url": "https://chinaevhome.com/2026/11/27/bmw-neue-klasse-i3-launches-from-37-5k-tops-out-at-1028-km-range/"
-        },
-        {
-          "label": "CnEVPost – Guangzhou show preview",
-          "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"
-        },
-        {
-          "label": "36Kr – Guangzhou debuts",
-          "url": "https://eu.36kr.com/en/p/4083435558300289"
-        }
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/electric-trucks-in-europe-why-manufacturers-are-slowing-down-and-the-icct-remains-optimistic/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "26 Nov",
+      "headline": "SAP is reported to be weighing at least 10,000 job cuts in an AI-driven restructuring",
+      "why": "Europe's largest software company is signalling that AI agents will change how many people build and sell enterprise software.",
+      "source": "Bloomberg (via SiliconANGLE)",
+      "body": [
+        "Bloomberg, citing people familiar with the plans, reports that SAP is considering cutting at least 10,000 roles, more than 9% of its workforce. The scope could still change. Product, engineering and sales would be hit hardest, and other departments have been asked to find savings. SAP has not confirmed the figure. It said only that it reviews its organisation continuously.",
+        "SAP's employment guarantee with its German works council runs to 2028, so most of the cuts would probably fall outside Germany. The reported plan follows SAP's push into agents, including the Joule Work interface and Joule Assistants with more than 200 subagents, and comments from the CFO last week that headcount should fall. SAP usually announces restructurings in January. Its 2024 programme affected about 10,000 roles and cost about 3 billion euros.",
+        "For product teams that build on SAP or compete with it, the report suggests vendors expect agents to take over much of the configuration, support and implementation work that people do today. This is a report based on anonymous sources."
+      ],
+      "links": [
+        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"},
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"}
       ]
     },
     {
       "cat": "gen",
       "top": false,
-      "date": "25–26 Nov",
-      "headline": "Microsoft says state-backed hackers are using the ARTEX agent framework to automate attacks",
-      "why": "Agent-driven attacks run at machine speed, so anyone shipping web apps, APIs or connected-vehicle back ends needs rate limits, secret hygiene and behaviour-based detection.",
-      "source": "Microsoft Security · The Decoder",
+      "date": "26 Nov",
+      "headline": "Reuters says US chip rules are delaying Chinese frontier models, and Zhipu denies it",
+      "why": "Release dates for the strongest open-weight models depend more and more on access to compute.",
+      "source": "Reuters (via Taipei Times)",
       "body": [
-        "Microsoft published an analysis of ARTEX, an open-source AI penetration-testing framework released in July. It uses a set of LLM agents (a goal model, a planner, worker agents running tools in a real shell, and a reporter) and can plug in almost any model, including ones with safety guardrails removed. Microsoft has seen Chinese and North Korean state groups, among them Salt Typhoon and Onyx Sleet, as well as criminal gangs, using it.",
-        "ARTEX does not invent new attacks. It chains standard tools such as nmap, sqlmap and Metasploit with little human input. In one campaign Microsoft logged more than 151,000 failed sign-ins, peaking at 2,900 a minute. In one case an agent took five minutes to go from exposed GitHub credentials to data in Azure Key Vault.",
-        "Microsoft advises rate limiting, phishing-resistant MFA, removing secrets from code and automatic containment. It also suggests decoys and honeytokens that waste an agent's time and trigger alerts."
+        "Reuters, citing two sources, reports that Z.ai (Zhipu) missed its planned November release of GLM-5.5, a model of about 3 trillion parameters, which could now slip to the first quarter of 2027 or later. Z.ai shipped GLM-5.4 on Monday instead, built on a 750-billion-parameter base. Moonshot's usual six-month release cycle could stretch to a year or more, which would push Kimi K4 to around mid-2027. Reuters adds that Moonshot began distilling from Google and Meta models after it became harder to get outputs from Anthropic and OpenAI.",
+        "The background is a US Commerce rule, in force since 19 November, that requires licences for overseas data centres running more than about 750 H100-equivalent chips. Existing operators have 90 days to comply. A Zhipu executive called the reports fake news on WeChat the same day, but did not give a date for GLM-5.5.",
+        "Teams that use Chinese open-weight models in their products, often for cost reasons, should plan for longer gaps between major releases. The story is contested."
       ],
       "links": [
-        {
-          "label": "Microsoft Security blog",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
-        },
-        {
-          "label": "The Decoder",
-          "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
-        }
+        {"label": "Taipei Times (Reuters)", "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"}
       ]
     },
     {
-      "cat": "ux",
+      "cat": "auto",
       "top": false,
-      "date": "24–26 Nov",
-      "headline": "Google makes Workspace MCP servers and CLI generally available, and agents must use them from 1 February",
-      "why": "Any product that lets an AI agent read or act on Gmail, Drive or Calendar data needs a migration plan, new OAuth settings and confirmation steps in its UX.",
-      "source": "Google Workspace Updates · Infosecurity Magazine",
+      "date": "26 Nov",
+      "headline": "BMW will push a 24-feature over-the-air update to about 16 million cars in December",
+      "why": "It shows how far a large OEM's software-defined fleet now reaches, including cars on older operating systems.",
+      "source": "electrive",
       "body": [
-        "Google has made hosted MCP servers for Gmail, Drive, Docs, Sheets, Slides, Calendar, Chat and Tasks generally available, together with a Workspace command-line tool. From 1 February 2027, AI agents must connect through these instead of calling Workspace REST APIs directly. Regular apps can keep using the REST APIs.",
-        "Agents must identify themselves with OAuth clients marked as agentic, so admins can manage them like other apps. In the admin console, organisations can set human-in-the-loop rules and read agent audit logs. Routine actions such as drafting an email run without interruption. Admins can require users to confirm sensitive steps such as sharing data or reading external files. Existing data-loss rules apply to agents automatically.",
-        "Billing changes follow on 1 April 2027. A free Standard tier with published rate limits stays, and a paid Scaled tier charges for use above daily allowances. For product teams, this turns agent access into a governed and metered feature."
+        "BMW's software version 11/2026.3 goes to about 16 million vehicles in 88 countries from December. It has five new functions and 19 improved ones. Cars on BMW Operating System X get all 24. Cars on OS 8.5 and OS 9 get nine. Installation takes about 20 minutes.",
+        "In Germany, Highway Assistant now works on more roads that have physically separated lanes. In the US, the Highway & Commuting Assistant now works in city traffic too: it can stop at red lights and pull away on green. Other additions include better forecasts of how busy public chargers will be, Google Maps Places data in destination search, a driving-style analysis for the iX3, and a more capable AI voice assistant in France and Spain.",
+        "Shipping ADAS changes over the air to a fleet this size depends on regression testing and simulation-based sign-off across many hardware and software combinations, which is the kind of virtual validation workload many OEMs are now scaling up."
       ],
       "links": [
-        {
-          "label": "Google Workspace Updates",
-          "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
-        },
-        {
-          "label": "Infosecurity Magazine",
-          "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/"
-        }
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/bmw-to-roll-out-a-new-software-update-in-december/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "26 Nov",
+      "headline": "Spain's Auto+ EV subsidy runs out for private buyers and will not be extended",
+      "why": "Another European EV incentive ends early, which makes demand harder to forecast for 2027.",
+      "source": "electrive",
+      "body": [
+        "Spain's Auto+ purchase subsidy for electric cars ran out of money for private buyers on 19 November. A waiting list now covers applications that are withdrawn or rejected. The 2026 budget was about 400 million euros: 350 million for private buyers and 50 million for businesses and the self-employed.",
+        "By mid-November, about 103,000 applications averaging 3,167 euros had used 93% of the private budget, and 86% of the business budget had gone. An Industry Ministry official ruled out an extension, citing legal and budget limits and the coming parliamentary elections. Auto+ started in July, applied back to 1 January, and replaced the regionally run Moves III scheme.",
+        "Spain is a major production country for Stellantis, Renault and Volkswagen Group. An early end to the incentive could weaken local EV demand going into 2027, just as automakers work toward the EU's averaged CO2 targets."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/budget-exhausted-spain-cuts-purchase-subsidies-for-electric-cars/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "26 Nov",
+      "headline": "Xiaomi tests cars in Arjeplog ahead of its 2027 EU launch as its car losses grow",
+      "why": "Another Chinese EV maker is coming to Europe and validating its cars at Swedish winter test sites.",
+      "source": "electrive",
+      "body": [
+        "Xiaomi is testing its cars at seven sites in Sweden, Germany, Spain and Italy ahead of a European launch, including the Arjeplog winter test area and the Nürburgring. Germany will be its first market. Xiaomi has letters of intent with eight German dealer groups, including Emil Frey, and plans to exhibit at IAA Mobility in September 2027. Cars built in China face a 45.3% EU countervailing duty.",
+        "The car division's third quarter was weaker. Its operating loss rose to 3.4 billion yuan, from 2.6 billion in the second quarter. Deliveries fell 7.2% to 100,975, and gross margin dropped to 19.2% from 25.5%. Xiaomi has delivered about 336,000 cars in ten months, against a full-year target of 550,000.",
+        "Arjeplog's test service providers and engineering consultancies get another Chinese client, and European OEMs get a competitor whose cars are built around its own software stack."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/xiaomi-prepares-for-eu-market-launch-with-test-drives-across-europe/"}
+      ]
+    },
+    {
+      "cat": "bear",
+      "top": false,
+      "date": "25–26 Nov",
+      "headline": "JTEKT launches a 19 billion yen share buyback, and Toyota will sell it 10 million shares",
+      "why": "Toyota is loosening its hold on one of the world's largest bearing and steering suppliers, but remains its biggest shareholder.",
+      "source": "JTEKT · BigGo Finance · Squawk News",
+      "body": [
+        "JTEKT, which makes Koyo bearings and steering systems, has started a tender offer to buy back up to 11,000,100 of its own shares, 3.45% of the total, for up to about 19 billion yen. The price is 1,733 yen a share, about 9% below the 25 November close of 1,898.50 yen. The offer runs from 26 November to 23 December.",
+        "Toyota Motor has said it will tender 10 million shares, 3.14% of JTEKT, and is expected to remain the largest shareholder. JTEKT plans to cancel 9.5 million of the shares it buys back on 15 February 2027. If more shares are offered than planned, purchases will be scaled back pro rata.",
+        "It is part of a wider unwinding of cross-shareholdings in Japan's car supply chain. For European buyers of Koyo hub, tapered roller and e-axle bearings, the Toyota relationship itself does not change, but JTEKT is under more pressure to raise returns on capital."
+      ],
+      "links": [
+        {"label": "JTEKT news releases", "url": "https://www.jtekt.co.jp/e/news/news_release.html"},
+        {"label": "BigGo Finance", "url": "https://finance.biggo.com/news/e375e373-87d2-4108-9ae5-3e13860f9efc"},
+        {"label": "Squawk News", "url": "https://squawknews.com/news/980748-toyota-intends-to-tender-10-million-jtekt-shares"}
       ]
     },
     {
       "cat": "pm",
       "top": false,
       "date": "26 Nov",
-      "headline": "OpenAI fixes a billing error, and GPT-6.2 Astra limits now run out 40% faster",
-      "why": "A pricing bug that quietly gave users more usage shows how hard it is to meter agent-heavy products, and why limits need to be visible to users.",
-      "source": "The Decoder",
+      "headline": "DeepL launches Aure v2, a speech-to-speech translation model, and reports fast growth in voice use",
+      "why": "Live voice translation is quickly becoming a standard feature in meeting and service products.",
+      "source": "Unite.AI · DeepL",
       "body": [
-        "OpenAI Codex engineer Thibault Sottiaux said a billing mistake in the GPT-6.2 rollout gave most users the wrong discount on GPT-6.2 Astra and Sol. Now that it is fixed, usage limits run out about 40% faster on Astra and 25% faster on Sol than last week. They still last longer than with the previous GPT-6 Astra and GPT-6.1 Sol. Other models were not affected.",
-        "OpenAI will not charge users for the difference. To compensate, Go, Plus, Pro and Business subscribers get one extra saved reset, and Business users get Fast Mode free until the end of the year.",
-        "The fix comes as OpenAI starts merging Chat and Work onto one shared usage meter. For teams pricing their own AI features, it is a reminder that limits measured in tokens are hard for users to predict. Clear meters and compensation policies matter as much as the price itself."
+        "DeepL launched Aure v2 at its first Unmute Summit in Tokyo, just 15 days after the first version. Aure translates speech directly into speech, without a text step in between. DeepL says the median delay is half what it was. In its own benchmark of one-minute real recordings across ten language pairs, DeepL reports 32% fewer English–Japanese errors than Google's Gemini 3.5 Live Translate, while noting that real-world results may differ.",
+        "Aure v2 launches in English, German, French, Spanish, Japanese and Korean. It is available in DeepL Voice for meetings, DeepL Voice for in-person conversations, and the Voice API. DeepL says voice minutes grew more than eightfold year on year in the third quarter, and active meeting subscriptions grew about ninefold in Germany.",
+        "For product teams, an API with this latency makes live multilingual support, field service calls and supplier meetings realistic features to build. The benchmark figures are DeepL's own."
       ],
       "links": [
-        {
-          "label": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
-        }
+        {"label": "Unite.AI", "url": "https://www.unite.ai/deepl-launches-aure-v2-with-end-to-end-speech-translation/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "26 Nov",
+      "headline": "Canada adds 700 million Canadian dollars to its AI Compute Access Fund",
+      "why": "Governments are starting to pay for domestic AI compute directly, as Europe debates doing the same.",
+      "source": "Government of Canada",
+      "body": [
+        "Canada has added 700 million Canadian dollars to its AI Compute Access Fund, bringing it to 1 billion. In the first phase, more than 52 million dollars went to 45 companies, and total commitments now exceed 118 million dollars across 89 Canadian firms.",
+        "The next phase is organised by sector, starting with an open call for health and life sciences, and coverage says it favours domestic cloud providers. The fund supports the federal budget's pledge of 500 megawatts of sovereign AI compute. The government estimates that AI adoption could add up to 200 billion dollars to the economy by 2034.",
+        "For European readers, the model is close to what EU AI Factories and national schemes offer: subsidised compute tied to local providers. That matters to engineering firms that need GPUs for simulation surrogates or model training but cannot send data to US hyperscalers."
+      ],
+      "links": [
+        {"label": "Government of Canada", "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html"}
       ]
     },
     {
       "cat": "pm",
       "top": false,
-      "date": "25 Nov",
-      "headline": "OpenAI pilots Private Inference, which runs business prompts on hardware OpenAI says it cannot read",
-      "why": "Verifiable privacy could open frontier models to confidential work such as unreleased product designs, CAD data or supplier contracts.",
-      "source": "The Decoder · CNBC TV18",
-      "body": [
-        "Sam Altman said OpenAI has begun testing Private Inference with a small group of business customers. Prompts and responses are processed on isolated hardware whose security can be checked independently, so OpenAI staff cannot see the content. The feature is in limited alpha. Pricing and supported models have not been disclosed, and OpenAI says it is adding compute to expand it.",
-        "A related system, Private Safety Processing, scans for misuse without OpenAI storing the data. Flagged content is encrypted and kept in the customer's own cloud, where only a secured review system can read it. Google offers a similar approach with Private AI Compute.",
-        "For companies that have kept sensitive engineering or customer data away from hosted models, verifiable confidential computing could change the build-versus-buy choice. It is worth asking vendors for technical attestations, not just contract promises."
-      ],
-      "links": [
-        {
-          "label": "The Decoder",
-          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/"
-        },
-        {
-          "label": "CNBC TV18",
-          "url": "https://www.cnbctv18.com/technology/sam-altman-announces-openai-private-inference-whats-the-new-privacy-feature-and-how-does-it-work-20041890.htm"
-        }
-      ]
-    },
-    {
-      "cat": "eng",
-      "top": false,
-      "date": "25 Nov",
-      "headline": "L&T Technology Services launches SDVault.ai, with more than 250 agents for software-defined vehicle engineering",
-      "why": "Engineering service providers are packaging AI agents across the whole V-model, from requirements to virtual ECU validation.",
-      "source": "Inside Electronics",
-      "body": [
-        "Indian engineering services firm L&T Technology Services has launched SDVault.ai, a platform for OEMs and suppliers that develop software-defined vehicles. It combines more than 250 specialised AI agents with rule-based automation for tasks that need repeatable, traceable results.",
-        "The platform links 12 engineering disciplines, including E/E architecture, functional safety, embedded debugging, cybersecurity, verification, release assurance and virtual ECU validation. LTTS says early pilots let teams take on 30 to 40% more work, and cut some ticket triage from about four hours to ten minutes. These are vendor figures from selected pilots. They are not an independent measure of overall development time, and no customers are named.",
-        "The mix of AI agents and deterministic automation fits regulated work under ISO 26262 and UN R155. There, agents can draft and triage, but traceable tools must produce the evidence for type approval."
-      ],
-      "links": [
-        {
-          "label": "Inside Electronics",
-          "url": "https://www.inelectronics.co.uk/lt-launches-software-defined-vehicle-engineering-platform/"
-        }
-      ]
-    },
-    {
-      "cat": "bear",
-      "top": false,
-      "date": "26–27 Nov",
-      "headline": "SKF shares trade without the Vertevo entitlement, with the record date today and listing on 1 December",
-      "why": "From Monday, investors, customers and suppliers will deal with SKF's automotive bearings business as a separate Stockholm-listed company.",
-      "source": "SKF · ad-hoc-news",
-      "body": [
-        "SKF shares began trading on Nasdaq Stockholm on 26 November without the right to receive shares in SKF Vertevo, the automotive business being spun off. The record date for the distribution is 27 November, and Vertevo is due to list on 1 December.",
-        "Five SKF A shares give one Vertevo A share, and five SKF B shares give one Vertevo B share. They will trade as SKFVER A and SKFVER B. SKF expects Vertevo's net debt to be about zero at listing, after some post-listing transactions. The distribution is expected to meet the Swedish Lex Asea rules, so it should not be taxed immediately for Swedish residents.",
-        "Vertevo will be a pure automotive bearings and seals supplier, exposed to EV drivetrains and to Europe's weak car market. SKF keeps its industrial business."
-      ],
-      "links": [
-        {
-          "label": "SKF – Vertevo listing",
-          "url": "https://www.skf.com/group/investors/skf-as-an-investment/skf-vertevo-listing"
-        },
-        {
-          "label": "ad-hoc-news",
-          "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-shares-trade-ex-rights-ahead-of-vertevo-listing/70559103"
-        }
-      ]
-    },
-    {
-      "cat": "auto",
-      "top": false,
       "date": "26 Nov",
-      "headline": "Stellantis says keeping production in Italy is a daily challenge as costs rise",
-      "why": "Energy prices and import pressure are now driving footprint decisions at Europe's big OEMs, with knock-on effects for their supplier networks.",
-      "source": "Reuters (via Investing.com, TimesLIVE)",
+      "headline": "ElevenLabs is reported to be in early talks to raise money at a 33 billion dollar valuation",
+      "why": "Investors are still paying high prices for AI voice companies whose revenue is growing fast.",
+      "source": "Bloomberg (via SiliconANGLE)",
       "body": [
-        "Stellantis Europe chief Emanuele Cappellano told a conference in Verona that keeping production in Italy has become a daily challenge. He blamed higher production costs linked to global conflicts, more vehicle imports and the cost of the electric transition.",
-        "Cappellano said Stellantis is spending more than 5 billion euros on Italian R&D over five years, and more than 7 billion euros a year with local suppliers. The group builds 14 models in Italy and plans nine more by 2030. He asked the government to curb energy costs and cut red tape, and said Stellantis is seeking pragmatic solutions with EU authorities on climate and industrial targets.",
-        "Italian car output is still well below historic levels. It fell 20% in 2025 to about 380,000 vehicles. The comments follow Mercedes-Benz's freeze on German investment and point to a wider push by European OEMs for lower energy and labour costs."
+        "Bloomberg reports that ElevenLabs is in early talks to raise money at a 33 billion dollar valuation, up from 22 billion in its last round. The company is aiming to close in the first quarter of 2027, and the deal may include a sale of existing shares. The size of the round is not known. Annualised revenue is reported at about 700 million dollars, up 100 million since September.",
+        "ElevenLabs recently released its Eleven v4 and v4 Turbo voice models, the latter with 150-millisecond latency, and bought Japan's Kotoba earlier this month. Its chief executive has said IPO preparations will start in 2028. The company has not confirmed the talks.",
+        "Read together with DeepL's launch, the funding shows voice becoming a main way to use software, not an add-on. Product teams adding voice agents have more capable vendors to choose from, and those vendors have strong pricing power."
       ],
       "links": [
-        {
-          "label": "Investing.com (Reuters)",
-          "url": "https://www.investing.com/news/stock-market-news/stellantis-says-keeping-production-in-italy-a-daily-challenge-amid-rising-costs-5052537"
-        },
-        {
-          "label": "TimesLIVE",
-          "url": "https://timeslive.co.za/motoring/2026-11-26-stellantis-says-keeping-production-in-italy-is-a-daily-challenge"
-        }
+        {"label": "SiliconANGLE", "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/"}
       ]
     },
     {
       "cat": "auto",
       "top": false,
       "date": "25–26 Nov",
-      "headline": "A second main contractor leaves Agratas' UK gigafactory, which now aims to open at the end of 2027",
-      "why": "Delays at Europe's battery plants affect cell supply for JLR and other OEMs that plan local sourcing under rules-of-origin requirements.",
-      "source": "Burnham-on-Sea.com · The Guardian (reported)",
+      "headline": "Volvo CE's A40 Electric haulers start their first job, on London's Lower Thames Crossing",
+      "why": "A Swedish-built heavy electric machine is now in real use, with a known battery size and charging time.",
+      "source": "Volvo CE · electrive",
       "body": [
-        "TSL, the contractor building the exterior of Tata-owned Agratas' battery cell plant near Bridgwater in Somerset, is reported to be leaving once its work is finished. The Guardian reported that the two sides failed to agree terms. TSL replaced Sir Robert McAlpine in June, so this is the second main contractor change in about six months.",
-        "Agratas says it is on track to meet customer requirements and will not replace TSL. NG Bailey is already doing the internal fit-out. The plant was first meant to open in 2026 and is now confirmed for the end of 2027. It expects about 1,500 operational jobs in 2027 and around 4,600 at full output.",
-        "Agratas is part of the Tata Group, which owns Jaguar Land Rover. The UK's largest planned gigafactory is central to building EVs in Britain that meet EU–UK trade rules on battery content."
+        "Four Volvo A40 Electric articulated haulers, built in Braås, Sweden, are working on the UK's Lower Thames Crossing for BMJV, a joint venture of Bouygues TP and J Murphy & Sons. It is the model's first deployment anywhere. The machines move material at the tunnel entrance and for road foundations.",
+        "Each hauler carries 39 tonnes, has a 540 kWh battery and runs about six hours on a charge. On a 350 kW charger it goes from 10% to 90% in about an hour. The site's chargers run on generators fuelled by British-made green hydrogen, and the project says it has used no diesel since 2025.",
+        "For drivetrain engineers, high-payload electric haulers put heavy demands on e-motor bearings, gearboxes and thermal management. Data from real sites like this one will feed back into duty-cycle models and test programmes."
       ],
       "links": [
-        {
-          "label": "Burnham-on-Sea.com",
-          "url": "https://www.burnham-on-sea.com/news/agratas-says-somerset-gigafactory-remains-on-track-despite-contractor-stepping-away/"
-        },
-        {
-          "label": "Facilities Management Now",
-          "url": "https://www.facilitiesmanagement-now.com/article/295172/tsl-to-exit-5bn-gigafactory-build"
-        }
+        {"label": "Volvo CE", "url": "https://www.volvoce.com/global/en/news-and-events/news-and-stories/2026/lower-thames-crossing-becomes-worlds-first-project-to-deploy-volvo-a40-electric/"},
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/volvo-a40-electric-begins-first-construction-site-deployment/"}
       ]
     }
   ],
   "watch": [
-    {
-      "title": "SKF Vertevo listing",
-      "text": "SKF's automotive bearings business starts trading on Nasdaq Stockholm on Monday 1 December as SKFVER A and SKFVER B.",
-      "link": {
-        "label": "SKF",
-        "url": "https://www.skf.com/group/investors/skf-as-an-investment/skf-vertevo-listing"
-      }
-    },
-    {
-      "title": "Huang before Congress",
-      "text": "Nvidia's Jensen Huang faces a closed-door interview with three House committees on 1 December and testifies publicly to the Senate Banking Committee on 3 December.",
-      "link": {
-        "label": "CBS News",
-        "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-megaspeed-investigations/"
-      }
-    },
-    {
-      "title": "Export licence window",
-      "text": "Cloud providers in Southeast Asia have 90 days to apply for US licences. Watch whether Nvidia's shipment pause lifts and whether Chinese labs move training to Europe.",
-      "link": {
-        "label": "The Decoder",
-        "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
-      }
-    }
+    {"title": "SKF Vertevo listing", "text": "SKF's automotive bearings business starts trading on Nasdaq Stockholm on 1 December. The record date is today. Index changes at the 1 December close could bring forced selling.", "link": {"label": "Investing.com", "url": "https://www.investing.com/news/stock-market-news/jp-morgan-says-skf-auto-spinoff-no-longer-weighs-on-shares-5024847"}},
+    {"title": "Guangzhou motor show", "text": "The show opens today and runs to 6 December, with 1,106 vehicles, 64% of them new-energy, and 115 debuts, including the next BYD Han and an 800-volt Leapmotor.", "link": {"label": "CnEVPost", "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"}},
+    {"title": "Tesla TAD vote", "text": "Watch how EU member states line up before the 15 December TCMV meeting. A qualified majority is needed for EU-wide approval.", "link": {"label": "electrive", "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"}}
   ],
   "sources": [
-    {
-      "label": "The Decoder – Nvidia halts server shipments to Malaysia, Singapore, Thailand and Indonesia (26 Nov)",
-      "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
-    },
-    {
-      "label": "The Decoder – Chinese AI developer turns to Google and Meta data as models slip (26 Nov)",
-      "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/"
-    },
-    {
-      "label": "Schaeffler AG – Successfully places 6.5% stake in Schaeffler India (26 Nov)",
-      "url": "https://www.finanzwire.com/press-release/schaeffler-ag-etr-de000sha-schaeffler-ag-successfully-places-65-stake-in-schaeffler-india-limited-8kJT2Tql8uw"
-    },
-    {
-      "label": "China EV Home – BMW Neue Klasse i3 launches from $37.5K (27 Nov)",
-      "url": "https://chinaevhome.com/2026/11/27/bmw-neue-klasse-i3-launches-from-37-5k-tops-out-at-1028-km-range/"
-    },
-    {
-      "label": "CnEVPost – 2026 Guangzhou Auto Show to kick off on 27 November (17 Nov)",
-      "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"
-    },
-    {
-      "label": "36Kr – Guangzhou Auto Show debut rights reversal (Nov)",
-      "url": "https://eu.36kr.com/en/p/4083435558300289"
-    },
-    {
-      "label": "Microsoft Security – What defenders need to know about ARTEX (25 Nov)",
-      "url": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/"
-    },
-    {
-      "label": "The Decoder – Microsoft details ARTEX AI framework attacks (26 Nov)",
-      "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/"
-    },
-    {
-      "label": "Google Workspace Updates – MCP servers, CLI and usage tiers now available (24 Nov)",
-      "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
-    },
-    {
-      "label": "Infosecurity Magazine – Google requires AI agents to access Workspace through approved methods (Nov)",
-      "url": "https://www.infosecurity-magazine.com/news/google-cloud-ai-agents-workspace/"
-    },
-    {
-      "label": "The Decoder – GPT-6.2 Astra users now hit limits 40% faster (26 Nov)",
-      "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/"
-    },
-    {
-      "label": "The Decoder – OpenAI promises not to look at business data (25 Nov)",
-      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/"
-    },
-    {
-      "label": "CNBC TV18 – Sam Altman announces OpenAI Private Inference (Nov)",
-      "url": "https://www.cnbctv18.com/technology/sam-altman-announces-openai-private-inference-whats-the-new-privacy-feature-and-how-does-it-work-20041890.htm"
-    },
-    {
-      "label": "Inside Electronics – L&T launches software-defined vehicle engineering platform (25 Nov)",
-      "url": "https://www.inelectronics.co.uk/lt-launches-software-defined-vehicle-engineering-platform/"
-    },
-    {
-      "label": "SKF – SKF Vertevo listing",
-      "url": "https://www.skf.com/group/investors/skf-as-an-investment/skf-vertevo-listing"
-    },
-    {
-      "label": "ad-hoc-news – SKF shares trade ex-rights ahead of Vertevo listing (26 Nov)",
-      "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/skf-stock-shares-trade-ex-rights-ahead-of-vertevo-listing/70559103"
-    },
-    {
-      "label": "Investing.com (Reuters) – Stellantis says keeping production in Italy a daily challenge (26 Nov)",
-      "url": "https://www.investing.com/news/stock-market-news/stellantis-says-keeping-production-in-italy-a-daily-challenge-amid-rising-costs-5052537"
-    },
-    {
-      "label": "TimesLIVE – Stellantis says keeping production in Italy is a daily challenge (26 Nov)",
-      "url": "https://timeslive.co.za/motoring/2026-11-26-stellantis-says-keeping-production-in-italy-is-a-daily-challenge"
-    },
-    {
-      "label": "Burnham-on-Sea.com – Agratas says Somerset gigafactory remains on track (25 Nov)",
-      "url": "https://www.burnham-on-sea.com/news/agratas-says-somerset-gigafactory-remains-on-track-despite-contractor-stepping-away/"
-    },
-    {
-      "label": "Facilities Management Now – TSL to exit £5bn gigafactory build (Nov)",
-      "url": "https://www.facilitiesmanagement-now.com/article/295172/tsl-to-exit-5bn-gigafactory-build"
-    },
-    {
-      "label": "CBS News – Nvidia's Jensen Huang and the Megaspeed investigations (Nov)",
-      "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-megaspeed-investigations/"
-    }
+    {"label": "electrive – EU postpones discussion on Tesla Assisted Driving (26 Nov)", "url": "https://www.electrive.com/2026/11/26/eu-postpones-discussion-on-tesla-assisted-driving/"},
+    {"label": "electrive – Electric trucks in Europe: why manufacturers are slowing down (26 Nov)", "url": "https://www.electrive.com/2026/11/26/electric-trucks-in-europe-why-manufacturers-are-slowing-down-and-the-icct-remains-optimistic/"},
+    {"label": "SiliconANGLE – SAP reportedly plans to lay off 10,000 employees amid AI push (26 Nov)", "url": "https://siliconangle.com/2026/11/26/sap-reportedly-plans-to-lay-off-10000-employees-amid-ai-push/"},
+    {"label": "Bloomberg – SAP weighs cutting at least 10,000 positions (26 Nov)", "url": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring"},
+    {"label": "Taipei Times (Reuters) – Chinese AI model launches delayed (27 Nov)", "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/27/2003868457"},
+    {"label": "electrive – BMW to roll out a new software update in December (26 Nov)", "url": "https://www.electrive.com/2026/11/26/bmw-to-roll-out-a-new-software-update-in-december/"},
+    {"label": "electrive – Spain cuts purchase subsidies for electric cars (26 Nov)", "url": "https://www.electrive.com/2026/11/26/budget-exhausted-spain-cuts-purchase-subsidies-for-electric-cars/"},
+    {"label": "electrive – Xiaomi prepares for EU market launch (26 Nov)", "url": "https://www.electrive.com/2026/11/26/xiaomi-prepares-for-eu-market-launch-with-test-drives-across-europe/"},
+    {"label": "JTEKT – News releases (25 Nov)", "url": "https://www.jtekt.co.jp/e/news/news_release.html"},
+    {"label": "BigGo Finance – JTEKT share buyback tender offer (25 Nov)", "url": "https://finance.biggo.com/news/e375e373-87d2-4108-9ae5-3e13860f9efc"},
+    {"label": "Squawk News – Toyota intends to tender 10 million JTEKT shares (25 Nov)", "url": "https://squawknews.com/news/980748-toyota-intends-to-tender-10-million-jtekt-shares"},
+    {"label": "Unite.AI – DeepL launches Aure v2 (26 Nov)", "url": "https://www.unite.ai/deepl-launches-aure-v2-with-end-to-end-speech-translation/"},
+    {"label": "Government of Canada – AI Compute Access Fund 700 million expansion (26 Nov)", "url": "https://www.canada.ca/en/innovation-science-economic-development/news/2026/11/government-of-canada-boosts-the-ai-compute-access-fund-with-700-million-expansion.html"},
+    {"label": "SiliconANGLE – ElevenLabs reportedly seeking funding at $33B valuation (25 Nov)", "url": "https://siliconangle.com/2026/11/25/voice-ai-startup-elevenlabs-reportedly-seeking-new-funding-at-33b-valuation/"},
+    {"label": "Volvo CE – Lower Thames Crossing first to deploy Volvo A40 Electric (25 Nov)", "url": "https://www.volvoce.com/global/en/news-and-events/news-and-stories/2026/lower-thames-crossing-becomes-worlds-first-project-to-deploy-volvo-a40-electric/"},
+    {"label": "electrive – Volvo A40 Electric begins first construction site deployment (26 Nov)", "url": "https://www.electrive.com/2026/11/26/volvo-a40-electric-begins-first-construction-site-deployment/"},
+    {"label": "Investing.com – J.P. Morgan on SKF auto spin-off (Nov)", "url": "https://www.investing.com/news/stock-market-news/jp-morgan-says-skf-auto-spinoff-no-longer-weighs-on-shares-5024847"},
+    {"label": "CnEVPost – 2026 Guangzhou auto show to kick off 27 Nov (17 Nov)", "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"}
   ],
-  "note": "All summaries are paraphrased. Benchmark figures and pilot results are vendor-reported."
+  "note": "All summaries are paraphrased. Benchmark figures are vendor-reported. SAP and ElevenLabs items are based on media reports not confirmed by the companies."
 }
