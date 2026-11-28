@@ -223,8 +223,14 @@
   },
   "2026-11-27": {
     "file": "2026-11-27.mp3",
-    "sha": "27750d815a21",
-    "duration": 123.2,
+    "sha": "dbecd2134691",
+    "duration": 120.1,
+    "voice": "bf_emma"
+  },
+  "2026-11-28": {
+    "file": "2026-11-28.mp3",
+    "sha": "cd017f87393d",
+    "duration": 239.3,
     "voice": "bf_emma"
   }
 }
