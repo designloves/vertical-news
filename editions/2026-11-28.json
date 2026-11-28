@@ -1,0 +1,249 @@
+{
+  "date": "2026-11-28",
+  "weekday": "Saturday",
+  "covers": "Fri 27 Nov",
+  "glance": "OpenAI has countersued Apple over trade secrets and pressure on suppliers the two companies share, and new Bloomberg reporting found banned Nvidia Blackwell hardware in Shanghai. In Europe, Stellantis is stopping three French plants for weeks over Christmas, Volvo Cars has started training humanoid robots in Ghent, and BMW launched its Neue Klasse i3 in China at the Guangzhou show.",
+  "stories": [
+    {
+      "cat": "gen",
+      "top": true,
+      "date": "27 Nov",
+      "headline": "OpenAI countersues Apple, accusing it of stealing device secrets and pressuring shared suppliers",
+      "why": "The fight over AI hardware is now being fought in the supply chain, the same contract manufacturers many product teams depend on.",
+      "source": "The Decoder · Financial Times · Interesting Engineering",
+      "body": [
+        "OpenAI filed counterclaims against Apple on Friday in federal court in San Jose, California, the Financial Times first reported. The claims answer the lawsuit Apple filed in July, which accused former Apple staff of leaking confidential information to OpenAI and its io hardware unit. OpenAI now brings federal trade-secret claims plus California claims of contract interference and unfair competition.",
+        "OpenAI says a former Apple employee spent about six months at OpenAI, copied files about an unreleased OpenAI device to personal accounts, and then briefed senior Apple staff after going back. It also says Apple's supply managers asked shared contract manufacturers to list their OpenAI projects and staff, limited one supplier to doing OpenAI work on night shifts, and got another to cancel planned work. The suppliers are not named. Apple called the counterclaims an attempt to distract from its own case, which is set for trial in July 2027.",
+        "For hardware and product teams, the case shows how tightly Apple controls its supplier base, and how hard it can be for a new device maker to share factories with an incumbent."
+      ],
+      "links": [
+        {"label": "The Decoder", "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/"},
+        {"label": "Interesting Engineering", "url": "https://interestingengineering.com/culture/openai-sues-apple-trade-secrets-supplier-dispute"},
+        {"label": "Yahoo Finance", "url": "https://finance.yahoo.com/technology/ai/articles/openai-countersues-apple-over-trade-193855054.html"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": true,
+      "date": "26–27 Nov",
+      "headline": "Stellantis will stop its Sochaux, Rennes and Mulhouse plants for weeks over Christmas",
+      "why": "Long winter stoppages at three core French plants show how hard Chinese competition and high costs are hitting European volume makers and their suppliers.",
+      "source": "electrive · Automotive News Europe · Bloomberg",
+      "body": [
+        "Stellantis is pausing production again at three French plants, blaming a difficult European market with new, aggressive competitors and a complicated geopolitical situation. Mulhouse, which builds the Peugeot 308 and 408, stops on 4, 7 and 8 December and then runs no shifts from 23 December to 11 January. Rennes, which builds only the Citroën C5 Aircross, stops from 18 December until 5 January, possibly longer. Sochaux, home of the Peugeot 3008 and 5008, stops on four days in early December and from 19 December to 11 January. About 500 temporary jobs there will go as the night shift is dropped in January.",
+        "Each plant already stopped for 5 to 15 days in the autumn, partly because of EV battery shortages. ACEA figures show Stellantis registrations in wider Europe fell 8% in October, and its market share dropped to 12.8%.",
+        "Suppliers to these lines should plan for lower December call-offs. The group is also leaning on partners Leapmotor and Dongfeng to fill spare European capacity, and Rennes is due to build Voyah cars from 2028."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/27/more-stellantis-plants-face-production-halt-in-france/"},
+        {"label": "Automotive News Europe", "url": "https://www.autonews.com/stellantis/ane-stellantis-further-europe-production-stoppages-1127/"},
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-26/stellantis-to-pause-more-europe-plants-as-chinese-rivals-advance"}
+      ]
+    },
+    {
+      "cat": "eng",
+      "top": true,
+      "date": "26–27 Nov",
+      "headline": "Volvo Cars starts training Hexagon's AEON humanoid robots at its Ghent plant, aiming for production use from mid-2027",
+      "why": "It is the first Swedish OEM pilot of humanoids on a real car line, and it relies on imitation learning, not hand-written robot programs.",
+      "source": "Evertiq · The Next Web · Just Auto",
+      "body": [
+        "Volvo Cars' factory in Ghent, Belgium, is the first in the group to test humanoid robots. It is working with Hexagon Robotics, part of the Swedish technology group Hexagon, on its AEON robot. Volvo staff and Hexagon engineers teach the robots by imitation learning: the robot watches how a task is done and copies it. The first task is placing components into two fixtures. Later tasks add several part types, moving around the shop floor and working with the plant's existing automation.",
+        "AEON is 1.65 m tall, weighs 60 kg, runs on wheels at up to 2.4 m/s and carries up to 10 kg. More units arrive for a larger pilot in the first half of 2027, and the target is regular production use from mid-2027. The aim is to take over repetitive and physically demanding jobs. Volvo has not said how many robots it will use or what they cost.",
+        "For manufacturing engineers, the 10 kg payload and wheeled base show where humanoids fit today: light handling at existing workstations rather than heavy assembly."
+      ],
+      "links": [
+        {"label": "Evertiq", "url": "https://evertiq.se/news/2026-11-27-volvo-cars-tranar-humanoida-robotar-i-fabriken-i-gent"},
+        {"label": "The Next Web", "url": "https://thenextweb.com/news/volvo-humanoid-robots-hexagon-aeon-ghent"},
+        {"label": "Just Auto", "url": "https://www.just-auto.com/news/volvo-cars-trains-hexagon-robotics-humanoids-for-manufacturing/"}
+      ]
+    },
+    {
+      "cat": "gen",
+      "top": false,
+      "date": "26–27 Nov",
+      "headline": "Banned Nvidia Blackwell racks turn up in Shanghai as Nvidia halts server shipments to four Southeast Asian countries",
+      "why": "Tighter US export enforcement is changing where AI compute can be bought and rented, including for European firms using Asian cloud capacity.",
+      "source": "Bloomberg · Financial Times · The Decoder",
+      "body": [
+        "Bloomberg found filings with Chinese regulators showing two companies had installed Nvidia Blackwell hardware at a Shanghai data centre linked to Alice Huang, founder of Singapore-based Megaspeed. One company pledged a GB300 NVL72 rack as collateral for a 96 million yuan (about 14 million dollar) bank loan, and another listed a GB200 server at the same site. Bloomberg traced the rack to Taiwanese maker Gigabyte through a public warranty database. Exporting these chips to China without a US licence is banned, and the US put Megaspeed on a trade blacklist this month.",
+        "Separately, the Financial Times reported that Nvidia told partners including Dell and Supermicro to stop shipping servers to Malaysia, Singapore, Thailand and Indonesia after new US rules aimed at blocking remote Chinese access through third-country data centres. Cloud providers there have 90 days to apply for licences, and banks halted about 500 million dollars of loans to Singapore provider Aolani.",
+        "Teams that buy GPU capacity from Southeast Asian neoclouds should expect licence checks and possible supply gaps."
+      ],
+      "links": [
+        {"label": "The Decoder – Blackwell in Shanghai", "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/"},
+        {"label": "Bloomberg", "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"},
+        {"label": "The Decoder – shipment halt", "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "27 Nov",
+      "headline": "OpenAI is reported to be building 'Athena', a semantic data layer so its agents guess less about business data",
+      "why": "Whoever owns the definitions of revenue, customers and other metrics may lock in enterprise customers more firmly than the model itself.",
+      "source": "The Information · The Decoder",
+      "body": [
+        "OpenAI is developing an internal data platform codenamed Athena, The Information reports. It works like a semantic layer: software that holds one agreed definition for each business metric, such as revenue or customer count, so that AI agents query company data consistently instead of inferring what each table means.",
+        "The push follows complaints from at least one customer that the data analysis agent in ChatGPT Work was not accurate enough. According to the report, OpenAI is using Athena to build agents that collect, document and update business rules, so later agents can reuse that context instead of starting from scratch. Snowflake and Databricks already sell semantic layers. The report notes that this layer is harder to switch away from than a model. Athena is at an early stage, with no timeline or pricing.",
+        "For product and data teams putting agents on top of their own data, the lesson is clear: accuracy depends as much on documented metric definitions as on the model. Deciding who owns that layer is becoming a strategic choice."
+      ],
+      "links": [
+        {"label": "The Decoder", "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/"},
+        {"label": "The Information", "url": "https://www.theinformation.com/newsletters/applied-ai/openai-preps-athena-data-tool-make-agents-accurate"}
+      ]
+    },
+    {
+      "cat": "pm",
+      "top": false,
+      "date": "26–27 Nov",
+      "headline": "Adobe: US Black Friday online sales head for a record 13 billion dollars, with AI chatbot referrals still climbing",
+      "why": "AI assistants are becoming a measurable traffic source for e-commerce, which changes how teams design product pages and track the funnel.",
+      "source": "Adobe via Reuters · Seeking Alpha · Stocktwits",
+      "body": [
+        "By Friday evening, US shoppers had spent 9.7 billion dollars online on Black Friday, up 12.8% on last year, according to Adobe Analytics. Adobe expects the day to end at 13.0 to 13.4 billion dollars, a record, with about 57% of spending on phones. Thanksgiving itself brought a record 7.1 billion dollars online. Adobe expects Cyber Monday to reach 15.1 billion dollars.",
+        "Adobe counts a visit as AI traffic when a shopper clicks through to a retailer from an AI chat service or AI browser. It forecast 95% growth in that traffic on Black Friday and reported a 162% jump on Thanksgiving. Across the season, Adobe says AI-referred visitors bring 83% more revenue per visit and convert 90% more often. Those visitors may already be more ready to buy, so the figures do not show that AI caused the extra sales. Salesforce reported much slower Black Friday growth, about 4%.",
+        "For product teams, AI referrals are now a channel worth instrumenting, with their own landing experiences and attribution."
+      ],
+      "links": [
+        {"label": "Reuters via US News", "url": "https://money.usnews.com/investing/news/articles/2026-11-27/us-black-friday-online-sales-to-cross-13-billion-adobe-says"},
+        {"label": "Seeking Alpha", "url": "https://seekingalpha.com/news/4677049-black-friday-came-early-for-retailers-as-thanksgiving-delivered-record-71b-in-sales"},
+        {"label": "Stocktwits", "url": "https://stocktwits.com/news-articles/markets/equity/adbe-stock-on-track-for-4-day-rally-adobe-reports-surge-in-ai-traffic-7-1-b-thanksgiving-sales/cNb6GnOR9Va"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "27 Nov",
+      "headline": "BMW launches the Neue Klasse i3 in China from 249,900 yuan, with fixed prices and up to 1,028 km CLTC range",
+      "why": "It is BMW's main answer to falling China sales, and fixed nationwide pricing breaks with the usual dealer discounting there.",
+      "source": "China EV Home · BMWBlog",
+      "body": [
+        "BMW launched the long-wheelbase Neue Klasse i3 sedan at Auto Guangzhou on 27 November. There are three versions. The 30L, at 249,900 yuan (about 37,500 dollars), uses a 77 kWh CATL LFP pack rated at 708 km on the Chinese CLTC cycle. The 40L, at 279,900 yuan, has an 86.9 kWh pack of large cylindrical NMC cells rated at 802 km. The 50L, at 319,900 yuan, has 113.4 kWh and up to 1,028 km. All use a single sixth-generation eDrive motor with 235 kW, and deliveries start in January 2027.",
+        "The car is 4,864 mm long on a 3,005 mm wheelbase and has a standard 43.3-inch Panoramic Vision display. BMW sells it at one fixed price nationwide and skipped the usual refundable deposit stage. It follows the long-wheelbase iX3, launched on 25 November. BMW's China deliveries fell 21.8% in the first nine months.",
+        "The i3 brings the platform European engineers know from the iX3 to China, with China-specific packs and range figures to match local rivals."
+      ],
+      "links": [
+        {"label": "China EV Home", "url": "https://chinaevhome.com/2026/11/27/bmw-neue-klasse-i3-launches-from-37-5k-tops-out-at-1028-km-range/"},
+        {"label": "BMWBlog", "url": "https://www.bmwblog.com/2026/11/27/2027-bmw-i3-long-wheelbase-price/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "27 Nov",
+      "headline": "CATL adds a 100 kWh swappable pack, and Hyundai's next China EV will use CATL battery swapping",
+      "why": "Standard swappable packs are becoming a platform choice that carmakers have to design around from the start.",
+      "source": "electrive · Car News China",
+      "body": [
+        "CATL has added a larger '30#' block to its Choco-SEB passenger car swapping system in China. It holds 100 kWh, swaps in under a minute and can also fast-charge at ordinary stations, adding about 400 km of range in 10 minutes. CATL claims about 700 km CLTC range and up to 600 kW discharge power, but has not named the cell chemistry. The block is meant to accept future sodium-ion or solid-state cells. Existing 20# and 25# blocks range from 42 to 70 kWh, and CATL plans 6,000 car swap stations by 2027.",
+        "At Auto Guangzhou, Hyundai showed the Mercury Concept, a compact electric SUV that previews its most affordable China model, due in 2027. One version will use CATL swappable packs. It will also have an L2++ assistance system from Zhuoyu (formerly DJI Automotive) and a cockpit built on ByteDance's Doubao AI model.",
+        "For vehicle and pack engineers, a standard swap block fixes the pack dimensions and interfaces. Crash structures and underbody packaging then have to be designed around it."
+      ],
+      "links": [
+        {"label": "electrive – CATL 30#", "url": "https://www.electrive.com/2026/11/27/catl-introduces-100kwh-30-swappable-battery-for-passenger-cars/"},
+        {"label": "electrive – Hyundai Mercury", "url": "https://www.electrive.com/2026/11/27/hyundai-unveils-compact-ioniq-suv-for-china-with-swappable-batteries/"}
+      ]
+    },
+    {
+      "cat": "eng",
+      "top": false,
+      "date": "27 Nov",
+      "headline": "Mahle shows a pilot that uses the car's camera and AI to find wireless charging bays and park over them",
+      "why": "Combining automated parking with inductive charging is a key step towards robotaxis and fleets that charge without a driver.",
+      "source": "electrive",
+      "body": [
+        "Stuttgart supplier Mahle has presented its Park & Charge Pilot, which combines automated parking with inductive charging. AI algorithms use the vehicle's existing camera to find parking spaces that have charging pads built in, so no extra sensors are needed. The car then lines itself up using Mahle's Differential Inductive Positioning System, which SAE International adopted as an industry standard in 2024.",
+        "The system charges at up to 11 kW, and Mahle reports more than 92% efficiency under real vehicle conditions. It also supports bidirectional charging. Mahle is testing the charging technology with BMW in an iX3, but has given no date for series production. It has converted a former combustion engine test facility in Stuttgart into a test bench that can simulate vehicle architectures including BMW's Neue Klasse, and it is rated for up to 30 kW. Target customers are carmakers and fleets such as rental, delivery and logistics firms.",
+        "For test and validation teams, positioning accuracy, foreign-object detection and efficiency across misalignment will all become test cases for automated charging."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/27/mahle-combines-autonomous-parking-with-inductive-charging/"}
+      ]
+    },
+    {
+      "cat": "bear",
+      "top": false,
+      "date": "25–27 Nov",
+      "headline": "SKF's Sweden chief warns of Chinese bearing makers, energy prices and tech dependence, as the Vertevo record date passes",
+      "why": "It is a rare view from inside SKF on cost pressure from Chinese rivals days before its automotive arm lists on its own.",
+      "source": "Tidningen Näringslivet via Bearing News · SKF",
+      "body": [
+        "Jens Törnquist, managing director of SKF Sweden, who also oversees sales strategy and supply chain for Europe and Africa, told the Swedish business paper Tidningen Näringslivet that Chinese bearing makers are expanding in Europe. He said that forces established makers to get more cost-efficient and improve service. He argued against protective tariffs and for free trade, stronger industrial networks and value chains based in Europe.",
+        "He said unpredictable electricity prices could delay industrial investment, pointing to SKF's planned switch from gas to electricity in Gothenburg. He also raised Europe's dependence on US and Chinese technology. SKF has invested in AI training for staff, and its bearings are going into physical AI such as humanoid robots. Remanufacturing complex industrial bearings can sometimes cut delivery times from about a year to a few weeks.",
+        "Meanwhile, 27 November was the record date for the SKF Vertevo spin-off. Holders get one Vertevo share for every five SKF shares, and trading as SKFVER A and B is due to start on Nasdaq Stockholm on 1 December."
+      ],
+      "links": [
+        {"label": "Bearing News", "url": "https://www.bearing-news.com/skf-executive-warns-of-growing-threats-to-european-industrial-competitiveness/"},
+        {"label": "SKF – record date release", "url": "https://macaubusiness.com/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "27 Nov",
+      "headline": "Jula Logistics orders 20 more Scania electric trucks with 802 kWh packs for longer Swedish routes",
+      "why": "Swedish shippers are moving electric trucks from regional work to long-haul routes, using a total-cost-of-ownership case.",
+      "source": "electrive",
+      "body": [
+        "Swedish retailer logistics firm Jula Logistics and haulier EcoLink have ordered 20 more battery-electric Scania trucks, on top of a first batch of 20. All 40 are due in 2027. The new trucks carry 802 kWh of batteries, including extra packs behind the cab, and Scania quotes up to 720 km per charge depending on configuration and conditions. Jula and Scania have worked on electrification since 2021, and twelve electric Scanias already run for Jula, mostly on regional routes.",
+        "The goal is to electrify longer Swedish routes that still use diesel. Jula has spent several years building chargers, solar panels and battery storage at its sites. It judges investments on lifetime cost of ownership, including energy and residual values, and electrifies step by step rather than replacing the fleet at once. Containers already move to and from the Port of Gothenburg by electric train. A Jula manager said they struggle to find routes they cannot electrify.",
+        "For truck engineers, 800 kWh-class packs make chassis packaging, axle loads and durability testing for heavy battery mass the new focus."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/27/jula-logistics-orders-20-more-battery-electric-trucks-from-scania/"}
+      ]
+    },
+    {
+      "cat": "auto",
+      "top": false,
+      "date": "27 Nov",
+      "headline": "Audi's China-only sub-brand files for its first range-extender model, an E7X with a 1.5-litre generator",
+      "why": "Even premium German brands are adding range extenders in China, a technology that EU hybrid rules treat differently.",
+      "source": "electrive · Car News China",
+      "body": [
+        "China's industry ministry MIIT has published approval filings for a range-extender version of the Audi E7X, the first such model from the China-only 'AUDI' sub-brand that SAIC Volkswagen builds. The fully electric E7X went on sale in late April on a 900-volt platform, with 100 or 109 kWh CATL batteries and up to about 750 km CLTC range.",
+        "In the new version, a 1.5-litre petrol engine rated at 105 kW works only as a generator. The rear motor drops from 300 kW to 244 kW peak (165 kW continuous), and top speed stays at 205 km/h. Kerb weight is listed at 2,560 to 2,590 kg. The battery uses ternary cells from SAIC-CATL, but capacity and total range have not been published. Large Chinese range-extender SUVs typically carry 40 to 65 kWh.",
+        "For powertrain teams, the filing shows how quickly an EV platform can be turned into a range extender for markets where charging worries persist."
+      ],
+      "links": [
+        {"label": "electrive", "url": "https://www.electrive.com/2026/11/27/audi-e7x-becomes-first-model-of-china-sub-brand-with-range-extender/"}
+      ]
+    }
+  ],
+  "watch": [
+    {"title": "SKF Vertevo listing", "text": "SKF's automotive business is due to start trading on Nasdaq Stockholm on Monday 1 December as SKFVER A and SKFVER B, after Friday's record date.", "link": {"label": "SKF", "url": "https://macaubusiness.com/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/"}},
+    {"title": "Cyber Monday", "text": "Adobe forecasts a record 15.1 billion dollars in US online sales on 30 November. The final Black Friday total and AI referral figures should follow over the weekend.", "link": {"label": "Reuters via US News", "url": "https://money.usnews.com/investing/news/articles/2026-11-27/us-black-friday-online-sales-to-cross-13-billion-adobe-says"}},
+    {"title": "Guangzhou motor show", "text": "The show runs until 6 December with 115 premieres and more than 700 new-energy vehicles. Public days start on 30 November.", "link": {"label": "CnEVPost", "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"}}
+  ],
+  "sources": [
+    {"label": "The Decoder – OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers (27 Nov)", "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/"},
+    {"label": "Interesting Engineering – OpenAI hits back at Apple with countersuit (27 Nov)", "url": "https://interestingengineering.com/culture/openai-sues-apple-trade-secrets-supplier-dispute"},
+    {"label": "Yahoo Finance – OpenAI countersues Apple over trade secrets and supply chain (27 Nov)", "url": "https://finance.yahoo.com/technology/ai/articles/openai-countersues-apple-over-trade-193855054.html"},
+    {"label": "electrive – More Stellantis plants face production halt in France (27 Nov)", "url": "https://www.electrive.com/2026/11/27/more-stellantis-plants-face-production-halt-in-france/"},
+    {"label": "Automotive News Europe – Stellantis pauses Peugeot, Citroën output in France (27 Nov)", "url": "https://www.autonews.com/stellantis/ane-stellantis-further-europe-production-stoppages-1127/"},
+    {"label": "Bloomberg – Stellantis to pause more Europe plants as Chinese rivals advance (26 Nov)", "url": "https://www.bloomberg.com/news/articles/2026-11-26/stellantis-to-pause-more-europe-plants-as-chinese-rivals-advance"},
+    {"label": "Evertiq – Volvo Cars tränar humanoida robotar i fabriken i Gent (27 Nov)", "url": "https://evertiq.se/news/2026-11-27-volvo-cars-tranar-humanoida-robotar-i-fabriken-i-gent"},
+    {"label": "The Next Web – Volvo starts training humanoid robots for its Belgian car factory (26 Nov)", "url": "https://thenextweb.com/news/volvo-humanoid-robots-hexagon-aeon-ghent"},
+    {"label": "Just Auto – Volvo Cars trains Hexagon Robotics' humanoids for manufacturing (26 Nov)", "url": "https://www.just-auto.com/news/volvo-cars-trains-hexagon-robotics-humanoids-for-manufacturing/"},
+    {"label": "The Decoder – Banned Nvidia Blackwell chips turn up in a Shanghai data center (27 Nov)", "url": "https://the-decoder.com/banned-nvidia-blackwell-chips-turn-up-in-a-shanghai-data-center-linked-to-alice-huang-bloomberg-reports/"},
+    {"label": "Bloomberg – Nvidia Blackwell chips turn up at China site tied to Alice Huang (27 Nov)", "url": "https://www.bloomberg.com/news/articles/2026-11-27/nvidia-blackwell-chips-turn-up-at-china-site-tied-to-alice-huang"},
+    {"label": "The Decoder – Nvidia halts server shipments to Malaysia, Singapore, Thailand and Indonesia (26 Nov)", "url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"},
+    {"label": "The Decoder – OpenAI is building 'Athena' data platform (27 Nov)", "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/"},
+    {"label": "The Information – OpenAI preps Athena data tool to make agents accurate (27 Nov)", "url": "https://www.theinformation.com/newsletters/applied-ai/openai-preps-athena-data-tool-make-agents-accurate"},
+    {"label": "Reuters via US News – US Black Friday online sales to cross 13 billion dollars, Adobe says (27 Nov)", "url": "https://money.usnews.com/investing/news/articles/2026-11-27/us-black-friday-online-sales-to-cross-13-billion-adobe-says"},
+    {"label": "Seeking Alpha – Thanksgiving delivered record 7.1 billion dollars in sales (27 Nov)", "url": "https://seekingalpha.com/news/4677049-black-friday-came-early-for-retailers-as-thanksgiving-delivered-record-71b-in-sales"},
+    {"label": "Stocktwits – Adobe reports surge in AI traffic, 7.1 billion dollars Thanksgiving sales (27 Nov)", "url": "https://stocktwits.com/news-articles/markets/equity/adbe-stock-on-track-for-4-day-rally-adobe-reports-surge-in-ai-traffic-7-1-b-thanksgiving-sales/cNb6GnOR9Va"},
+    {"label": "China EV Home – BMW Neue Klasse i3 launches from 37.5K dollars (27 Nov)", "url": "https://chinaevhome.com/2026/11/27/bmw-neue-klasse-i3-launches-from-37-5k-tops-out-at-1028-km-range/"},
+    {"label": "BMWBlog – China's new long-wheelbase BMW i3 starts at 37,500 dollars (27 Nov)", "url": "https://www.bmwblog.com/2026/11/27/2027-bmw-i3-long-wheelbase-price/"},
+    {"label": "electrive – CATL introduces 100 kWh '30#' swappable battery (27 Nov)", "url": "https://www.electrive.com/2026/11/27/catl-introduces-100kwh-30-swappable-battery-for-passenger-cars/"},
+    {"label": "electrive – Hyundai unveils compact Ioniq SUV for China with swappable batteries (27 Nov)", "url": "https://www.electrive.com/2026/11/27/hyundai-unveils-compact-ioniq-suv-for-china-with-swappable-batteries/"},
+    {"label": "electrive – Mahle combines autonomous parking with inductive charging (27 Nov)", "url": "https://www.electrive.com/2026/11/27/mahle-combines-autonomous-parking-with-inductive-charging/"},
+    {"label": "Bearing News – SKF executive warns of growing threats to European industrial competitiveness (27 Nov)", "url": "https://www.bearing-news.com/skf-executive-warns-of-growing-threats-to-european-industrial-competitiveness/"},
+    {"label": "SKF – Record date for distribution of SKF Vertevo and publication of listing prospectus (10 Nov)", "url": "https://macaubusiness.com/record-date-for-distribution-of-skf-vertevo-and-publication-of-listing-prospectus/"},
+    {"label": "electrive – Jula Logistics orders 20 more battery-electric trucks from Scania (27 Nov)", "url": "https://www.electrive.com/2026/11/27/jula-logistics-orders-20-more-battery-electric-trucks-from-scania/"},
+    {"label": "electrive – Audi E7X becomes first model of China sub-brand with range extender (27 Nov)", "url": "https://www.electrive.com/2026/11/27/audi-e7x-becomes-first-model-of-china-sub-brand-with-range-extender/"},
+    {"label": "CnEVPost – 2026 Guangzhou Auto Show to kick off on 27 November (17 Nov)", "url": "https://cnevpost.com/2026/11/17/2026-guangzhou-auto-show-kick-off-nov-27-1106-vehicles/"}
+  ],
+  "note": "All summaries are paraphrased. Benchmark and sales figures are vendor-reported. The OpenAI Athena item and the Nvidia shipment halt are based on media reports not confirmed by the companies."
+}
